@@ -4,7 +4,7 @@
 
 | Folder | Run | Setup | Status |
 |---|---|---|---|
-| `stageB_3fold/` | 2026-10-10, T4 | cls_only, span_only, joint_cls_span; folds 0-2 of 5 (contract-grouped); 3000-char windows; 2 epochs | **Canonical.** Results JSON only; `results.md` / `comparisons.md` live on Kaggle (add here if recovered). |
+| `stageB_3fold/` | 2026-10-10, T4 | cls_only, span_only, joint_cls_span; folds 0-2 of 5 (contract-grouped); 3000-char windows; 2 epochs | **Canonical.** `results.json`, `comparisons.md` (with TF-IDF and span baselines) and `partial/` (per-fold runs, `splits.json`, `config.json`). Settings: 2 epochs, 50% of span items per epoch, so span results are probably undertrained. |
 | `scan_vs_span/` | folds 0-2 | span head vs classifier scan, per-fold md/json | **Canonical** for the speed/accuracy comparison. |
 | `archive/2026-10-09_single_fold_3000char/` | 1 fold | same setup as stageB, one fold | Superseded by stageB_3fold. |
 | `archive/2026-10-08_timing_run_6000char/` | 1 fold, 1 epoch | cls_only + span_only, 6000-char windows | Used only to estimate GPU time. |

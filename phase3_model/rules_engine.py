@@ -65,9 +65,9 @@ INDEFINITE = re.compile(r"\b(perpetu\w+|indefinite\w*|in perpetuity|forever|for 
                         r"no (?:expiry|expiration|end date))\b", re.I)
 OPEN_ENDED = re.compile(r"\bat (?:any|no) time\b|\b(?:or|and) (?:at any time )?thereafter\b|"
                         r"\bnow or (?:at any time )?(?:in the )?(?:future|hereafter)\b", re.I)
-NOT_RESTRAINT_PERIOD = re.compile(r"\bnotice\b|\baudit\w*|\binvoice\w*|\bpayment\b|\bpay(?:able)?\b|\bfee\b|"
+NOT_RESTRAINT_PERIOD = re.compile(r"\bnotice\b|\baudit(?:s|ed|ing)?\b|\binvoice\w*|\bpayment\b|\bpay(?:able)?\b|\bfee\b|"
                                   r"\bcure\b|\broyalt\w*|\belect\w*|\binterest\b", re.I)
-NOT_A_SUM = re.compile(r"\binsurance\b|\bcoverage\b|\baudit\w*|\bdiscrepanc\w+|\bthreshold\b|\bper occurrence\b", re.I)
+NOT_A_SUM = re.compile(r"\binsurance\b|\bcoverage\b|\baudit(?:s|ed|ing)?\b|\bdiscrepanc\w+|\bthreshold\b|\bper occurrence\b", re.I)
 POST_TERM = re.compile(r"\b(?:after|following|upon|post|subsequent to|thereafter|survive[sd]?)[\s-]*"
                        r"(?:the\s+)?(?:(?:termination|expiration|expiry|end)\b|"
                        r"(?:\w+\s+){0,3}(?:termination|expiration|expiry))|\bthereafter\b|"

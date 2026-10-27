@@ -275,12 +275,15 @@ def render_html(res: dict, title: str = "ClauseXplain report") -> str:
         h.append("<h2>Clauses located by the span head (verified by the classifier)</h2>")
         for cat, lst in res["found"].items():
             h.append(f"<h3>{E(cat)}</h3>")
-            if not lst:
-                h.append("<p>Nothing proposed.</p>")
-            for c in lst:
-                ok = "verified" if c["verify_prob"] >= res["min_prob"] else "NOT verified (low classifier confidence)"
-                h.append(f"<div class='card'><small>classifier probability for {E(cat)}: {c['verify_prob']:.2f} - {ok}</small>"
+            good = [c for c in lst if c["verify_prob"] >= res["min_prob"]]
+            hidden = len(lst) - len(good)
+            if not good:
+                h.append("<p>No clause passed classifier verification (the contract may not contain one).</p>")
+            for c in good:
+                h.append(f"<div class='card'><small>classifier probability for {E(cat)}: {c['verify_prob']:.2f} - verified</small>"
                          f"<p>{E(c['text'])}</p></div>")
+            if hidden:
+                h.append(f"<p><small>{hidden} low-confidence candidate(s) hidden (below {res['min_prob']:.2f}).</small></p>")
     h.append("<h2>All clause units</h2><details><summary>show table</summary><table><tr><th>#</th><th>Predicted</th>"
              "<th>Conf.</th><th>Text</th></tr>")
     for i, u in enumerate(res["units"]):

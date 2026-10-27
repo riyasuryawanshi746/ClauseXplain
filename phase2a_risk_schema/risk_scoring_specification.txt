@@ -1,0 +1,108 @@
+RISK SCORING SPECIFICATION -- ClauseXplain Phase 2
+====================================================
+
+STATUS: This is a PROPOSED SPECIFICATION for future computation. As of the
+end of Phase 2, no clause in clauses_risk_annotation.jsonl has an actual
+non-null risk_score computed from real, non-null dimension scores. This
+document defines the formula so that when annotation (human or validated
+rule-based) actually happens, everyone computes the score the same way.
+
+1. FORMULA
+----------
+Risk = w1*U + w2*A + w3*NC + w4*P + w5*E
+
+Where:
+  U  = unfairness_score           (0.0 - 1.0)
+  A  = ambiguity_score            (0.0 - 1.0)
+  NC = non_compliance_score       (0.0 - 1.0)
+  P  = precedent_match_score      (0.0 - 1.0)
+  E  = enforceability_score       (0.0 - 1.0)
+
+  w1..w5 are non-negative weights. No specific numeric values are fixed at
+  this stage of the project. Treat w1..w5 as UNSET / EXPERIMENTAL until an
+  ablation study (varying each weight and measuring effect on agreement
+  with human-annotated ground truth, once it exists) is actually run.
+
+  A reasonable placeholder for early experimentation, IF a single set of
+  numbers is needed to unblock development (e.g. to build a UI mockup),
+  is equal weighting: w1=w2=w3=w4=w5=0.2. This is explicitly a
+  PLACEHOLDER, not a research finding, and must be labeled as such
+  anywhere it appears (e.g. code comments, UI, paper drafts).
+
+2. COMPONENT DEFINITIONS
+-------------------------
+unfairness_score:
+  Degree to which the clause imposes materially asymmetric obligations,
+  rights, or remedies between the parties. Not a legal-validity judgment
+  by itself -- Indian contract law does not have a general, freestanding
+  "unfairness" doctrine for commercial contracts between parties of
+  roughly equal bargaining power (unlike, e.g., consumer-protection
+  contexts). Scored based on textual/structural asymmetry, not a legal
+  conclusion.
+
+ambiguity_score:
+  Degree to which the clause's operative language is vague, uses
+  undefined terms, or is reasonably open to more than one interpretation
+  that would produce materially different outcomes.
+
+non_compliance_score:
+  Degree to which the clause appears to conflict with a SPECIFIC,
+  identified Indian statutory provision. Must trace to an actual row in
+  indian_legal_rules.csv via the legal_provision field -- a
+  non_compliance_score set without a corresponding legal_provision
+  citation is invalid and should be treated as a data-quality error.
+
+precedent_match_score:
+  Similarity to a previously identified risky clause pattern. AS OF END
+  OF PHASE 2, ClauseXplain has no curated precedent/case-law corpus.
+  This field is null for every record and cannot be legitimately
+  populated until such a corpus is built (Phase 3+ work). Do not
+  approximate this with a proxy metric (e.g. embedding similarity to
+  other CUAD spans) without clearly documenting the proxy as such.
+
+enforceability_score:
+  Degree of concern that the clause, in whole or part, may be
+  unenforceable under Indian law (e.g. an overbroad non-compete). This
+  overlaps conceptually with non_compliance_score but is scored
+  separately because a clause can be technically non-compliant with a
+  provision's literal text while remaining likely enforceable in
+  practice (courts often sever an offending portion rather than voiding
+  an entire clause) -- and vice versa.
+
+3. NORMALIZATION
+-----------------
+Each component score: 0.0 <= score <= 1.0
+0.0 = no concern along this dimension
+1.0 = maximum concern along this dimension
+Scores are continuous, not restricted to discrete steps, though initial
+human annotation guidelines (see PHASE2_ANNOTATION_GUIDELINES.txt) may
+ask annotators to anchor on Low/Medium/High bands that map to
+approximate ranges, for consistency.
+
+4. INITIAL OPERATIONAL THRESHOLDS (risk_level from risk_score)
+-----------------------------------------------------------------
+Low:    risk_score in [0.00, 0.33]
+Medium: risk_score in (0.33, 0.66]
+High:   risk_score in (0.66, 1.00]
+
+These are ClauseXplain's PROPOSED OPERATIONAL THRESHOLDS ONLY. They are
+NOT derived from any Indian statute or judicial standard -- no Indian law
+defines contractual risk as falling into three numeric bands. They exist
+purely so the system can produce a discrete, user-facing label from a
+continuous score. Before relying on these thresholds for any evaluation
+claim, run a sensitivity analysis: does classification accuracy/agreement
+change meaningfully if the boundaries move to, e.g., 0.30/0.60 or
+0.40/0.70? Report the thresholds actually used in any published result,
+and treat the specific values 0.33/0.66 as a starting assumption to be
+tested, not a finding.
+
+5. WHAT THIS SPECIFICATION DOES NOT DO
+------------------------------------------
+- It does not assign actual weight values (w1..w5) -- future work.
+- It does not compute risk_score for any real clause -- future work,
+  contingent on actual non-null dimension scores existing first.
+- It does not validate the formula's structure (e.g. whether a linear
+  weighted sum is even the right functional form, vs. e.g. a maximum-
+  of-components approach for a "any single severe dimension dominates"
+  model) -- this should be tested empirically once annotated data exists,
+  not assumed.

@@ -1,0 +1,1683 @@
+Master Service Agreement Procurement of Cloud Services
+
+DISCLAIMER
+
+This document has been prepared by Cloud Management Office (CMO) under the Ministry of Electronics and Information Technology (MeitY). This document is advisory in nature and aims to provide information in respect of the GI Cloud (MeghRaj) Initiative.
+
+Certain commercial entities, technology, or materials may be identified in this document in order to describe a concept adequately. Such identification is not intended to imply recommendation or endorsement by MeitY.
+
+While every care has been taken to ensure that the contents of this document are accurate and up to date, the readers are advised to exercise discretion and verify the precise current provisions of law and other applicable instructions from the original sources. It represents practices as on the date of issue of this document, which is subject to change without notice.
+
+The readers are responsible for making their own independent assessment of the information in this document.
+
+In no event shall MeitY or its' contractors be liable for any damages whatsoever (including, without limitation, damages for loss of profits, business interruption, loss of information) arising out of the use of or inability to use this Document.
+
+Table of Contents Purpose ... 8 Background ... 9
+
+a. Empanelment of Cloud Service Offerings ... 9
+
+b. Guidelines for Procurement of Cloud Services ... 9
+
+1. Master Service Agreement ... 11 1.1.
+
+Definitions and Interpretations ... 11
+
+1.1.1.
+
+Definitions ... 11
+
+1.1.2.
+
+Interpretation ... 13
+
+1.1.3.
+
+Measurements and Arithmetic Conventions ... 14
+
+1.1.4.
+
+Ambiguities within Agreement ... 14
+
+1.2.
+
+Term and Duration of the Engagement ... 14
+
+1.3.
+
+Conditions Precedent ... 15
+
+1.3.1.
+
+Provisions to take effect upon fulfillment of Conditions Precedent ... 15
+
+1.3.2.
+
+Conditions Precedent of the Managed Service Provider ... 15
+
+1.3.3.
+
+Conditions Precedent of the Purchaser ... 15
+
+1.3.4.
+
+Extension of time for fulfillment of Conditions Precedent ... 15
+
+1.3.5.
+
+Non-fulfillment of the Managed Service Provider’s Conditions Precedent ... 15
+
+1.4.
+
+Change of Control ... 16
+
+1.5.
+
+Representations and Warranties ... 16
+
+1.5.1.
+
+Representations and warranties of the Managed Service Provider ... 16
+
+1.5.2.
+
+Representations and warranties of the Purchaser or its nominated agencies ... 18
+
+1.6.
+
+Obligations of the Purchaser or its Nominated Agencies ... 19
+
+1.7.
+
+Obligations of the Managed Service Provider ... 19
+
+1.8.
+
+Approvals and Required Consents ... 20
+
+1.9.
+
+Use of Assets by the Managed Service Provider ... 20
+
+1.10.
+
+Access to the Purchaser or its Nominated Agencies’ Locations ... 21
+
+1.11.
+
+Management Phase ... 22
+
+1.11.1.
+
+Governance ... 22
+
+1.11.2.
+
+Use of Services ... 22
+
+1.11.3.
+
+Changes ... 22
+
+1.11.4.
+
+Security and Safety ... 22
+
+1.11.5.
+
+Cooperation ... 23
+
+1.12.
+
+Financial Matters ... 23
+
+1.12.1.
+
+Terms of Payment ... 23
+
+1.12.2.
+
+Invoicing and Settlement ... 24
+
+1.12.3.
+
+Tax ... 25
+
+1.13.
+
+Termination ... 25
+
+1.13.1.
+
+For Material Breach ... 25
+
+1.13.2.
+
+Termination for Convenience ... 26
+
+1.13.3.
+
+Effects of termination ... 27
+
+1.13.4.
+
+Termination of this Agreement due to Bankruptcy of Managed Service Provider 27
+
+1.14.
+
+Indemnification & Limitation of Liability ... 27
+
+1.15.
+
+Force Majeure ... 30
+
+1.16.
+
+Adherence to the Empanelment Terms & Conditions ... 32
+
+1.17.
+
+Information Security ... 32
+
+1.17.1.
+
+Compliances and Certifications ... 32
+
+1.17.2.
+
+Privacy and Security Safeguards ... 33
+
+1.17.3.
+
+Confidentiality ... 34
+
+1.17.4.
+
+Location of Data ... 35
+
+1.18.
+
+Audit, Access and Reporting ... 36
+
+1.19.
+
+Intellectual Property Rights ... 36
+
+1.20.
+
+Liquidated Damages ... 37
+
+1.21.
+
+Insurance Cover ... 38
+
+1.21.1.
+
+Obligation to Maintain Insurance ... 38
+
+1.21.2.
+
+Certificates of currency ... 38
+
+1.21.3.
+
+Non-compliance ... 38
+
+1.22.
+
+Changes in Cloud Service Offerings ... 38
+
+1.23.
+
+Transitioning/Exit ... 39
+
+1.24.
+
+Service Level Agreement ... 40
+
+1.25.
+
+Suspension ... 40
+
+1.26.
+
+Conflict of Interest ... 40
+
+1.27.
+
+Relationship ... 41
+
+1.28.
+
+Fraud & Corruption ... 41
+
+1.29.
+
+Applicable Law and Dispute Resolution ... 42
+
+1.30.
+
+Trademarks and Publicity ... 43
+
+1.31.
+
+Data Ownership ... 43
+
+1.32.
+
+Backup ... 43
+
+1.33.
+
+Compliance with IS Security Policy ... 43
+
+Schedule I – Governance Schedule ... 45 1.34.
+
+Schedule II – Change Control Schedule ... 47
+
+Purpose The purpose of this document is to provide a Master Service Agreement (MSA) that a Government Department can enter into with the Cloud Service Provider / Managed Service Provider to take care of the risks and challenges associated with the procurement and consumption of the third party Cloud Services. The Government Department may incorporate additional provisions, clauses, and terms & conditions in this MSA to meet its Project specific requirements.
+
+Background It has been three years since the first round of empanelment of Cloud Service Offerings of Cloud Service Providers (CSPs) by MeitY in September 2016. During this period, a significant number of Government Departments have procured empaneled Cloud Service Offerings and consuming them. As these Government Departments, which have just embarked on their Cloud expedition, continue consuming Cloud Services, they need to make sure that their information assets are adequately protected, the Cloud Services being consumed by them are meeting the expected performance levels, they have sufficient controls to monitor the Cloud environments, and they are charged for the actual consumption of the Cloud Services, among other assurances. It is in this context, this document identifies critical areas related to the Cloud procurement and consumption; and provides a Master Service Agreement (MSA) through which the Government Department can govern its contract with the Managed Service Provider.
+
+a.
+
+Empanelment of Cloud Service Offerings
+
+MeitY has recently revised the empanelment strategy and floated additional requirements for CSPs who’s Cloud Services are already empaneled with MeitY. The revised strategy for empanelment of Cloud Service Offerings of CSPs is based on the three key tenets - (i) ease in offering Cloud Services to government and public sector organizations, (ii) faster procurement by the government and public sector organizations, and (iii) continuous monitoring of Cloud Service Providers and their offerings. The revised empanelment strategy allows CSPs to offer Cloud Services under all three categories of Cloud Service Models.
+
+1. Infrastructure as a Service (IaaS)
+
+2. Platform as a Service (PaaS)
+
+3. Software as a Service (SaaS) In the revised empanelment process, detailed audit of each CSP shall be conducted before its services are empaneled with MeitY. This audit shall be valid for a duration of three years.
+
+Thereafter, each CSP shall also undergo a surveillance audit every year for the following two requirements. (i)
+
+Minimum security requirements specified by MeitY
+
+(ii)
+
+Any additional requirements specified by MeitY / requirements arising out of any additional service proposed to be offered by the CSP
+
+b.
+
+Guidelines for Procurement of Cloud Services
+
+To facilitate the end user departments in procuring/ adopting Cloud Computing services, MeitY has prepared broad guidelines highlighting key considerations that Government Departments need to be aware of when procuring Cloud Services. The Cloud Procurement Guidelines
+
+may
+
+be
+
+seen
+
+on
+
+the
+
+MeghRaj
+
+webpage
+
+at
+
+https://www.meity.gov.in/writereaddata/files/Guidelines_Procurement_Cloud%20Services_v2.
+
+2.pdf
+
+MeitY has also prepared a document to assist government organizations in procuring Cloud Services through the Government eMarketplace (GeM) platform. This document may be seen on
+
+the
+
+MeghRaj
+
+webpage
+
+at
+
+https://www.meity.gov.in/writereaddata/files/Guidelines_Procurement_Cloud%20Services_v2.
+
+2.pdf
+
+1.
+
+Master Service Agreement
+
+THIS MASTER SERVICE AGREEMENT (“Agreement”) is made on this the <***> day of <***> 20... at <***>, India.
+
+BETWEEN
+
+------------------------------------------------------------------------------- having its office at ----------------------------------------------------------------- India hereinafter referred to as ‘Purchaser’ / ‘Purchaser’ or ‘------------------’, which expression shall, unless the context otherwise requires, include its permitted successors and assigns);
+
+AND
+
+<***>, a Company incorporated under the Companies Act, 1956, having its registered office at <***> (hereinafter referred to as ‘the Managed Service Provider’ which expression shall, unless the context otherwise requires, include its permitted successors and assigns).
+
+Each of the parties mentioned above are collectively referred to as the ‘Parties’ and individually as a ‘Party’.
+
+WHEREAS:
+
+1. Purchaser is desirous to procure the Cloud services.
+
+2. In furtherance of the same, Purchaser undertook the selection of a suitable Managed Service Provider through a competitive bidding process available on Government eMarketplace (GeM) for implementing the Project and in this behalf invited bids dated <***>.
+
+3. The successful bidder has been selected as the Managed Service Provider on the basis of the bid response to undertake the execution of the Project.
+
+NOW THEREFORE, in consideration of the mutual covenants, promises, assurances, representations and provisions set forth herein, the Parties hereto agree as follows:
+
+1.1.
+
+Definitions and Interpretations
+
+1.1.1. Definitions Terms and expressions used in this Agreement shall have the meanings set out below.
+
+Term
+
+Meaning means material adverse effect on
+
+Adverse Effect
+
+(a) the ability of the Managed Service Provider to exercise any of its rights or perform/discharge any of its duties/obligations under and in accordance with the provisions of this Agreement and/or
+
+(b) the legal validity, binding nature or enforceability of this Agreement;
+
+Agreement
+
+means Master Services Agreement along with Service Level Agreement and Non-Disclosure Agreement
+
+Applicable Law(s)
+
+means any statute, law, ordinance, notification, rule, regulation, judgment, order, decree, bye-law, approval, directive, guideline, policy, requirement or other governmental restriction or any similar form of decision applicable to the relevant party and as may be in effect on the date of the execution of this Agreement and during the subsistence thereof, applicable to the Project;
+
+Confidential Information
+
+means all information including Purchaser Data (whether in written, oral, electronic or other format) which relates to the technical, financial and business affairs, dealers, suppliers, products, developments, operations, processes, data, trade secrets, design rights, know-how, plans, budgets and personnel of each Party and its affiliates which is disclosed to or otherwise learned by the other Party in the course of or in connection with this Agreement (including without limitation such information received during negotiations, location visits and meetings in connection with this Agreement);
+
+All such information in whatever form or mode of transmission, which is disclosed by a Party (the “Disclosing Party”) to any other Party (the “Recipient”) in connection with the Project during its implementation and which has been explicitly marked as “confidential”, or when disclosed orally, has been identified as confidential at the time of disclosure and has been confirmed and designated in writing within <15 days> from oral disclosure at the latest as confidential information by the Disclosing Party, is “Confidential Information”. means, in relation to any business entity, the power of a person to secure
+
+(i) by means of the holding of shares or the possession of voting power in or in relation to that or any other business entity, or
+
+Control
+
+Deliverables
+
+(ii) by virtue of any powers conferred by the articles of association or other document regulating that or any other business entity, that the affairs of the first mentioned business entity are conducted in accordance with that person’s wishes and in relation to a partnership, means the right to a share of more than one half of the assets, or of more than one half of the income, of the partnership; means the services, products, solution and infrastructure agreed to be delivered by the Managed Service Provider in pursuance of the Agreement as defined more elaborately in the scope of work and includes all documents related to the user manual, technical manual,
+
+Term
+
+Meaning design, process and operating manuals, service mechanisms, policies and guidelines (such as security related, data migration related), inter alia payment and/or process related etc., source code and all its modifications;
+
+Effective Date
+
+shall have the same meaning ascribed to it in Clause 1.2;
+
+Force Majeure
+
+shall have the same meaning ascribed to it in Clause 1.15;
+
+GoI
+
+means the Government of India;
+
+Indemnifying Party
+
+shall have the same meaning ascribed to it in Clause 1.14 (a);
+
+Indemnified Party
+
+shall have the same meaning ascribed to it in Clause 1.14 (a);
+
+Intellectual Property Rights
+
+means all rights in written designs and copyrights, moral rights, rights in databases and Bespoke Software / Pre-existing work including its up-gradation systems and compilation rights (whether or not any of these are registered and including application for registration);
+
+Material Breach
+
+means a breach by either Party (Purchaser or Managed Service Provider) of any of its obligations under this Agreement which has or is likely to have an Adverse Effect on the Project which such Party shall have failed to cure;
+
+Parties
+
+means Purchaser and Managed Service Provider for the purposes of this Agreement and “Party” shall be interpreted accordingly;
+
+Purchaser Data
+
+means all proprietary data of the Government Department or its nominated agencies generated out of operations and transactions, documents all taxpayers data and related information including but not restricted to user data which the Managed Provider obtains, possesses or processes in the context of providing the Services to the users pursuant to this Agreement;
+
+Services
+
+means the services delivered to the Stakeholders of Purchaser or its nominated agencies, employees of Purchaser or its nominated agencies, and to professionals, using the tangible and intangible assets created, procured, installed, managed and operated by the Managed Service Provider including the tools of information and communications technology
+
+Service Level
+
+means the level of service and other performance criteria which will apply to the Services delivered by the Managed Service Provider;
+
+SLA
+
+means the Availability, Performance, Security, Support, Helpdesk, Disaster Recovery, Audit, Monitoring and other SLAs executed as part of this Master Service Agreement;
+
+Stakeholders
+
+means Purchaser or its nominated agencies, citizens, employees, Departments of State Government, etc.
+
+1.1.2. Interpretation In this Agreement, unless otherwise specified:
+
+a) references to Clauses, Sub-Clauses, Paragraphs, Schedules and Annexures are to clauses, sub-clauses, paragraphs, schedules and annexures to this Agreement;
+
+b) use of any gender includes the other genders;
+
+c) references to a ‘company’ shall be construed so as to include any company, corporation or other body corporate, wherever and however incorporated or established;
+
+d) references to a ‘person’ shall be construed so as to include any individual, firm, company, government, state or agency of a state, local or municipal authority or government body or any joint venture, association or partnership (whether or not having separate legal personality);
+
+e) a reference to any statute or statutory provision shall be construed as a reference to the same as it may have been, or may from time to time be, amended, modified or reenacted;
+
+f) references to times are to Indian Standard Time;
+
+g) a reference to any other document referred to in this Agreement is a reference to that other document as amended, varied, novated or supplemented at any time; and
+
+h) all headings and titles are inserted for convenience only. They are to be ignored in the interpretation of this Agreement.
+
+1.1.3. Measurements and Arithmetic Conventions All measurements and calculations shall be in the metric system and calculations done to two decimal places, with the third digit of five or above being rounded up and below five being rounded down except in money calculations where such amounts shall be rounded off to the nearest INR.
+
+1.1.4. Ambiguities within Agreement In case of ambiguities or discrepancies within this Agreement, the following principles shall apply:
+
+a) as between two Clauses of this Agreement, the provisions of a specific Clause relevant to the issue under consideration shall prevail over those in a general Clause;
+
+b) as between the provisions of this Agreement and the Schedules/Annexures, the Agreement shall prevail, save and except as expressly provided otherwise in the Agreement or the Schedules/Annexures; and
+
+c) as between any value written in numerals and that in words, the value in words shall prevail.
+
+1.2.
+
+Term and Duration of the Engagement
+
+This Agreement shall come into effect on <***> 201- (hereinafter the ‘Effective Date’) and shall continue till operation and maintenance completion date which shall be the date of the completion of the operation and maintenance to the Purchaser or its nominated agencies, unless terminated earlier (as per Clause 1.13), in which case the contract will get terminated on fulfillment of all obligations mentioned as per Clause 1.13 and 1.23.
+
+1.3.
+
+Conditions Precedent
+
+1.3.1.
+
+Provisions to take effect upon fulfillment of Conditions Precedent
+
+Subject to express terms to the contrary, the rights and obligations under this Agreement shall take effect only upon fulfillment of all the Conditions Precedent set out below. However, Purchaser or its nominated agencies may at any time at its sole discretion waive fully or partially any of the Conditions Precedent for the Managed Service Provider.
+
+For the avoidance of doubt, it is expressly clarified that the obligations of the Parties (or its nominated agencies) under this Agreement shall commence from the fulfillment of the Conditions Precedent as set forth below.
+
+1.3.2.
+
+Conditions Precedent of the Managed Service Provider
+
+The Managed Service Provider shall be required to fulfill the Conditions Precedent which is as follows:
+
+a) to provide a Performance Security/Guarantee, if demanded by the Purchaser, and other guarantees/ payments within <21 days> of the receipt of notification of award from the Purchaser; and
+
+b) to provide the Purchaser or its nominated agencies certified true copies of its constitutional documents and board resolutions authorizing the execution, delivery and performance of this Agreement by the Managed Service Provider (optional).
+
+1.3.3.
+
+Conditions Precedent of the Purchaser
+
+The Purchaser shall be required to fulfill the Conditions Precedents which are as follows:
+
+a) Handing over of <project office> (if applicable)
+
+b) Necessary clearances associated with the execution of the project, unless specified to be performed by the Managed Service Provider
+
+c) Approval of the Project by a Competent Authority, etc.
+
+1.3.4.
+
+Extension of time for fulfillment of Conditions Precedent
+
+The Parties may, by mutual agreement extend the time for fulfilling the Conditions Precedent and the Term of this Agreement.
+
+1.3.5.
+
+Non-fulfillment of the Managed Service Provider’s Conditions Precedent
+
+a) In the event that any of the Conditions Precedent of the Managed Service Provider has not been fulfilled within <15 days> of signing of this Agreement and the same have not been waived fully or partially by Purchaser or its nominated agencies, this Agreement shall cease to exist;
+
+b) In the event that the Agreement fails to come into effect on account of non-fulfillment of the Managed Service Provider’s Conditions Precedent, the Purchaser or its nominated agencies shall not be liable in any manner whatsoever to the Service Provider
+
+and the Purchaser shall forthwith forfeit the Earnest Money Deposit, if taken.
+
+c) In the event that possession of any of the Purchaser or its nominated agencies facilities has been delivered to the Managed Service Provider prior to the fulfillment of the Conditions Precedent, upon the termination of this Agreement such shall immediately revert to Purchaser or its nominated agencies, free and clear from any encumbrances or claims.
+
+1.4.
+
+Change of Control
+
+a) In the event of a change of control of the Managed Service Provider during the Term, the Managed Service Provider shall promptly notify Purchaser and/or its nominated agencies of the same.
+
+b) In the event that the net worth of the surviving entity is less than that of Managed Service Provider prior to the change of control, the Purchaser or its nominated agencies may within 30 days of becoming aware of such change in control, require a replacement of existing Performance Guarantee, if applicable, furnished by the Managed Service Provider from a guarantor acceptable to the Purchaser or its nominated agencies (which shall not be Managed Service Provider or any of its associated entities).
+
+c) If such a guarantee is not furnished within 30 days of the Purchaser or its nominated agencies requiring the replacement, the Purchaser may exercise its right to terminate this Agreement within a further 30 days by written notice, to become effective as specified in such notice.
+
+d) Pursuant to termination, the effects of termination as set out in Clause 1.13 of this Agreement shall follow.
+
+For the avoidance of doubt, it is expressly clarified that the internal reorganization of the Managed Service Provider shall not be deemed an event of a change of control for purposes of this Clause unless the surviving entity is of less net worth than the predecessor entity.
+
+1.5.
+
+Representations and Warranties
+
+1.5.1.
+
+Representations and warranties of the Managed Service Provider
+
+The Managed Service Provider represents and warrants to the Purchaser or its nominated agencies that:
+
+a) it is duly organized and validly existing under the laws of India, and has full power and
+
+authority to execute and perform its obligations under this Agreement and other agreements and to carry out the transactions contemplated hereby;
+
+b) it is a competent provider of a variety of Cloud and managed services; c)
+
+it has taken all necessary corporate and other actions under laws applicable to its business to authorize the execution and delivery of this Agreement and to validly exercise its rights and perform its obligations under this Agreement;
+
+d) from the Effective Date, it will have the financial standing and capacity to undertake the
+
+Project in accordance with the terms of this Agreement;
+
+e) in providing the Services, it shall use reasonable endeavors not to cause any
+
+unnecessary disruption to Purchaser's normal business operations; f)
+
+this Agreement has been duly executed by it and constitutes a legal, valid and binding obligation, enforceable against it in accordance with the terms hereof, and its obligations under this Agreement shall be legally valid, binding and enforceable against it in accordance with the terms hereof;
+
+g) the information furnished in the Managed Service Provider’s response to the RFP and any
+
+subsequent clarification pertaining to the evaluation process, furnished on or before the date of this Agreement is to the best of its knowledge and belief true and accurate in all material respects as at the date of this Agreement;
+
+h) the execution, delivery and performance of this Agreement shall not conflict with, result
+
+in the breach of, constitute a default by any of the terms of its Memorandum and Articles of Association or any Applicable Laws or any covenant, contract, agreement, arrangement, understanding, decree or order to which it is a party or by which it or any of its properties or assets is bound or affected; i)
+
+there are no material actions, suits, proceedings, or investigations pending or, to its knowledge, threatened against it at law or in equity before any court or before any other judicial, quasi-judicial or other authority, the outcome of which may result in the breach of this Agreement or which individually or in the aggregate may result in any material impairment of its ability to perform any of its material obligations under this Agreement;
+
+j)
+
+it has no knowledge of any violation or default with respect to any order, writ, injunction or decree of any court or any legally binding order of any Government Instrumentality which may result in any Adverse Effect on its ability to perform its obligations under this Agreement and no fact or circumstance exists which may give rise to such proceedings that would adversely affect the performance of its obligations under this Agreement;
+
+k) it has complied with Applicable Laws in all material respects and has not been subject
+
+to any fines, penalties, injunctive relief or any other civil or criminal liabilities which in the aggregate have or may have an Adverse Effect on its ability to perform its obligations under this Agreement; l)
+
+no representation or warranty by it contained herein or in any other document furnished by it to Purchaser or its nominated agencies in relation to the Required Consents contains or shall contain any untrue or misleading statement of material fact or omits or shall omit to state a material fact necessary to make such representation or warranty not misleading; and
+
+m) no sums, in cash or kind, have been paid or shall be paid, by it or on its behalf, to any
+
+person by way of fees, commission or otherwise for entering into this Agreement or for influencing or attempting to influence any officer or employee of Purchaser or its nominated agencies in connection therewith.
+
+1.5.2.
+
+Representations and warranties of the Purchaser or its nominated agencies
+
+Purchaser or its nominated agencies represent and warrant to the Managed Service Provider that:
+
+a) it has full power and authority to execute, deliver and perform its obligations under this Agreement and to carry out the transactions contemplated herein and that it has taken all actions necessary to execute this Agreement, exercise its rights and perform its obligations, under this Agreement and carry out the transactions contemplated hereby;
+
+b) it has taken all necessary actions under Applicable Laws to authorize the execution, delivery and performance of this Agreement and to validly exercise its rights and perform its obligations under this Agreement;
+
+c) it has the financial standing and capacity to perform its obligations under the Agreement;
+
+d) it is subject to the laws of India, and hereby expressly and irrevocably waives any immunity in any jurisdiction in respect of this Agreement or matters arising thereunder including any obligation, liability or responsibility hereunder;
+
+e) this Agreement has been duly executed by it and constitutes a legal, valid and binding obligation enforceable against it in accordance with the terms hereof and its obligations under this Agreement shall be legally valid, binding and enforceable against it in accordance with the terms thereof; f)
+
+the execution, delivery and performance of this Agreement shall not conflict with, result in the breach of, constitute a default under, or accelerate performance required by any of the Applicable Laws or any covenant, contract, agreement, arrangement, understanding, decree or order to which it is a party or by which it or any of its properties or assets is bound or affected;
+
+g) there are no actions, suits or proceedings pending or, to its knowledge, threatened against it at law or in equity before any court or before any other judicial, quasi-judicial or other authority, the outcome of which may result in the default or breach of this Agreement or which individually or in the aggregate may result in any material impairment of its ability to perform its material (including any payment) obligations under this Agreement;
+
+h) it has no knowledge of any violation or default with respect to any order, writ, injunction or any decree of any court or any legally binding order of any Government Instrumentality which may result in any Adverse Effect on the Purchaser or its nominated agencies ability to perform its obligations under this Agreement and no fact or circumstance exists which may give rise to such proceedings that would adversely affect the performance of its obligations under this Agreement; i)
+
+it has complied with Applicable Laws in all material respects;
+
+j)
+
+all information provided by it in connection with the Project is, to the best of its knowledge and belief, true and accurate in all material respects; and
+
+k) upon the Managed Service Provider performing the covenants herein, it shall not at any time during the term hereof, interfere with peaceful exercise of the rights and discharge of the obligations by the Managed Service Provider, in accordance with this Agreement.
+
+1.6.
+
+Obligations of the Purchaser or its Nominated Agencies
+
+Without prejudice to any other undertakings or obligations of the Purchaser or its nominated agencies under this Agreement, the Purchaser or its nominated agencies shall perform the following:
+
+a) The key obligations and roles & responsibilities of the Purchaser is specified in the document named “Guidelines for Managed Service Providers Offering Cloud Services through Government e-Marketplace (GeM)”.
+
+b) To
+
+provide
+
+any
+
+support
+
+through
+
+personnel
+
+to
+
+test
+
+the
+
+system/application/solution during the Term;
+
+c) To provide any support through personnel and/or test data during various phases of the Project whenever required due to scope change that may arise due to business, delivery or statutory/regulatory reasons;
+
+d) Purchaser shall provide the data (including in electronic form wherever available) to be migrated.
+
+e) To authorize the Managed Service Provider to interact for execution of the Project with external entities such as the other Government Departments, state treasury, authorized banks, trademark database, etc.
+
+f)
+
+Provide prompt deliverable feedback: Within <21 working days> from the submission of a deliverable/SLA and performance reports, the Purchaser shall provide a sign offs on the deliverable or its comments for changes.
+
+1.7.
+
+Obligations of the Managed Service Provider
+
+a) It shall provide to the Purchaser or its nominated agencies, the Deliverables as specified by the Purchaser.
+
+b) The key obligations and roles & responsibilities of the Managed Service Provider is specified in the document named “Guidelines for Managed Service Providers Offering Cloud Services through Government e-Marketplace (GeM)”.
+
+c) It shall perform the Services in a good and workmanlike manner commensurate with industry and technical standards which are generally in effect for international projects and innovations pursuant thereon similar to those contemplated by this Agreement, and so as to comply with the applicable Service Levels.
+
+d) It shall ensure that the Services are being provided as per the Project Timelines set
+
+out by the Purchaser.
+
+1.8.
+
+Approvals and Required Consents
+
+a) The Parties shall cooperate to procure, maintain and observe all relevant and regulatory and governmental licenses, clearances and applicable approvals (hereinafter the “Required Consents”) necessary for the Managed Service Provider to provide the Services. The costs of such Approvals shall be borne by the Party normally responsible for such costs according to local custom and practice in the locations where the Services are to be provided.
+
+b) The Purchaser or its nominated agencies shall use reasonable endeavors to assist Managed Service Provider to obtain the Required Consents (or vice versa, depending on the Scope of work). In the event that any Required Consent is not obtained, the Managed Service Provider and the Purchaser or its nominated agencies will co-operate with each other in achieving a reasonable alternative arrangement as soon as reasonably practicable for the Purchaser or its nominated agencies to continue to process its work with as minimal interruption to its business operations as is commercially reasonable until such Required Consent is obtained, provided that the Managed Service Provider shall not be relieved of its obligations to provide the Services and to achieve the Service Levels until the Required Consents are obtained if and to the extent that the Managed Service Provider’s obligations are not dependent upon such Required Consents.
+
+1.9.
+
+Use of Assets by the Managed Service Provider
+
+During the Term, the Managed Service Provider shall:
+
+a) take all reasonable and proper care of the entire hardware and software, network or any other information technology infrastructure components used for the Project and other facilities leased / owned / operated by the Managed Service Provider exclusively in terms of ensuring their usability for the delivery of the Services as per this Agreement (hereinafter the “Assets”) in proportion to their use and control of such Assets; and
+
+b) keep all the tangible Assets in as good and serviceable condition (reasonable wear and tear excepted) as at the date the Managed Service Provider takes control of and/or first uses the Assets and during the entire Term of the Agreement.
+
+c) ensure that any instructions or manuals supplied by the manufacturer of the Assets for use of the Assets and which are provided to the Managed Service Provider will be followed by the Managed Service Provider and any person who will be responsible for the use of the Assets;
+
+d) take such steps as may be properly recommended by the manufacturer of the Assets and notified to the Managed Service Provider or as may, in the reasonable opinion of the Managed Service Provider, be necessary to use the Assets in a safe manner;
+
+e) ensure that the Assets that are under the control of the Managed Service Provider, are kept suitably housed and in conformity with Applicable Law;
+
+f) procure permission from the Purchaser or its nominated agencies and any persons duly authorized by them to enter any land or premises on which the Assets are for the time being sited so as to inspect the same, subject to any reasonable third party requirements;
+
+g) not knowingly or negligently use or permit any of the Assets to be used in contravention of any statutory provisions or regulation or in any way contrary to Applicable Law.
+
+1.10. Access to the Purchaser or its Nominated Agencies’ Locations
+
+a) For so long as the Managed Service Provider provides services to the Purchaser or its nominated agencies’ location, as the case may be, on a non-permanent basis and to the extent necessary, the Purchaser as the case may be or its nominated agencies shall, subject to compliance by the Managed Service Provider with any safety and security guidelines which may be provided by the Purchaser as the case may be or its nominated agencies and notified to the Managed Service Provider in writing, provide the Service Provider with: (i)
+
+reasonable access, in the same manner granted to the Purchaser or its nominated agencies employees, to the Purchaser’s location as the case may be
+
+(ii)
+
+reasonable work space, access to office equipment as mutually agreed and other related support services in such location and at such other Purchaser’s location, as the case may be, as may be reasonably necessary for the Managed Service Provider to perform its obligations hereunder and under the SLA.
+
+b) Access to locations, office equipments and services shall be made available to the Managed Service Provider on an “as is, where is” basis / in appropriate working condition (as per scope of work defined by the Purchaser as the case may be or its nominated agencies. The Managed Service Provider agrees to ensure that its employees, agents and contractors shall not use the location, services and equipment for the following purposes: (i)
+
+for the transmission of any material which is defamatory, offensive or abusive or of an obscene or menacing character; or
+
+(ii)
+
+in a manner which constitutes a violation or infringement of the rights of any person, firm or company (including but not limited to rights of copyright or confidentiality).
+
+1.11. Management Phase 1.11.1.
+
+Governance
+
+The review and management process of this Agreement shall be carried out in accordance with the Governance Schedule set out in Schedule I of this Agreement and shall cover all the management aspects of the Project.
+
+1.11.2.
+
+Use of Services
+
+a) The Purchaser as the case may be or its nominated agencies, will undertake and use the Services in accordance with any instructions or procedures as set out in this Agreement or any agreement that may be entered into between the Parties from time to time;
+
+b) The Purchaser as the case may be or its nominated agencies shall be responsible for the operation and use of the Deliverables resulting from the Services.
+
+1.11.3.
+
+Changes
+
+Unless expressly dealt with elsewhere in this Agreement, any changes under or to this Agreement shall be dealt with in accordance with the Change Control Schedule set out in Schedule II of this Agreement.
+
+1.11.4.
+
+Security and Safety
+
+a) The Managed Service Provider shall comply with the technical requirements of the relevant security, safety and other requirements specified in the Information Technology Act or Telegraph Act including the regulations issued by Dept. of Telecom (wherever applicable), IT Security Manual of the Purchaser and follow the industry standards related to safety and security, insofar as it applies to the provision of the Services.
+
+b) Each Party to the Agreement shall also comply with Purchaser or the Government of India, and the respective State’s security standards and policies in force from time to time at each location of which Purchaser or its nominated agencies make the Managed Service Provider aware in writing insofar as the same apply to the provision of the Services.
+
+c) The Parties to the Agreement shall use reasonable endeavors to report forthwith in writing to each other all identified attempts (whether successful or not) by unauthorized persons (including unauthorized persons who are employees of any Party) either to gain access to or interfere with the Purchaser as the case may be or any of their nominees data, facilities or Confidential Information.
+
+d) The Managed Service Provider shall upon reasonable request by the Purchaser as the case may be or their nominee(s) participate in regular meetings when safety and information technology security matters are reviewed.
+
+e) As per the provisions of this Agreement, the Managed Service Provider shall promptly report in writing to the Purchaser or its nominated agencies, any act or omission which
+
+they are aware that could have an adverse effect on the proper conduct of safety and information technology security at the facilities of Purchaser as the case may be.
+
+1.11.5.
+
+Cooperation
+
+Except as otherwise provided elsewhere in this Agreement, each Party (“Providing Party”) to this Agreement undertakes promptly to provide the other Party (“Receiving Party”) with all such information and co-operation which the Receiving Party reasonably requests, provided that such information and co-operation:
+
+a) does not require material expenditure by the Providing Party to provide the same;
+
+b) is reasonably required by the Receiving Party in order for it to comply with its obligations under this Agreement;
+
+c) cannot be construed to be Confidential Information; and
+
+d) is capable of being provided by the Providing Party.
+
+1.12. Financial Matters 1.12.1.
+
+Terms of Payment
+
+The Cloud Services Bouquet prepared by MeitY allows Government Departments to procure Cloud Services on hourly, monthly or yearly basis (pricing model). The Government Department, for its most suitable pricing model, shall discover the individual unit prices of each of the Cloud Services for the total duration of the project. The Government Department, irrespective of the pricing models, shall pay to the Managed Service Provider for the actual consumption of the Cloud Services.
+
+a) The Managed Managed Service Provider shall provide, in the Commercial Proposal, the individual prices of each of the Cloud Services, specified by the Purchaser, for the total duration of the project.
+
+b) The Purchaser shall pay to the Managed Service Provider for the actual consumption of the Cloud Services during the project duration, and not on the basis of the project duration.
+
+c) The Managed Service Provider shall not increase the fee of the Cloud Services being consumed by the Purchaser during the entire duration of the project, unless there is an agreed provision in the Cloud Contract.
+
+d) The Managed Service Provider shall be responsible, as required under applicable law, for identifying and paying all taxes and other governmental fees and charges (and any penalties, interest, and other additions thereto) that are imposed on it upon or with respect to the transactions and payments under this Contract.
+
+e) The Purchaser may make payment to the Managed Service Provider at the end of the month, quarter or year based on the actual usage of the services and as per the “Unit Costs” discovered under the Commercial Proposal.
+
+f)
+
+In consideration of the Services and subject to the provisions of this Agreement, the Purchaser shall pay the Managed Service Provider for the Services rendered in pursuance of this Agreement.
+
+g) Payments shall be subject to the application of liquidated damages or SLA penalties and its adjustments/corrections as may be provided for in the Agreement and the SLA.
+
+h) Save and except as otherwise provided for herein or as agreed between the Parties in
+
+writing, the Purchaser shall not be required to make any payments in respect of the Services (or, without limitation to the foregoing, in respect of the Managed Service Provider performance of any obligations under this Agreement or the SLA) other than those covered in this Agreement.
+
+1.12.2.
+
+Invoicing and Settlement
+
+a) Subject to the specific terms of the Agreement and the SLA, the Managed Service Provider shall submit its invoices in accordance with the following principles:
+
+(i) The Purchaser shall be invoiced by the Managed Service Provider for the
+
+Services. Generally and unless otherwise agreed in writing between the Parties or expressly set out in the SLA, the Managed Service Provider shall raise an invoice as per this Agreement; and
+
+(ii) Any invoice presented in accordance with this Clause shall be in a form
+
+agreed with the Purchaser.
+
+b) The Managed Service Provider alone shall invoice all payments after receiving due approval of completion of payment milestone from the competent authority. Such invoices shall be accurate with all adjustments or changes in the terms of payment. The Managed Service Provider shall waive any charge for a Service that is not invoiced within six months after the end of the month in which the change relating to such Service is (i) authorized or (ii) incurred, whichever is later.
+
+c) Payment shall be made within <30 working days> of the receipt of invoice along with supporting documents by the Purchaser subject to deduction of applicable liquidated damages or SLA penalties. The penalties are imposed on the Managed Service Provider as per the SLA criteria specified in the SLA.
+
+d) The Purchaser shall be entitled to delay or withhold payment of any invoice or part of it delivered by the Managed Service Provider where the Purchaser disputes/withholds such invoice or part of it provided that such dispute is bona fide. The withheld amount shall be limited to that which is in dispute. The disputed / withheld amount shall be settled in accordance with the escalation procedure as set out in this Agreement. Any exercise by the Purchaser under this Clause shall not entitle the Managed Service Provider to delay or withhold provision of the Services.
+
+e) The Managed Service Provider shall be solely responsible to make payment to its sub-contractors, if they are expressly approved by the Purchaser to work with the Managed Service Provider.
+
+1.12.3.
+
+Tax
+
+a) The Purchaser or its nominated agencies shall be responsible for withholding taxes from
+
+the amounts due and payable to the Managed Service Provider wherever applicable. The Managed Service Provider shall pay for all other taxes in connection with this Agreement, SLA, scope of work and any other engagement required to be undertaken as a part of this Agreement, including, but not limited to property, sales, use, excise, value-added, goods and services, consumption and other similar taxes or duties.
+
+b) The Purchaser or its nominated agencies shall provide Managed Service Provider with
+
+the original tax receipt of any withholding taxes paid by Purchaser or its nominated agencies on payments under this Agreement. The Managed Service Provider agrees to reimburse and hold the Purchaser or its nominated agencies harmless from any deficiency including penalties and interest relating to taxes that are its responsibility under this paragraph. For purposes of this Agreement, taxes shall include taxes incurred on transactions between and among the Purchaser or its nominated agencies, the Managed Service Provider and third party subcontractors, if any. c)
+
+The Parties shall cooperate to enable each Party to accurately determine its own tax liability and to minimize such liability to the extent legally permissible. In connection therewith, the Parties shall provide each other with the following: (i)
+
+any resale certificates;
+
+(ii)
+
+any relevant information regarding out-of-state or use of materials, equipment or services; and
+
+(iii)
+
+any direct pay permits, exemption certificates or information reasonably requested by the other Party.
+
+1.13. Termination 1.13.1.
+
+For Material Breach
+
+a) In the event that either Party believes that the other Party is in Material Breach of its obligations under this Agreement, such aggrieved Party may terminate this
+
+Agreement upon giving a one month’s notice for curing the Material Breach to the other Party. In case the Material Breach continues, after the notice period, the Purchaser or Managed Service Provider, as the case may be will have the option to terminate the Agreement. Any notice served pursuant to this Clause shall give reasonable details of the Material Breach, which could include the following events and the termination will become effective:
+
+(i) Managed Service Provider becomes insolvent, bankrupt, resolution is passed
+
+for the winding up of the Managed Service Provider’s organization;
+
+(ii) Information provided to the Purchaser is found to be incorrect;
+
+(iii) Contract conditions are not met as per the requirements specified in the
+
+application document;
+
+(iv) Misleading claims about the empanelment status with MeitY are made;
+
+(v) If the Managed Service Provider fails to perform any other obligation(s) under
+
+the Agreement
+
+(vi) If the Managed Service Provider is not able to deliver the services as per the SLAs
+
+which translates into Material Breach, then the Purchaser may serve a 30 days written notice for curing this Material Breach. In case the Material Breach continues, after the expiry of such notice period, the Purchaser will have the option to terminate this Agreement. Further, the Purchaser may offer a reasonable opportunity to the Managed Service Provider to explain the circumstances leading to such a breach.
+
+b) In the event, the Purchaser terminates the Agreement in whole or in part, the Purchaser may procure, upon such terms and conditions as it deems appropriate, services similar to those undelivered, and the Managed Service Provider shall be liable to the Purchaser for any excess costs for such similar services where such excess costs shall not exceed 10% of the value of the undelivered services. However, the Managed Service Provider shall continue to work with the Purchaser to the extent not terminated. On termination, the exit management and transition provisions as per the Agreement will come into effect.
+
+c) The Purchaser may by giving a one month’s written notice, terminate this Agreement if a change of control of the Managed Service Provider has taken place. For the purposes of this Clause, in the case of Managed Service Provider, change of control shall mean the events stated in Clause 1.4, and such notice shall become effective at the end of the notice period as set out in Clause 1.4.
+
+d) In the event that Managed Service Provider undergoes such a change of control, Purchaser may, as an alternative to termination, require a full Performance Guarantee for the obligations of Managed Service Provider by a guarantor acceptable to Purchaser or its nominated agencies. If such a guarantee is not furnished within 30 days of Purchaser’s demand, the Purchaser may exercise its right to terminate this Agreement in accordance with this Clause by giving 15 days further written notice to the Managed Service Provider.
+
+e) The termination provisions set out in this Clause shall apply mutatis mutandis to the
+
+SLA.
+
+1.13.2.
+
+Termination for Convenience
+
+a) The Purchaser may at any time terminate the Contract for any reason by giving the Managed Service Provider a notice of termination that refers to this clause.
+
+b) Upon receipt of the notice of termination under this clause, the Managed Service Provider shall either as soon as reasonably practical or upon the date specified in the notice of termination: (i)
+
+cease all further work, except for such work as the Purchaser may specify in the notice of termination for the sole purpose of protecting that part of the system/application/solution already executed, or any work required to leave
+
+the site in a clean and safe condition; (ii)
+
+terminate all subcontracts, if any, except those to be assigned to the Purchaser pursuant to Clause 1.13.2 (d) (ii) below;
+
+c) remove all Managed Service Provider’s equipment from the site, repatriate the Managed Service Provider’s and its Subcontractors’ personnel, if any, from the site, remove from the site any wreckage, rubbish, and debris of any kind;
+
+d) in addition, the Managed Service Provider shall: (i)
+
+deliver to the Purchaser the parts of the system/application/solution executed by the Managed Service Provider up to the date of termination;
+
+(ii)
+
+to the extent legally possible, assign to the Purchaser all right, title, and benefit of
+
+the
+
+Managed
+
+Service
+
+Provider
+
+to
+
+the
+
+system/subsystem/application/solution/, as at the date of termination, and, as may be required by the Purchaser, in any subcontracts, if any, concluded between the Managed Service Provider and its Subcontractors; (iii)
+
+deliver to the Purchaser all non-proprietary drawings, specifications, and other documents prepared by the Managed Service Provider or its Subcontractors, if any, as of the date of termination in connection with the system/application/solution.
+
+1.13.3.
+
+Effects of termination
+
+a) In the event that Purchaser terminates this Agreement pursuant to failure on the part of the Managed Service Provider to comply with the conditions as contained in this Clause and depending on the event of default, Performance Guarantee, if any, furnished by Managed Service Provider may be forfeited.
+
+b) Upon termination of this Agreement, the Parties will comply with the Exit Management Plan as set out in the “Guidelines for Managed Service Providers Offering Cloud Services through Government e-Marketplace (GeM)” and Clause 1.23 of this Agreement.
+
+1.13.4.
+
+Termination of this Agreement due to Bankruptcy of Managed Service Provider
+
+The Purchaser may serve written notice on Managed Service Provider at any time to terminate this Agreement with immediate effect in the event that the Managed Service Provider reporting an apprehension of bankruptcy to the Purchaser or its nominated agencies
+
+1.14. Indemnification & Limitation of Liability
+
+a) Subject to Clause 1.14 (d) below, Managed Service Provider (the "Indemnifying Party") undertakes to indemnify, hold harmless the Purchaser (the "Indemnified Party") from and against all claims, liabilities, losses, expenses (including reasonable attorneys' fees), fines, penalties, taxes or damages (Collectively “Loss”) on account of bodily injury, death or damage to tangible personal property arising in favor of any person,
+
+corporation or other entity (including the Indemnified Party) attributable to the Indemnifying Party's negligence or willful default in performance or non-performance under this Agreement.
+
+b) If the Indemnified Party promptly notifies Indemnifying Party in writing of a third party claim against Indemnified Party that any Service provided by the Indemnifying Party infringes a copyright, trade secret or patents incorporated in India of any third party, Indemnifying Party will defend such claim at its expense and will pay any costs or damages, that may be finally awarded against Indemnified Party.
+
+c) Indemnifying Party will not indemnify the Indemnified Party, however, if the claim of infringement is caused by (i)
+
+Indemnified Party’s misuse or modification of the Service;
+
+(ii)
+
+Indemnified Party’s failure to use corrections or enhancements made available by the Indemnifying Party;
+
+(iii)
+
+Indemnified Party’s use of the Service in combination with any product or information not owned or developed by Indemnifying Party;
+
+However, if any service, information, direction, specification or materials provided by Indemnified Party or any third party contracted to it, is or likely to be held to be infringing, Indemnifying Party shall at its expense and option either (i)
+
+Procure the right for Indemnified Party to continue using it
+
+(ii)
+
+Replace it with a noninfringing equivalent
+
+(iii)
+
+Modify it to make it noninfringing.
+
+The foregoing remedies constitute Indemnified Party’s sole and exclusive remedies and Indemnifying Party’s entire liability with respect to infringement.
+
+d) The indemnities set out in Clause 1.14 shall be subject to the following conditions: (i)
+
+the Indemnified Party as promptly as practicable informs the Indemnifying Party in writing of the claim or proceedings and provides all relevant evidence, documentary or otherwise;
+
+(ii)
+
+the Indemnified Party shall, at the cost of the Indemnifying Party, give the Indemnifying Party all reasonable assistance in the Defense of such claim including reasonable access to all relevant information, documentation and personnel provided that the Indemnified Party may, at its sole cost and expense, reasonably participate, through its attorneys or otherwise, in such Defense;
+
+(iii)
+
+if the Indemnifying Party does not assume full control over the Defense of a claim as provided in this Article, the Indemnifying Party may participate in such Defense at its sole cost and expense, and the Indemnified Party will have the right to defend the claim in such manner as it may deem appropriate, and the cost and expense of the Indemnified Party will be included in Losses;
+
+(iv)
+
+the Indemnified Party shall not prejudice, pay or accept any proceedings or claim, or compromise any proceedings or claim, without the written consent of the Indemnifying Party;
+
+(v)
+
+all settlements of claims subject to indemnification under this Clause will:
+
+(a) be entered into only with the consent of the Indemnified Party, which consent will not be unreasonably withheld and include an unconditional release to the Indemnified Party from the claimant or plaintiff for all liability in respect of such claim; and
+
+(b) include any appropriate confidentiality agreement prohibiting disclosure of the terms of such settlement; (vi)
+
+the Indemnified Party shall account to the Indemnifying Party for all awards, settlements, damages and costs (if any) finally awarded in favor of the Indemnified Party which are to be paid to it in connection with any such claim or proceedings;
+
+(vii)
+
+the Indemnified Party shall take steps that the Indemnifying Party may reasonably require to mitigate or reduce its loss as a result of such a claim or proceedings;
+
+(viii)
+
+in the event that the Indemnifying Party is obligated to indemnify an Indemnified Party pursuant to this Article, the Indemnifying Party will, upon payment of such indemnity in full, be subrogated to all rights and defenses of the Indemnified Party with respect to the claims to which such indemnification relates; and
+
+(ix)
+
+if a Party makes a claim under the indemnity set out under Clause 1.14 (a) above in respect of any particular Loss or Losses, then that Party shall not be entitled to make any further claim in respect of that Loss or Losses (including any claim for damages).
+
+e) The liability of either Party (whether in contract, tort, negligence, strict liability in tort, by statute or otherwise) for any claim in any manner related to this Agreement, including the work, deliverables or Services covered by this Agreement, shall be the payment of direct damages only which shall in no event exceed one time the total contract value payable under this Agreement. The liability cap given under this Clause shall not be applicable to the indemnification obligations set out in Clause 1.14 and breach of Clause 1.11.4. f)
+
+In no event shall either party be liable for any consequential, incidental, indirect, special or punitive damage, loss or expenses (including but not limited to business interruption, lost business, lost profits, or lost savings) nor for any third party claims (other than those set-forth in Clause 1.14 (a) even if it has been advised of their possible existence.
+
+g) The allocations of liability in this Section 1.14 represent the agreed and bargained-for understanding of the parties and compensation for the Services
+
+reflects such allocations. Each Party has a duty to mitigate the damages and any amounts payable under an indemnity that would otherwise be recoverable from the other Party pursuant to this Agreement by taking appropriate and commercially reasonable actions to reduce or limit the amount of such damages or amounts.
+
+1.15. Force Majeure (i)
+
+Definition of Force Majeure
+
+a. “Force Majeure” shall mean any event beyond the reasonable control of either Party, as the case may be, and which is unavoidable notwithstanding the reasonable care of the Party affected.
+
+(ii)
+
+Force Majeure events A Force Majeure shall include, without limitation, the following:
+
+a. war, hostilities, or warlike operations (whether a state of war be declared or not), invasion, act of foreign enemy, and civil war;
+
+b. strike, lockout (strike and lockout not caused due to either Party’s default), sabotage embargo, import restriction, port congestion, lack of usual means of public transportation and communication, industrial dispute, shipwreck, shortage or restriction of power supply, epidemics, quarantine, and plague;
+
+c. earthquake, landslide, volcanic activity, fire, flood or inundation, tidal wave, typhoon or cyclone, hurricane, storm, lightning, or other inclement weather condition, nuclear and pressure waves, or other natural or physical disaster;
+
+(iii)
+
+If either party is prevented, hindered, or delayed from or in performing any of its obligations under the Contract by an event of Force Majeure, then it shall notify the other in writing of the occurrence of such event and the circumstances of the event of Force Majeure within five (5) days after the occurrence of such event.
+
+(iv)
+
+The party who has given such notice shall be excused from the performance or punctual performance of its obligations under the Contract for so long as the relevant event of Force Majeure continues and to the extent that such party’s performance is prevented, hindered, or delayed. The time for achieving Final Acceptance shall be extended.
+
+(v)
+
+The party or parties affected by the event of Force Majeure shall use reasonable efforts to mitigate the effect of the event of Force Majeure upon its or their performance of the Contract and to fulfill its or their obligations under the Contract, but without prejudice to either party’s right to terminate the Contract.
+
+(vi)
+
+No delay or nonperformance by either party to this Contract caused by the occurrence of any event of Force Majeure shall:
+
+a. constitute a default or breach of the Contract;
+
+b. give rise to any claim for damages or additional cost or expense occasioned by the delay or nonperformance, if, and to the extent that, such delay or nonperformance is caused by the occurrence of an event of Force Majeure.
+
+(vii)
+
+If the performance of the Contract is substantially prevented, hindered, or delayed for a single period of more than sixty (60) days on account of one or more events of Force Majeure during the time period covered by the Contract, the parties will attempt to develop a mutually satisfactory solution, failing which, either party may terminate the Contract by giving a notice to the other.
+
+(viii)
+
+In the event of termination pursuant to material breach, the rights and obligations of the Managed Service Provider and Purchaser shall be as specified in the clause titled Termination.
+
+(ix)
+
+For the avoidance of doubt, it is expressly clarified that the failure on the part of the selected Managed Service Provider under this Agreement or the service levels to implement any disaster contingency planning and back-up and other data safeguards in accordance with the terms of this Agreement or the service levels against natural disaster, fire, sabotage or other similar occurrence shall not be deemed to be a Force Majeure event. For the avoidance of doubt, it is further clarified that any negligence in performance of Services which directly causes any breach of security like hacking aren’t the forces of nature and hence wouldn’t be qualified under the definition of “Force Majeure”. In so far as applicable to the performance of Services, Managed Service Provider will be solely responsible to complete the risk assessment and ensure implementation of adequate security hygiene, best practices, processes and technology to prevent any breach of security and any resulting liability therefrom (wherever applicable).
+
+(x)
+
+For the Managed Service Provider to take benefit of this clause, it is a condition precedent that the Managed Service Provider must promptly notify Purchaser, in writing of such conditions and the cause thereof within five calendar days of the arising of the Force Majeure event. Purchaser, or the consultant / committee appointed by Purchaser shall study the submission of the Managed Service Provider and inform whether the situation can be qualified one of Force Majeure. Unless otherwise directed by Purchaser in writing, the Managed Service Provider shall continue to perform its obligations under the resultant Agreement as far as it is reasonably practical, and shall seek all reasonable alternative means for performance of services not prevented by the existence of a Force Majeure event.
+
+(xi)
+
+In the event of delay in performance attributable to the presence of a force majeure event, the time for performance shall be extended by a period(s) equivalent to the duration of such delay. If the duration of delay continues beyond a period of 30 days, Purchaser and the Managed Service Provider shall hold consultations with each other in an endeavor to find a solution to the problem.
+
+Notwithstanding anything to the contrary mentioned above, the decision of Purchaser shall be final and binding on the Managed Service Provider.
+
+1.16. Adherence to the Empanelment Terms & Conditions The Managed Service Provider shall ensure that the underlying Cloud Managed Service Provider is adhering to all the terms and conditions specified in the MeitY’s CSP Empanelment RFP at all times during the tenure of the Purchaser’s project.
+
+1.17. Information Security One of the most critical issues that need to be addressed in the Cloud Contract / Agreement is the security of the data and application. The level of sensitivity of data requires different controls to be put in place in the Cloud to prevent a compromise.
+
+1.17.1. (i)
+
+Compliances and Certifications
+
+As part of the empanelment process, MeitY has mandated CSPs to have following certifications.
+
+a. ISO 27001:2013 – Information security management systems requirements (Data Center and the Cloud Services should be certified for the ISO 27001 standard)
+
+b. ISO 20000:1 - Service management system requirements (NOC and SOC offered for the Data Center and the managed services quality should be certified for
+
+ISO 20000:1)
+
+c. ISO 27017 - Code of practice for information security controls based on ISO/IEC 27002 for Cloud Services
+
+d. ISO 27018 - Code of practice for protection of Personally Identifiable Information (PII) in Public Clouds acting as PII processors
+
+e. TIA-942-B / UPTIME (Tier III or higher) – Data centre standard covering site space and layout, cabling infrastructure, tiered reliability and environmental considerations The Managed Service Provider shall ensure the sustenance of the above certificates and compliances applicable to the underlying CSPs during the entire duration of the project. The Managed Service Provider is required to possess and sustain following certifications in addition to ensuring the sustenance of the above certificates and compliances applicable to the underlying CSP during the entire duration of the project.
+
+a. ISO 27001:2013 – Information security management systems requirements
+
+b. ISO 20000:1 - Service management system requirements
+
+(ii)
+
+If the Purchaser has financial and payment related data that is proposed to be hosted on the Cloud, the Managed Service Provider shall provide Payment Card Industry Data Security Standard (PCI DSS) compliant technology infrastructure of underlying CSP for storing, processing, and transmitting payment related information in the Cloud. This standard is required if the transactions involve credit card payments.
+
+(iii)
+
+CSPs are audited by STQC regularly for the requirements specified in the CSPs Empanelment RFP and for other guidelines & security requirements specified by MeitY or any standards body setup / recognized by Government of India from time to time and notified to the CSPs.
+
+a. The Managed Service Provider shall ensure that the underlying CSP complies or meets any security requirements applicable to it either published (or to be published) by MeitY or the Purchaser or any standards body setup / recognized by Government of India from time to time and notified to the Managed Service Provider / MeitY empaneled CSP as a mandatory guideline / standard.
+
+b. The Managed Service Provider shall meet all the security requirements indicated in the IT Act 2000 and rules & regulations as amended from time to time. The underlying CSP shall meet all terms and conditions of the Empanelment of Cloud Service Offerings of Cloud Managed Service Providers and shall continuously comply with the audit criteria defined by STQC.
+
+1.17.2. (i)
+
+Privacy and Security Safeguards
+
+The Managed Service Provider shall implement reasonable and appropriate measures to secure the Purchaser’s data and content against accidental or unlawful loss, access or disclosure.
+
+(ii)
+
+If the data is classified as sensitive / confidential / restricted, the Managed Service Provider shall ensure that the data is encrypted as part of a standard security process for sensitive / confidential / restricted content or choose the right cryptographic algorithms evaluating security, performance, and compliance requirements specific to the Purchaser’s application and may choose from multiple key management options approved by the Purchaser.
+
+(iii)
+
+The Managed Service Provider shall notify the Purchaser promptly in the event of security incidents or intrusions, or requests from foreign governments / their agencies for access to the data, to enable the Purchaser to manage these events proactively.
+
+(iv)
+
+The Managed Service Provider shall not delete any data at the end of the Agreement/Contract (for a maximum of 45 days beyond the expiry of the Agreement) without the express approval of the Purchaser. After the approval to delete the data is accorded by the Purchaser, the Managed Service Provider shall ensure that all the storage blocks or multiple copies of data, if any, are unallocated or zeroed out so that it cannot be recovered. If due to some regulatory reasons, it is required to securely decommission data, the Purchaser can implement data encryption at rest using Purchaser’s managed keys, which are not stored in the Cloud. Then Purchaser may delete the key used to protect the decommissioned data, making it irrecoverable.
+
+(v)
+
+The Managed Service Provider shall report to the Purchaser, in writing, of information security breaches by unauthorized persons (including unauthorized persons who are employees of any Party) either to gain access to or interfere with the Project's Data, facilities or Confidential Information.
+
+(vi)
+
+The Managed Service Provider shall undertake to treat information passed on to it under this Agreement/Contract as classified. Such Information shall not be communicated / published / advertised by the Managed Service Provider to any person/organization without the express permission of the Purchaser.
+
+(vii)
+
+The Managed Service Provider shall not use/process the service attributes and data associated with Cloud and managed services for the purposes beyond the scope of the current project.
+
+1.17.3. (i)
+
+Confidentiality
+
+The Managed Service Provider shall maintain confidentiality, integrity, availability and privacy of the Purchaser data. The Managed Service Provider shall execute NonDisclosure Agreement (NDA) with the Purchaser with respect to this Project. Following information is excluded from the NDA.
+
+a. information already available in the public domain;
+
+b. information which has been developed independently by the Managed Managed Service Provider;
+
+c. information which has been received from a third party who had the right to disclose the aforesaid information;
+
+d. Information which has been disclosed to the public pursuant to a court order.
+
+(ii)
+
+The subcontractors, other than the Managed Service Provider, after the express approval by the Purchaser, shall be permitted to obtain the Purchaser’s data only to deliver the services the Managed Service Provider has retained them to provide and shall be prohibited from using the Purchaser’s data for any other purpose. The Managed Service Provider must take express approval of the Purchaser to use the services of subcontractor(s). The Managed Service Provider remains responsible for its subcontractors’ compliance with Managed Service Provider’s obligations under the Project.
+
+(iii)
+
+Disclosure of any part of the non-public information to parties not directly involved in providing the services requested, unless required to do so by the Court of Law within India or other Statutory Authorities of Indian Government, could result in premature termination of the Agreement. The Purchaser may apart from blacklisting the Managed Service Provider, initiate legal action against the Managed Service Provider as per the applicable laws of India. The Managed Service Provider shall also not make any news release, public announcements, use of trademark or logo or any other reference on the Project, including application document / RFP, without obtaining prior written consent from the Purchaser.
+
+(iv)
+
+The Managed Service Provider shall notify the Purchaser as soon as possible in the event of an actual or suspected breach of data.
+
+(v)
+
+The Managed Service Provider shall keep confidential all the details and information with regard to the Project, including systems, facilities, operations, management and maintenance of the systems/facilities.
+
+(vi)
+
+The Purchaser or its nominated agencies shall retain all rights to prevent, stop and if required take the necessary punitive action against the Managed Service Provider regarding any forbidden disclosure.
+
+(vii)
+
+The Managed Service Provider shall ensure that all its employees, agents and subcontractors involved in the Project, execute individual non-disclosure agreements, which have been duly approved by the Purchaser with respect to this Project. The Managed Service Provider may submit a declaration that it has obtained the NDA from its employees. However, if the project is critical in nature, Managed Service Provider may get NDAs signed from every resource involved in the project and submit it to Purchaser (Optional).
+
+(viii)
+
+Any handover of the confidential information needs to be maintained in a list, both by Purchaser & Managed Service Provider, containing at the very minimum, the name of provider, recipient, date of generation of the data, date of handing over of data, mode of information, purpose and signatures of both parties.
+
+(ix)
+
+Notwithstanding anything to the contrary mentioned hereinabove, the Managed Service Provider shall have the right to share the Letter of Intent / work order provided to it by the Purchaser in relation to this Agreement, with its prospective purchasers solely for the purpose of and with the intent to evidence and support its work experience under this Agreement.
+
+1.17.4. (i)
+
+Location of Data
+
+The Managed Service Provider shall offer Cloud Services to the Purchaser from a MeitY empaneled data centre of the underlying CSP which is located within India.
+
+(ii)
+
+The Managed Service Provider shall store all types of data (including but not limited to account & user access data, text, audio, video, image, software, machine image, and any computational results that the Purchaser or any end user derives through their use of the Managed Service Provider’s services) within the Indian Territory and as per the terms and conditions specified in the CSP’s Empanelment RFP; and shall not take out / allow to take out any kind of data outside of India unless it is explicitly approved by the Purchaser.
+
+(iii)
+
+E-Discovery: Electronic discovery (e-Discovery) is the process of locating, preserving, collecting, processing, reviewing, and producing Electronically Stored Information (ESI) in the context of criminal cases, legal proceedings or investigation. The Managed Service Provider shall ensure that the Purchaser/any other agency authorized by the Purchaser is able to access and retrieve such data in the underlying CSP environment in a timely fashion.
+
+(iv)
+
+Law Enforcement Request: The Law Enforcement Agency, as mandated under any law of India for the time being in force, may seek access to information stored on Cloud as provided by the Managed Service Provider. The onus shall be on the Managed Service Provider to perform all due diligence before releasing any such information to any such Law Enforcement Agency of India.
+
+1.18. Audit, Access and Reporting CSPs offer a variety of Cloud Services. However, all Cloud Services have not been empaneled with MeitY. Those Cloud Services which have been empaneled with MeitY have been audit by STQC against a set of audit criteria prepared by it, which are drawn from the CSPs Empanelment RFP and include technical, security and legal requirements, among others. (i)
+
+The Managed Service Provider shall ensure that the underlying CSP’s service offerings comply with the audit requirements specified by MeitY/STQC through the CSPs Empanelment RFP or any other mechanism.
+
+(ii)
+
+The Purchaser or its nominated agency shall have the right to audit and inspect Managed Service Provider, agents and third party facilities, data centres, documents, records, procedures and systems relating to the provision of the services, but only to the extent that they relate to the provision of the services, as shall be reasonably necessary to verify:
+
+a. The security, integrity and availability of all data processed, held or conveyed by the Managed Service Provider on behalf of the Purchaser and documentation related thereto;
+
+b. That the actual level of performance of the services is the same as specified in the SLA;
+
+c. That the Managed Service Provider has complied with the relevant technical standards, and has adequate internal controls in place; and
+
+d. The compliance of the Managed Service Provider with any other obligation under the MSA and SLA.
+
+(iii)
+
+The Managed Service Provider shall be required to demonstrate compliance to all the requirements, guidelines, standards, etc., specified in the CSPs Empanelment RFP prepared by MeitY, as and when required by the Purchaser.
+
+(iv)
+
+In addition to the STQC audit conducted as per the empanelment of Cloud Service Offerings of CSP with MeitY, the Managed Service Provider shall allow the Purchaser / any agency authorized by the Purchaser to conduct audit of its services including underlying CSP’s Cloud environment.
+
+1.19. Intellectual Property Rights
+
+a) The Purchaser shall own and have a right in perpetuity to use all newly created Intellectual Property Rights which have solely arisen out of or have been developed solely during execution of this Agreement, including but not limited to all processes, products, specifications, reports, drawings and other documents which have been newly created and developed by the Managed Service Provider solely during the performance of the Services. The Managed Service Provider undertakes to disclose all such Intellectual Property Rights arising in performance of the Services to the Purchaser and execute all such agreements/documents and file all relevant applications, effect
+
+transfers and obtain all permits and approvals that may be necessary in this regard to effectively transfer and conserve the Intellectual Property Rights of the Purchaser.
+
+b) Further, the Managed Service Provider shall be obliged to ensure that all approvals, registrations, licenses, permits and rights which are, inter-alia, necessary for use of the Deliverables, applications, services, etc. provided by the Managed Service Provider under this Agreement shall be acquired in the name of the Purchaser, prior to termination of this Agreement and which shall be assigned by the Purchaser to the Managed Service Provider for the purpose of execution of any of its obligations under the terms of this Agreement. However, subsequent to the term of this Agreement, such approvals, etc., shall endure to the exclusive benefit of the Purchaser.
+
+c) Pre-existing work: All intellectual property rights existing prior to the Effective Date of this Agreement shall belong to the Party that owned such rights immediately prior to the Effective Date. Subject to the foregoing, the Purchaser will also have rights to use and copy all process, specifications, reports and other document drawings, manuals, and other documents provided by Managed Service Provider as part of the scope of work under this Agreement for the purpose of this Agreement on non-exclusive, nontransferable, perpetual, royalty-free license to use basis.
+
+d) Ownership of documents: The Purchaser shall own all documents provided by or originating from the Purchaser and all documents produced by or from or for the Managed Service Provider in the course of performing the Services. Forthwith upon expiry or earlier termination of this Agreement and at any other time on demand by the Purchaser, the Managed Service Provider shall deliver to the Purchaser all documents provided by or originating from the Purchaser and all documents produced by or from or for the Managed Service Provider in the course of performing the Services, unless otherwise directed in writing by the Purchaser at no additional cost.
+
+The Managed Service Provider shall not, without the prior written consent of the Purchaser store, copy, distribute or retain any such Documents.
+
+e) The ownership of all IPR rights in any and all documents, artefacts, etc. (including all training materials) made during the Term for implementation of the Project under this Agreement will lie with Purchaser. f)
+
+Notwithstanding anything contained herein, the Managed Service Provider may use in its business activities the ideas, concepts and know-how which are retained in the unaided memories of its employees who have worked in the Project under this Agreement. The foregoing does not permit intentional memorization of the any information for the purpose of evading obligations contained in this Agreement.
+
+1.20. Liquidated Damages Time is the essence of the Agreement and the delivery dates are binding on the Managed Service Provider. In the event of delay or any gross negligence in implementation of the Project, for causes solely attributable to the Selected Managed Service Provider, in meeting the deliverables, the Purchaser shall be entitled at its option to recover from the Managed
+
+Service Provider as agreed, liquidated damages, a sum of <0.5%> of the value of the deliverable which suffered delay or gross negligence for each completed week or part thereof subject to a limit of <10%> of the total contract value. This right to claim any liquidated damages shall be without prejudice to other rights and remedies available to Purchaser under the contract and law. Once the maximum deduction is reached, the Purchaser may consider termination of the Contract.
+
+1.21. Insurance Cover 1.21.1. (i)
+
+Obligation to Maintain Insurance
+
+In connection with the provision of the Services, the Managed Service Provider must have and maintain:
+
+a) for the Agreement Period, valid and enforceable insurance coverage for:
+
+(i) public liability;
+
+(ii) either professional indemnity or errors and omissions;
+
+(iii) workers’ compensation as required by law; and
+
+(iv) any additional types, if any ; and
+
+(ii)
+
+for <one> year following the expiry or termination of the Agreement, valid and enforceable insurance policies (if relevant).
+
+1.21.2.
+
+Certificates of currency
+
+The Managed Service Provider must, on request by the Purchaser, provide current relevant confirmation of insurance documentation from its insurance brokers certifying that it has insurance as required by this Clause 1.21. The Managed Service Provider agrees to replace any coverage prior to the date of expiry/cancellation.
+
+1.21.3.
+
+Non-compliance
+
+Purchaser or its nominated agencies may, at its election, terminate this Agreement as per
+
+Clause 1.13, upon the failure of Managed Service Provider or notification of such failure, to maintain the required insurance coverage. Inadequate insurance coverage for any reason shall not relieve Managed Service Provider of its obligations under this Agreement.
+
+1.22. Changes in Cloud Service Offerings (i)
+
+The Managed Service Provider shall inform the Purchaser, at least 3 months in advance, about the material changes that the Managed Service Provider is planning to implement in the Cloud Service being consumed by the Purchaser.
+
+(ii)
+
+The Managed Service Provider is not allowed to discontinue offering a Cloud Service that is being consumed by the Purchaser, unless it poses a security threat, during the entire duration of the project. If the Cloud Service Offering is being discontinued due to the security threats, the Managed Service Provider has to first get this Cloud Service Offering de-empaneled from MeitY as per the guidelines specified by MeitY and provide a 3 months’ notice to the Purchaser.
+
+1.23. Transitioning/Exit (i)
+
+The Managed Service Provider shall not delete any data at the end of the agreement from the underlying CSP’s Cloud environment (for a maximum of 45 days beyond the expiry of the Agreement) without the express approval of the Purchaser. The Purchaser shall pay to the Managed Service Provider the cost associated with retaining the data beyond 45 days. The associated cost shall be arrived at based on the cost figures indicated in the commercial quote submitted by the Managed Service Provider.
+
+(ii)
+
+The underlying CSP shall be responsible for providing the tools for import / export of VMs, associated content, data, etc., and the Managed Service Provider, in consultation with the Purchaser, shall be responsible for preparation of the Exit Management Plan and carrying out the exit management / transition related activities.
+
+(iii)
+
+The Managed Service Provider shall provide the Purchaser or its nominated agency with a recommended exit management plan ("Exit Management Plan") or transition plan indicating the nature and scope of the underlying CSP’s transitioning services. The Exit Management Plan shall deal with the following aspects of the exit management in relation to the Agreement as a whole or the particular service of the Agreement:
+
+a. Transition of Managed Services
+
+b. Migration from the incumbent Cloud Service Provider’s environment to the new environment
+
+(iv)
+
+The Managed Service Provider is responsible for both transition of the services as well as migration of the VMs, Data, Content and other assets to the new environment.
+
+(v)
+
+The Managed Service Provider shall carry out the migration of the VMs, data, content and any other assets to the new environment (alternate Cloud Service Provider or Data Centre) identified by the Purchaser to enable successful deployment and running of the Purchaser’s solution in the new environment.
+
+(vi)
+
+The format of the data transmitted from the current CSP to the new environment identified by the Department should leverage standard data formats (e.g., OVF, etc.) whenever possible to ease and enhance portability. The format shall be finalized in consultation with the Purchaser.
+
+(vii)
+
+The Managed Service Provider shall transition Purchaser’s solution including retrieval of all data in the formats approved by the Purchaser.
+
+(viii)
+
+The Managed Service Provider shall ensure that all the documentation required by the Purchaser for smooth transition (in addition to the documentation provided by the underlying Cloud Service Provider) are kept up to date and all such documentation is handed over to the Purchaser during regular intervals as well as during the exit management process.
+
+(ix)
+
+The Managed Service Provider shall transfer the organizational structure developed during the term to support the delivery of the Exit Management Services. This will include:
+
+a. Documented and updated functional organization charts, operating level agreements with third-party contractors, phone trees, contact lists, and standard operating procedures.
+
+b. Physical and logical security processes and tools, including catalogues, badges, keys, documented ownership and access levels for all passwords, and instructions for use and operation of security controls. (x)
+
+The Managed Service Provider shall carry out following key activities, including but not limited to, as part of the knowledge transfer:
+
+a. Preparing documents to explain design and characteristics
+
+b. Carrying out joint operations of key activities or services
+
+c. Briefing sessions on processes and documenting processes
+
+d. Sharing the logs, etc.
+
+e. Briefing sessions on the managed services, the way these are deployed on Cloud and integrated f.
+
+Briefing sessions on the offerings (IaaS/PaaS/SaaS) of the underlying Cloud Service Provider
+
+(xi)
+
+The Managed Service Provider shall transfer know-how relating to operation and maintenance of the solution, software, Cloud Services, etc.
+
+1.24. Service Level Agreement Service Level Agreements (SLAs) are an important way of ensuring that the Managed Service Provider is meeting the level of service expected by the Purchaser. The Service Level Agreements (SLAs) mentioned in the document named “Model Service Level Agreements” available
+
+on
+
+the
+
+MeghRaj
+
+webpage
+
+at
+
+https://www.meity.gov.in/writereaddata/files/Guidelines_User_Department_Procuring_Cloud %20Services_Ver1.0.pdf shall be applicable to Managed Service Provider and is part of this Agreement.
+
+1.25. Suspension (i)
+
+The Managed Service Provider shall not suspend the right to access or use the Cloud Services without providing a written notice, 30 days in advance, to the Purchaser, unless the use of the Cloud service offerings by the Purchaser poses security risk to the Cloud Services being consumed by the Purchaser.
+
+1.26. Conflict of Interest (i)
+
+The Managed Service Provider shall furnish an affirmative statement as to the absence of, actual or potential conflict of interest on the part of the Managed Service Provider or any prospective subcontractor due to prior, current, or proposed contracts, engagements, or affiliations with the Purchaser. Additionally, such disclosure shall address any / all potential elements (time frame for service delivery, resource, financial
+
+or other) that would adversely impact the ability of the Managed Service Provider to complete the requirements as given in the application document / RFP.
+
+1.27. Relationship The Managed Service Provider is fully responsible for the services performed by it or on its behalf. (i)
+
+Nothing mentioned herein shall be construed as relationship of master and servant or of principal and agent as between the Purchaser and the Managed Service Provider.
+
+No partnership shall be constituted between the Purchaser and the Managed Service Provider by virtue of this Agreement nor shall either party have powers to make, vary or release their obligations on behalf of the other party or represent that by virtue of this or any other Agreement a partnership has been constituted, or that it has any such power. The Managed Service Provider shall be fully responsible for the services performed by it or on its behalf.
+
+(ii)
+
+The Managed Service Provider shall not use the Purchaser’s name or any service or proprietary name, mark or logo for promotional purpose without first having obtained the Purchaser’s prior written approval.
+
+1.28. Fraud & Corruption The Managed Service Provider shall observe the highest standards of ethics during the performance and execution of the Project. (i)
+
+The Purchaser shall terminate the Agreement if the Managed Service Provider has been determined by the Purchaser to having been engaged in corrupt, fraudulent, unfair trade practices, coercive or collusive.
+
+(ii)
+
+The following terms apply in this context.
+
+a. "Corrupt practice" means offering, giving, receiving or soliciting of anything of value to influence the action of the Purchaser during the tenure of the Project.
+
+b. "Fraudulent practice" means a misrepresentation of facts, in order to influence a procurement process or the execution of a contract, to the Purchaser, and includes collusive practices designed to establish proposal prices at artificially high or non-competitive levels and to deprive the Purchaser of the benefits of free and open competition.
+
+c. “Unfair trade practices” means supply of services different from what is ordered on, or change in the Scope of Work which was agreed to.
+
+d. “Coercive practices” means harming or threatening to harm, directly or indirectly, persons or their property to influence their participation during the period of Project.
+
+e. “Collusive practices” means a scheme or arrangement between two or more prospective Managed Service Providers with or without the knowledge of the Purchaser, designed to establish prices at artificial, non-competitive levels;
+
+1.29. Applicable Law and Dispute Resolution The terms and conditions of this Agreement shall at all times be construed in accordance with IT Act and Regulations, Privacy laws and other applicable laws of India thereunder as amended from time to time. All legal disputes are subject to the exclusive jurisdiction of (where Purchaser is located) courts only. (i)
+
+Any dispute arising out of or in connection with this Agreement or the SLA shall in the first instance be dealt with in accordance with the escalation procedure as set out in the Agreement.
+
+(ii)
+
+In case the escalations do not help in resolution of the problem within 3 weeks (or a duration specified by the Purchaser) of escalation, both the parties should agree on a mediator for communication between the two parties. The process of the mediation would be as follows:
+
+a. Aggrieved party should refer the dispute to the identified mediator in writing, with a copy to the other party. Such a reference should contain a description of the nature of the dispute, the quantum in dispute (if any) and the relief or remedy sought suitable.
+
+b. The mediator shall use its best endeavors to conclude the mediation within a certain number of days of its appointment.
+
+c. If no resolution can be reached through mutual discussion or mediation within
+
+30 days then the matter should be referred to experts for advising on the issue.
+
+(iii)
+
+In case the mediation does not help in resolution and it requires expertise to understand an issue, a neutral panel of 3 experts, agreeable to both parties should be constituted. The process of the expert advisory would be as follows:
+
+a. Aggrieved party should write to the other party on the failure of previous alternate dispute resolution processes within the timeframe and requesting for expert advisory. This is to be sent with a copy to the mediator.
+
+b. Both parties should thereafter agree on the panel of experts who are well conversant with the issue under dispute.
+
+c. The expert panel shall use its best endeavors to provide a neutral position on the issue.
+
+d. If no resolution can be reached through the above means within 30 days then the matter should be referred to Arbitration.
+
+(iv)
+
+Any dispute or difference whatsoever arising between the parties to this Agreement out of or relating to the construction, meaning, scope, operation or effect of this Agreement or the validity of the breach thereof shall be referred to a sole Arbitrator to be appointed by mutual consent of both the parties herein. If the parties cannot agree on the appointment of the Arbitrator within a period of one month from the notification by one party to the other of existence of such dispute, then the Arbitrator shall be appointed by the High Court where the Purchaser is located in India. The venue and seat of the Arbitration should specifically be laid down in the Agreement.
+
+The provisions of the Arbitration and Conciliation Act, 1996 as amended from time to time will be applicable and the award made there under shall be final and binding upon the parties hereto, subject to legal remedies available under the law. Such differences shall be deemed to be a submission to arbitration under the Indian Arbitration and Conciliation (Amendment) Act 2015 or of any modifications, Rules or re-enactments thereof. The Arbitration proceedings (seat and venue) will be placed where the Purchaser is located in India. Arbitration Proceedings shall be held in English Language. Any legal dispute will come under the sole jurisdiction of the State jurisdiction of the Purchaser in India.
+
+1.30. Trademarks and Publicity Neither Party may use the trademarks of the other Party without the prior written consent of the other Party except that Managed Service Provider may, upon completion, use the Project as a reference for credential purpose. Except as required by law or the rules and regulations of each stock exchange upon which the securities of one of the Parties is listed, neither Party shall publish or permit to be published either alone or in conjunction with any other person any press release, information, article, photograph, illustration or any other material of whatever kind relating to this Agreement, the service levels or the business of the Parties without prior reference to and approval in writing from the other Party. Such approval shall apply to each specific case and relate only to that case.
+
+1.31. Data Ownership All the data created as the part of the project shall be owned by Purchaser without any exceptions.
+
+1.32. Backup The Managed Service Provider shall configure, schedule and manage backups of all the data including but not limited to files, folders, images, system state, databases and enterprise applications as per the policy defined by the Purchaser or MeitY.
+
+1.33. Compliance with IS Security Policy The Managed Service Provider shall comply with the Purchaser’s IT Policy & IS policy in key concern areas relevant to the Project, details of which will be shared with the finally selected Managed Service Provider.
+
+IN WITNESS WHEREOF the Parties have by duly authorized Representatives set their respective hands and seal on the date first above written in the presence of:
+
+Witnesses
+
+Signed by
+
+1.
+
+For and on behalf of Purchaser (FIRST PARTY)
+
+2.
+
+Name:
+
+Designation:
+
+Signature:
+
+Seal:
+
+1.
+
+2.
+
+For and on behalf of Managed Service Provider
+
+(SECOND PARTY)
+
+Name:
+
+Designation:
+
+Signature:
+
+Seal:
+
+Schedule I – Governance Schedule Purpose The purpose of this Governance Schedule is to:
+
+a) establish and maintain the formal and informal processes for managing the relationship between the Purchaser and the Managed Service Provider
+
+b) define the principles that both Parties wish to follow to ensure the delivery of the Services;
+
+c) ensure the continued alignment of the interests of the Parties;
+
+d) ensure that the relationship is maintained at the correct level within each Party;
+
+e) create the flexibility to revise and maintain the relationship and this Agreement during the Term;
+
+f) set out the procedure for escalating disagreements; and
+
+g) enable contract administration and performance management.
+
+Governance Structure
+
+a) Project Managers: The relationship under this Agreement will be managed by the Project Managers appointed by each Party, who will provide the interface between the executive management of the respective Parties.
+
+b) Project Governance Team (PGT) - Within 7 days following the Effective Date, Purchaser or its nominated agencies and the Managed Service Provider shall each appoint a Project Manager. In the event that either Party wishes to substitute its Project Manager it will do so in manner in which the original appointment is made and notify the other Party of such substitution as soon as reasonably practicable but at the latest within 7 days of the substitution.
+
+c) The Project Managers shall have responsibility for maintaining the interface and communication between the Parties.
+
+d) The PGT shall meet formally on a fortnightly / monthly / quarterly, as required, basis at a time and location to be agreed between them. These meetings will cover, as a minimum, the following agenda items: (i) consideration of periodic performance reports; (ii) consideration of matters arising out of the change control; (iii) escalated issues; (iv) matters to be brought before the PGT in accordance with this Agreement; (v) any matter brought before the PGT by the Managed Service Provider under this Agreement; and (vi) any other issue which either Party wishes to add to the agenda.
+
+Governance Procedures
+
+a) The Managed Service Provider shall document the agreed structures in a procedures manual.
+
+b) The agenda for each meeting of the PGT shall be set to reflect the discussion items referred to above and extraordinary items may be added either with the agreement
+
+of the Parties or at the request of either Party. Copies of the agenda for meetings of the PGT, along with relevant pre-reading material, shall be distributed at least one week in advance of the relevant meeting.
+
+c) All meetings and proceedings will be documented. Such documents shall be distributed to the Parties and copies shall be kept as a record. All actions, responsibilities and accountabilities arising out of any meeting shall be tracked and managed.
+
+d) The Parties shall ensure as far as reasonably practicable that the PGT shall resolve the issues and resolve the objectives placed before them and that members representing that Party are empowered to make relevant decisions or have easy access to empowered individuals for decisions to be made to achieve this.
+
+e) In order to formally submit a Disputed Matter to the aforesaid for a resolution, one Party ("Claimant") shall give a written notice ("Dispute Notice") to the other Party.
+
+The Dispute Notice shall be accompanied by (a) a statement by the Claimant describing the Disputed Matter in reasonable detail and (b) documentation, if any, supporting the Claimant's position on the Disputed Matter.
+
+f) The other Party ("Respondent") shall have the right to respond to the Dispute Notice within 7 days after receipt of the Dispute Notice. In the event that the parties are unable to resolve the Disputed Matter within a further period of 7 days, it shall refer the Disputed Matter to next level of the dispute resolution for action as per the process mentioned in Clause 1.26.
+
+g) All negotiations, statements and / or documentation pursuant to these Articles shall be without prejudice and confidential (unless mutually agreed otherwise).
+
+If the Disputed Matter is having a material effect on the operation of the Services (or any of them or part of them), the Parties will use all their respective reasonable endeavors to reduce the elapsed time in reaching a resolution of the Disputed Matter.
+
+1.34. Schedule II – Change Control Schedule This Schedule describes the procedure to be followed in the event of any proposed change to the Master Service Agreement (“MSA”), Project Execution Phase, SLA and Scope of Work. Such change shall include, but shall not be limited to, changes in the scope of services provided by the Managed Service Provider and changes to the terms of payment.
+
+The Purchaser and Managed Service Provider recognize that change is an inevitable part of delivering services and that a significant element of this change can be accomplished by re-organizing processes and responsibilities without a material effect on the cost. The Managed Service Provider will endeavor, wherever reasonably practicable, to effect change without an increase in the terms of payment and Purchaser or its nominated agencies will work with the Managed Service Provider to ensure that all changes are discussed and managed in a constructive manner. This Change Control
+
+Schedule sets out the provisions which will apply to all the changes to this agreement.
+
+Change Management Process
+
+A. Change Control Note ("CCN") (i)
+
+Change requests in respect of the MSA, the Project Execution, the operation, the SLA or Scope of work will emanate from the Parties' respective Project Manager who will be responsible for obtaining approval for the change and who will act as its sponsor throughout the Change Control Process and will complete Part A of the CCN attached as
+
+Annexure A hereto. CCNs will be presented to the other Party's Project Manager who will acknowledge receipt by signature of the CCN.
+
+(ii)
+
+The Managed Service Provider and the Purchaser or its nominated agencies, during the Project Execution Phase and the Purchaser or its nominated agencies during the Operations and Management Phase and while preparing the CCN, shall consider the change in the context of the following parameter, namely whether the change is beyond the scope of Services including ancillary and concomitant services required and is suggested and applicable.
+
+(iii)
+
+It is hereby also clarified here that any change of control suggested beyond 25 % of the value of this Project will be beyond the scope of the change control process and will be considered as the subject matter for a separate bid process and a separate contract. It is hereby clarified that the 25% of the value of the Project as stated in herein above is calculated on the basis of bid value submitted by the Managed Service Provider and accepted by the Purchaser or its nominated agencies or as decided and approved by Purchaser or it Nominated Agencies. For arriving at the cost / rate for change up to 25% of the project value, the rates
+
+submitted in the Financial Proposal shall be considered.
+
+B. Quotation (i)
+
+The Managed Service Provider shall assess the CCN and complete Part B of the CC. In completing the Part B of the CCN, the Managed Service Provider shall provide as a minimum:
+
+a) a description of the change
+
+b) a list of deliverables required for executing the change;
+
+c) a time table for execution;
+
+d) an estimate of any proposed change
+
+e) any relevant acceptance criteria
+
+f) an assessment of the value of the proposed change;
+
+g) material evidence to prove that the proposed change is not already covered within the Agreement and the scope of work
+
+(ii)
+
+Prior to submission of the completed CCN to the Purchaser, or its nominated agencies, the Managed Service Provider will undertake its own internal review of the proposal and obtain all necessary internal approvals. As a part of this internal review process, the Managed Service Provider shall consider the materiality of the proposed change in the context of the MSA and the Project Execution affected by the change and the total effect that may arise from execution of the change.
+
+C. Costs Each Party shall be responsible for its own costs incurred in the quotation, preparation of CCNs and in the completion of its obligations described in this process provided the Managed Service Provider meets the obligations as set in the CCN. In the event the Managed Service Provider is unable to meet the obligations as defined in the CCN then the cost of getting it done by third party will be borne by the Managed Service Provider.
+
+D. Obligations The Managed Service Provider shall be obliged to execute any proposed changes once approval in accordance with above provisions has been given, with effect from the date agreed for execution and within an agreed timeframe. The Managed Service Provider will not be obligated to work on a change until the parties agree in writing upon its scope, price and/or schedule impact. The cost associated with any service/software/hardware/licenses should not exceed the price quoted in the Managed Service Provider’s proposal.
+
+Annexure A – Format for Change Control Notice Change Control Note
+
+CCN Number:
+
+Part A: Initiation Title:
+
+Originator:
+
+Sponsor:
+
+Date of Initiation:
+
+Details of Proposed Change (To include reason for change and appropriate details/specifications. Identify any attachments as A1, A2, and A3 etc.) Authorized by Purchaser
+
+Date:
+
+Name:
+
+Signature:
+
+Received by the Managed Service Provider
+
+Date:
+
+Name:
+
+Signature:
+
+Change Control Note
+
+CCN Number:
+
+Part B : Evaluation (Identify any attachments as B1, B2, and B3 etc.) Changes to Services, charging structure, payment profile, documentation, training, service levels and component working arrangements and any other contractual issue.
+
+Brief Description of Solution:
+
+Impact:
+
+Deliverables:
+
+Timetable:
+
+Charges for Implementation / Execution: (including a schedule of payments) Other Relevant Information: (including value-added and acceptance criteria)
+
+Authorized by the Managed Service Provider
+
+Date:
+
+Name:
+
+Signature:
+
+Change Control Note
+
+CCN Number:
+
+Part C : Authority to Proceed Implementation of this CCN as submitted in Part A, in accordance with Part B is: (tick as appropriate)
+
+Approved Rejected Requires Further Information (as follows, or as Attachment 1 etc.) For
+
+Purchaser and its
+
+nominated agencies
+
+For the Managed Service Provider
+
+Signature
+
+Signature
+
+Name
+
+Name
+
+Title
+
+Title
+
+Date
+
+Date

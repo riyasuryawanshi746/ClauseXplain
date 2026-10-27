@@ -1,0 +1,129 @@
+PHASE 2 RESEARCH QUESTIONS -- ClauseXplain
+=============================================
+
+REVISED from the Phase 2 prompt's initial draft, based on what Phase 1's
+actual data supports. Each RQ below states what it needs to be answerable
+and whether that need is currently met.
+
+RQ1 -- Structured risk representation
+----------------------------------------
+"Can a five-dimension risk annotation schema (unfairness, ambiguity,
+non-compliance, precedent-match, enforceability) capture meaningfully
+different information than a single overall risk label, for contractual
+clauses?"
+
+Needs: inter-annotator agreement data across all five dimensions on a
+shared sample (see the agreement design below), plus a check for whether
+the five dimensions are highly correlated in practice (if unfairness and
+enforceability always move together, the schema may be over-specified).
+STATUS: not yet answerable -- no annotations exist yet. This RQ defines
+what Phase 2's actual annotation work (beyond this specification) must
+produce data for.
+
+RQ2 -- Symbolic rules as a complement to neural representations
+--------------------------------------------------------------------
+"Does an explicit Indian statutory rule table (indian_legal_rules.csv)
+provide risk signal that a neural model trained only on CUAD's category
+labels would miss?"
+
+Needs: a working neural baseline (Phase 3+, out of scope here) and a way
+to measure whether symbolic-rule flags correlate with, or diverge from,
+neural-only risk predictions on the SAME clauses. Given that CUAD provides
+zero training signal for 6 of 18 categories (Indemnification,
+Confidentiality, Privacy/Data Protection, Modification, Force Majeure,
+Payment), this RQ's most informative test case is likely those six
+categories specifically, since only the symbolic layer can say anything
+about them at all until supplementary data exists.
+STATUS: infrastructure (the rule table) exists as of Phase 2; the
+comparison itself is Phase 3+ work.
+
+RQ3 -- Does separating Commercial Terms from Payment improve taxonomy
+consistency?
+--------------------------------------------------------------------------
+This RQ is answerable NOW, retrospectively, from Phase 1's data, and the
+answer is a qualified yes on legal grounds, unverified on statistical
+grounds:
+  - Legal grounds: Payment (invoicing/timing) and Commercial Terms
+    (deal-structure economics) engage different statutory regimes --
+    MSMED Act Sections 15-16 apply specifically to payment timing, with
+    no comparable statute governing minimum-commitment or revenue-share
+    terms. Keeping them separate lets legal-rule citations stay precise
+    (see indian_legal_rules.csv: MSMED rules apply only to the Payment
+    category).
+  - Statistical grounds: NOT yet tested. "Improves taxonomy consistency"
+    would ideally be measured via inter-annotator agreement on category
+    assignment (do annotators agree more often when the categories are
+    split than when they were merged?) -- this requires two independent
+    annotation passes, which have not been run. Report the legal
+    justification as the current basis for the decision, and flag the
+    statistical question as open.
+
+RQ4 -- How much additional Indian-law annotation is required to
+supplement CUAD?
+---------------------------------------------------------------------
+Answerable in part now: exactly 6 of 18 categories (33%) have zero
+CUAD-derived spans, and a 7th (Dispute Resolution) has narrow,
+single-source coverage (173 spans, only via "Covenant Not To Sue," which
+does not address arbitration/forum clauses at all). A defensible target
+for a first supplementary annotation pass would be roughly 50-100 clauses
+per zero-coverage category from real or synthetic Indian contracts --
+enough for meaningful qualitative analysis and rule validation, though
+not enough for training a neural classifier from scratch. This number is
+a starting estimate, not derived from a power calculation, and should be
+revisited once initial annotation reveals how much variation exists
+within each category.
+
+-------------------------------------------------------------------------
+
+ADDITIONAL RQ SUGGESTED BY PHASE 1/2 FINDINGS (not in the original list)
+
+RQ5 -- Does the "Competitive Restriction Exception" polarity problem
+generalize?
+------------------------------------------------------------------------
+Phase 1 found that CUAD's "Competitive Restriction Exception" category is
+a risk-REDUCING carve-out incorrectly grouped with risk-increasing
+Non-Compete language by simple category mapping. This raises a broader
+question: how many other clause categories, across the taxonomy, contain
+a similar "exception/carve-out" subtype that a category-level risk model
+would mis-score if not explicitly separated? This is answerable by manual
+review of the mapping_review_sample.csv / risk_annotation_sample.csv
+during annotation, and should be tracked as a specific checklist item
+during Phase 2 human review, not assumed to be a one-off issue.
+
+-------------------------------------------------------------------------
+
+INTER-ANNOTATOR AGREEMENT DESIGN (supports RQ1, RQ3)
+---------------------------------------------------------
+Proposed protocol, not yet executed:
+  - Sample: risk_annotation_sample.csv (target ~200 clauses, see that
+    file), or a subset of it if full independent double-annotation of 200
+    is too time-consuming initially -- even 50 double-annotated clauses
+    would give a preliminary signal.
+  - Annotators: minimum 2 independent researcher-annotators (not
+    necessarily legal experts, per the project's current resource
+    constraints -- see FINAL_DATASET_README.txt). Each annotates the full
+    sample independently, without seeing the other's labels.
+  - Fields evaluated for agreement:
+      - clausexplain_category (already assigned in Phase 1, but worth
+        re-checking on the needs_review=True subset specifically)
+      - risk_level (discrete: Low/Medium/High) -- use Cohen's kappa
+      - legal_risk_type (multi-label) -- use a set-overlap metric (e.g.
+        Jaccard similarity per record, averaged) rather than kappa, since
+        kappa is designed for single-label agreement
+      - the five continuous dimension scores -- use intraclass
+        correlation coefficient (ICC), not kappa, since these are
+        continuous, not categorical
+  - Disagreement handling: any record where the two annotators' risk_level
+    differs, or where kappa/ICC for a field falls below a pre-registered
+    threshold (e.g. kappa < 0.6, commonly cited as the boundary between
+    "moderate" and "substantial" agreement), goes to a third-annotator
+    adjudication pass. Record BOTH original annotations plus the
+    adjudicated final value -- never silently overwrite.
+  - Reporting: report kappa/ICC per field, not a single aggregate number,
+    since agreement will likely vary a lot between e.g. category
+    assignment (probably high agreement) and unfairness_score (probably
+    lower, since it is the most subjective dimension).
+
+STATUS: this is a DESIGN, not a completed process. As of end of Phase 2,
+zero clauses have been independently double-annotated. No kappa/ICC value
+should appear anywhere in the paper until this process actually runs.

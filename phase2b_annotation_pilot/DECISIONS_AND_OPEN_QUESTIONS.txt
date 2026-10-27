@@ -1,0 +1,100 @@
+DECISIONS AND OPEN QUESTIONS -- Phase 2B build
+=================================================
+Things discovered while inspecting Phase 2A output and building the
+annotation app. Items 1-3 were flagged as open in the original Phase 2B
+build and have since been RESOLVED (see each item below); item 4 remains
+accurate as a running record of what was and wasn't done automatically.
+
+1. DISCRETE VS CONTINUOUS SCORING SCALE -- RESOLVED
+-----------------------------------------------------------------
+Decision: standardized on the discrete 5-point scale
+(0.00/0.25/0.50/0.75/1.00), matching what the app and validator already
+enforced. PHASE2_ANNOTATION_GUIDELINES.txt and risk_scoring_specification.txt
+were both updated to describe the discrete scale explicitly (their prior
+"continuous 0.0-1.0" language is gone, replaced with the five named
+bands). phase2_annotation_schema.json (now version 2.1) adds
+allowed_values listing exactly these five values plus null for every
+score field. All three documents plus the app and validator are now
+consistent.
+
+2. PROVISIONAL RISK SCORE: 4-DIMENSION AVERAGE VS "PENDING" -- RESOLVED
+-----------------------------------------------------------------------
+Decision confirmed and formalized: provisional_risk_score_4dim and
+provisional_risk_level_4dim are now formally defined in
+phase2_annotation_schema.json (version 2.1) and given their own section
+(section 4) in risk_scoring_specification.txt, which explicitly
+distinguishes them from the canonical 5-dimension final_risk_score /
+risk_level and states why equal-weight averaging over 4 dimensions was
+chosen over treating the missing precedent score as 0. Canonical
+risk_score/risk_level remain null on every record, enforced by
+validate_phase2_annotations.py.
+
+2b. INDIAN LEGAL RULE TYPES -- RESOLVED (new item, not in original list)
+-----------------------------------------------------------------------
+indian_legal_rules.csv now has a rule_type column (risk_trigger /
+contextual / gap_detection) for all 15 rules, reviewed individually
+rather than defaulted. 7 risk_trigger, 4 contextual, 4 gap_detection.
+The Force Majeure rule (ICA_S56_01) was classified gap_detection rather
+than a generic "contextual," since it specifically concerns the ABSENCE
+of a force majeure clause, matching gap_detection's definition more
+precisely than a general contextual note would.
+
+3. SAMPLE REBUILD (see SAMPLE_METHODOLOGY_NOTE.txt)
+-----------------------------------------------------
+Decision: keep the existing 200-clause sample as-is. Category
+stratification is solid (12/18 categories, 16-18 each); the length-band
+skew toward long contracts likely reflects the underlying CUAD corpus and
+is recorded as a known limitation rather than fixed by resampling. Full
+reasoning in SAMPLE_METHODOLOGY_NOTE.txt.
+
+3b. PILOT SELECTION -- IMPROVED (new item, not in original list)
+-----------------------------------------------------------------
+The original pilot logic used the sample's first 10 rows, which covered
+only 6 of 12 populated categories (checked directly, not assumed).
+generate_pilot_set.py now builds a deterministic pilot maximizing
+category variety (10 of 12 categories, one clause per category in
+alphabetical order), written to pilot_clause_ids.json.
+annotation_app.py, generate_pilot_review.py both now read this file.
+
+4. WHAT I DID NOT DO
+------------------------
+- I did not annotate any clauses myself. Every score, note, and legal
+  citation in risk_annotations_human.jsonl must come from you running
+  annotation_app.py -- I have no basis (and no license under this
+  project's own rules) to guess what a specific clause's unfairness or
+  ambiguity score should be.
+- I did not write pilot_annotation_review.txt's qualitative section --
+  generate_pilot_review.py produces the quantitative summary from your
+  real pilot data and leaves the qualitative questions (Step 17) for you
+  to answer after you've actually used the interface.
+- I did not fix numeric weights (w1..w5) for the eventual 5-dimension
+  risk formula -- risk_scoring_specification.txt is explicit that this
+  requires an ablation study against real annotated data, which doesn't
+  exist yet.
+
+
+5. PROVENANCE MODEL EXTENDED FOR AI DRAFTS -- RESOLVED (schema v2.1 -> v2.2)
+-----------------------------------------------------------------------------
+Problem found when the researcher asked for an AI-assisted pilot: the v2.1
+annotation_source value set was closed and contained no honest option for
+model-generated labels. The two near-fits both falsify provenance --
+"human_researcher_annotation" asserts a human entered judgments they did
+not, and "rule_based_preannotation" asserts deterministic output of
+indian_legal_rules.csv from a "rule_engine_v1" that does not exist. Writing
+outside the set fails validation; writing inside it corrupts the one field
+a reviewer must be able to trust, and would silently contaminate any later
+kappa calculation by making human-vs-model agreement look human-vs-human.
+
+Resolution (authorized by the researcher before any annotation was written):
+  - annotation_source += "ai_assisted_preannotation"
+  - new required boolean field reviewed_by_human (default False)
+  - AI drafts use a model annotator_id, never a human one
+  - AI drafts are written ONLY to risk_annotations_ai_pilot.jsonl;
+    risk_annotations_human.jsonl remains reserved for human work
+  - validate_phase2_annotations.py now enforces all of the above, including
+    rejecting a human-looking annotator_id on an AI record and requiring
+    reviewed_by_human=True on human_researcher_annotation records.
+
+An AI draft is promoted to human data only by the researcher reviewing it,
+setting reviewed_by_human=True and changing annotation_source. Until then it
+is explicitly not research data.

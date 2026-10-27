@@ -1,0 +1,122 @@
+======================================================================
+CLAUSEXPLAIN DATASET STATISTICS
+Computed directly from the files in data/processed/ -- no hard-coded values.
+======================================================================
+
+--- CONTRACT-LEVEL ---
+Number of contracts (CUAD v1)              : 510
+Contract length (chars) min/median/mean/max: 645 / 33143.0 / 52563 / 338211
+Estimated tokens (chars/4.2, ROUGH ESTIMATE) min/median/mean/max: 154 / 7891.0 / 12515 / 80526
+Contracts estimated > 4096 tokens          : 373 (73.1%)
+Contracts estimated > 8192 tokens          : 250 (49.0%)
+
+--- CUAD CATEGORY / SPAN LEVEL (original, unmapped) ---
+Total CUAD-highlighted spans                : 13823
+Unique CUAD categories                      : 41
+
+Spans per original CUAD category (descending):
+   2554  Parties
+    777  License Grant
+    672  Cap On Liability
+    654  Anti-Assignment
+    643  Audit Rights
+    560  Insurance
+    521  Document Name
+    476  Agreement Date
+    467  Expiration Date
+    464  Governing Law
+    450  Post-Termination Services
+    447  Effective Date
+    424  Minimum Commitment
+    418  Revenue/Profit Sharing
+    410  Exclusivity
+    367  Rofr/Rofo/Rofn
+    318  Ip Ownership Assignment
+    298  Non-Transferable License
+    259  Non-Compete
+    253  Change Of Control
+    246  Termination For Convenience
+    210  Renewal Term
+    176  Warranty Duration
+    173  Covenant Not To Sue
+    171  Volume Restriction
+    167  Uncapped Liability
+    165  Irrevocable Or Perpetual License
+    125  Competitive Restriction Exception
+    122  Notice Period To Terminate Renewal
+    121  Liquidated Damages
+    115  Affiliate License-Licensee
+    115  Joint Ip Ownership
+     91  No-Solicit Of Employees
+     69  Affiliate License-Licensor
+     66  Source Code Escrow
+     65  Non-Disparagement
+     58  No-Solicit Of Customers
+     39  Third Party Beneficiary
+     38  Most Favored Nation
+     32  Unlimited/All-You-Can-Eat-License
+     27  Price Restrictions
+
+Spans belonging to a multi-span category group: 9726 (70.4%)
+
+--- 41 -> 18 MAPPING SUMMARY ---
+CUAD categories -> METADATA (no risk signal): 4
+CUAD categories -> EXCLUDED                 : 1
+CUAD categories -> MAPPED to a target category: 36
+
+Row-level breakdown (13,823 total CUAD-highlighted spans):
+   9786  (70.8%)  MAPPED
+   3998  (28.9%)  METADATA
+     39  (0.3%)  EXCLUDED
+
+Rows flagged needs_review=True in category_mapping.csv: 3114 (22.5%)
+
+--- FINAL 18-CATEGORY CLAUSEXPLAIN TAXONOMY: SPAN COUNTS ---
+   1495  Termination
+      0  Payment  <-- ZERO CUAD COVERAGE
+   1399  Liability
+      0  Indemnification  <-- ZERO CUAD COVERAGE
+   1955  Intellectual Property
+      0  Confidentiality  <-- ZERO CUAD COVERAGE
+      0  Privacy / Data Protection  <-- ZERO CUAD COVERAGE
+    794  Non-Compete
+    149  Non-Solicitation
+    121  Penalties
+    173  Dispute Resolution
+    464  Governing Law / Jurisdiction
+    907  Assignment
+      0  Modification  <-- ZERO CUAD COVERAGE
+    176  Warranty
+      0  Force Majeure  <-- ZERO CUAD COVERAGE
+   1075  Other
+   1078  Commercial Terms
+
+Target categories with ZERO CUAD-derived spans: 6
+  - Payment
+  - Indemnification
+  - Confidentiality
+  - Privacy / Data Protection
+  - Modification
+  - Force Majeure
+
+--- COMMERCIAL TERMS (new 18th category) -- CUAD source breakdown ---
+    424  Minimum Commitment
+    418  Revenue/Profit Sharing
+    171  Volume Restriction
+     38  Most Favored Nation
+     27  Price Restrictions
+  ----- total: 1078
+
+--- PAYMENT -- CUAD source breakdown (should be empty; confirms no forced mapping) ---
+  (none -- Payment receives zero CUAD-derived spans under the strict
+   payment/invoicing-only definition. This is expected, not a bug.)
+
+--- OTHER -- CUAD source breakdown ---
+    643  Audit Rights
+    367  Rofr/Rofo/Rofn
+     65  Non-Disparagement
+  ----- total: 1075
+
+======================================================================
+END OF STATISTICS REPORT
+======================================================================

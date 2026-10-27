@@ -1,0 +1,142 @@
+PHASE 2 ANNOTATION GUIDELINES -- ClauseXplain
+================================================
+
+WHO THIS IS FOR: a human researcher-annotator (not necessarily a lawyer)
+scoring CUAD-highlighted spans on the five risk dimensions defined in
+risk_scoring_specification.txt. Read that file first.
+
+GENERAL RULES
+--------------
+1. Score what the clause TEXT actually says, not what you assume about
+   the rest of the contract. If a clause references "Section 6.09" and
+   you don't have that section, note the missing context rather than
+   guessing its content.
+2. Never use the word "illegal." Use one or more of the legal_risk_type
+   tags instead: potentially unenforceable, potentially non-compliant,
+   potentially unfair, ambiguous, commercially unfavorable, jurisdictional
+   concern, privacy/data-protection concern, restraint-of-trade concern,
+   excessive liability concern, penalty/damages concern.
+3. If you cite a specific Indian statutory provision, it must correspond
+   to an actual row in indian_legal_rules.csv. If you believe a different
+   provision applies that isn't in that file, flag it for the file to be
+   updated -- do not invent a citation inline.
+4. Set requires_legal_review = True on every record you annotate. This
+   project currently has no legal-expert reviewer; your annotation is
+   "human_researcher_annotation," not "human_legal_expert_annotation."
+5. If you are unsure, use annotation_confidence = "Low" rather than
+   guessing at Medium/High to seem more certain than you are.
+6. Remember: CUAD spans may be partial excerpts of a larger clause (see
+   span_type field). If the highlighted text seems to cut off mid-thought,
+   note this -- it affects how confidently you can score ambiguity.
+
+-------------------------------------------------------------------------
+
+UNFAIRNESS_SCORE
+-----------------
+Low (0.0-0.33): Obligations are roughly symmetric, or asymmetry is
+  standard/expected for the clause type (e.g. a warranty clause naturally
+  runs one direction, from seller to buyer -- that alone isn't "unfair").
+
+  Example: "Either party may terminate this agreement upon 30 days'
+  written notice." -- Both parties have identical rights. Low unfairness.
+
+Medium (0.34-0.66): Asymmetry exists and favors one party more than is
+  typical for this clause type, but the disadvantaged party retains some
+  meaningful protection or recourse.
+
+  Example: "Client may terminate this agreement upon 30 days' written
+  notice. Contractor may terminate only for Client's material,
+  uncured breach." -- One-sided termination rights, but Contractor still
+  has a real (if narrower) exit path. Medium unfairness.
+
+High (0.67-1.0): Obligations are sharply asymmetric with little or no
+  meaningful recourse for the disadvantaged party.
+
+  Example (SYNTHETIC, illustrative only): "Client may terminate this
+  agreement at any time, for any reason or no reason, with immediate
+  effect and without any payment obligation for work completed but not
+  yet invoiced. Contractor may not terminate this agreement under any
+  circumstances prior to the completion of all deliverables." -- No
+  reciprocal exit right, and the disadvantaged party loses payment for
+  completed work. High unfairness.
+
+AMBIGUITY_SCORE
+-----------------
+Low: Terms are specific and operationally clear (defined dates, defined
+  amounts, defined triggering events).
+
+  Example: "Payment is due within 30 days of invoice date." -- Clear,
+  operational. Low ambiguity.
+
+Medium: Some terms are undefined or rely on a standard not fully
+  specified in the visible text, but the general operation of the clause
+  is still discernible.
+
+  Example: "Payment is due within a reasonable time of invoice date." --
+  "Reasonable" is undefined. Medium ambiguity.
+
+High: Core operative terms are vague enough that reasonable readers could
+  disagree about what obligation actually exists.
+
+  Example (SYNTHETIC): "Contractor shall maintain appropriate
+  confidentiality measures as may be necessary from time to time." --
+  "Appropriate," "as may be necessary," and "from time to time" are all
+  undefined; a reader cannot determine what specific action is required.
+  High ambiguity.
+
+NON_COMPLIANCE_SCORE
+-----------------------
+Only score above 0.0 if you can cite a SPECIFIC row in
+indian_legal_rules.csv that the clause's trigger_condition plausibly
+matches. If you cannot cite a specific rule, leave this at 0.0 and
+consider whether enforceability_score or unfairness_score is the more
+appropriate dimension instead.
+
+Low: No plausible match to any rule in indian_legal_rules.csv.
+Medium: Plausible match to a rule marked confidence=Low or Medium in
+  indian_legal_rules.csv, or the clause's fit to the trigger_condition is
+  itself uncertain.
+High: Clear match to a rule's trigger_condition, especially one marked
+  confidence=High (e.g. ICA_S74_01 for an unmistakable named-penalty
+  clause, or MSMED_S16_01 for an explicit late-payment-interest waiver
+  where MSME status is independently confirmed).
+
+PRECEDENT_MATCH_SCORE
+------------------------
+Leave this field null for all Phase 2 annotation. ClauseXplain has no
+curated precedent/case-law corpus yet (see risk_scoring_specification.txt,
+section 2). Do not attempt to score this dimension until that corpus
+exists in a later phase.
+
+ENFORCEABILITY_SCORE
+-----------------------
+Low: No apparent tension with a legal doctrine that could render any part
+  of the clause void or unenforceable.
+Medium: The clause resembles a pattern courts have scrutinized (e.g. a
+  restraint-of-trade clause) but is narrowly drafted enough that
+  enforceability is plausible.
+High: The clause resembles a pattern (e.g. an indefinite, unlimited-scope
+  non-compete, or an absolute bar on legal proceedings not carved out as
+  arbitration) that has a well-documented statutory basis for challenge.
+
+  Example (SYNTHETIC): "Employee shall not, anywhere in the world, for
+  a period of 10 years following termination, engage in any business
+  activity that competes, directly or indirectly, with Company." --
+  Unlimited geographic scope, 10-year duration, broad activity
+  definition. High enforceability concern under Section 27.
+
+-------------------------------------------------------------------------
+
+WHAT NOT TO DO
+---------------
+- Do not assign risk_level directly. It is derived from risk_score, which
+  is derived from the five dimension scores. If you find yourself picking
+  "High" first and then filling in scores to justify it, stop and score
+  the dimensions independently instead.
+- Do not leave a dimension blank if you scored it -- use 0.0, not blank,
+  if your genuine assessment is "no concern along this dimension."
+  Blank/null means "not yet assessed," which is different from "assessed
+  as zero."
+- Do not annotate a clause you don't have enough context to assess. Flag
+  it with annotation_confidence = "Low" and a note, rather than skipping
+  it silently.

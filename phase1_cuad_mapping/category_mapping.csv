@@ -1,0 +1,42 @@
+cuad_category,clausexplain_category,category_status,mapping_reason,legal_basis_or_note,needs_review
+Document Name,,METADATA,"Contract title; identifies the document, not a risk-bearing provision.",N/A,False
+Parties,,METADATA,Identifies who signed the contract; structural metadata.,N/A,False
+Agreement Date,,METADATA,Date of signing; structural metadata.,N/A,False
+Effective Date,,METADATA,Date the contract takes effect; structural metadata.,N/A,False
+Expiration Date,Termination,MAPPED,Describes when the contract's initial term ends; grouped with the Termination family alongside Renewal Term and Notice Period.,N/A,False
+Renewal Term,Termination,MAPPED,Automatic renewal/extension terms affect a party's ability to exit the relationship; grouped with Termination.,N/A,False
+Notice Period To Terminate Renewal,Termination,MAPPED,Directly concerns the mechanics of exiting a contractual relationship.,N/A,False
+Governing Law,Governing Law / Jurisdiction,MAPPED,Direct match: choice-of-law provision.,"Kept conceptually distinct from Dispute Resolution (forum/arbitration), which concerns a different legal question.",False
+Most Favored Nation,Commercial Terms,MAPPED,Pricing-fairness provision affecting deal economics rather than payment mechanics or timing.,N/A,True
+Non-Compete,Non-Compete,MAPPED,Direct match: restriction on a party's ability to compete.,"May raise issues under Section 27 of the Indian Contract Act, 1872, depending on the scope, duration, and reasonableness of the restraint.",False
+Exclusivity,Non-Compete,MAPPED,"Exclusive dealing commitments restrict a party's freedom to trade with third parties, similar in commercial effect to a non-compete restriction. The two are grouped for practical risk-flagging purposes; they are not asserted to be legally identical.","Certain exclusivity restrictions may raise issues under Section 27 of the Indian Contract Act depending on scope and context. This is a design judgment, not an established legal equivalence -- verify before relying on it in a legal claim.",True
+No-Solicit Of Customers,Non-Solicitation,MAPPED,Direct match.,"May raise issues under Section 27 in some contexts, depending on scope.",False
+Competitive Restriction Exception,Non-Compete,MAPPED,"This is a carve-out/exception TO Non-Compete, Exclusivity, or No-Solicit clauses. It typically narrows or reduces restriction risk rather than increasing it. Should NOT be scored as risk-increasing merely because it shares a category with Non-Compete -- requires a separate polarity flag before any risk scoring is built on top of it.",N/A,True
+No-Solicit Of Employees,Non-Solicitation,MAPPED,Direct match.,"May raise issues under Section 27 in some contexts, depending on scope.",False
+Non-Disparagement,Other,MAPPED,No clean fit among the 18 target categories; common in employment/settlement contexts but does not correspond to a specific target category.,N/A,True
+Termination For Convenience,Termination,MAPPED,Direct match: concerns a party's ability to exit the contract without cause.,N/A,False
+Rofr/Rofo/Rofn,Other,MAPPED,Right of first refusal/offer/negotiation is a commercial-control clause; does not correspond to a specific target category.,N/A,True
+Change Of Control,Assignment,MAPPED,"Concerns what happens to contractual rights/obligations upon a change in corporate ownership; related in commercial effect to assignment/transfer concerns, though the triggering event is distinct.",N/A,True
+Anti-Assignment,Assignment,MAPPED,Direct match.,N/A,False
+Revenue/Profit Sharing,Commercial Terms,MAPPED,Deal-structure/economic provision concerning how revenue or profit is split -- not a payment-timing or invoicing provision.,N/A,False
+Price Restrictions,Commercial Terms,MAPPED,"Pricing-power provision; deal-structure, not payment mechanics.",May be relevant to competition law depending on the specific restriction; not verified here and not asserted.,True
+Minimum Commitment,Commercial Terms,MAPPED,Minimum order/spend commitment; deal-structure provision.,N/A,False
+Volume Restriction,Commercial Terms,MAPPED,Volume-based commercial restriction; grouped with the Commercial Terms family.,N/A,True
+Ip Ownership Assignment,Intellectual Property,MAPPED,Direct match.,N/A,False
+Joint Ip Ownership,Intellectual Property,MAPPED,Direct match.,N/A,False
+License Grant,Intellectual Property,MAPPED,Core IP clause.,N/A,False
+Non-Transferable License,Intellectual Property,MAPPED,Direct match.,N/A,False
+Affiliate License-Licensor,Intellectual Property,MAPPED,IP-related but affiliate/M&A-specific language uncommon in freelancer/SME contracts -- low practical transfer value to the target use case.,N/A,True
+Affiliate License-Licensee,Intellectual Property,MAPPED,Same caveat as Affiliate License-Licensor.,N/A,True
+Unlimited/All-You-Can-Eat-License,Intellectual Property,MAPPED,Niche enterprise-licensing language; low relevance to freelancer/SME context.,N/A,True
+Irrevocable Or Perpetual License,Intellectual Property,MAPPED,High practical relevance -- irrevocable/perpetual IP assignment is a common risk pattern in freelance and vendor contracts.,N/A,False
+Source Code Escrow,Intellectual Property,MAPPED,IP-adjacent but specialized to software-licensing deals.,N/A,True
+Post-Termination Services,Termination,MAPPED,Obligations that survive termination; part of the termination-consequences family.,N/A,False
+Audit Rights,Other,MAPPED,A party's right to inspect books/records; does not correspond to a specific target category.,N/A,True
+Uncapped Liability,Liability,MAPPED,Direct match; high-severity risk signal.,N/A,False
+Cap On Liability,Liability,MAPPED,Direct match.,N/A,False
+Liquidated Damages,Penalties,MAPPED,A named sum payable on breach.,"Section 74 of the Indian Contract Act, 1872 provides that where a sum is named as payable on breach, the aggrieved party is entitled to reasonable compensation not exceeding that amount named. This reflects that Indian law does not require treating 'penalty' and 'liquidated damages' as separate legal categories the way some other jurisdictions historically have. Verify against current case law before relying on this in a legal claim.",False
+Warranty Duration,Warranty,MAPPED,Direct match.,N/A,False
+Insurance,Liability,MAPPED,"Insurance requirements concern allocation of the risk of loss between parties; grouped with Liability, though it could reasonably stand alone in a future revision.",N/A,True
+Covenant Not To Sue,Dispute Resolution,MAPPED,Restricts a party's ability to bring legal proceedings on certain matters.,"May raise issues under Section 28 of the Indian Contract Act, 1872, which addresses agreements that restrict a party's right to enforce contractual rights through ordinary legal proceedings, depending on the specific scope of the restriction. Note this is a narrow slice of what 'Dispute Resolution' usually covers (it says nothing about arbitration or forum) -- treat Dispute Resolution as only partially represented by CUAD.",True
+Third Party Beneficiary,,EXCLUDED,Describes contract structure (who may enforce the contract) rather than a risk provision. Low frequency (39 spans); out of scope for v1 taxonomy.,N/A,False

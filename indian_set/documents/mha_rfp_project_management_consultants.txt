@@ -1,0 +1,2009 @@
+MINISTRY OF HOME AFFAIRS
+
+(Center State Division, Govt. Of India)
+
+Tender No.: 15011/38/2013-SC/ST-W
+
+August 2015
+
+Request for Proposal for
+
+“Selection of Project Management Consultants for Monitoring of NERS-ITSP and CAD-SP”
+
+Invitation to Bid Issued by:
+
+Ministry Of Home Affairs – CS Division, 5th Floor, NDCC-II Building, Jai Singh Road, New Delhi -110001, India
+
+Glossary In this document wherever abbreviations are used, following nomenclature is advised for reference :
+
+BPR
+
+CAD SP
+
+CCA
+
+CPP
+
+CQCCBS
+
+CRM
+
+DC
+
+DR
+
+DSC
+
+EMD
+
+ER
+
+FAT
+
+GIS
+
+HIPS
+
+IPS
+
+ITSP
+
+NERS
+
+NOC
+
+PCR
+
+PSU
+
+RCA
+
+RFP
+
+SLA
+
+SOC
+
+SOP
+
+Business Process Re-Engineering Computer Aided Dispatch Service Provider Central Certifying Authority Central Public Procurement Combined Quality- cum- Cost Based System Selection Case Record Management Data Center Disaster Recovery Data Service Center Earnest Money Deposit Emergency Response Final Acceptance Testing Geographic Information System Host-based Intrusion Prevention System Intrusion Prevention System ITechnical Service Provider for NERS National Emergency Response System Network Operation Center Police Control Room Public Sector Unit Root Cause Analysis Request for Proposal Service Level Agreement Security Operation Center Standard Operation Procedure
+
+SECTION 1
+
+1.1 This invitation is to interested eligible bidders for providing Manpower for the RFP “Selection of Project Management Consultants for Monitoring of NERS-ITSP and CAD-SP”.
+
+1.2 Bidder(s) refer to the sole bidder who wants to bid for this tender as per the terms and conditions of this RFP.
+
+1.3 Bidders are advised to study the RFP document carefully. Submission of bid response to this RFP shall be deemed to have been done after careful study and examination of the RFP document with full understanding of its implications. Bid response prepared in accordance with the procedures enumerated in Section 2 of this RFP should be submitted to the Purchaser not later than the date and time laid down in this section of the RFP.
+
+1.4 Bidders can download the RFP document from eProcurement portal www.eprocure.gov.inor MHA website www.mha.nic.in. The tender fee in the form of demand draft of Rs 10,000 (Rupees Ten Thousand only) in favor of “DDO, Ministry of Home Affairs” payable at New Delhi should be submitted along with the bid response. Tender fee is non-refundable.
+
+1.5 All bids must be accompanied by Earnest Money Deposit (EMD) of Rs. 20,00,000 (Rupees Twenty Lakhs only)in the form of Bank Guarantee. The EMD should be issued from a nationalized/ scheduled bank. The Bank Guarantee shall be valid for the same period as the bid validity mentioned in this section. The Bank Guarantee should be prepared as per the format specified in Section 4 of this RFP.
+
+1.6 This RFP document is not transferable.
+
+1.7 Contact Details Name of the Purchaser Name of the RFP
+
+Contact person Contact Address
+
+Ministry of Home Affairs Selection of Project Management Consultants for Monitoring of NERS-ITSP and CAD-SP Director (SR) Ministry of Home Affairs, Government of India, New Delhi 5th Floor, NDCC-II Building, Jai Singh Road
+
+New Delhi– 110001 Contact Number
+
+011-23438133
+
+Contact e-mail ID
+
+nirbhaya-mha@gov.in
+
+Venue of Pre-Bid Meeting, Submission of EMD, Opening of Technical Bid
+
+Conference Room, Ist floor, NDCC-II building, Jai Singh Road, New Delhi – 110001
+
+1.8 Date-sheet 1.
+
+Publication of RFP on eProcurement Portal
+
+31 August 2015
+
+2.
+
+Date and time of pre-bid meeting
+
+7 September 2015 at 11:00 AM
+
+5.
+
+6.
+
+7.
+
+Last date and time to submit pre-bid queries on eProcurement Portal or e-mail ID (nirbhayamha@gov.in) Date of issue of query responses / Corrigendum (if required) Last date and time for submission of online Bid Date and time of opening of Technical Bid Date and time of opening of Financial Bid
+
+8.
+
+Bid validity
+
+3.
+
+4.
+
+10 September 2015 at 5:00 PM
+
+15 September 2015
+
+15 October 2015 at 3:00 PM
+
+15 October 2015 at 3:30 PM To be communicated later
+
+120 days from date of submission of RFP response
+
+1.9 Bidders must note that bids, including both online bid submission and hardcopy submission and tender fees, received after due date and time shall be rejected.
+
+Purchaser would not be responsible for any delay in submission of bids.
+
+1.10
+
+The Scope of Work, tender procedures and Contract terms are prescribed in this
+
+RFP Document. In addition to Section 1, the RFP Document includes:
+
+SECTION
+
+CONTENTS
+
+Section 2
+
+Instruction to Bidders
+
+Section 3
+
+Contract Conditions
+
+Section 4
+
+Bid Submission Formats
+
+Section 5
+
+Scope of Work and Manpower Details
+
+1.11
+
+The Bidder should examine all instructions, forms, terms & conditions, and scope
+
+of work in the RFP Document and furnish all information as stipulated therein.
+
+SECTION 2
+
+2.1
+
+Procedure for Submission of Bids
+
+2.1.1
+
+The last date and time of submission of bids shall be as per Clause 7, Section 1 of the
+
+RFP.
+
+2.1.2
+
+The bidders are required to submit soft copies of their bids electronically on the Central Public Procurement (CPP) Portal, using valid Digital Signature Certificates. The instructions given below are meant to assist the bidders in registering on the CPP Portal, prepare their bids in accordance with the requirements and submitting their bids online on the CPP Portal.
+
+2.2
+
+Registration
+
+2.2.1
+
+Bidders are required to enroll on the e-Procurement module of the Central Public Procurement Portal (URL: https://eprocure.gov.in/eprocure/app) by clicking on the link “Online Bidder Enrollment”. Enrollment on the CPP Portal is free of charge.
+
+2.2.2
+
+As part of the enrolment process, the bidders will be required to choose a unique username and assign a password for their accounts.
+
+2.2.3
+
+Bidders are advised to register their valid email address and mobile numbers as part of the registration process. These would be used for any communication from the CPP Portal.
+
+2.2.4
+
+Upon enrolment, the bidders will be required to register their valid Digital Signature Certificate
+
+(Class II or Class III Certificates with signing key usage) issued by any
+
+Certifying Authority recognized by CCA India (e.g. Sify / TCS / nCode / eMudhra etc.), with their profile.
+
+2.2.5
+
+Only one valid DSC should be registered by a bidder. Please note that the bidders are responsible to ensure that they do not lend their DSC’s to others which may lead to misuse.
+
+2.2.6
+
+Bidder then logs in to the site through the secured log-in by entering their user ID / password and the password of the DSC / e-Token.
+
+2.3
+
+Preparation of Bids
+
+2.3.1
+
+Bidder should take into account any corrigendum published on the tender document before submitting their bids.
+
+2.3.2
+
+Please go through the tender document carefully to understand the documents required to be submitted as part of the bid. Please note the number of covers in which the bid
+
+documents have to be submitted, the number of documents - including the names and content of each of the document that need to be submitted.
+
+2.3.3
+
+Bidder, in advance, should get the bid documents ready to be submitted as indicated in the tender document / schedule and generally, they can be in PDF / XLS / RAR / DWF formats. Bid documents may be scanned with 100 dpi with black and white/ color option.
+
+2.4
+
+Submission of bids
+
+2.4.1
+
+Bidder should log into the site well in advance for bid submission so that he/she can upload the bid in time i.e. on or before the bid submission time. Bidder will be responsible for any delay.
+
+2.4.2
+
+The bidder has to digitally sign and upload the required bid documents one by one as indicated in the tender document.
+
+2.4.3
+
+Bidder has to select the payment option as “offline” to pay the tender fee and EMD as applicable and enter details of the instrument.
+
+2.4.4
+
+Bidder should prepare the EMD as per the instructions specified in the tender document.
+
+The original should be delivered to Purchaser, latest by the last date and time of bid submission as provided in Section 1 of RFP. The details of the DD/any other accepted instrument, physically sent, should tally with the details available in the scanned copy and the data entered during bid submission time. Otherwise the uploaded bid will be rejected.
+
+2.4.5
+
+The server time (which is displayed on the bidders’ dashboard) will be considered as the standard time for referencing the deadlines for submission of the bids by the bidders, opening of bids etc. The bidders should follow this time during bid submission.
+
+2.4.6
+
+The uploaded tender documents become readable only after the tender opening by the authorized bid openers.
+
+2.4.7
+
+Upon the successful and timely submission of bids, the portal will give a successful bid submission message & a bid summary will be displayed with the bid no. and the date & time of submission of the bid with all other relevant details.
+
+2.4.8
+
+The bid summary has to be printed and kept as an acknowledgement of the submission of the bid. This acknowledgement may be used as an entry pass for any bid opening meetings.
+
+2.5
+
+Assistance to Bidders
+
+2.5.1
+
+Any queries relating to the process of online bid submission or queries relating to CPP Portal in general may be directed to the 24x7 CPP Portal Helpdesk. The contact number for the helpdesk is 1800 233 7315.
+
+2.5.2
+
+Online bid should be submitted on http://eprocure.gov.in/eprocure/appfollowing the details mentioned below:
+
+2.6
+
+Cover-01:
+
+Scanned copy of Bank Guarantee towards EMD and bank draft towards Tender Fees should be uploaded (PDF format) electronically on http://eprocure.gov.in/eprocure/app.
+
+Also, original EMD bank guarantee and original Tender fees bank draft shall be submitted physically at MHA office (address as per Secion1, clause 7) in a sealed cover clearly marked “PMC for Monitoring of NERS ITSP”. This envelope is to be super-scribed with RFP Number and Due Date.
+
+2.6.1
+
+All documents in Cover – 01 shall be uploaded as below:
+
+2.6.2 Cover 01: Cover-1 would consist of the following documents:
+
+Cover No.
+
+Cover type
+
+Document type
+
+Description Scanned copy of Tender fee Scanned copy of
+
+EMD
+
+Technical Bid containing all relevant details
+
+Cover1
+
+Fee/Technical Bid
+
+Blank financial bid templates
+
+Supporting documents ( this may be uploaded along with technical bid)
+
+Content
+
+.pdf
+
+Scanned copy of Tender fee
+
+.pdf
+
+Scanned copy of EMD
+
+.pdf
+
+Technical bid as per submission format
+
+.pdf
+
+Breakdown of cost components mentioning ONLY manpower resources. It should not mention cost of any items
+
+.pdf
+
+All relevant details and documentary proofs including power of Attorney executed by the bidder
+
+Cover 02: Cover-2 would consist of the following documents:
+
+Cover No.
+
+Cover1
+
+Cover type
+
+Description
+
+Document type
+
+Financial bid letter
+
+.pdf
+
+Price schedule
+
+.pdf
+
+Financial Bid
+
+7
+
+Content Signed copy of Financial bid letter Price break-up as per formats
+
+2.7 Cost of Bidding Process 2.7.1
+
+The Bidder shall bear all costs associated with the preparation and submission of its bid, including cost of presentations etc. for the purposes of clarification of the bid.
+
+2.8 Clarification on RFP Document 2.8.1
+
+A prospective Bidder requiring any clarification on the RFP Document may upload querieson the eProcurement portal or email provided in Section 1. The queries must be submitted in the following format:
+
+BIDDER’S REQUEST FOR CLARIFICATION
+
+Name and Address of the Organization submitting request
+
+Name and Position of Person submitting request
+
+Contact Details of the Organization / Authorized Representative Tel:
+
+Fax:
+
+Email:
+
+S. No
+
+RFP
+
+Section
+
+RFP
+
+Page
+
+RFP
+
+Clause
+
+Content of RFP requiring clarification
+
+Points of clarification required
+
+1.
+
+2.
+
+2.8.2
+
+The Purchaser will respond, to any request for clarification to queries on the RFP Document, received not later than the date prescribed by the Purchaser in Section 1of this RFP document.
+
+2.9 Bid Prices 2.9.1
+
+The Bidder shall indicate in the pro-forma prescribed in Section 4 of this RFP, the unit rates of the services, it proposes to provide under the Contract. Prices should be shown separately for each manpower as detailed in Bid Documents.
+
+2.9.2
+
+The Bidder shall prepare the bid based on details provided in the RFP documents. The Bidder shall carry out all the tasks in accordance with the requirement of the RFP
+
+documents and it shall be the responsibility of the Bidder to fully meet all the requirements of the RFP documents.
+
+2.9.3
+
+The Bidder as part of its Financial Bid should account for all out of pocket and other expenses that the Bidder shall incur during the contract period.
+
+2.9.4
+
+Prices quoted must be firm and final and shall remain constant throughout the period of the contract and shall not be subject to any upward modifications. The Bid Prices shall be indicated in Indian Rupees (INR) only.
+
+2.9.5
+
+The Financial Bid should clearly indicate the price to be charged without any qualifications whatsoever and should include all taxes, duties, fees, levies, works contract tax and other charges as may be applicable in relation to the activities proposed to be carried out.No separate taxes should be provided.
+
+2.9.6
+
+A proposal submitted with an adjustable price quotation or conditional proposal shall be treated as non-responsive and the bid may be rejected.
+
+2.10
+
+Bidder Qualification
+
+2.10.1 The “Bidder” as used in the RFP documents shall mean the organization on whose behalf the RFP response has been submitted. The Bidder may be either the Principal Officer(MD/ Company Secretary) or his/her duly Authorized Representative, in which case he/she shall submit a power of attorney.
+
+2.10.2 It is further clarified that the individual signing the RFP or other documents in connection with the RFP must certify whether he/she signs as :
+
+2.10.3 Constituted attorney of the firm, if it is a company
+
+OR
+
+2.10.4 The principal officer or his/her duly assigned authorized representative of the bidder, in which case he/she shall submit a certificate of authority on behalf of the bidder.
+
+2.10.5 The authorization shall be indicated by power-of-attorney accompanying the bid.
+
+2.11
+
+Earnest Money Deposit (EMD)
+
+2.11.1 The Bidder shall furnish, as part of its bid, EMD of the amount and format as mentioned in Section 1 of this RFP.
+
+2.11.2 The EMD is required to protect the Purchaser against the risk of Bidder’s conduct which would warrant the EMD's forfeiture.
+
+2.11.3 The EMD (denominated in Indian Rupees) shall be in the form of a bank guarantee issued by a Nationalized / Scheduled Bank, in the proforma provided in Section 4 of this RFP and shall have validity as stated in Section 1 of this RFP.
+
+2.11.4 Unsuccessful Bidder’s EMD will be discharged/ returned after award of contract to the successful Bidder. No interest will be paid by the Purchaser on the EMD amount.
+
+2.11.5 The successful Bidder’s EMD shall be discharged upon the Bidder executing the Contract, pursuant to Clause 26 and after furnishing the performance security, pursuant to Clause25.
+
+2.11.6 The EMD may be forfeited:
+
+2.11.7 if a Bidder withdraws its bid during the period of bid validity specified by the Bidder in the Bid;
+
+2.11.8 or in the case of a successful bid, if the Bidder fails;
+
+2.11.8.1
+
+to furnish performance security.
+
+2.11.8.2
+
+to sign the Contract within 15 days of issue of LOI
+
+2.12
+
+Period of Validity of Bids
+
+2.12.1 Bids shall remain valid for period as stated in Section 1 of this RFP. A bid valid for a shorter period shall be rejected by the Purchaser as non-responsive and shall not be taken up for evaluation purposes.
+
+2.12.2 The Purchaser may request the Bidder(s) for an extension of the period of validity. The request and the responses thereto shall be made in writing (or by fax or by e-mail).
+
+2.13
+
+Terms and Conditions of Bidder
+
+2.13.1 Printed terms and conditions (General Conditions) of the Bidder will not be considered as forming part of their Bids. In case terms and conditions of the contract applicable to this Invitation of RFP are not acceptable to any Bidder, he should clearly specify deviation in his Bid. Similarly in case the Services being offered have deviations from the requirements laid down in this RFP, the Bidder shall describe in what respects and to what extent the Services being offered differ/deviate from the requirements, even though the deviations may not be very material. The Bidder must state categorically whether or not his offer conforms to RFP requirements / specifications and indicate deviations, if any.
+
+2.13.2 Any deviations / assumptions mentioned elsewhere in the Bid, other than the formats (Clause 1.6 of Section 4 of this RFP) will not be considered by the Purchaser.
+
+2.13.3 All deviations should be closed before the financial bid opening by mutual discussion between Purchaser and Bidder. Financial bid would be opened only after closure of all deviations by the technically successful bidders.
+
+2.14
+
+Last Date for Receipt of Bids
+
+2.14.1 Bids will be received by the Purchaser at the address specified in Section 1. In the event of the specified date for the receipt of Bids being declared a holiday for the Purchaser, the Bids will be received up-to the appointed time on the next working day.
+
+2.14.2 The Purchaser may, at its discretion, extend the last date for the receipt of bids, in which case all rights and obligations of the Purchaser and Bidder previously subject to the last date will thereafter be subject to the last date as extended.
+
+2.14.3 Any bid received by the Purchaser after the last date and time for receipt of bids prescribed by the Purchaser, pursuant to Section 1, will be rejected and shall not be considered for opening and/or returned unopened to the Bidder.
+
+2.15
+
+Modification and Withdrawal of Bids
+
+2.15.1 No bid may be altered / modified after submission to the Purchaser.
+
+Unsolicited
+
+correspondences in this regard from Bidder will not be considered.
+
+2.15.2 No bid may be withdrawn in the interval between the last date for receipt of bids and the expiry of the bid validity period specified by the Bidder in the Bid. Withdrawal of a bid during this interval may result in the Bidder’s forfeiture of its EMD.
+
+2.16
+
+Address for Correspondence
+
+2.16.1 The Bidder shall designate the official mailing/e-mail address, place and fax number to which all correspondence shall be sent by the Purchaser.
+
+2.17
+
+Contacting the Purchaser
+
+2.17.1 No Bidder shall contact the Purchaser on any matter relating to its bid, from the time of the bid opening to the time the Contract is awarded.
+
+2.17.2 Any effort by a Bidder to influence the Purchaser’s bid evaluation, bid comparison or contract award decisions shall result in the rejection of the Bidder’s bid.
+
+2.18
+
+Opening of Technical Bids by Purchaser
+
+2.18.1 The Purchaser will open the Technical Bid, in the presence of the representatives of the Bidders’ members who choose to attend, at the time, date and place, as mentioned in
+
+Section 1 of this RFP.
+
+2.18.2 The Bidder's names, modifications, bid withdrawals and the presence or absence of the requisite EMD and such other details as the Purchaser, at its discretion, may consider appropriate will be announced at the bid opening.
+
+2.19
+
+Evaluation of Bids
+
+2.19.1 The Bidder must possess the requisite experience, strength and capabilities in providing the services necessary to meet the Purchaser’s requirements, as described in the RFP Documents. The Bidder must possess the technical know-how and have the financial wherewithal that would be required to successfully provide the services sought by the Purchaser, for the entire period of the contract. The Bidder’s bid must be complete in all respect..
+
+2.19.2 The Purchaser will examine the bids to determine whether they are complete, whether the bid format confirms to the RFP requirements, whether required Tender fee and EMD has been furnished, and whether the bids are generally in order.
+
+2.19.3 The Purchaser may waive any informality or nonconformity or irregularity in a bid which does not constitute a material deviation according to the Purchaser
+
+2.19.4 When deemed necessary, during the tendering process, the Purchaser may seek clarifications from any or all the Bidders.
+
+2.20
+
+Opening of Financial Bids
+
+2.20.1 The Purchaser will open the Financial Bids of only Technically Qualified Bidders after all deviation has been resolved and accepted by the bidderin the presence of the representatives of the Bidderwho choose to attend, at the time, date and place, as decided by the Purchaser.
+
+2.20.2 Financial evaluation would be undertaken irrespective of number of Bidders qualifying the Technical evaluation.
+
+2.20.3 The Financial bids shall be evaluated by the Purchaser for completeness and accuracy.
+
+Arithmetical errors will be rectified on the following basis. If there is a discrepancy between the unit price and the total price that is obtained by multiplying the unit price and quantity, the unit price shall prevail and the total price shall be corrected. If there is a discrepancy between words and figures, the amount in words will prevail.
+
+2.20.4 No enquiry shall be made by the bidder(s) during the course of evaluation of the tender, after opening of bid, till final decision is conveyed to the successful bidder(s). However, the Committee/its authorized representative and office of Purchaser can make any
+
+enquiry/seek clarification from the bidders, which the bidders must furnish within the stipulated time else bid of such defaulting bidders will be rejected.
+
+2.20.5 CQCCBS (Combined Quality- cum- Cost Based System Selection) will be followed for final bidder selection.
+
+2.20.6 The technically qualified bidders shall be ranked as per score achieved by them, from the highest to the lowest Technical Score (ST).
+
+2.20.7 Each Financial Proposal will be assigned a financial score (SF).The lowest financial proposal (FM) will be given a financial score (SF) of 1000 points in which 700 points for technical evaluation and 300 points for financial evaluation. The financial scores of other proposals will be computed as follows:
+
+2.20.8
+
+SF = 1000 x FM/F, where F = amount of Financial Proposal Thereafter, Combined and Final evaluation will be done on the following basis:
+
+Proposals will finally be ranked according to their combined score (S) based on their technical (ST) and financial (SF) scores as follows:
+
+S = ST x 0.7 + SF x 0.3
+
+2.20.9 The Selected bidder shall be the first ranked bidder (having the highest combined score).The score contains 700 score for technical evaluation and 300 score for financial evaluation.
+
+2.21
+
+Qualification Criteria
+
+2.21.1 Bidder must have an office in NCR
+
+2.21.2 Bidder’s turnover should be at least 50 cr in each of past 3 financial year.
+
+2.21.3 Bidder should not be blacklisted by any State or Central Govt Dept.
+
+2.21.4 Bidder should have executed at least 2 Projects of 10cr or more.
+
+2.21.5 Bidder Should be a registered entity(Company, LLP, Partnership )for at least 5 years.
+
+2.21.6 Bidder should have sufficient fulltime manpower to support the operations and listed resources should be employed for at least 3 months with the Bidder.
+
+2.21.7 The Bidder may be either the Principal Officer(MD/ Company Secretary) or his/her duly Authorized Representative, in which case he/she shall submit a power of attorney.
+
+2.22
+
+Post Qualification and Award Criteria
+
+2.22.1 This determination will take into account the Bidder's financial, technical, experience and capabilities. It will also include examination of the documentary evidence submitted by
+
+the Bidder as part of the bid as well as such other information as the Purchaser deems necessary and appropriate.
+
+2.22.2 An affirmative determination will be a prerequisite for award of the Contract to the Bidder.
+
+A negative determination will result in rejection of the Bidder's bid, in which event; the Purchaser will proceed to the next best evaluated bid to make a similar determination of that Bidder's capabilities to perform satisfactorily.
+
+2.22.3 The Purchaser is not bound to accept the best evaluated bid or any bid and reserves the right to accept any bid, wholly or in part.
+
+2.23
+
+Evaluation of Technical Bids
+
+2.23.1 Only those Bidders who cross the threshold level of Technical Evaluation indicated below and adhere to the Purchaser’s technical requirements shall be considered for next stage i.e. financial evaluation.
+
+2.23.2 Foreign currency Turnover will be converted into Indian Rupees based on RBI reference rate applicable as on the date of opening of RFP without assigning any weightage factor.
+
+2.23.3 In case of no response by the Bidder to any of the requirements with regard to the contents of the Technical Bid, he shall not be assigned any marks for the same.
+
+2.23.4 Technical bid of the Bidder shall be opened and evaluated for acceptability of Technofunctional requirements, deviations and technical suitability. Bidders shall respond to the requirements as explained below for their evaluation with regard to experience and qualification. Also, Bidder shall refer and respond to ALL technical and functional requirements as mentioned in the RFP document
+
+2.23.5 In order to qualify technically, a proposal must secure a minimum of 70% of total marks after summing up. The Bidder would be technically evaluated out of 1000 marks. Bids receiving 700 marks and above would qualify for financial evaluation.
+
+2.23.6
+
+Technical Evaluation
+
+2.23.7 Technical Evaluation shall be based on the following parameters and associated weightages:
+
+S.
+
+No.
+
+Evaluation Criteria
+
+1
+
+Company Profile
+
+1.A
+
+1.B
+
+1.C
+
+2 2.1 2.2 2.3 2.4 2.5
+
+2.24
+
+Supporting documents required
+
+Bidder should be a company registered for minimum 3 years in India as on 31 March 2015
+
+Bidder should have an annual turnover of at least Rs. 50 Crores in each of the last three(3) financial years (ending 31st March 2014 ) accruing from Project Management At least 2 project of 10cr or more preferably in Emergency Response Manpower Project Manager Architect Network Architect Contact Centre Expert Security Expert
+
+TOTAL
+
+Incorporation certificate PAN card VAT registration Copy of audited financial statements or declaration from the appointed statutory auditor Valid certificates
+
+Marks
+
+Min.
+
+Marks
+
+200
+
+100
+
+80
+
+80
+
+40
+
+Resumes and Presentation
+
+800 200 200 150 150 100 1000
+
+600
+
+700
+
+Purchaser's Right to Accept Any Bid and to Reject Any or All Bids
+
+2.24.1 The Purchaser reserves the right to accept any bid, and to annul the tender process and reject all bids at any time prior to award of Contract, without thereby incurring any liability to the affected Bidder (s) or any obligation to inform the affected Bidder (s) of the grounds for the Purchaser's action.
+
+2.25
+
+Notification of Award
+
+2.25.1 Prior to the expiration of the period of bid validity, the Purchaser will notify the successful Bidder in writing that its bid has been accepted. The Bidder shall provide his acceptance within defined time period of such notification.
+
+2.25.2 The notification of award will constitute the formation of the Contract.
+
+2.25.3 Upon the successful Bidder's furnishing of performance bank guarantee, the Purchaser may notify each unsuccessful Bidder and will discharge their EMD.
+
+2.26
+
+Performance Bank Guarantee
+
+2.26.1 Within 15 days of the receipt of notification of award from the Purchaser, the successful Bidder shall furnish the performance security of 10% of total contract value in accordance with the Conditions of Contract, in the Performance Bank Guarantee prescribed at
+
+Clause 3.1 of Section 4 of this RFP. The bank guarantee will be valid for 6 months beyond the end of contract period and in case of any extension of the contract, the Bank Guarantee will be valid for the extended period plus 6 months
+
+2.26.2 Failure of the successful Bidder to comply with the requirement of the RFP and signing of contract as per Clause 26.1 shall constitute sufficient grounds for the annulment of the award and forfeiture of the EMD, in which event the Purchaser may award the Contract to the next best evaluated bid or call for new bids.
+
+2.27
+
+Signing of Contract
+
+2.27.1 The successful Bidder shall sign the contract within 15 days of the receipt of notification of award.
+
+2.28
+
+Rejection Criteria
+
+2.28.1
+
+Besides other conditions and terms highlighted in the RFP document, bids mabe rejected under following circumstances:
+
+2.28.2
+
+General Rejection Criteria
+
+2.28.3 Bids submitted without or improper EMD
+
+2.28.4 Bids received through Telex / Telegraphic / Fax / e-Mail.
+
+2.28.5
+
+Bids which do not confirm validity of the bid as prescribed in the RFP
+
+2.28.6 If the information provided by the Bidder is found to be incorrect /
+
+misleading at any
+
+stage / time during the tendering Process
+
+2.28.7 Any effort on the part of a Bidder to influence the Purchaser’s bid evaluation, bid comparison or contract award decisions 2.28.8
+
+Bids received by the Purchaser after the last date and time for receipt of bids prescribed by the Purchaser, pursuant to Section 1 of the RFP.
+
+2.28.9 Technical Rejection Criteria 2.28.9.1
+
+Technical Bid containing financial details.
+
+2.28.9.2
+
+Revelation of Prices in any form or by any reason before opening the Financial
+
+Bid 2.28.9.3
+
+Failure to furnish all information required by the RFP Document or submission of
+
+a bid not substantially responsive to the RFP Document in every respect.
+
+2.28.9.4
+
+Bidders not responding to the complete scope of Work as indicated in the RFP
+
+documents, addendum (if any) and any subsequent information given to the Bidder.
+
+2.28.9.5
+
+If the bid does not conform to the timelines indicated in the bid.
+
+2.28.10
+
+Financial Rejection Criteria
+
+2.28.10.1
+
+If there is an arithmetic discrepancy in the Financial Bid calculations the
+
+Purchaser shall rectify the same. If the Bidder does not accept the correction of the errors, bid may be rejected.
+
+SECTION 3
+
+Scope of the Contract shall be as defined in Section 5 of the RFP and Annexes thereto of the tender
+
+3.1
+
+Instructions to Bidder
+
+3.1.1
+
+The Bidder shall perform the activities / services and carry out its obligations under the Contract with due diligence, efficiency and economy, in accordance with generally accepted techniques and practices used in the industry and shall observe sound management, engineering and security practices. The Bidder shall always act, in respect of any matter relating to this Contract, as faithful advisors to the Purchaser and shall, at all times, support and safeguard the Purchaser's legitimate interests in any dealings with Third parties.
+
+3.1.2
+
+The Bidder shall provide a monthly status report to the Purchaser.
+
+3.2
+
+Staffing and team:
+
+3.2.1
+
+The requirements for Bidder’s team and staffing are outlined in Section 5 – Scope of Work. Bidder shall ensure that the Bidder’s Team is security vetted as per Purchasers guidelines, competent, professional and possesses the requisite qualifications and experience appropriate to the task they are required to perform under this Contract.
+
+3.2.2
+
+Bidder shall ensure that the Services are performed through the efforts of the Bidder’s Team, in accordance with the terms hereof and to the satisfaction of the Purchaser.
+
+3.2.3
+
+Nothing in this Contract relieves the Bidder from its liabilities or obligations under this Contract to provide the Services in accordance with the Purchaser’s directions and requirements and as stated in this Contract and the Bid to the extent accepted by the Purchaser and the Bidder shall be liable for any non-performance, non-compliance, breach or other loss and damage resulting either directly or indirectly by or on account of its Team.
+
+3.2.4
+
+The Bidder shall provide the Purchaser with the resume of the proposed personnel and provide such other information as the Purchaser may reasonably require. The Bidder shall conduct background verification checks of the proposed personnel (Bidder’s Team) and share the report with the Purchaserbefore joining the project.
+
+3.2.5
+
+Purchaser reserves the right to interview the personnel proposed that will be deployed as part of the project team. If found unsuitable, the Purchaser may reject the deployment of the personnel.
+
+3.2.6
+
+Purchaser reserves the right to require changes in personnel which shall be communicated to the Bidder. The Bidder with the prior approval of the Purchaser may make additions to the project team.
+
+3.2.7
+
+The Bidder shall ensure that none of the Key Personnel (refer Clause 10.2 of Section 5 of the RFP) proposed, exit from the project during first 18 months of the project. The change of Key Personnel will be accepted only in case of person leaving the organization or medical exigency. It is important that the Bidder submits profiles of only those resources that are available for the project. In case of any change of the Key Personnel during the first 18 months of the project, it would attract a penalty as per clause 39 in this Section irrespective of the reasons. It does not apply in case of change requested by the Purchaser. Every change in any case will require the approval of the Purchaser.
+
+3.2.8
+
+In case of change in its team members, for any reason whatsoever, the Bidder shall ensure that the exiting members are replaced with at least equally qualified and professionally competent membersand shall ensure a reasonable amount of time overlap in activities to ensure proper knowledge transfer and handover / takeover of documents and other relevant materials between the outgoing and the new member.
+
+3.2.9
+
+In case of replacement of any manpower resource, the Bidder should ensure efficient knowledge transfer from the outgoing resource to the incoming resource and adequate hand-holding period and training for the incoming resource in order to maintain the continued level of service. There should be at least 30 day overlap period for knowledge transfer.
+
+3.2.10 All manpower resources deployed by the Bidder for execution of this contract must strictly adhere to the attendance reporting procedures and make their services available as agreed upon for the entire reporting time period at the Sites. The resources which have been allocated at 100% for the project, cannot work simultaneously on other projects.
+
+3.2.11 All manpower will be security vetted before deployment on the project and any cost associated with this will be borne by the bidder
+
+3.2.12 The Bidder shall provide at the respective sites necessary supervision during the execution of work and as long thereafter as the Purchaser may consider necessary for the proper fulfillment of the Bidder’s obligations under the Contract. The Bidder or his competent and authorized representative(s) shall be constantly present at the respective Data Centre Sites during agreed time for supervision. The Bidder shall authorize his representative to receive directions and instructions from the Purchaser’s Representative.
+
+3.2.13 The
+
+Bidder
+
+shall
+
+be
+
+responsible
+
+for
+
+the
+
+deployment,
+
+transportation,
+
+travel,
+
+accommodation and other requirements of all its employees required for the execution of the work and provision for all costs/charges in connection thereof.
+
+3.2.14 The Bidder shall provide and deploy at the Sites only those manpower resources who are qualified/skilled and experienced in their respective trades and who are competent to deliver in a proper and timely manner the work they are required to perform or to manage/supervise the work.
+
+3.2.15 The Purchaser’s Representative may at any time object to and require the Bidder to remove forthwith from the Sites; any authorized representative or employee of the Bidder or any person(s) of the Bidder’s team, if, in the opinion of the Purchaser’s Representative the person in question has misconduct or his / her deployment is otherwise considered undesirable by the Purchaser’s representative. The Bidder shall forthwith remove and shall not again deploy the person without the written consent of the Purchaser’s Representative.
+
+3.2.16 The Purchaser’s Representative may at any time object to and request the Bidder to remove from the project, any of Bidder’s authorized representative including any employee of the Bidder or his team or any person(s) deployed by the Bidder or his team for professional incompetence or negligence or for being deployed for work for which he is not suited or for any other reason. The Bidder will have to replace the concerned person.
+
+3.2.17 Liquidated Damages #
+
+1.
+
+2.
+
+Measurement
+
+Target
+
+Liquidated damage
+
+Signing of contract and submission of performance bank guarantee after award of notification by Purchaser
+
+a. Within 15 days of receipt of award of notification by Purchaser
+
+b. Within 30 days of receipt of award notification by Purchaser
+
+a. Forfeiture of
+
+EMD
+
+b. Cancellation of award of notification
+
+As per timelines
+
+1% of the quarterly payment for every week of delay
+
+Completion of All Deliverables as per Clause 5.2.2 in Section 5
+
+Liquidated damages will be capped at 10% of the contract value 3.3
+
+Payments
+
+3.3.1
+
+Purchaser will make all efforts to make payments to the Bidder within 30 days of receipt of invoice(s) and all necessary supporting documents. Bidder should raise invoices quarterly.
+
+3.3.2
+
+All payments agreed to be made by Purchaser to the Bidder in accordance with the Bid shall be inclusive of all statutory levies, duties, taxes and other charges whenever levied/applicable, if any, and Purchaser shall not be liable to pay any such levies/other charges under or in relation to this Contract and/or the Services.
+
+3.3.3
+
+No invoice for extra work/change order on account of change order will be submitted by the Bidder unless the said extra work /change order has been authorized/approved by the Purchaser in writing
+
+3.3.4
+
+In the event of Purchaser noticing at any time that any amount has been disbursed wrongly to the Bidder or any other amount is due from the Bidder to the Purchaser, the Purchaser may without prejudice to its rights recover such amounts by other means after notifying the Bidder or deduct such amount from any payment falling due to the Bidder.
+
+The details of such recovery, if any, will be intimated to the Bidder. The Bidder shall receive the payment of undisputed amount under subsequent invoice for any amount that has been omitted in previous invoice by mistake on the part of the Purchaser or the Bidder.
+
+3.3.5
+
+All payments to the Bidder shall be subject to the deductions of tax at source under applicable taxes, and deductions as provided for under any law, rule or regulation. All costs, damages or expenses which Purchaser may have paid or incurred, for which under the provisions of the Contract, the Bidder is liable, the same shall be deducted by Purchaser from any dues to the Bidder. All payments to the Bidder shall be made after making necessary deductions as per terms of the Contract and recoveries towards facilities, if any, provided by the Purchaser to the Bidder on chargeable basis.
+
+3.3.6
+
+In case of change in service taxes under change in law, appropriate parties shall pass the benefit, if any, of the same over and above the contract value to the other party.
+
+3.3.7
+
+All invoices to be submitted quarterly along with timesheet and travel expenses and all such reports due in that particular quarter. LD will apply and will be deducted as per
+
+section 3.2.17 for any delay in the submission of any reports during the quarter.
+
+Payment Milestones
+
+#
+
+3.
+
+Milestone
+
+Manpower Costs and Any Approved Travel Costs
+
+Supporting Documents
+
+Submission of Duly Signed Timesheets , any Travel Expense Reports and Milestone Reports Due in that quarter 21
+
+Frequency
+
+Quarterly
+
+3.4
+
+Intellectual Property Rights
+
+3.4.1
+
+Any / all Intellectual Property Rights owned by the Bidder prior to the execution date and/ or applied for prior to the execution date (“herein after referred to as “pre-existing IPR”) shall strictly vest with the Bidder as the case maybe and the Purchaser shall have no right whatsoever on such Intellectual Property Rights.
+
+3.5
+
+Term and Extension of the Contract
+
+3.5.1
+
+The term of this Contract is for 5 years. Any cost overrun in the project will be
+
+3.6
+
+Dispute Resolution
+
+3.6.1
+
+During the subsistence of this Contract or thereafter, in the event of any dispute, claim, question, or disagreement arising out of or in relation to this contract, disputes between the Parties shall include, without limitation of the validity, interpretation, implementation, material breach or any alleged material breach of any provision of this Contract or regarding any question, including as to whether the termination of this Contract by one Party hereto has been legitimate, the parties shall consult and negotiate with each other, in good faith and, recognizing their mutual interests, shall endeavor to settle such dispute amicably and/or by Conciliation to be governed by the Arbitration and Conciliation Act, 1996 or as may be agreed to between the Parties.
+
+The attempt to bring about an
+
+amicable settlement is considered to have failed as soon as one of the Parties hereto, after reasonable attempts; which attempt shall continue for not less than thirty (30) days, gives to the other Party a thirty (30) day notice in writing, to refer the dispute to arbitration.
+
+3.6.2
+
+The Arbitration proceedings shall be governed by the Arbitration and Conciliation Act, 1996
+
+3.6.3
+
+The Arbitration proceedings shall be held at New Delhi, India.
+
+3.6.4
+
+The Arbitration proceeding shall be governed by the substantive laws of India.
+
+3.6.5
+
+The proceedings of Arbitration shall be in English language.
+
+3.7
+
+Publicity
+
+3.7.1
+
+The Bidder / Bidder’s Team shall not make or permit to be made a public announcement or media release about any aspect of this Contract unless the Purchaser first gives the Bidder its written consent.
+
+3.7.2
+
+Bidder undertakes to take all reasonable steps to ensure that its employees/ agents/ representatives/ professional advisors and consultants comply with all provisions of this Contract
+
+3.8
+
+Force Majeure
+
+3.8.1
+
+The Purchaser or the Bidder as the case may be are entitled to suspend or excuse their respective performance of their respective obligations under this agreement to the extent that the Purchaser or the Bidder as the case may be is unable to render such performance by an event of Force Majeure.
+
+3.8.2
+
+In this agreement Force Majeure means any event or circumstance or a combination of events and circumstances, which satisfy all the following conditions:
+
+3.8.3
+
+materially and adversely affects the performance of an obligation;
+
+3.8.4
+
+are beyond the reasonable control of the affected party;
+
+3.8.5
+
+such party could not have prevented or reasonably overcome with the exercise of
+
+3.8.6
+
+good industry practice or reasonable skill or care;
+
+3.9 Confidentiality 3.9.1
+
+Confidential Information
+
+3.9.2
+
+All information (whether written/ tangible or oral/ Intangible) furnished by the Purchaser or any third party to the Bidder or Bidder’s Representatives/ employees/ agents, in connection with this Contract, and all analyses, compilations, studies or other information documents or materials prepared by Bidder or Bidder’s Representatives/ employees/ agents etc., in relation to information obtained by the Bidder in connection to and under the purview of this Contract shall be considered Confidential Information.The Bidder shall not, either during the term or after expiration of this Contract, disclose any proprietary or confidential information relating to the Services/Contract and/or Purchaser’s business/ operations, information, Application/software, hardware, business data, architecture schematics, designs, storage media and other information / documents without the prior written consent of the Purchaser.
+
+3.9.3
+
+All information disclosed in writing or email or other tangible electronic storage medium, shall be considered as “Confidential” by the Purchaser.
+
+3.9.4
+
+The term confidential information does not, however, include any information which:
+
+3.9.5
+
+was or became publicly available as a matter of law or otherwise without any disclosure by the Bidder/Bidder’s Representatives;
+
+3.9.6
+
+was or is developed by the Bidderor Bidder’s Representatives without reference to any information received from the Purchaser in connection with this Agreement; and
+
+3.9.7
+
+has been approved for release in writing by an authorized representative of the Purchaser.
+
+3.9.8
+
+Terms of Confidentiality
+
+3.9.9
+
+The Bidder (on behalf of itself and its Representatives/ agents/ employees):
+
+a. acknowledges the confidential and proprietary nature of the information;
+
+b. shall keep the information confidential and will not without the prior written consent of the Purchaser, disclose any information to any person (including, without limitation, any member of the media, or any other individual, corporation, partnership, limited liability company, Government agency, or group) in any manner whatsoever, and
+
+c. will not use any information other than for the purpose contained within the contract terms.
+
+3.10
+
+Modification
+
+3.10.1 Any modification of this Contract shall be in writing and signed by an authorized representative of each Party.
+
+3.11
+
+Change orders
+
+3.11.1 The Bidder agrees that the Manpower Requirements are not guaranteed by the Purchaser and Purchaser can require a lesser number of manpower. In case Purchaser needs more people of a particular category, Bidder will provide them at the quoted rate.
+
+SECTION 4
+
+Technical Formats Technical Bid Letter To The Director - SR Ministry Of Home Affairs 5Floor, NDCC – II building Jai Singh Road, New Delhi - 110001 Sir, Sub Selection of Project Management Consultants for Monitoring of NERS-ITSP and CADSP Ref: RFP No. <<>> dated << 2015>> We, <<name of the undersigned Bidder >>, having read and examined in detail all the bidding documents in respect of selection of IT Service Provider for Nationwide Emergency Response Systemdo hereby propose to provide our services as specified in the bidding proposal submitted by us.
+
+We declare that all the services shall be performed strictly in accordance with the RFP documents except for the variations, assumptions and deviations, all of which have been detailed out exhaustively in the format provided for statement of deviation, irrespective of whatever has been stated to the contrary anywhere else in our Proposal.
+
+We confirm that the information contained in this response or any part thereof, including its exhibits, and other documents and instruments delivered or to be delivered to Purchaser are true, accurate, verifiable and complete. This response includes all information necessary to ensure that the statements therein do not in whole or in part mislead the department in its evaluation process.
+
+We also confirm that we shall not attract conflict of interest in principle.
+
+We declare that :
+
+a. We are not currently blacklisted by any government organization in India (Central / State Government or PSU or Local Urban Body - municipalities etc).
+
+b. We have never been declared to be a willful defaulter by any Bank
+
+c. We are applying for the selection in the capacity of an individual firm as the Bidder
+
+d. We or any person on our behalf will not engage in any corrupt, fraudulent or coercive practices to influence the Bidding Process.
+
+e. We hereby acknowledge and unconditionally accept that the Purchaser can at its absolute discretion apply whatever criteria it deems appropriate, not just limiting to those criteria set out in the RFP and related documents, in short listing of IT service provider for providing services.
+
+f. We have enclosed a Bank Guarantee for Rs. 20,00,000 (Rs. Twenty Lakhs only)and Demand Draft of Rs 10,000/- (Rs Ten thousand only)in favour of ‘DDO, Ministry of Home Affairs” payable at New Delhi’. We understand that the EMD furnished as bank guarantee can be forfeited under certain condition as per terms in this contract. The tender fee of Rs 10,000 is non-refundable.
+
+g. We hereby declare that all information and details furnished by us in the Proposal are true and correct, and all documents accompanying such application are true copies of their respective originals.
+
+h. We have carefully read and understood the terms and conditions of the RFP and the conditions of the contract applicable to the RFP. We do hereby undertake to provision as per these terms and conditions.
+
+i. In the event of acceptance of our bid, we do hereby undertakei. To supply the products and commence services as stipulated in the schedule of delivery forming a part of the attached proposal. ii. To undertake the project services for a period of 5 years from the date of signing of the contract. iii. We affirm that the prices quoted are inclusive of delivery, installation, commissioning, training and providing facility management, and inclusive of all out of pocket expenses, taxes, levies discounts etc.
+
+j. We do hereby undertake, that, until a formal contract is prepared and executed, this proposal, together with your written acceptance thereof and notification of award of contract, shall constitute a binding contract between us.
+
+k. We understand that the bank guarantee furnished by us as Earnest Money Deposit may be encashed under conditions enumerated in Section 2 of the RFP
+
+l. We, <<name of the undersigned Bidder >>, having read and examined in detail all the bidding documents in respect to above mentioned RFP do hereby propose to provide our services as specified in the bidding proposal submitted by us.
+
+m. All the prices mentioned in our bid are in accordance with the terms as specified in the bidding documents. This bid is valid for a period of 90 days from the date of submission of RFP response.
+
+n. We have indicated in the relevant schedules enclosed, the unit rates on account of payment as well as for price adjustment in case of any increase / decrease from the scope of work under the contract.
+
+o. We declare that our bid prices are for the entire scope of the work as specified in the Scope of Work and bid documents.
+
+p. We hereby declare that in case the contract is awarded to us, we shall submit the contract Performance Bank Guarantee in the form prescribed in RFP within 15 days of notification of award.
+
+q. We hereby declare that our bid is made in good faith, without collusion or fraud and the information contained in the bid is true and correct to the best of our knowledge and belief.
+
+r.
+
+We understand that our bid is binding on us during the validity period or the extensions thereof and that you are not bound to accept a Bid you receive.
+
+s.
+
+We confirm that no deviations are attached here with this commercial offer.
+
+We understand that the Purchasermay cancel the bidding process at any time and that Purchaser is not bound to accept any bid that it may receive without incurring any liability towards the bidder.
+
+We hereby declare that our bid is made in good faith, without collusion or fraud and the information contained in the bid is true and correct to the best of our knowledge and belief.
+
+This proposal is valid for 120 days from the date of submission of bid. We shall extend the validity of the bid if required by MHA.
+
+Thanking you, Yours sincerely,
+
+(Signature of the authorized signatory of the Bidder) Printed Name Designation Seal Date:
+
+Place:
+
+Business Address:
+
+Non-Disclosure Agreement
+
+WHEREAS, we the undersigned Bidder, __________________________________, having our principal place of business/ registered office at _________________, are desirous of bidding for RFP No. <<>> dated <<DD-MM-2015>> “Selection of Project Management Consultants for Monitoring of NERS-ITSP and CAD-SP” (hereinafter called the said 'RFP') to the MHA, GoI hereinafter referred to as ‘Purchaser' and, WHEREAS, the Bidder is aware and confirms that the Purchaser’s business/ operations, information, application/software, hardware, business data, architecture schematics, designs, storage media and other information / documents made available by the Purchaser in the RFP documents during the bidding process and thereafter, or otherwise (confidential information for short) is privileged and strictly confidential and/or proprietary to the Purchaser, NOW THEREFORE, in consideration of disclosure of confidential information, and in order to ensure the Purchaser’s grant to the Bidder of specific access to Purchaser’s confidential information, property, information systems, network, databases and other data, the Bidder agrees to all of the following conditions.
+
+It is hereby agreed as under:
+
+1. The confidential information to be disclosed by the Purchaser under this Agreement (“Confidential Information”) shall include without limitation, any and all information in written, representational, electronic, verbal or other form relating directly or indirectly to processes, methodologies, algorithms, risk matrices, thresholds, parameters, reports, deliverables, work products, specifications, architecture, project information, security or zoning strategies & policies, related computer programs, systems, trend analysis, risk plans, strategies and information communicated or obtained through meetings, documents, correspondence or inspection of tangible items, facilities or inspection at any site to which access is permitted by the Purchaser.
+
+2. Confidential Information does not include information which:
+
+a. the Bidder knew or had in its possession, prior to disclosure, without limitation on its confidentiality;
+
+b. information in the public domain as a matter of law;
+
+c. is obtained by the Bidder from a third party without any obligation of confidentiality;
+
+d. the Bidder is required to disclose by order of a competent court or regulatory authority;
+
+e. is released from confidentiality with the written consent of the Purchaser.
+
+The Bidder shall have the burden of proving hereinabove are applicable to the information in the possession of the Bidder.
+
+3. The Bidder agrees to hold in trust any Confidential Information received by the Bidder, as part of the Tendering process or otherwise, and the Bidder shall maintain strict confidentiality in respect of such Confidential Information, and in no event a degree of confidentiality less than the Bidder uses to protect its own confidential and proprietary information. The Bidder also agrees:
+
+a. to maintain and use the Confidential Information only for the purposes of bidding for this RFP and thereafter only as expressly permitted herein;
+
+b. to only make copies as specifically authorized by the prior written consent of the Purchaser and with the same confidential or proprietary notices as may be printed or displayed on the original;
+
+c. to restrict access and disclosure of Confidential Information to their employees, agents, consortium members and representatives strictly on a "need to know" basis, to maintain confidentiality of the Confidential Information disclosed to them in accordance with this
+
+clause; and
+
+d. to treat Confidential Information as confidential unless and until Purchaser expressly notifies the Bidder of release of its obligations in relation to the said Confidential Information.
+
+4. Notwithstanding the foregoing, the Bidder acknowledges that the nature of activities to be performed as part of the Tendering process or thereafter may require the Bidder’s personnel to be present on premises of the Purchaser or may require the Bidder’s personnel to have access to software, hardware, computer networks, databases, documents and storage media of the Purchaser while on or off premises of the Purchaser. It is understood that it would be impractical for the Purchaser to monitor all information made available to the Bidder’s personnel under such circumstances and to provide notice to the Bidder of the confidentiality of all such information.
+
+Therefore, the Bidder shall disclose or allow access to the Confidential Information only to those personnel of the Bidder who need to know it for the proper performance of their duties in relation to this project, and then only to the extent reasonably necessary. The Bidder will take appropriate steps to ensure that all personnel to whom access to the Confidential Information is given are aware of the Bidder’s confidentiality obligation. Further, the Bidder shall procure that all personnel of the Bidder are bound by confidentiality obligation in relation to all proprietary and Confidential Information received by them which is no less onerous than the confidentiality obligation under this agreement.
+
+5. The Bidder shall establish and maintain appropriate security measures to provide for the safe custody of the Confidential Information and to prevent unauthorised access to it.
+
+6. The Bidder agrees that upon termination/expiry of this Agreement or at any time during its currency, at the request of the Purchaser, the Bidder shall promptly deliver to the Purchaser the Confidential Information and copies thereof in its possession or under its direct or indirect control, and shall destroy all memoranda, notes and other writings prepared by the Bidder or its Affiliates or directors, officers, employees or advisors based on the Confidential Information and promptly certify such destruction.
+
+7. Confidential Information shall at all times remain the sole and exclusive property of the Purchaser. Upon completion of the Tendering process and/or termination of the contract or at any time during its currency, at the request of the Purchaser, the Bidder shall promptly deliver to the Purchaser the Confidential Information and copies thereof in its possession or under its direct or indirect control, and shall destroy all memoranda, notes and other writings prepared by the Bidder or its Affiliates or directors, officers, employees or advisors based on the Confidential Information within a period of sixty days from the date of receipt of notice, or destroyed, if incapable of return. The destruction shall be witnessed and so recorded, in writing, by an authorized representative of the Purchaser. Without prejudice to the above the Bidder shall promptly certify to the Purchaser, due and complete destruction and return.
+
+Nothing contained herein shall in any manner impair rights of the Purchaser in respect of the Confidential Information.
+
+8. In the event that the Bidder hereto becomes legally compelled to disclose any Confidential Information, the Bidder shall give sufficient notice and render best effort assistance to the Purchaser to enable the Purchaser to prevent or minimize to the extent possible, such disclosure. Bidder shall not disclose to a third party any Confidential Information or the contents of this RFP without the prior written consent of the Purchaser. The obligations of this
+
+Clause shall be satisfied by handling Confidential Information with the same degree of care, which the Bidder applies to its own similar Confidential Information but in no event less than reasonable care.
+
+Company Profile
+
+A.
+
+Brief company profile
+
+SN
+
+Particulars
+
+1.
+
+Name of Bidder
+
+2.
+
+Legal status of Bidder (company, Pvt. Ltd., LLP etc.)
+
+3.
+
+Main business of the Bidder
+
+4.
+
+Registered office
+
+5.
+
+Incorporation date and number
+
+6.
+
+Service Tax number
+
+7.
+
+PAN details
+
+8.
+
+Primary Contact Person (Name, Designation, address, mobile number, fax, email) Secondary Contact Person (Name, Designation, address, mobile number, fax, email)
+
+9.
+
+Description/ Details
+
+10.
+
+EMD details
+
+11.
+
+Demand Draft details (DD No., date, Bank)
+
+B.
+
+Certificate of Incorporation Provide the Certificate of Incorporation of the company.
+
+C.
+
+Financial Turnover The financial turnover of the company is provided as follows:
+
+2011 – 12
+
+2012 – 13
+
+2013 – 14
+
+Annual Turnover Networth Copy of audited financial statements or declaration from the appointed statutory auditor to be provided as proof of the financial turnover
+
+Prior Experience Credential Summary #
+
+Project Name
+
+Client Name and type*
+
+Project Value (in INR)
+
+Project Components**
+
+1 2 3 4 5 6 7 * Client type – Indicate whether the client is Government / PSU / Private ** Project Components – Indicate the major project components like, setting up of Case record management application, contact centre., Application development, Maintenance, Hardware procurement and deployment, DC setup and maintenance, Facility management services, IT support and maintenance Please provide documentary evidence as required.
+
+4.1
+
+Details of Manpower Resource Note: For all proposed resources (referClause 10, Section 5), it is mandatory to provide name of proposed key personnel along with details desired as per format given below. It is also informed that the Purchaser would interview the resources suggested by the bidders before their deployment on board.
+
+S.No.
+
+Name of the Resource
+
+Proposed Role
+
+Higher Qualification
+
+Basic Qualification (E.g. B.E./ B.Tech/ MBA etc.)
+
+1.
+
+2.
+
+3.
+
+32
+
+Certifications (e.g. PMI/
+
+ITIL/ TOGAF)
+
+Number of projects in Similar Technology
+
+Total Experience (in years)
+
+1 Name:
+
+1.
+
+Proposed position (only one candidate shall be nominated for each position) / role
+
+2.
+
+Date of Birth
+
+DD-MM-YYYY
+
+3.
+
+Education
+
+Qualification
+
+4.
+
+Years of experience
+
+5.
+
+Areas of Expertise (as required for the Profile) and no. of years of experience in u this area
+
+6.
+
+Certifications and u Trainings attended
+
+7.
+
+Employment Record
+
+Nationality Name of School/College/University
+
+Employer
+
+Position
+
+Degree Obtained
+
+From
+
+Date Attended
+
+To
+
+[Starting with present position, list in reverse order, giving for each employment: dates of employment, name of employing organization, positions held.] 8.
+
+Detailed Assigned
+
+Tasks (List all tasks to be performed under this project) u
+
+9.
+
+Relevant Work Undertaken that Best Illustrates the experience as required for the Role)
+
+Project No:
+
+Name of assignment Year Location Employer Main project features Position held Activities performed
+
+Declaration of office in India The declaration should be provided on company letter head signed by duly authorized repsrentative of the company.
+
+To The Director - SR Ministry Of Home Affairs 5Floor, NDCC – II building Jai Singh Road, New Delhi - 110001 Sir, This is to certify that we, M/s <Company name>, have our own office in India. Address of our office is <Company office address>. The office was set up in the year <year of office set up>.
+
+Yours sincerely,
+
+(Signature of the Authorized Representative) Printed Name Designation Seal Date:
+
+Place:
+
+Business Address:
+
+Declaration of Non-Blacklisting The declaration should be provided on company letter head signed by duly authorized repsretative of the company.
+
+To The Director - SR Ministry Of Home Affairs 5Floor, NDCC – II building Jai Singh Road, New Delhi - 110001 Sir, This is to certify that M/s <Bidder company name> is not currently blacklisted by any Central / State Government (Central/State Government) or under a declaration of ineligibility for corrupt or fraudulent practices as of 31 March 2015.
+
+Yours sincerely,
+
+(Signature of the Authorized Representative) Printed Name Designation Seal Date:
+
+Place:
+
+Business Address:
+
+Earnest Money Deposit Form To The Director - SR Ministry Of Home Affairs 5Floor, NDCC – II building Jai Singh Road, New Delhi - 110001
+
+Whereas M/s <<Name of Bidder>>, a company incorporated under the <<Act>>, its registered office at ... / (hereinafter called 'the Bidder') has submitted its Proposal dated -------------- for Selection of Project Management Consultants for Monitoring of NERSITSP and CAD-SP(hereinafter called “the Bid”) to Ministry of Home Affairs (MHA).
+
+KNOW ALL MEN by these presents that WE <<Name of Bank>> of -------------------------------------------------------------------- having our registered office at ------------ -------------------------------------------------- (hereinafter called "the Bank") are bound unto the MHA(hereinafter called "the Client") in the sum of Rs. 20,00,000 (Rupees Twenty Lakhs only) for which payment well and truly to be made to the said Client, the Bank binds itself, its successors and assigns by these presents.
+
+Sealed with the Common Seal of the said Bank this -------------- day of ---------------------------2015 THE CONDITIONS of this obligation are:
+
+1. If the Bidder withdraws its bid during the period of bid validity specified by the Bidder in the Bid
+
+2. If the Bidder, having been notified of the acceptance of its Proposal by the Client during the period of validity of Proposal, bidder: · withdraws his participation from the Proposal during the period of validity of Proposal document; · fails to extend the validity if required and as requested or · fails to produce Performance Bank Guarantee in case of award of tender within 15 days of notification of award of contract We undertake to pay to the Client up to the above amount upon receipt of its first written demand, without the Client having to substantiate its demand, provided that in its demand the Client will
+
+note that the amount claimed by it is due to it owing to the occurrence of one or any or a combination of the above conditions, specifying the occurred condition or conditions.
+
+This guarantee will remain in force up to the period of bid validity <<Date of validity>>and its validity should be extensible to 180 days beyond the bid validity date. Any demand in respect thereof should reach the Bank not later than the above date.
+
+-------------------------------------------------(Authorized Signatory of the Bank)
+
+Financial Proposal Formats Financial Bid Letter To The Director - SR Ministry Of Home Affairs 5Floor, NDCC – II building Jai Singh Road, New Delhi - 110001 Sir, Sub: Selection of IT service provider for Nationwide Emergency Response System Ref:
+
+RFP No. <<>> dated << 2015>>
+
+i.
+
+We, <<name of the undersigned Bidder >>, having read and examined in detail all the bidding documents in respect to above mentioned RFP do hereby propose to provide our services as specified in the bidding proposal submitted by us.
+
+ii.
+
+All the prices mentioned in our bid are in accordance with the terms as specified in the bidding documents. This bid is valid for a period of 120 days from the date of submission of RFP response.
+
+iii.
+
+We have indicated in the relevant schedules enclosed, the unit rates on account of payment as well as for price adjustment in case of any increase / decrease from the scope of work under the contract.
+
+iv.
+
+We declare that our bid prices are for the entire scope of the work as specified in the Scope of Work and bid documents.
+
+v.
+
+We hereby declare that in case the contract is awarded to us, we shall submit the contract Performance Bank Guarantee in the form prescribed in RFP within 15 days of notification of award.
+
+vi.
+
+We hereby declare that our bid is made in good faith, without collusion or fraud and the information contained in the bid is true and correct to the best of our knowledge and belief.
+
+vii.
+
+We understand that our bid is binding on us during the validity period or the extensions thereof and that you are not bound to accept a Bid you receive.
+
+viii.
+
+We confirm that no deviations are attached here with this commercial offer.
+
+Thanking you,
+
+Yours sincerely,
+
+(Signature of the authorized signatory of the Bidder) Printed Name Designation Seal Date:
+
+Place:
+
+Business Address:
+
+Financial Bid should have the following details Sr.
+
+No.
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+Description
+
+No. of Persons
+
+Yearly Cost Year 1
+
+Yearly Cost Year 2
+
+Project Manager Project Coordinator – States Application Architect Network Architect Contact Center manager Security Audit Manager Security –
+
+SOC
+
+Manager Security Audit Specialist Security – Application Specialist Function Point Expert Table – A
+
+Yearly Cost Year 3
+
+Yearly Cost Year 4
+
+Yearly Cost Year 5
+
+Total
+
+Total A
+
+1. Yearly Cost in each Year is the Unit Yearly Cost for that year. The total for each resource type will be calculated as = (No. of Persons)*(Y1+Y2+Y3+Y4+Y5).
+
+2. In case of part deployment, yearly cost of the respective year divided by 12 would be considered as the monthly unit rate of the resource
+
+3. Not all manpower will be required for the entire duration of the contract. Some manpower will be deployed on a monthly basis and their payment will be made for the months deployed.
+
+4. If Purchaser requires additional manpower to be deployed then the Bidder will have to provide the additional manpower at the quoted rate.
+
+Section 5
+
+5.1. Overview 5.1.1
+
+In India historically we have had different phone numbers to call police, fire and ambulance services namely 100, 102, 103. This system was designed at the time of a regulated telecom sector with only one telecom provider across India and one in each metro. Hence any call to these emergency numbers were routed to a call agent/dispatcher of that particular emergency service and handled by the emergency personal themselves. The system was not designed for emergency response initially but as an emergency contact.
+
+5.1.2
+
+Over the time, in response to changing environment, the three services have tried to evolve
+
+5.1.3
+
+the emergency contact into an emergency response system with mixed results. A number of cities have provided additional numbers for specific emergency situations which are not routed to a central emergency response dispatcher. This leads to confusion in the public about emergency contact number.
+
+5.1.4
+
+After the incident of 16 December 2012 in Delhi, a Committee headed by Justice J.S.
+
+Verma, former Chief Justice of Supreme Court, with Justice (retired) Leila Seth, and Shri Gopal Subramanian was set up on 23 December, 2012 to give recommendations on amending laws to provide for speedy justice and enhanced punishment for criminals in sexual assault cases of extreme nature. The Committee had recommended the setting up of a public emergency response system which will have the ability to dispatch an Emergency Response (ER) unit to respond and close the ER call.
+
+5.1.5
+
+On the same, the Ministry of Home Affairs, as per the recommendation of the Justice Verma received the project approval for Computer Aided Dispatch System for Emergency Response. With the current challenges being faced by major Police forces in the Country for an immediate emergency response system specifically
+
+5.1.6
+
+Bidders scope of work is mentioned in this section. Bidder shall provide qualified and experienced personnel to monitor the implementation of NERS by ITSP and CAD Service Provider and ensure that all contractual objectives of ITSP contract and CAD-SP contract are met.Bidder must provide clear definition of the role and responsibility of each individual personnel..
+
+5.1.7
+
+Changes in Manpower deployment will have to be approved by the purchaser. The following table provides an indicative list of resource categories and the minimum resource requirements estimated for the different sites.
+
+5.2 Scope of Work 5.2.1
+
+The Bidder will have to provide the following manpower to ensure effective project management during implementation and operations and maintenance phase of NERS.
+
+However, MHA does not guarantee that all resources will be deployed at any given point.
+
+The resources to be deployed will depend on the requirement. MHA may also use these resources for other e-governance projects.
+
+S.
+
+No .
+
+No. of resources (Min)
+
+Description
+
+1.
+
+Project Manager
+
+2
+
+2.
+
+Project CoordinatorStates
+
+6
+
+3.
+
+Application and Database Architect
+
+4.
+
+Network Architect
+
+1
+
+5.
+
+Contact Center Manager
+
+1
+
+6.
+
+Security Audit Manager
+
+7.
+
+8.
+
+9.
+
+10.
+
+–
+
+Security –
+
+SOC
+
+Manager Security Audit Specialist Security Application Specialist Function Point Expert
+
+5.2.2
+
+2
+
+1
+
+Minimum Qualifications B.Tech / B.E/
+
+MCA/
+
+MSc.(Computer Science/IT)+
+
+MBA
+
+Bachelors Degree preferably in Business Administration M.Tech/B.Tech
+
+/ B.E/ MCA/
+
+MSc.(Computer Science/IT) M.Tech/B.Tech
+
+/ B.E/ MCA/
+
+MSc.(Computer Science/IT) B.Tech / B.E/
+
+MCA/
+
+MSc.(Computer Science/IT) M.Tech/B.Tech
+
+/ B.E/ MCA/
+
+MSc.(Computer Science/IT)
+
+Min.
+
+Experience required
+
+Desirable Certifications PMI / Prince2 certification
+
+12 years
+
+8 years
+
+8 years
+
+7 years
+
+PMI / Prince2 certification Togaff, OpenCA ITac
+
+or
+
+CCNA/CWN
+
+A/CCNP etc.
+
+7 years
+
+CISSP/CISC/
+
+CISA
+
+8 years
+
+CISSP/CISM/
+
+CISA
+
+1
+
+B.E./B.Tech
+
+/MCA
+
+8 years
+
+CISSP/CCIE(
+
+Sec)/GIAC
+
+2
+
+B.E./B.Tech/
+
+MCA
+
+6 years
+
+CISSP/CISM/
+
+CISA/ISO LA
+
+1
+
+B.Tech/M.Sc./
+
+MCA.
+
+6 years
+
+1
+
+B.Tech/M.Sc/M
+
+CA
+
+6 yrs
+
+CISSP/GIAC/
+
+OWASP/ECC
+
+IFPUG
+
+Certification
+
+Deliverables and Reports
+
+5.2.2.1
+
+The bidder will have the following deliverables and will be submitting reports at appropriate intervals .
+
+Sr. No.
+
+1.
+
+2.
+
+3.
+
+Deliverables IT Infrastructure Report
+
+Task Timelines Quarterly Submission of report on installation of the Hardware, software, VM’s and Networking equipment and network configuration. Report to be continuously updated Review of Code and Will review Code and Test Cases of ITSP and Before Release Test Cases for major CAD-SP modules Software Build and Create a report of all changes in every release Quarterly Release Management in production.
+
+Report
+
+4.
+
+Emeregency Response SOP
+
+Create an SOP document for different types of Once and emergencies and a FAQ for citizens on how to Revised quarterly handle crime, medical or fire emergency.
+
+Differentiate between emergency and nonemergency situations. Assist Purchaser in creation and update of SOPs by putting up list of incidents and their response. , Assist in preparation of revised response standards in view of experience gathered while dealing with matters and feedback received from field.
+
+5.
+
+Monitoring Forms
+
+Design mechanisms to monitor the activities under the ITSP and CAD-SP RFP;
+
+6.
+
+Minutes of Meeting Preparation;
+
+Presentations etc.
+
+Interaction and Coordination with various Stakeholders, preparing minutes, preparing and making presentations, Coordinate workshops and discussion meetings with stakeholders.
+
+7.
+
+Data Security Report Review of database structure including:
+
+Classification of data in terms of sensitivity & levels of access, Security measures over database installation, password policies & user roles & privileges, Access control on database objects – tables, views, triggers, synonyms, etc., Database restoration and recoverability, Audit trails configuration and monitoring process
+
+Quarterly
+
+8.
+
+Portal Audit Report
+
+Quarterly
+
+Review of Network, Portal & Website – will include: Penetration & vulnerability testing, Security exposures to internal & external stakeholders,
+
+42
+
+Once and Revised if required On Event
+
+Sr. No.
+
+Deliverables
+
+Task
+
+Timelines
+
+9.
+
+BCP and Risk Report Publish a BCP report for the project and Within 6 months ensure technology, people and process is and updated aligned to ensure 24x7x365 uptime. Review of six-monthly Backup process, including schedule, storage, archival and decommissioning of media, Identifying risks to the project and suggesting mitigation plans.
+
+10.
+
+Security Incident Report
+
+11.
+
+GIS Update Report
+
+12.
+
+SLA Review Report
+
+13.
+
+Change Request Review
+
+Review and Submit Security Incident Reports Monthly Ensure and Review RCA reports.
+
+Ensure and Review Problem Incident reports.
+
+Ensure and Review Remediation reports Review progress of GIS updation / geofencing Quarterly of police stations; Prepare strategy to keep GIS data continuously updated Quarterly Review the SLA performance, capacity and effectiveness of the helpdesk set up by ITSP Highlight key issues / bottlenecks in the system and will suggest the mitigation plans.
+
+Monthly Review the change control requests and recommendations on incorporating the same in the system.
+
+Review of Change Management Process, Incident management process – covering identification, response, escalation mechanisms, Anti-virus (malware) controls – patching, virus definition file update, General Computer Controls Review.
+
+Application Security code review reports
+
+14.
+
+15.
+
+16.
+
+17
+
+18
+
+Submission of Monthly reports highlighting the Monthly adherence to the project plan or delays and defaults, if any and suggesting the corrective actions thereof.
+
+State level Implementation and Central Deployment of contact center and other applications status to be included. Maintain Issue Tracker and keep on updating the status of all risks and issues from time to time, Regular monitoring of the SI’s project management information system, configuration management system and compliance to contractual obligations.
+
+Twice a year Field Visit and Impact Perform 2 Field Visits for Monitoring the Study Implementation and Impact of NERS in the country, both urban and rural and take feedback from citizens and suggest improvement.
+
+Quarterly Acceptance Test Define Criteria for acceptance testing and Report Facilitate Final Acceptance Testing of the Hardware and software deliverable as per the specifications & quantities mentioned in the ITSP and CAD-SP RFP.
+
+Successful installation of Hardware at various locations and data center / DR site Networking equipment & connectivity.
+
+Security & performance standards of the overall solution.
+
+Training to the departmental personnel.
+
+Handholding Support.
+
+Prepare exit plan, oversee exit process, verify 6 months Exit plan before inventories, verify health of assets being handed over, ensure transfer of expiry of contract licenses, AMC, spares, manuals etc.
+
+Monthly Progress Report including (Contact Center, DC and State and Network status )
+
+Exit Document
+
+Handover of project assets either in softcopy or hardcopy format.
+
+The artifacts should be clearly titled, indexed and its significance indicated.
+
+3 months before expiry of the contract
+
+Note : Any travel expenses incurred for Deliverable No. 15, (Field Visit) or any other travel required by the Purchaser will be reimbursed on actuals by the Purchaser. The rates applicable to a Director will be used as a Cap.
+
+5.3 Resource Profiles
+
+5.3.1 Project Manager 5.3.1.1 Shall review the quality of project deliverables to ensure compliance with the agreed quality measures and standards.
+
+5.3.1.2 Shall participate in all project meetings and project review meetings.
+
+5.3.1.3 Shall be responsible for conflict management, issue and dispute resolution.
+
+5.3.1.4 Shall ensure compliance to the terms and conditions of the Contract 5.3.1.5 Shall be responsible for overall Project Planning.
+
+5.3.1.6 Shall review the solution proposed and the integration plan for completeness and correctness.
+
+5.3.1.7 Shall participate in the steering committee meetings.
+
+5.3.1.8 Shall have extensive experience and proven expertise in managing complex multi-task contracts 5.3.1.9 Shall have a thorough understanding and knowledge of the principles and methodologies associated with program management, vendor management, change control board management, quality assurance metrics and techniques, and configuration management tools.
+
+5.3.2 Application and Database Architect 5.3.2.1 Will review the Technical Documents (HLD and LLD) submitted by the Vendors during execution of the project 5.3.2.2 Will review and suggest optimization of Virtual Machines deployment 5.3.2.3 Interact with Vendor architects, project management to determine the solution interdependencies and interfacing requirements.
+
+5.3.2.4 Should have understanding of Cloud Based Deployment 5.3.2.5 Should have comprehensive knowledge of overall software architecture and software engineering methodologies, principles and practices.
+
+5.3.2.6 Should have worked with Java and Mysql in a high-traffic production environment.
+
+5.3.2.7 Will review all release in production to proper integration between different entities 5.3.2.8 Should have done data modeling and performance tuning of databases.
+
+5.3.3 Network Architect 5.3.3.1 Will participate in Network Architecture Design and Discussion with the Vendors and ensure optimal utilization of the network bandwidth.
+
+5.3.3.2 Should have knowledge of installation, configuration and trouble-shooting of switches, Routers, Firewalls, and IPS. VLAN configuration etc., 5.3.3.3 Should have Knowledge of Networking protocols.
+
+5.3.4 Contact Center Manager 5.3.4.1 Will oversee the development, changes and implementation of the contact center solution including IVRS, CRM and related software.
+
+5.3.4.2 Should be familiar with the components of a centralized contact center’s infrastructure e.g. Trunk lines, PBX solution etc. and should be able to complement the efforts of other architects 5.3.4.3 Must be familiar with all the Contact Centre system components e.g. IP PBX, ACD, CTI, Case Record Management, LBS, IVRS etc. and should be able to assist in the configuration, installation and customization of these applications 5.3.4.4 Should have experience of designing and implementing the Contact Centres for large scale complex projects
+
+5.3.5 Project Coordinator 5.3.5.1 Responsible to the project coordination with multiple resource of SI team and Purchaser team 5.3.5.2 Manage all kind of documentation related to the project 5.3.5.3 Arrange project meeting between purchaser and IT service provider on requirement basis 5.3.5.4 Responsible for coordination with states 5.3.5.5 Handle all contractual matters with states.
+
+5.3.5.6 Keep a track of all hardware delivered to state.
+
+5.3.5.7 Facilitate signing of MOU’s with states.
+
+5.3.5.8 Resolve all state issues with the ITSP or CAD-SP
+
+5.3.6 Security Audit Manager 5.3.6.1 Plans, organizes and conducts IT audits to help identify associated IT compliance control gaps, including the preparation of audit plans. Manages the documentation, implementation and testing of the entire IT compliance control portfolio.
+
+5.3.6.2 Implements and maintains an IT compliance and audit issue management tracking and resolution process that will address known issues, according to severity and potential impact.
+
+5.3.6.3 Working with IT, legal and compliance representatives, determines and maintains an up-to-date inventory of all related IT compliance requirements associated with the laws and regulations (i.e., security, user access, privacy, data integrity, etc.) and internal standards (e.g., code of conduct and use).
+
+5.3.6.4 Develops and manages an IT compliance risk assessment framework, and periodically assesses regulatory, commercial and organizational, inherent and residual IT compliance risks.
+
+5.3.6.5 Develops and manages IT compliance control monitoring programs to ensure IT compliance-related risks are managed to the appropriate level of acceptable residual risk.
+
+5.3.6.6 Ensures acceptable compliance controls are implemented and maintained for every new initiative or system changes.
+
+5.3.6.7 Coordinates coverage with internal and external auditors, and ensures that each party is not only aware of the other's work but also well briefed on areas of concern.
+
+5.3.6.8 Facilitates the creation and modification of all technology compliance policies.
+
+5.3.6.9
+
+Facilitates the creation of an IT compliance training and awareness program that periodically educates the requisite end-user community on the relevant IT compliance requirements, and certifies their adherence to the relevant IT compliance controls.
+
+5.3.7 Security SOC Manager 5.3.7.1 Understand a variety of network protocols including TCP/IP, UDP, DHCP, FTP, SFTP, ATM, SNMP, SMTP, SSH, SSL, VPN, RDP, HTTP and HTTPS.
+
+5.3.7.2 Utilize network sniffer tools to perform packet analysis.
+
+5.3.7.3 Operate SEIM consoles in order to monitor the environment for events of interest.
+
+5.3.7.4 Research external trusted intelligence sources and leverage knowledge to detect events of interest 5.3.7.5 Understand cyber-attack methods such as SQL Injection and Cross Site Scripting attacks (XSS.) 5.3.7.6 Perform analysis of security logs in an attempt to detect unauthorized access 5.3.7.7 Use vulnerability assessment data to pinpoint potential points of attack.
+
+5.3.7.8 Document and contain security incidents detected on the network 5.3.7.9 Execute incident response process when a security incident has been declared
+
+5.3.7.10 Plan, coordinate, and implement network security measures in order to protect data, software, and hardware on government networks.
+
+5.3.7.11 Maintain logs related to network functions, as well as maintenance and repair records.
+
+5.3.7.12 Document and present findings to management suitable for customer consumption
+
+5.3.8 Security Audit Specialist:
+
+5.3.8.1 conducts IT audits to help identify associated IT compliance control gaps, including the preparation of audit plans. Manages the documentation, implementation and testing of the entire IT compliance control portfolio.
+
+5.3.8.2 Implements and maintains an IT compliance and audit issue management tracking and resolution process that will address known issues, according to severity and potential impact.
+
+5.3.8.3 Working with IT, legal and compliance representatives, determines and maintains an up-to-date inventory of all related IT compliance requirements associated with the laws and regulations (i.e., security, user access, privacy, data integrity, etc.) and internal standards (e.g., code of conduct and use).
+
+5.3.8.4
+
+5.3.8.5
+
+5.3.8.6
+
+5.3.8.7
+
+Develops and manages an IT compliance risk assessment framework, and periodically assesses regulatory, commercial and organizational, inherent and residual IT compliance risks.
+
+Develops and manages IT compliance control monitoring programs to ensure IT compliance-related risks are managed to the appropriate level of acceptable residual risk.
+
+Coordinates coverage with internal and external auditors, and ensures that each party is not only aware of the other's work but also well briefed on areas of concern.
+
+Facilitates the creation of an IT compliance training and awareness program that periodically educates the requisite end-user community on the relevant IT compliance requirements, and certifies their adherence to the relevant IT compliance controls.
+
+5.3.9 Security Application Specialist 5.3.9.1 Work with IT and Project teams to provide oversight on data and system security including Integration Broker and Interfaces 5.3.9.2 Analyze, evaluate and develop solutions for business system needs and objectives for the user community based on established security best practices 5.3.9.3 Assess current Security configuration and recommend process improvements to role and row-level security 5.3.9.4 Communicate all security issues related to business system administration – this includes collaborating with functional and technical owners on incident management, problem management, escalation management and resource management 5.3.9.5 Troubleshoot and resolve application and functional security issues 5.3.9.6 Assist with maintaining security integrity over the production and nonproduction environments 5.3.9.7 Work with internal and external audit teams and provide proper 5.3.9.8 documentations for compliance and audit reporting 5.3.9.9 Run daily, weekly and other periodic access reports and take action per established process
+
+5.3.9.10 Perform code and design reviews of internally developed applications
+
+5.3.10 Function Point Expert
+
+5.3.10.1 Set up the process and policy for estimation and counting of Function Points
+
+5.3.10.2 Should be an expert on IFPUG methodology
+
+5.3.10.3 Analyze HLD/LLD/SRS/FRS and other related technical and functional documentation to estimate the size of software

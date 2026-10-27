@@ -1,0 +1,127 @@
+CLAUSEXPLAIN -- FULL END-TO-END VALIDATION (Phase 1 through Phase 2B)
+Generated: 2026-09-20T17:02:03.114910+00:00
+
+======================================================================
+VALIDATION 1 -- RAW CUAD
+======================================================================
+  [PASS] raw CUAD file exists
+  [PASS] raw file has 'version' and 'data' keys
+  [PASS] exactly 510 contracts (found 510)
+  [PASS] exactly 41 categories (found 41)
+  [PASS] 13,823 answer spans (found 13823)
+  [PASS] no corrupted contract records
+  [PASS] all answer offsets valid (text at offset matches answer text)
+
+======================================================================
+VALIDATION 2 -- PHASE 1 EXTRACTION (clauses.jsonl)
+======================================================================
+  [PASS] clauses.jsonl exists
+  [PASS] exactly 13,823 rows (found 13823)
+  [PASS] no rows with missing required fields
+  [PASS] no duplicate clause_ids (0 dupes)
+  [PASS] exactly 510 distinct contract_ids referenced (found 510)
+  [PASS] exactly 41 CUAD categories represented (found 41)
+  [INFO] multi-span rows: 9726 (70.4%)
+
+======================================================================
+VALIDATION 3 -- 41 -> 18 MAPPING (category_mapping.csv)
+======================================================================
+  [PASS] category_mapping.csv exists
+  [PASS] exactly 41 rows (found 41)
+  [PASS] no duplicate cuad_category rows
+  [PASS] every CUAD category in the data has exactly one mapping row
+  [PASS] no target category outside the 18 (found 12 used)
+  [PASS] every row has a non-empty mapping_reason
+  [PASS] Payment has zero CUAD source categories (found 0)
+  [PASS] Commercial Terms sourced from exactly the 5 intended categories (found ['Minimum Commitment', 'Most Favored Nation', 'Price Restrictions', 'Revenue/Profit Sharing', 'Volume Restriction'])
+  [INFO] CUAD categories mapped to Other: ['Audit Rights', 'Non-Disparagement', 'Rofr/Rofo/Rofn']
+  [PASS] no legal_basis_or_note uses unhedged absolute language (flagged: [])
+
+======================================================================
+VALIDATION 4 -- MAPPED DATASET (clauses_mapped.jsonl)
+======================================================================
+  [PASS] clauses_mapped.jsonl exists
+  [PASS] exactly 13,823 rows (found 13823)
+  [PASS] row count matches clauses.jsonl exactly
+  [PASS] no duplicate clause_ids (0 dupes)
+  [PASS] clause_text unchanged from source for every row
+  [PASS] char_start/char_end unchanged from source for every row
+  [PASS] every row carries source='CUAD_v1'
+  [PASS] every row carries span_type='CUAD-highlighted span' (not 'clause')
+  [PASS] every row retains its original cuad_category
+  [PASS] every category_status is one of MAPPED/METADATA/EXCLUDED
+  [INFO] Target categories with zero mapped rows: ['Confidentiality', 'Force Majeure', 'Indemnification', 'Modification', 'Payment', 'Privacy / Data Protection']
+
+======================================================================
+VALIDATION 5 -- CONTRACT ID QUALITY
+======================================================================
+  [PASS] 510 contract rows (found 510)
+  [PASS] exactly 510 unique contract_ids (found 510)
+  [PASS] both known-colliding Playboy Enterprises titles present (2 found)
+  [PASS] the two previously-colliding titles now produce DIFFERENT contract_ids
+  [PASS] unique clause_ids (13823) == total rows (13823)
+
+======================================================================
+VALIDATION 6 -- PHASE 2 SCHEMA (phase2_annotation_schema.json)
+======================================================================
+  [PASS] valid JSON
+  [PASS] every field has name/type/required/source/description (missing on: [])
+  [PASS] all 5 score fields declare the discrete 5-point allowed_values set
+  [PASS] provisional_risk_score_4dim is defined
+  [PASS] provisional_risk_level_4dim is defined
+  [PASS] schema_version >= 2.2 (found 2.2)
+  [PASS] annotation_source includes ai_assisted_preannotation (v2.2)
+  [PASS] reviewed_by_human field is defined (v2.2)
+
+======================================================================
+VALIDATION 7 -- ANNOTATION GUIDELINES
+======================================================================
+  [PASS] guidelines file exists and is non-empty
+  [PASS] mentions the discrete 5-point scale explicitly
+  [PASS] does not instruct continuous scoring anywhere (only historical note allowed)
+  [PASS] does not claim lawyer/expert validation
+  [PASS] instructs requires_legal_review=True on every record
+  [PASS] never instructs use of the word 'illegal'
+
+======================================================================
+VALIDATION 8 -- INDIAN LEGAL RULES (indian_legal_rules.csv)
+======================================================================
+  [PASS] 15 rules loaded, non-empty
+  [PASS] every rule has all required columns including rule_type (missing on: [])
+  [PASS] every rule_type is one of risk_trigger/contextual/gap_detection (bad: [])
+  [INFO] rule_type distribution: {'risk_trigger': 7, 'contextual': 4, 'gap_detection': 4}
+  [PASS] every confidence is High/Medium/Low (bad: [])
+  [PASS] even High-confidence rules still have requires_review=True (no rule is treated as settled)
+
+======================================================================
+VALIDATION 9 -- RISK FORMULA (risk_scoring_specification.txt)
+======================================================================
+  [PASS] distinguishes a final 5D score from a provisional 4D score
+  [PASS] provisional score formula uses only U, A, NC, E (not P)
+  [PASS] states thresholds 0.33 / 0.66
+  [PASS] explicitly labels thresholds as experimental/operational, not statutory
+  [PASS] documents the discrete scale (not continuous)
+
+======================================================================
+VALIDATION 10 -- SIX ZERO-COVERAGE CATEGORIES
+======================================================================
+  [PASS] exactly the expected 6 zero-coverage categories (found: ['Confidentiality', 'Force Majeure', 'Indemnification', 'Modification', 'Payment', 'Privacy / Data Protection'])
+  [PASS] Dispute Resolution is NOT zero-coverage (has 173 spans)
+
+======================================================================
+VALIDATION 11 -- SAMPLE DATA (risk_annotation_sample.csv)
+======================================================================
+  [PASS] approximately 200 records (found 200)
+  [PASS] no duplicate clause_ids (0 dupes)
+  [PASS] none of the 6 zero-coverage categories falsely appear in the sample
+  [PASS] Commercial Terms IS represented in the sample
+  [INFO] Sample category distribution: {'Non-Compete': 18, 'Commercial Terms': 18, 'Other': 17, 'Termination': 17, 'Intellectual Property': 17, 'Warranty': 17, 'Assignment': 16, 'Dispute Resolution': 16, 'Penalties': 16, 'Non-Solicitation': 16, 'Governing Law / Jurisdiction': 16, 'Liability': 16}
+
+======================================================================
+OVERALL SUMMARY
+======================================================================
+Total checks run: 67
+Passed: 67
+Failed: 0
+
+RESULT: ALL CHECKS PASSED.

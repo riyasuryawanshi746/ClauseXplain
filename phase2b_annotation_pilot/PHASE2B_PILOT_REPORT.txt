@@ -1,0 +1,322 @@
+PHASE 2B PILOT REPORT — ClauseXplain
+=======================================
+
+>>> THE 10 PILOT ANNOTATIONS WERE GENERATED AS AI-ASSISTED PREANNOTATIONS
+>>> AND HAVE NOT YET BEEN REVIEWED OR ADOPTED AS HUMAN RESEARCHER
+>>> ANNOTATIONS. They are unreviewed machine drafts. They are not research
+>>> data. They must not be used for inter-annotator agreement.
+
+File: risk_annotations_ai_pilot.jsonl
+Provenance: annotation_source="ai_assisted_preannotation",
+            annotator_id="claude_opus_4_5__pilot_2026_09",
+            reviewed_by_human=false  (on every record)
+Human file: risk_annotations_human.jsonl — untouched, 0 bytes, SHA256
+            unchanged from the pre-task baseline.
+
+-------------------------------------------------------------------------
+A. OBJECTIVE
+-------------------------------------------------------------------------
+To test whether the ClauseXplain annotation methodology is understandable,
+reproducible, legally cautious and internally consistent — BEFORE
+committing to 190 more clauses. The pilot's value is in the problems it
+exposes, not in the 10 labels it produces. Ten labels are far too few to
+train or evaluate anything, and no such claim is made.
+
+-------------------------------------------------------------------------
+B. SAMPLE
+-------------------------------------------------------------------------
+10 clauses from pilot_clause_ids.json (unchanged; not resampled).
+10 distinct ClauseXplain categories, one each: Assignment, Commercial
+Terms, Dispute Resolution, Governing Law/Jurisdiction, Intellectual
+Property, Liability, Non-Compete, Non-Solicitation, Other, Penalties.
+Source: CUAD v1 -> Phase 1 extraction -> 41->18 mapping -> 200-clause
+stratified sample (seed 42) -> deterministic category-diverse pilot.
+Lineage verified this session: clause_text, clausexplain_category and
+cuad_category are byte-identical to the sample rows.
+
+-------------------------------------------------------------------------
+C. ANNOTATION METHODOLOGY
+-------------------------------------------------------------------------
+Scale: discrete 5-point {0.00, 0.25, 0.50, 0.75, 1.00}.
+Dimensions scored: unfairness, ambiguity, non_compliance, enforceability.
+Precedent: precedent_match_score = null on every record. No precedent
+  corpus exists. Null was NOT replaced with 0.
+Canonical score: risk_score = null, risk_level = null on every record,
+  because the 5-dimension formula cannot be computed without precedent.
+Provisional: provisional_risk_score_4dim = (U+A+NC+E)/4, exactly per
+  risk_scoring_specification.txt s.4b. Banded with the same 0.33/0.66
+  thresholds. No new weights were invented.
+Legal rules: only indian_legal_rules.csv was used. Rule types
+  (risk_trigger / contextual / gap_detection) were respected — no
+  contextual rule was treated as a violation.
+
+-------------------------------------------------------------------------
+D. CLAUSE-BY-CLAUSE SUMMARY
+-------------------------------------------------------------------------
+  #  Category                  U     A     NC    E     Prov   Level   Rule applied
+  1  Assignment                —     —     —     —     —      —       SKIPPED (unusable span)
+  2  Commercial Terms          0.25  0.50  0.00  0.25  0.2500 Low     none
+  3  Dispute Resolution        0.50  0.25  0.00  0.25  0.2500 Low     none (S.124 considered)
+  4  Governing Law/Juris.      0.00  0.00  0.00  0.00  0.0000 Low     none
+  5  Intellectual Property     0.25  0.00  0.00  0.00  0.0625 Low     none
+  6  Liability                 0.25  0.50  0.00  0.00  0.1875 Low     none (S.73 not apt)
+  7  Non-Compete               0.25  0.50  0.00  0.25  0.2500 Low     none (S.27 not triggered)
+  8  Non-Solicitation          0.25  0.50  0.25  0.50  0.3750 Medium  ICA_S27_02 (risk_trigger)
+  9  Other                     0.25  0.75  0.00  0.00  0.2500 Low     none
+ 10  Penalties                 0.25  0.50  0.00  0.25  0.2500 Low     none (S.74 not triggered)
+
+Exactly ONE of nine completed clauses had a rule trigger_condition
+affirmatively met. Four rules were explicitly considered and rejected
+because their trigger conditions were not satisfied (S.124 on clause 3,
+S.73 on clause 6, S.27_01 on clause 7, S.74 on clause 10). That ratio —
+1 applied, 4 considered-and-rejected — is itself the pilot's most
+important quantitative result.
+
+-------------------------------------------------------------------------
+E. JUSTIFICATION OF SIGNIFICANT DECISIONS
+-------------------------------------------------------------------------
+Clause 1 SKIPPED. The whole span is 38 characters ending in a colon:
+  "Licensor may terminate this Agreement:". The operative conditions are
+  absent. Scoring anything — including 0.00 — would invent certainty from
+  missing text. Skipped with a recorded reason, per the guidelines.
+
+Clause 8 is the only Medium. ICA_S27_02's trigger has two limbs (broad
+  scope OR indefinite duration). Duration here is definite (2 years) and
+  does not trigger; scope does, because limb (ii) forbids interference
+  "in any manner". Applied on the scope limb only, hence non_compliance
+  0.25 rather than 0.50. Unfairness held at 0.25 because the clause is
+  expressly mutual. Flagged for review, not asserted as unenforceable.
+
+Clause 10 deliberately did NOT apply S.74. CUAD calls it "Liquidated
+  Damages" and the mapping sends it to "Penalties", but the payment
+  trigger is Dova's own election to terminate, and the payment is
+  consideration for services already performed — not a sum payable on
+  breach. Applying s.74 would have been precisely the error the
+  methodology warns against.
+
+Clause 7 confirmed the polarity problem empirically and extended it: the
+  span is not a pure carve-out as Phase 1 assumed, but restriction AND
+  carve-out in one span.
+
+Clause 4 scored 0.00 across all four dimensions despite being a Delaware
+  governing-law clause — the single clause most likely to matter to an
+  Indian SME. The rule inventory contains nothing on choice of law, and
+  importing outside legal knowledge was prohibited. The concern is
+  recorded as a rule gap instead.
+
+-------------------------------------------------------------------------
+F. DIFFICULT CASES
+-------------------------------------------------------------------------
+1. Clause 3 — assigned "Dispute Resolution" but substantively an
+   INDEMNITY clause. Required choosing between annotating the assigned
+   category and the actual subject matter. Guidelines are silent.
+2. Clause 8 — partial trigger satisfaction (one limb of two).
+3. Clause 10 — category label ("Penalties") pulled toward a statute the
+   text did not support.
+4. Clause 9 — five redactions including the identity of the paying party.
+5. Clause 7 — mixed polarity within a single span.
+
+-------------------------------------------------------------------------
+G. LEGAL-RULE GAPS
+-------------------------------------------------------------------------
+GAP 1 (most important). No rule covers CHOICE OF LAW or FORUM. Clause 4
+  is a foreign (Delaware) governing-law clause and the inventory produced
+  nothing. For a tool aimed at Indian freelancers and SMEs, "this contract
+  is governed by foreign law and disputes are heard abroad" is arguably
+  the single most actionable flag the system could raise. Candidate for a
+  new rule — likely contextual or gap_detection, not risk_trigger.
+GAP 2. Liability's only rule (ICA_S73_01, contextual) concerns damages
+  where the contract is silent. It does not reach insurance, additional-
+  insured status, or limitation-of-liability drafting (clause 6).
+GAP 3. "Other" is served only by ICA_S23_01, a general validity backstop.
+  Audit rights (clause 9) — a real commercial protection — had no rule.
+GAP 4. Nothing covers cost/expense-shifting mechanisms.
+GAP 5. Indemnification has a rule (ICA_S124_01), but its trigger requires
+  "uncapped or unusually broad". A well-drafted, carved-out indemnity like
+  clause 3 falls through entirely — the inventory cannot say "this is a
+  competently drafted indemnity", only "this one is alarming".
+
+POTENTIAL FUTURE LEGAL-CONTEXT NOTES (recorded separately, NOT used in
+any annotation, per the pilot brief):
+  - Foreign governing law / foreign seat raises practical access-to-
+    remedy issues for Indian SMEs that no current rule expresses.
+  - Post-termination employee non-solicitation is treated differently in
+    Indian practice from a restraint on a party's own trade; the
+    inventory's s.27 rules do not draw that distinction sharply.
+  These are flagged for the researcher to evaluate — they are NOT
+  incorporated into any score or citation above.
+
+-------------------------------------------------------------------------
+H. GUIDELINE ISSUES DISCOVERED
+-------------------------------------------------------------------------
+ISSUE 1 — CATEGORY vs SUBSTANCE CONFLICT
+  Why it matters: determines which rules are even searched.
+  Evidence: clause 3 (Dispute Resolution label, indemnity substance);
+    clause 10 (Penalties label, compensatory substance).
+  Proposed correction: instruct annotators to read the text first,
+    independently of its category label, and add a field to record a
+    suspected category mismatch.
+  Guidelines change? YES.  Schema change? YES (new optional field).
+
+ISSUE 2 — "ZERO" AND "CANNOT ASSESS" ARE INDISTINGUISHABLE
+  Why it matters: clause 4 scored 0.0000 provisional. A downstream reader
+    cannot tell that from a genuinely assessed low-risk clause. The
+    guidelines say null means "not yet assessed", but the validator
+    requires non-null scores on completed records — so "cannot assess"
+    has nowhere to go except an inappropriate 0.00 or a skip.
+  Evidence: clauses 4 and 9.
+  Proposed correction: add a per-dimension "assessable" flag, or permit
+    null scores on completed records with a mandatory reason.
+  Guidelines change? YES.  Schema change? YES.
+
+ISSUE 3 — NO INSTRUCTION FOR PARTIAL TRIGGER SATISFACTION
+  Why it matters: rules with multi-limb triggers are common; without
+    guidance, two annotators will score the same clause differently.
+  Evidence: clause 8 (scope limb met, duration limb not).
+  Proposed correction: state explicitly how to score partial matches.
+  Guidelines change? YES.  Schema change? NO.
+
+ISSUE 4 — requires_legal_review IS ALWAYS TRUE, SO IT CARRIES NO SIGNAL
+  Why it matters: a field with one possible value cannot prioritise
+    anything. The intended purpose (flagging clauses needing expert
+    attention) is defeated.
+  Evidence: clause 5 is a plain non-transferable licence grant. Setting
+    False was REJECTED by validation during this pilot and corrected to
+    True in deference to the guidelines.
+  Proposed correction: either rename to reflect its true meaning (e.g.
+    "not_legally_validated", always True), or allow False and introduce a
+    separate always-True disclaimer field.
+  Guidelines change? YES.  Schema change? PROBABLY.
+
+ISSUE 5 — indian_law_relevant HAS NO "UNCERTAIN" VALUE
+  Why it matters: the app offers Yes/No/Uncertain but the schema type is
+    boolean|null, and null fails the required-field check on completed
+    records. "Uncertain" is unrepresentable.
+  Evidence: clauses 7 and 10 are genuinely uncertain; both were forced to
+    a boolean with the uncertainty pushed into free text.
+  Guidelines change? NO.  Schema change? YES.
+
+ISSUE 6 — NO WAY TO RECORD MIXED POLARITY
+  Evidence: clause 7 restricts and carves out in one span.
+  Guidelines change? YES.  Schema change? POSSIBLY.
+
+NO CHANGE WAS MADE TO THE GUIDELINES OR THE RISK METHODOLOGY DURING THIS
+PILOT. The only schema change was the authorised v2.1 -> v2.2 provenance
+fix. Issues 1-6 are recorded for the researcher's decision, not applied.
+
+-------------------------------------------------------------------------
+I. DATASET LIMITATIONS OBSERVED
+-------------------------------------------------------------------------
+SPAN INCOMPLETENESS: 1 of 10 spans (clause 1, 10%) was too fragmentary to
+  annotate at all. If that rate holds across 200, roughly 20 clauses are
+  unusable — material for the paper's limitations section.
+REDACTION: 3 of 10 spans (clauses 2, 9, 10) have '[***]' / '[*]'
+  redactions removing the operative number, and in clause 9 even the
+  identity of the paying party. SEC-filed contracts are redacted as a
+  matter of course; this is systemic, not incidental. It directly blocks
+  proportionality assessment, which is central to unfairness scoring.
+CROSS-REFERENCES: 6 of 10 spans reference sections or defined terms
+  outside the span ("Section 6.1.1", "Tail Period", "Owner Indemnified
+  Parties", "Section 12.3.1"). The span-level unit of analysis is in
+  tension with clause-level legal reasoning.
+CATEGORY RELIABILITY: 2 of 10 (clauses 3, 10) appear substantively
+  mismatched to their assigned category, and clause 1's category cannot
+  be verified from its text. Phase 1's needs_review flags were warranted.
+JURISDICTION: clause 4 is Delaware-governed — a live demonstration of the
+  CUAD jurisdiction mismatch already documented in Phase 1.
+NOTABLE: Indemnification is listed as one of the six zero-CUAD-coverage
+  categories, yet clause 3 IS an indemnity clause that arrived through
+  CUAD "Covenant Not To Sue". The zero-coverage finding may understate
+  actual coverage — some target categories may exist inside CUAD spans
+  filed under other labels. Worth checking before treating the six as
+  absolutely absent.
+
+-------------------------------------------------------------------------
+J. PROVENANCE
+-------------------------------------------------------------------------
+Every one of the 10 records carries annotation_source=
+"ai_assisted_preannotation", reviewed_by_human=false, and
+annotator_id="claude_opus_4_5__pilot_2026_09". No record claims human
+authorship. No lawyer reviewed anything. No second annotator exists. No
+agreement statistic has been computed and none may be computed from this
+file. Schema v2.2 and validate_phase2_annotations.py now enforce these
+constraints mechanically, including rejecting a human-looking
+annotator_id on an AI record.
+
+-------------------------------------------------------------------------
+K. VALIDATION RESULTS
+-------------------------------------------------------------------------
+Project validator (validate_phase2_annotations.py) pointed at the AI file:
+  Errors: 0   Warnings: 0
+  (First run reported 1 error — requires_legal_review=False on clause 5.
+   Diagnosed as a genuine conflict with the authoritative guidelines,
+   corrected to True, regenerated, re-run clean. Recorded as ISSUE 4.)
+
+Independent integrity suite: 23 checks, 23 passed, 0 failed.
+  Dataset: 10 records, exact pilot IDs, no duplicates, clause_text /
+    category / cuad_category byte-identical to source, 10 distinct
+    categories.
+  Provenance: all 5 provenance checks passed.
+  Risk logic: precedent null, canonical risk_score null, canonical
+    risk_level null, all scores in the 5-point set, provisional score
+    matches (U+A+NC+E)/4 exactly, banding matches thresholds.
+  Legal: 1 asserted provision; all 5 rule_ids referenced exist in the
+    inventory; no statute cited outside ICA/MSMED/DPDPA; every scored
+    record carries substantive notes.
+  Human file: 0 bytes, SHA256 identical to the pre-task baseline.
+
+-------------------------------------------------------------------------
+L. HUMAN REVIEW REQUIREMENT
+-------------------------------------------------------------------------
+These 10 records are drafts. They become research data only when the
+researcher reviews each one, corrects what is wrong, sets
+reviewed_by_human=true and changes annotation_source to
+"human_researcher_annotation". Until then they must not be counted as
+annotated data, cited as results, or used as a baseline for agreement.
+
+A critical caveat: because these drafts exist, there is now an anchoring
+risk. A reviewer who reads a draft first will tend to agree with it. The
+pilot's actual purpose is to test whether a HUMAN finds the guidelines
+usable — and a model finding them usable says little about that. Reading
+each clause independently before reading the draft would preserve more of
+the pilot's diagnostic value.
+
+-------------------------------------------------------------------------
+M. RECOMMENDATION
+-------------------------------------------------------------------------
+GUIDELINE REVISION REQUIRED BEFORE HUMAN REVIEW
+
+Six guideline/schema issues surfaced in nine scoreable clauses. Three are
+consequential enough to change how the remaining 190 would be annotated:
+  - Issue 1 (category vs substance) determines which rules get searched.
+  - Issue 2 (zero vs cannot-assess) affects at least 2 of 10 clauses and
+    silently understates uncertainty in the dataset.
+  - Issue 4 (requires_legal_review always True) was caught by validation
+    as an actual contradiction between guidelines and annotator judgment.
+Annotating 190 more clauses under guidelines with known defects would
+produce 190 records needing rework.
+
+This recommendation is deliberately NOT "ready for full dataset
+annotation" — the researcher has not yet reviewed a single record.
+
+-------------------------------------------------------------------------
+CLAUSEXPLAIN PHASE STATUS
+-------------------------------------------------------------------------
+Phase 1:                  COMPLETE
+Phase 2A:                 COMPLETE
+Phase 2B infrastructure:  COMPLETE
+Phase 2B pilot:           COMPLETE (AI-assisted drafts only)
+Human annotation:         NOT STARTED — 0 human annotations exist;
+                          risk_annotations_human.jsonl is 0 bytes
+Model development:        NOT STARTED
+Experimental evaluation:  NOT STARTED
+
+Current research milestone: a validated 10-clause AI-assisted
+preannotation set that surfaced 6 methodology issues, 5 legal-rule gaps
+and 5 dataset limitations before any human effort was spent at scale.
+
+Next justified action: researcher review of the 10 drafts using
+PILOT_HUMAN_REVIEW_CHECKLIST.txt, followed by a decision on Issues 1-6.
+
+Reason: the pilot did its job — it found problems. Acting on them before
+annotating 190 more clauses is cheaper than reworking them afterwards.

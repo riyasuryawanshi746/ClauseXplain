@@ -1,0 +1,763 @@
+General terms and conditions on GeM 3.0 (Version 1.10)
+
+1. Introduction This document is an electronic record published by GeM under the provisions of the Information Technology Act, 2000 and the rules made there under (as applicable) and shall act as valid agreement between Seller / Service Provider and Buyer.
+
+Further the use of GeM Portal for Sale / Purchase of Goods / Services and the resulting Contracts shall be governed by the following General Terms and Conditions (GTC) (unless otherwise superseded by Product / Service specific Special Terms and Conditions (STC) and BID/Reverse Auction Additional Terms and Conditions (ATC) as applicable).
+
+Government e-Marketplace (GeM) is the National Public Procurement Portal; an end-to-end online Marketplace for Central and State Government Ministries / Departments, Central & State Public Sector Undertakings (CPSUs & SPSUs), Autonomous institutions and Local bodies, for procurement of common use goods & services. The portal is owned and managed by GeM SPV which is a Section 8 (Non-Profit) Company registered under the Companies Act, 2013. GeM SPV operates, monitors and supervises all the business transactions on the portal through the Managed Service Provider as per roles and responsibilities defined in the Legal Framework Document available on GeM portal.
+
+2. General Terms and Definitions:
+
+a. APPLICABLE LAWS” shall mean any statute, law, ordinance, notification, rule, regulation, judgment, order, decree, bye-law, approval, directive, guideline, policy or other governmental restriction as may be in effect.
+
+b. GOODS” shall mean an Article / product or an intangible product like software, technology transfer, licenses, patents or other intellectual properties being offered for sale on the GeM portal by Seller(s) on GeM. The term ‘Goods’ shall also include works and services which are incidental or consequential to the supply of such goods, such as, transportation, insurance, installation, commissioning, training and guarantee / warrantee obligations as defined in the scope of supply given in the contract.
+
+c. SERVICES” shall mean the services offered or provided by the Seller such as IT Professional Services, Manpower Services, Security Services, Transport Services, etc. listed as Services on GeM. The term ‘Service’ shall also include supply of goods / articles which are incidental or consequential to the provisioning of such Services as defined in the scope of supply given in the contract.
+
+1|Pa ge
+
+d. SERVICE LEVEL AGREEMENT (SLA)” shall mean the Contractual Commitment that prevails between the Buyer and the Service Provider with regard to type of service to be provided, deliverables, desired performance level, reliability and responsiveness, monitoring process and service level reporting, response and issue resolution time-frame, repercussions / penalties / remedies for service provider not meeting its commitment. The SLA of a particular contract may carry the matrix regarding the delivery of the goods and/or services and the corresponding penalties or remedies and liquidated damages as applicable.
+
+e. CATEGORY SPECIFICATION” shall mean the framework of technical features, functional capabilities, technical properties, certifications of the items etc. in a particular category. The Specifications shall identify the key parameters defining the products with all necessary validations related to configuration, type of data, restrictions, range / allowed values, allowed units etc. Sellers as well as Buyers while offering / buying the Goods / services shall have to comply with the validation rules / restrictions provided for in the Category Specification. Buyers / Sellers can not add parameters and / or drop down values not provided for in category Specification. If any Buyer / Seller desire to add new parameter, value, validation etc. against any category specification, they have to raise request for the same to GeM for incorporation in Category Specification.
+
+f. BUYER” is the Contract placing authority, which includes Central/State Government Ministries/Departments including its attached/subordinate offices, Central/State Public Sector Units (PSUs) and Autonomous Bodies acting through its authorized officer(s) for and on behalf of President of India/Governor of the State /PSU/Autonomous Bodies, as the case may be, for purchase of Goods/Services offered by Sellers on GeM.
+
+g. SELLER / SERVICE PROVIDER” on GeM shall mean any legal entity such as firm(s) of Proprietorship / Partnership Firm / Limited Liability Partnership / Private Limited / Limited company / Society registered under Society’s Act / Statutory Bodies etc., registered on GeM to sell its Good(s) / Service(s) to the Buyers registered on GeM.
+
+The “Seller on GeM” will be either OEM (Original Equipment Manufacturer*) or Seller having authorization to sell products manufactured by the OEM in open market. * OEM is the owner of the Brand / Trademark of the product being offered or in case of un-registered brand’s products / products with own brand, the actual manufacturer of the final product.
+
+2|Pa ge
+
+In case of Services related to Goods, Service Provider on GeM will be either OEM or Service Provider having authorization to Service products manufactured by that OEM in open market. In respect of other Services, Service Provider on GeM will be any legal entity offering its services.
+
+By registering on GeM portal , Seller / Service Provider hereby agrees to be bound by these General Terms and Conditions for Sale / Purchase of Goods and / or Services (GTC); Product / Service Specific Special Terms and Conditions (STC) and Service Level Agreements (SLAs) for various Services; and Additional (Bid Specific) Terms and Conditions (ATC) as applicable.
+
+For the purpose of this document and transactions on GeM, Seller as well as Service Provider will be referred to as “Seller”
+
+h. USER ID and PASSWORD” All users including Buyers and Sellers (primary as well as secondary) will get User ID and Password created on GeM following due registration process defined on GeM. It is the responsibility of the user to keep their User ID and Password secure and confidential. Individual user shall be solely and completely responsible for all transactions taking place on GeM portal using his / her User Id and Password and GeM shall not be responsible in any manner.
+
+i. LICENSE” shall mean by registering the Seller and by offering Product / Service details on GeM, the Seller grants GeM a non-exclusive, royalty-free, irrevocable, perpetual and fully sub-licensable right to use, reproduce, modify, adapt, publish, translate, distribute, and/or display the content/materials which has been submitted to GeM excluding Aadhaar No. In case of registration of Primary user and creation of secondary user(s) by the Buyer/Seller, their Aadhaar (UID) details collected by GeM are solely for user verification and to apply e-signing on the documents. The e-sign is at par with digital signatures as per Information Technology Act Amendment 2008 and it works based on details available in Aadhaar database of UIDAI and there is no interference / intrusion in their personal details.
+
+j. CONTRACT” shall mean the purchase order created / issued by the Buyer on GeM for supply of Goods / Services in electronic form which includes scope of supply, delivery instructions and specifications etc. as ordered by Buyer against such Contract besides the subject GTC, STC/ATC as the case may be.
+
+3. Role, Responsibilities and Obligations 0f Seller/ Buyer:
+
+A. Role and Responsibilities of Sellers on GeM are as under:
+
+3|Pa ge
+
+i.
+
+Only Director (s) / Partner (s) / Proprietor (as applicable) are authorized to become Primary User and register any legal entity on GeM as Seller.
+
+ii.
+
+Once Seller/Service Provider is registered and account is created on GeM, the Primary user of the Seller/Service Provider can create Secondary User Accounts within Seller/Service Provider Organization with different Roles and Responsibilities. However, the Primary User creating Secondary User accounts shall continue to be fully responsible and accountable for all actions / transactions done by Secondary Users on GeM Portal.
+
+iii.
+
+Since GeM is a trust based Portal, the complete accuracy and integrity of data submitted in respect of the Seller and also in respect of the Goods / Services offered on GeM will be the sole responsibility of the Seller/Service Provider.
+
+Seller will be liable for administrative action as per GeM terms and conditions in case of any discrepancy / infirmity in any data / information submitted on GeM.
+
+iv.
+
+The Primary / Secondary Users of Sellers, offering Goods/Services and/or participating in e-Bidding / Reverse Auction on GeM, must ensure that they have the requisite authorization to enter into contract with Buyer(s) in GeM for and on behalf of the Seller, failing which such Seller as well as the individual(s) shall be vicariously liable for its actions and also for any liability arising out of such actions.
+
+v.
+
+Seller can offer any number of products. However, it will be the sole responsibility of the seller to satisfy themselves regarding possessing the requisites for doing business for the offered product(s). The Sellers are solely responsible for ensuring that there is no violation of any Intellectual Property Rights in their offer for sell / providing service on GeM.
+
+vi.
+
+The Seller should not exercise any corrupt influence on any aspect of contract and commit to take all measures necessary to prevent corruption maintaining complete transparency, integrity and fairness in all activities related to GeM.
+
+vii.
+
+The seller would represent its business on the GeM portal and is mandated to comply with all the terms and conditions of the platform. Sellers would be solely and absolutely responsible for the information provided about their organization, business, products and services on the portal and would be required to produce proof of such information, if requested at any point in time by the Buyer and / or GeM.
+
+viii.
+
+GeM would not allow creation of any fresh data related to Seller identity on GeM portal. All details provided by the Seller at the time of registration
+
+4|Pa ge
+
+would be counter checked / verified through other data bases of Government such as PAN, MCA 21, Udyog Aadhaar etc. For Financial details, PAN / Income tax Database shall be primary validating database and will override any conflicting data in any other database. If the data / details entered by the seller while registering on GeM is not verified with validating databases, registration will not be allowed. Further, in case of any conflict in details after registration, Seller’s registration would be automatically suspended. It is the Seller’s responsibility to keep all their information on GeM updated with the latest change(s). Non-updating of details on GeM within 7 days of such occurrence would make Seller liable for administrative actions. ix.
+
+Eligibility of Sellers in terms of Turn Over / Past Performance / Profitability etc. and also their eligibility for availing various benefits / advantages in terms of various Govt. Policies / Guidelines / Acts / Laws etc. shall be determined solely on the basis of data fetched / validated or verified through external agency / owner of that set of database such as Income Tax / PAN Data Base, MCA 21, Udyog Aadhaar, GSTN, Certifying Agencies such as BIS, BEE etc. In case of any discrepancy in data available in these databases, Seller has to get the same updated in the corresponding validating database before updating the same on GeM. Till such time only the existing validated information shall be used to decide seller’s eligibility on GeM. Any default in sellers updating their data on partner sites / validating databases and any fall out of the same impacting adversely any transaction on GeM, shall entirely and exclusively be Seller’s responsibility. GeM shall not be responsible for any consequential impact on any GeM transaction due to data discrepancy and / or suspension of seller account due to data discrepancy. Seller will be solely responsible for the same.
+
+x.
+
+The Seller shall be solely responsible for the Goods / Services including, without limitation, the applicable guarantee / warranty, shelf-life, quantity, quality and the title and for giving the correct and accurate details of the offer their Goods and / or /Services indicating product specifications, quantity which can be supplied over the specified time period, etc. as per catalogue or catalogue based template prescribed in GeM. Seller would ensure that the Goods or /Services offered are latest, new and complete in all respects.
+
+Where Seller is selling any Goods which needs spare parts, Seller should ensure and make available such spare parts for a minimum period of three years from the date of expiry of warrantee period (unless otherwise specified). The individual Sellers shall ensure that the products offered in e-
+
+5|Pa ge
+
+Bidding and/or ordered shall remain available on GeM during the bid / contract validity period. xi.
+
+Sellers shall offer minimum discount of 10% on the Maximum Retail Price
+
+(MRP) mandatorily (unless otherwise specified for offering their products on GeM). Sellers are free to offer higher discounts. The Seller must offer its lest possible lowest price to GeM and undertake that it would not sell or offer to sell the same product in comparable quantity at a price equal to or lower than Offer Price on GeM. In case any such infringement by Seller is noticed, the Seller shall be liable to be removed/ debarred from the GeM.
+
+xii.
+
+By offering their product on GeM, the Seller agrees for sharing price details of the offered Goods / Service by GeM authorities with other Government agencies including Department of Excise & Customs, Income tax, GST etc.
+
+xiii.
+
+Listing of Goods / Services in irrelevant / inappropriate categories is strictly prohibited. If any such infringement made by Seller leads to placement of a contract by any Buyer for such inappropriately offered product(s)/service(s) by the Seller, such contract shall be treated as null and void. No claim whatsoever against such contract shall be admissible and entertained.
+
+xiv.
+
+The Seller(s) shall pass on all the benefits associated with any scheme / offer / freebies provided by the OEM on any product from time to time on an "as-is basis” to the Buyer. This obligation will also apply to OEM's directly supplying the goods. Holding back any such offer or accounting such freebies in quantity supplied shall make such consignments liable to be rejected by the consignee and shall also be considered as inappropriate and against the GeM policies for which GeM reserves all rights to take necessary action against such Seller/OEM as deemed fit.
+
+B. Role and Responsibilities of Buyer on GeM:
+
+Buyer Registration on GeM is divided in two categories:
+
+a. Primary User: In GeM , the Primary User is as under: i.
+
+Any officer of Central / State Government / PSU / Autonomous Bodies / Local Bodies / Constitutional Bodies / Statuary Bodies at the level of Deputy Secretary of the Government of India or equivalent
+
+ii.
+
+Head of the Office at Sub Centre / Unit / Branch, can Register his / her organization / unit on GeM portal as Primary User.
+
+6|Pa ge
+
+Primary User shall be responsible for registering the organization on GeM, for creating User accounts for Secondary Users, assigning them roles and responsibilities on GeM and for supervision of all transactions performed by Secondary Users under him / her.
+
+Primary User shall also be vicariously responsible for ensuring compliance of General Financial Rules and / or Rules Governing Public Procurement in respect of their organization, all GeM terms and conditions and other Procurement Policies / Guidelines notified by the government from time to time, by all the secondary users including timely payments and for dispute resolutions as per GeM terms and conditions.
+
+Primary user cannot perform any Procurement related transactions on GeM portal.
+
+b. Secondary Users: Secondary Users are officials responsible for procurement transactions on GeM including Placement of Contracts, Receipt of Stores, and Payments to the Sellers etc. The access rights permissible to registered Secondary users would be decided by the Primary User of the Department. Secondary Users may be given the roles of Buyer / Consignee / Drawing and Disbursement Office
+
+(DDO) / Paying Authority etc. For transaction on GeM portal, Buyer is the official who is responsible for processing procurement transaction up to Order Placement stage. Consignee is the Secondary User in Buyer Organization responsible for certifying receipt and acceptance of the goods procured.
+
+Buyer’s responsibilities on GeM portal are as under: i.
+
+The Buyers are responsible to ensure that the procurement done by them are in compliance of General Financial Rules and / or Rules Governing Public Procurement in respect of their organization, all GeM terms and conditions and other procurement Policies / Guidelines notified by the government from time to time, including timely payments as per GeM terms and conditions.
+
+ii.
+
+The Buyers (in all capacities i.e. as Buyer, Consignee, DDO, Paying Authority etc) are responsible to ensure that the procurement done by them are in compliance with GeM Terms and Conditions / Guidelines and all contract related transactions are completed within time lines prescribed in GeM Contract.
+
+iii.
+
+The Buyers must ensure that they have the requisite authorization to enter into contract with Seller(s) on GeM for and on behalf of the organization, failing which such individual(s) shall be individually liable for its actions and also for any liability arising out of such actions.
+
+7|Pa ge
+
+iv.
+
+While making procurement on GeM, the Buyers shall judiciously search and shortlist items using filters such as quantity, technical parameters, delivery period, warranty period, consignee location(s), Seller’s eligibility etc. as per their approved requirements. Placement of contract for a product / service uploaded by the Seller in any wrong/inappropriate product category is strictly prohibited and such contracts shall be treated as null and void and such Buying shall adversely affect Buyer Rating on GeM.
+
+v.
+
+The Buyers shall satisfy themselves that the price of the selected offer is reasonable. Buyer is at liberty to utilize all the data / information and Business Analytics made available in GeM including e-bidding and reverse auction.
+
+vi.
+
+The Buyers, before placing the order on GeM, should have the required mandatory approval with prior sanction and approval of the competent authorities and shall be in compliance with and as per procedures outlined in GFR and other procurement guidelines issued by the Government from time to time.
+
+vii.
+
+On award of the Contract(s), it would be construed that the Buyer has obtained all necessary Administrative & Financial sanctions of the competent authority and adequate funds are available indicating the relevant Head of accounts in the awarded Contract(s).
+
+viii.
+
+The Buyers should not exercise any corrupt influence on any aspect of contract and commit to take all measures necessary to prevent corruption maintaining complete transparency and fairness in all activities related to GeM.
+
+ix.
+
+Buyers are not allowed to place any order at GeM prices outside GeM.
+
+The prices on GeM are only applicable if the procurement is made through GeM portal. Using GeM prices for procurement outside GeM portal is strictly prohibited. Further, Buyers are not allowed to place any off-line contract to the Seller directly based on the outcome of e-Bidding / RA conducted on GeM. All such contracts shall be treated as null and void and GeM reserves the right to delete all data related to such transactions from GeM database besides taking suitable actions against such Buyers including suspension from GeM and / or reduction of Buyer rating etc.
+
+4. Enabling provisions of Rule 149 of General Financial Rules- 2017
+
+8|Pa ge
+
+Enabling provisions of Rule 149 of General Financial Rules2017egardingprocurement through GeM and necessary guidelines and terms and conditions thereon:
+
+GeM portal may be utilized by the Government buyers for on-line purchases as under:i. Up to Rs.50,000/- through any of the available suppliers on the GeM, meeting the requisite quality, specification and delivery period. ii. Above Rs.50,000/- and up to Rs.30,00,000/- through the GeM Seller having lowest price amongst the available sellers, of at least three different manufacturers, on GeM, meeting the requisite quality, specification and delivery period. The tools for online bidding and online reverse auction available on GeM can be used by the Buyer if decided by the competent authority. iii. Above Rs.30,00,000/- through the supplier having lowest price meeting the requisite quality, specification and delivery period after mandatorily obtaining bids, using online bidding or reverse auction tool provided on GeM. iv. The Government Buyers may ascertain the reasonableness of prices before placement of order using the Business Analytics (BA) tools available on GeM including the Last Purchase Price on GeM, Department’s own Last Purchase Price etc.
+
+v. GFR rule 149 allows direct on-line purchases on GeM up to Rs. 50,000/through any of the available suppliers on the GeM, meeting the requisite quality, specification and delivery period. However this is subject to procuring authorities certifying the reasonability of rates. While making such direct on-line purchase below Rs. 50,000/-, the buyer should have approval of competent authority and should also record reasons for selecting the specific product in case lowest priced products are not being accepted / ordered. vi. Tools have been deployed on GeM portal to show the price of compared products on other e-commerce sites (wherever available) and also the rates at which orders have been placed on GeM for such items in recent past. While taking decision on reasonableness of price, the buyers may also take into account the discount over MRP; Last Purchase Price on GeM, Department’s own Last Purchase Price; rates on other e-commerce websites etc. The prices
+
+9|Pa ge
+
+on e-commerce site give a broad idea and its terms and conditions may be different. If it is found that the price available on GeM marketplace is not reasonable or is substantially higher than e-commerce sites or LPP, the GeM Portal provides tools for online bidding or reverse auction which can be used by the Buyers to get better competitive rates and then satisfy themselves about reasonableness of the price as per GFR -2017 before placement of contract. Bidding should be considered as the preferred mode of procurement above Rs. 50,000/-. vii. In case of Direct Purchase, during carting period, rates for carted quantity, for that buyer, are frozen for carting period as notified from time to time on GeM against any upward revision by seller. However, advantage of any downward revision in the offer price of carted item shall be automatically provided to the buyer. viii. According to the provisions of Rule 149 (ii) of GFR, 2017, GeM shall be utilized by Government buyers for direct on-line purchases above Rs.
+
+50,000/‐ and up to Rs. 30,00,000/- however such purchase has to be through the Seller having the lowest price (L-1) amongst the available Sellers on the GeM. In order to ensure that buyers select only L-1 available offer, the GeM portal requires that buyer first compares all the product options available on GeM to ensure that it meets its requirements/ specifications. While comparing, care should be taken that comparison has to be done between products of at least three different Manufacturers / OEMs. For L-1 buying, comparison has to be made between products of at least three different OEMs. If Buyer wants to buy any specific OEM’s product then he has to go for Proprietary Article Certificate (PAC) buying after obtaining necessary approvals of competent authorities for PAC buying as per GFR-2017. ix. Proprietary Article Certificate (PAC) Buying: While making procurement under PAC Buying on GeM, Buyer has to comply with following conditions:
+
+a. In case a Govt. Buyer on GeM wants to make procurement on proprietary basis on the GeM Portal after obtaining the requisite approvals/PAC certificate from their competent authority as per Rule 166 of GFR-2017, the Buyer can use PAC filter provided on GeM for selecting a specific model/ make available from a particular GeM Seller.
+
+b. The Seller’s price on the Portal is just their offer prices and the proper discovery of price generally happens through
+
+bidding/RA. Moreover, in PAC procurement irrespective of multiple listing by authorised sellers, the important issue of price control remaining with the OEM cannot be overlooked.
+
+Therefore, in case of all the PAC procurements, the Buyers will have to carry out extra due diligence in establishing the reasonableness of prices before placement of contract as per Para (vii) of Rule -149 of GFR-2017.
+
+c. Except for direct buying up to Rs. 50,000/- subject to establishing the reasonableness of price, the bidding will be mandatory for procurements above Rs. 50,000/-. As result of bidding, the response could be as under: i.
+
+Only OEM is available or only single authorised seller is available.
+
+ii.
+
+OEM as well as multiple authorised Sellers are available.
+
+iii.
+
+Multiple authorised Sellers of the OEM are available.
+
+d. After bidding, under PAC buying, the Buyer may take decision with the approval of the competent authority to process the procurement subject to establishing the reasonableness of prices before placement of contract as per Para (vii) of Rule -149 of GFR-2017. x.
+
+In order to give flexibility to the buyers in sourcing their requirements through GeM, provision has been made in e-bid and RA modules for indicating delivery period in terms of “number of days from date of placement of contract”. While stipulating delivery period in their bid documents, Buyers are advised to be careful since un-realistic delivery period stipulations may result in elimination of some genuine sellers, lack of competition and may ultimately have impact on cost of procurement. While fixing delivery period in e-bid/ RA bid, buyers should not only take into consideration the quantity required and the essentiality of requirement of that quantity within stipulated time period but also the possible impact of shorter delivery period on competition in e-bidding / RA.
+
+xi.
+
+Splitting of demands by creating multiple Bids / RAs of same goods / services or making repeated procurements of same Goods / Services through L-1 buying as per rule 149(i) and 149(ii) of GFR-2017 are strictly prohibited on
+
+GeM. Splitting of demand deprives the organizations from achieving the best competitive prices leveraging economies of scale. It also implies avoiding the necessity of obtaining the sanction of higher authority required with reference to the estimated value of the total demand. It is a violation of Para Rule 149
+
+(viii) of GFR -2017 and terms and conditions of GeM Portal and Buyer including the Primary Buyer shall be entirely responsible for the same. If any such splitting of demand is noticed, GeM shall have the right to take necessary action such as blocking of such Bids/RAs and / or cancelling such contracts. xii.
+
+GeM is a dynamic online marketplace. The product/service listings across the existing categories are dynamic. Moreover, new categories of products/services are continuously being added on GeM. In situations where there is only one offer available in a product/ service category and/or there is offer from only one Seller after filter based search, the buyer should not select such offer for buying. Efforts should be made by Buyer to get their past suppliers and prospective Sellers on-boarded on GeM so as to ensure availability of sufficient Sellers on GeM. This however will not apply for PAC procurement.
+
+xiii.
+
+e-Bidding and Reverse Auction (RA) on GeM
+
+a. The e-Bidding / RA module of GeM is a tool provided to the Buyer(s) for organizing bidding / RA from GeM Sellers of the particular product category for a pre-defined requirement i.e. quantity, technical parameters for Goods/ Services of the particular product category required for one or more Buyers / Consignees.
+
+b. Prior to initiating e-Bidding / RA, the Buyer shall judiciously search and shortlist item among the items offered on GeM using filters such as quantity, technical parameters, warranty period, consignee location(s) etc. as per the requirement. In case the search made using actual quantity required, fails to identify sufficient offers, the Buyer may use an indicative quantity for initial search and selection of product and quantity may be amended to match the actual requirement at the time of finalizing e-Bidding / RA.
+
+c. The technical parameters and warranty of the item identified by the Buyer shall be base parameters of the item for conducting eBidding / RA for the required Goods/Services.
+
+d. The e-Bidding / RA document will be finalized by the Buyer(s) by stipulating requirements such as Quantity, Consignee Details, Terms of Delivery, Delivery Period, EMD, Performance Bank Guarantee, Time & Date for Start and End of Bid Submission and for Opening of Bids and required Bid Validity period etc. Buyer shall also indicate Start / Reference Price and Step Value of Decrement in case of RA.
+
+e. Bid Life Cycle: Bid Life Cycle is the period within which a buyer has to complete the entire life cycle i.e. technical evaluation, financial evaluation and order creation of Bid process. By default, it is 90 days from the date of Bid publication. This can be configured to 120 / 150 or 180 days in exceptional cases through catalogue Management System
+
+(CMS) for a particular product category (not for a particular Buyer or Bid).
+
+f. The e-Bidding / RA invitation / Notice shall be published on GEM, stipulating the last date for bid submission / opening of bids giving at least clear 10 days time after the publication. Any change in last date for bid submission will be intimated to eligible bidders through e-mail / GeM. The e-Bidding invitation shall be extended to all the registered Sellers on GeM who have Goods / Services for that particular category listed on GeM, at least 2 hours prior to closing time of e-Bidding / RA. The GeM normally requires 48 hrs for approval / rejection of the product / service offered by Sellers before it is listed on the portal.
+
+Considering these time lines, the Sellers are required to offer their Goods / Services on GeM well in advance before bid closure. The decision of the Buyer/GeM regarding technical/commercial eligibility of the individual Seller to be invited for e-Bidding / RA shall be final.
+
+g. The Seller participating in the e-bidding / RA may offer any one of their product(s) already listed on GeM. The bid submitted under e-Bidding / RA shall remain valid for 15 days (or as stipulated by the Buyer in the bid document) from the Bid Opening Date (till 24.00 Hrs IST). Bid Validity can be further extended with mutual consent between Buyer and Seller subject to the condition that total Bid Life Cycle cannot go beyond the
+
+stipulated time limit as per GeM CMS. The products offered in e-Bidding / RA can not be withdrawn by the Sellers from GeM during the bid validity period. The Buyer reserves the right to postpone/cancel the e-bidding and intimation thereof will be sent by e-mail / GeM to the Bidders. Any amendment / corrigendum to the e-bid invitation issued by the Buyer will be made online and shall be uploaded on the GeM. The participation by the Seller in e-bidding shall be construed as his / her acceptance for all the Terms and Conditions as outlined in the e-bidding including GTC, STC and ATC. However, the Buyer shall have right to decide the technical and commercial acceptability of the individual bids based on eligibility criteria and compliances as stipulated in the bid document. The technical parameters shown in the bid are from a particular catalogue as selected by the buyer while applying initial filters in selection of the product. The sellers are free to bid for same, equivalent or superior specifications catalogue / products. In the public interest, buyers will evaluate such bids based on their requirements / end use and bid parameters and will accordingly technically accept or reject the bids on merits."
+
+h. In bid documents, Buyers can incorporate suitable eligibility criteria and additional terms and conditions only using various filters and ATC module available in e-bidding / RA modules of GeM. Buyers are not allowed to incorporate eligibility criteria and / or additional / special terms and conditions exterior to the GeM portal by making reference to any other website / documents etc.
+
+i. In case, two or more acceptable bidders are found to have quoted identical lowest bid price, Buyer has to conduct Reverse Auction for the required Goods among all technically qualified bidders in case of bids for Goods. In case of Services bids, if the multiple L-1 bidders have quoted the lowest allowed price for that service, Buyer shall have two options for placement of Contract:
+
+a) Placement of contract by selection of an agency from amongst the L-1 bidders through a Random Algorithm run by GeM system.
+
+b) Placement of contract on any one of the L-1 bidders based on any criteria as deemed fit by the Buyer with appropriate internal approvals
+
+j. The Buyer reserves the right to accept/reject any bid including the lowest bid received through e-bid and/or annul the e-bidding process.
+
+k. The participating bidders shall not disclose details of their bids or other details of their e-bids to other bidders or indulge in any anti-competitive behaviour including price manipulation in violation of Competition Act, 2002.
+
+l. The Buyer/GeM will not be held responsible for consequential damages such as no internet connection, no power supply, system problems, loss of electronic information, power interruption etc.
+
+m. Against any bidding or RA conducted on GeM, if a bidder quotes Nil Charges/consideration, the bid shall be treated as non-responsive and will not be considered.
+
+n. There shall be no EMD for Bids / RA having estimated value less than Rs. 25 lakhs. For bids / RA having estimated value more than Rs 25 Lakh, while finalizing e-Bid / RA, Buyer shall indicate the exact amount of EMD required to be submitted by bidders in the form of Bank Guarantee on GeM portal in the prescribed format. Scanned copy of the same shall be uploaded by Seller in the online bid and hard copy of the same will have to be submitted directly to the Buyer within 5 days of bid opening. GeM recommends quantum of EMD @ 1% of estimated value of procurement. The Buyer also has the option to select EMD between 1% to 5%. The same should be valid for
+
+45 days beyond the bid validity. Following categories of Sellers shall however, be exempted from furnishing EMD: i.
+
+Micro and Small Enterprises who are manufacturer of the offered product category or service provider of that category and give specific confirmation to this effect at the time of bid submission and whose credentials are validated online through Udyog Aadhaar
+
+ii.
+
+Startups as recognized by Department of Industrial
+
+iii.
+
+Policy and Promotion (DIPP).
+
+KVIC, ACASH , WDO, Coir Board, TRIFED and
+
+iv.
+
+Kendriya Bhandar.
+
+Sellers who have got their credentials verified through the process of Vendor Assessment by Vendor Assessment Agencies for the particular product for
+
+v.
+
+which Bid / RA has been invited.
+
+Sellers/ Service Provider having annual turnover of Rs
+
+vi.
+
+500 Crore.
+
+Micro and Small Enterprises registered with NSIC for the particular product category whose credentials are validated through NSIC database.
+
+vii.
+
+viii.
+
+Micro and Small Enterprises registered with DIC for the particular product category whose credentials are validated through DIC database.
+
+Sellers / Service Providers holding BIS License for the particular product category whose credentials are validated through BIS database.
+
+ix. x.
+
+Central / State PSUs.
+
+Seller / Service Provider registered with designated Agency / Authority as specified in the bid document by the Buyer – such bidder shall have to upload scanned copy of relevant registration document in place of EMD document while bidding.
+
+n. EMD submitted by the bidder shall be forfeited, if the bidder: i.
+
+Withdraws or modify or impairs or derogates from the bid in any respect within the period of validity of its
+
+ii.
+
+bid; or If it comes to notice that the information / documents
+
+iii.
+
+furnished in its bid is false, misleading or forged; or Fails to furnish requisite performance security / PBG within stipulated time required as per e-bid / RA conditions.
+
+o. Notwithstanding above, GeM SPV / GeM Admin also reserve the right to debar such seller from GeM portal. Such debarment shall be for minimum 3 months initially on first such
+
+offence and on repeat offence, the debarment period can be increased suitably by GeM SPV / GeM Admin. By submitting a bid on GeM, the Bidder explicitly undertakes to abide by the above clause.
+
+p. Earnest money of unsuccessful bidders shall be returned within 15 days after the award of contract or expiry of bid validity whichever is earlier. Earnest money of successful bidder shall be returned within 15 days after receipt of Performance Security / e-PBG.
+
+q. In case of RA, Start / Reference Price and Step Value of Decrement shall be indicated to the Bidders at the start of the auction. Any participating bidder can bid one or multiple Step Decrement lower than the prevailing Lowest Bid at that time.
+
+r. The Bidder shall be able to view Bid Start Price, Bid Decrement Value, Prevailing Lowest Bid value and last Bid Placed by him. Whenever a lower price bid is received in the closing moment i.e. within 15 minutes of existing end time of Reverse Auction, the end time of reverse auction shall be extended automatically by another 15 minutes. All participant sellers of that RA shall be notified by the GeM system about extension of time through email and/or SMS and they shall be allowed to submit revised bid under the RA. The same process shall be repeated, if there is another lower bid received in the RA during last 15 minutes of RA.
+
+s. GeM / Buyer shall not have any liability to bidders for any interruption or delay in access to the GeM site / Reverse Auction link etc, irrespective of the cause.
+
+t. By creating a bid on GeM, the Buyer undertakes as under: "I confirm that this tender document complies with the "Public Procurement (Preference to Make in India) Order, 2017" issued by DIPP and "Public Procurement Policy for Micro and Small Enterprises (MSEs) Order, 2012" issued by MoSME".
+
+5. Contract(S):
+
+Following documents shall be construed to be part of the contract generated through GeM: i.
+
+Scope of supply including price as enumerated in the Contract Document.
+
+ii.
+
+General Terms and Conditions (GTC).
+
+iii.
+
+Product / Service specific Special Terms and Conditions (STC).
+
+iv.
+
+Bid / RA specific Additional Terms and Conditions (ATC).
+
+The Terms and Conditions stipulated in STC will supersede those in GTC and Terms and Conditions stipulated in ATC will supersede those in GTC and STC in case of any conflicting provisions.
+
+6. Prices: i.
+
+Offer price on GeM portal: The prices of the offered Goods or Services shall be firm and fixed at any point of time and shall be indicated in INR for each accounting unit. The Seller can choose to offer Goods or Services with uniform all inclusive unit price for deliveries at locations across India on All India basis or for specified locations selected at the time of product listing. As such, for supply of Goods contract, no additional charges such as local levies / transportation / loading unloading charges etc., shall be payable over and above the contract price. For selected freight intensive products, as notified on GeM, the Seller may quote unit price inclusive of GST with delivery charge(s) (including transportation, loading unloading and local levies) payable extra as defined in the relevant categories. In respect of items requiring installation and / or commissioning and other services (as indicated in technical details of the item), the charges for the same shall also be included in the offered price on GeM.
+
+Once a Buyer carts a particular quantity of offered Goods / Service, during carting period as notified from time to time on GeM, rates for carted quantity, for that buyer, are frozen for the period as specified on the portal against any upward revision by seller. However, advantage of any downward revision in the offer price of carted item shall be automatically provided to the buyer.
+
+ii.
+
+Offer price in e-bidding: Bidder is required to indicate offer price in the price
+
+schedule as provided in the bidding document. Complete breakup of price as required must be indicated. However evaluation of the bid shall be on the basis of total all inclusive, landed price at consignee destination (unless otherwise specified in the ATC).
+
+iii.
+
+Offer price in RA: Bidder is required to indicate total offer price. Evaluation of the bid shall be on the basis of total all inclusive, landed price at consignee destination (unless otherwise specified in the ATC). Successful bidder shall have to provide complete breakup of the quoted price in the required price bid format before award of contract.
+
+7. Performance Security and Performance: i.
+
+There shall be no Performance security / PBG requirement for contracts:
+
+a) Placed under Direct Purchase / L-1 Purchase Option under Para (i) and (ii) of GFR rule 149;
+
+b) Placed through Bids / RA with estimated bid value up to Rs 30 Lakh (in case of Goods contracts); and
+
+c) Placed through Bids / RA with estimated bid value up to Rs 5 Lakh (in case of Services contracts)
+
+ii.
+
+In case of contracts placed following e-Bidding / RA, Performance Security / Performance Bank Guarantee (PBG) (in format provided on GeM) valid for 2 months beyond the date of completion of all contractual obligations including warrantee obligations, will be obtained from the successful Bidder, for ensuring due performance of the contract. GeM recommends quantum of Performance Security @ 2% of the value of contract. The Buyer also has the option to select Performance Security between 2% to 10%. While finalizing eBid / RA, Buyer shall indicate the % of Performance Security required to be submitted by successful bidders. In case of any extension of contract obligation period, the seller shall be liable to suitably extend the validity of the Performance Security.
+
+Such Performance Bank Guarantee, in prescribed format, from a scheduled commercial bank must be submitted by Seller to the Buyer within 15 days of award of contract on GeM. The payments to the seller shall become due only after receipt of Performance Bank Guarantee by the Buyer and verification of its genuineness.
+
+If the Seller fails or neglects to observe or perform any of his obligations under the contract it shall be lawful for the Buyer to forfeit either in whole or in part, the Performance Security furnished by the Seller.
+
+If the Seller duly performs and completes the contract in all respects the Buyer shall, refund the Performance Security to the Seller within 30 days of completion of all contractual obligations by the Seller.
+
+8. Duties & Taxes: i.
+
+Offer Prices on GeM shall be on all inclusive basis i.e. including all taxes, duties, local levies / transportation / loading-unloading charges etc. In the case of Bid / RA, complete break-up of the quoted price in the required price bid format shall furnished by the Bidder, before award of contract.
+
+ii.
+
+Statutory variation in the rate of GST, taking place between the date of award of contract and the original / refixed delivery period, shall be to the Buyer’s account. For claiming any change in price due to such Statutory variation, the seller shall have to lodge claim before the Buyer providing documentary evidence of change in rate of GST taking place after the date of award of contract and the date of supply within the original / refixed delivery period.
+
+Buyer shall issue necessary amendment in the contract to enable generation of supplementary invoice or revised invoice as the case may be.
+
+iii.
+
+No increase in price on account of statutory increase in the rate of GST taking place during the period of delivery period extension with liquidated Damages shall be admissible. Nevertheless the Buyer shall be entitled to the benefit of any decrease in price on account of reduction in GST taking place during extended delivery period.
+
+iv.
+
+The Bill Form / On-line invoice shall be generated by the Seller which may interalia include the following confirmations from the Seller:
+
+a. Certified that the Goods and Services Tax (GST) charged on this Bill is not more than what is payable under the provision of the relevant Act or the Rules made there under.
+
+b. Certified that the goods on which GST has been charged have not been exempted under the GST Act or the rules made there under and the charges on account of GST on these goods are correct under the provisions of that Act or the Rules made there under.
+
+c. Certified that the Seller is registered with above indicated GSTIN as dealer in the State where in their Billing address is located for the purpose of GST.
+
+d. The on-line bill form / invoice generated on GeM is not a replacement for the GST invoice. The proper GST invoice as per requirements of GST rules shall be sent by the seller to the buyer / consignee directly along with the Goods / Services as and when deliveries are made to the consignee.
+
+9. Integrity Pact:
+
+All the Users in GeM i.e. Seller as well as Buyer agree not to indulge in any corrupt practices including without limitation any activity or action to influence the transaction on any aspect of contract and commit to take all measures necessary to prevent corruption maintaining complete transparency and fairness in all activities related to GeM. Users agree to follow and adhere with the Integrity Pact guidelines provided on GeM Portal.
+
+10. Guarantee And Warrantee: i.
+
+The Goods/Services supplied under the Contract(s) shall be in accordance with the contract specifications & quality and the Goods shall be brand new and have standard Guarantee/Warrantee for one year period from the date of final acceptance by the consignee unless otherwise specified in category specifications, specific Bid/RA . Seller, at the time of listing their product on GeM portal or offering their products against any Bid / RA, may accordingly provide longer Guarantee/Warrantee period (i.e. more than 1 year) and in such case, Guarantee/Warrantee period stipulation made in category specifications / Bid / RA document, shall prevail over standard Guarantee / Warrantee period of
+
+1 year stipulated in these General Terms and Conditions.
+
+ii.
+
+Notwithstanding the fact that the Buyer or its Quality Assurance Officer may have inspected and/or approved / accepted the said Goods, it is further guaranteed that if during the said guarantee / warrantee period, the Goods be discovered not to conform to the requisite description and quality and/or not giving satisfactory performance or have deteriorated, and the decision of the Buyer in that behalf shall be final and binding on the Seller and the Buyer shall be entitled to call upon the Seller to rectify and/or replace the Goods or such portion thereof as is found to be defective by the Buyer within 7 days.
+
+Otherwise, the Seller shall pay to the Buyer such compensations that may arise by reasons of the warranty therein contained. In cases requiring Spares, the Seller guarantees that they will supply Spare Parts, if and when required on agreed basis for an agreed price for a minimum period of three years from the date of expiry of warrantee period (unless otherwise specified in STC / ATC).
+
+The agreed basis could be, including but without any limitation, an agreed discount on the published catalogue or an agreed percentage of profit on the landed cost. The aforesaid provisions made specifically for Goods, shall also be applicable for Services to the extent the same are practically possible.
+
+11. Buyer / Consignee’s Right Of Rejection (Return Policy): i.
+
+The Goods delivered shall bear the self certified Manufacturer’s/Seller’s Warranty/Guaranty. Buyer / Consignee shall have the right to inspect the supplied Goods themselves and/or through their appointed agency at consignee’s own cost, at Consignee’s site(s) after receipt and accept or reject on proper justification any consignment of the Goods received within a period of
+
+10 days (unless otherwise specified in STC or ATC) of receipt of consignment of goods. The date of receipt shall be reckoned from the date of receipt of the Goods as notified in the Provisional Receipt Certificate (PRC) which will be issued online by consignee immediately after receipt of Goods.
+
+ii.
+
+In case of Service contract, the Buyer reserves right to reject the same in conformance with the terms and conditions of the agreed Service Level Agreement (SLA). However, such right to reject services offered by the Seller under the contract shall be exercised by the Buyer within 10 days (unless otherwise specified in STC or ATC) of the date of receipt of the Service. The date & time of start and completion of the Service, shall be indicated by the Seller while raising on-line invoice for a specified period of Service as per Service Level Agreement (SLA). The date of such invoice or the date of completion of the service, whichever is later shall be reckoned as date of receipt of the Service.
+
+iii.
+
+On Acceptance / Part Acceptance or Rejection of Goods / Services, Consignee will issue an on line ‘Consignee’s Receipt cum Acceptance Certificate’ (CRAC), which will form the basis of Payments to the Seller.
+
+iv.
+
+No payment shall be made for rejected goods or services. After intimation of the rejection / part rejection by the Buyer/ Consignee, the Seller shall be liable to remove / lift back such rejected Goods within 10 days without any extra charge/cost to the Buyer / Consignee failing which suitable ground rent / warehousing charges would be payable by the Seller to the Buyer /Consignee.
+
+If the Seller fails to remove / lift back such rejected Goods within reasonable time period, the Buyer / Consignee shall have the right to dispose off such rejected goods at the risk and cost of the seller.
+
+12. Payment Authority and Payment Terms:
+
+Payments shall be made to the Seller in the manner below: i.
+
+For Goods :
+
+In case of goods, 100% payment will be released within ten (10) days of issue of consignee receipt-cum-acceptance certificate (CRAC) and on-line submission of bills unless otherwise specified in STC / ATC. ii.
+
+For Services:
+
+In case of services, 100% payments on the basis of monthly (unless otherwise specified) bills will be paid within ten (10) days of issue of consignee receiptcum-acceptance certificate (CRAC) and on-line submission of bills unless otherwise specified in STC / ATC.
+
+13. Terms of Delivery:
+
+All the Goods or Services in the GeM shall be offered on Free Delivery at Site basis including loading/unloading. In respect of items requiring installation, commissioning and other services in the scope of supply (as indicated in respective product category specification / STC / ATC), the cost of the same shall also be included in the offer price.
+
+14. Delivery Period Seller shall indicate the quantity which can be supplied over the specified time period(s). The Seller would offer these details, which would constitute the part of the awarded Contract(s) in the GeM and would make a binding Contract between the Seller & the Buyer. Any modification thereto shall be mutually agreed and incorporated in the Contract. This Delivery Period/Time shall be deemed to be essence of the Contract and delivery must be completed not later than such date(s).
+
+15. Extension of Delivery Period and Liquidated Damages:
+
+Buyer may, on the request of the Seller or otherwise, extend the delivery date suitably subject to the following conditions: i.
+
+The original Delivery Period may be re-fixed by the Buyer without any Liquidated damages subject to Force Majeure conditions mentioned below and also on the ground/reasons of delay attributable to the Buyer / Consignee.
+
+ii.
+
+For other cases, provided the price trend is not lower, the Delivery Period may be suitably extended for which an amount equal to the Liquidated Damages for the extended period(s) for delay in the supply of the Goods/Services after the expiry of contract delivery period /re-fixed delivery period, shall be recovered from the Seller as mentioned hereinafter for the extended period. No increase in price on any ground after the original/re-fixed delivery date shall be admissible
+
+during such extended period(s). Nevertheless the Buyer shall be entitled to the benefit of any decrease in price on account of reduction in GST taking place during extended delivery period. iii.
+
+Liquidated Damages: If the Seller fails to deliver any or all of the Goods/Services within the original/re-fixed delivery period(s) specified in the contract, the Buyer will be entitled to deduct/recover the Liquidated Damages for the delay, unless covered under Force Majeure conditions aforesaid, @ 0.5% per week or part of the week of delayed period as pre-estimated damages not exceeding 10% of the contract value without any controversy/dispute of any sort whatsoever.
+
+iv.
+
+Force Majeure Conditions :
+
+If at any time during the continuance of the Contract, the performance in whole or in part by either party of any obligation under this Contract shall be prevented or delayed by the reasons of any war, hostility, acts of the public enemy, epidemics, civil commotion, sabotage, fires, floods, explosion, quarantine restrictions, strikes, lockouts or act of God provided notice of happening of such event duly evidenced with documents is given by one party to the other within 10 days from the date of occurrence thereof, neither party shall be by reasons of such event, be entitled to terminate the Contract nor shall either party have any claim for damages against the other in respect of such non-performance or the delay in performance, and deliveries under the contract shall be resumed as soon as practicable after such event has come to an end or ceased to exist, and the decision of the Buyer as to whether the deliveries have been so resumed or not, shall be final and conclusive, Provided further that if the performance in whole or part of any obligation under this contract is prevented or delayed by reason of any such event for a period exceeding 10 days, either party may at its option terminate the contract provided also that the Buyer shall be at liberty to take over from the Seller at a price to be fixed by Buyer, which shall be final, all unused, undamaged and accepted material, bought out components and Goods in course of manufacture in the possession of the Seller at the time of such termination or such portion thereof as the Buyer may deem fit excepting such materials, bought out components and Goods as the Seller may with the concurrence of the Buyer elect to retain.
+
+16. Dispute Resolution Between Buyer and Seller:
+
+AMICABLE SETTLEMENT:
+
+In the event of any question, dispute or difference arising connection with the Contract, the Parties shall use their respective reasonable endeavour to settle any dispute amicably. If a Dispute is not resolved within 30 days after written notice of any dispute by one Party to the other, the same shall be resolved through the mechanism of a co-ordination committee to be formed by the Buyer and Seller/Service Provider and to be chaired by the Primary User of Buyer Organization/Department along with representatives from Buyer Department and Seller.
+
+ARBITRATION:
+
+In the event of any question, dispute or difference arising under the terms and conditions of the contract placed through GeM, the same shall be referred to the sole arbitration by an officer nominated as Arbitrator by the Primary Buyer of the concerned Buyer Organization. It will be no objection that the arbitrator is a Government Servant and that he had to deal with the matters to which the contract relates or that in the course of his duties as a Government servant he has expressed views on all or any of the matters in dispute or difference. The award of the arbitrator shall be final and binding on the parties to the contract. The arbitration shall be governed as per Indian Arbitration and Conciliation Act 1996 as amended up to date. The place for arbitration shall be at the place from where contract has been placed by the Buyer or at the place of Primary Buyer as decided by the Primary Buyer.
+
+In the event of the Arbitrator dying, neglecting or refusing to act or resigning or being unable to act for any reason, or his award being set aside by the court for any reason, it shall be lawful for the Primary Buyer to appoint another arbitrator in place of the outgoing arbitrator in the manner aforesaid.
+
+In respect of all contract placed through GeM, the dispute would not be referred or entertained by Micro and Small Enterprise Facilitation Council, Consumer Forum or any other adjudication forum.
+
+All disputes in connection with the Contract, shall be subject to the exclusive jurisdiction of the Court within the local limits of whose jurisdiction, the place from where Contract was issued is situated GeM SPV would not be a party to any such dispute/matter.
+
+17. Laws Governing the Contract: i.
+
+The contract shall be governed by the laws of India for the time being in force.
+
+ii.
+
+Irrespective of the place of delivery, the place of performance or the place of payment under the contract, the contract shall be deemed to have been made at the registered address of the Buyer and / or Primary Buyer.
+
+iii.
+
+Jurisdiction of Courts: The courts of the place from where the contract has been made shall alone have jurisdiction to decide any dispute arising out of or in respect of the contract.
+
+iv.
+
+GeM SPV would not be a party to any such litigation.
+
+18. Limitation of Liability:
+
+Notwithstanding anything contained in this agreement, no party will be liable for any special, incidental or consequential damages arising out of or in connection with this agreement or any breach hereof (including for loss of data or profits, or cost of cover), whether or not such party has been advised of the possibility of such damages, and whether under a theory of contract, tort (including negligence) or otherwise; except for liabilities arising out of any violation, misappropriation or infringement of a party’s intellectual property rights, or from a breach by either party of its obligation. In no event will either party’s aggregate liability arising out of or in connection with this agreement or any breach hereof (whether under a theory of contract, tort (including negligence), warranty or otherwise) exceed the Contract Price entered into the Contract between Buyer and Seller.
+
+19. Termination for Default:
+
+If the Seller does not perform its obligations within the Delivery Period/Date mentioned in the Contract, the same would constitute the breach of the Contract and the Buyer shall have the right to Cancel or withdraw the Contract for the unsupplied portion after the expiry of the original or re-fixed delivery date or period stipulated in the Contract. Such cancellation of contract on account of non -performance by the Seller would entitle the Buyer to forfeit the performance security besides other actions such as downgrading the Seller’s rating or debarment from the GeM for specified period as decided by GeM on merits.
+
+20. Closure of Transaction:
+
+After satisfactory completion of all the obligations under the Contract and release of payments for the goods / services, the transaction shall be treated as closed.
+
+21. Grounds for Administrative Action Against Seller’s Misconduct in GeM:
+
+The Seller would be liable for administrative actions such as suspension / debarment / removal from GeM, if they fail to abide by any of the terms & conditions stipulated in this document and/or on the following grounds, if the Seller:i.
+
+Listing the products/services not in the relevant categories and/or listing the same with vague/conflicting product specifications/details and irrelevant product photographs.
+
+ii.
+
+Offering Goods / Services without having proper authorization
+
+iii.
+
+Supplies goods of inferior/ substandard quality
+
+iv.
+
+Supplies refurbished or counterfeit products
+
+v.
+
+Withdraws or modify or impairs or derogates from the bid in any respect within the period of validity of its bid; or
+
+vi.
+
+If it comes to notice that the information / documents furnished in its bid is inaccurate ,false, misleading or forged; or
+
+vii.
+
+Fails to furnish requisite performance security / PBG within stipulated time required as per e-bid / RA conditions.
+
+viii.
+
+Fails to update GeM about any change in information furnished within the prescribed time limits.
+
+ix.
+
+Executes services without conforming to requirement given in Service Level Agreement (SLA)
+
+x.
+
+Fails to execute an order/ contract or fail to execute it satisfactorily
+
+xi.
+
+Is declared bankrupt or insolvent
+
+xii.
+
+Fails to produce the requisite documents/ information during the course of inspection / assessment at any stage; and
+
+xiii.
+
+On any other ground for which, in the opinion of GeM, the retention of the seller or any of its offered product in GeM is not in Public Interest
+
+The grounds mentioned above are illustrative only. Users are advised to read the list of prohibited activities published on the website.
+
+22. Role of Government E- Marketplace - Gem SPV Government e-Marketplace – GeM SPV is the owner of the GeM portal which monitors and supervises all the business transactions on the portal. The role and responsibilities of the company are as under:
+
+a. To develop, operate and maintain technology driven e-marketplace, through a Managed Service Provider (MSP), to be used by government agencies for procurement of various goods and services in a transparent and efficient manner.
+
+b. Overall supervision and monitoring of GeM portal operations, policy management, finalization and implementation of various business processes and work flows in adherence with the applicable law and executive orders issued from time to time . To provide tools for on-line Bidding, on-line Reverse Auction and Business Analytics Tools on GeM.
+
+c. To work continuously for improvements in the Business Processes and Work Flows for various activities / functions on GeM based on feedback from various stakeholders to enhance transparency, efficiency, competitiveness, equality, economy in procurement of goods and services by government agencies.
+
+d. To finalize General Terms and Conditions for sale and purchase of Goods and Services on GeM, Product / Service Specific Special Terms and Conditions, Special Terms and Conditions for Bunching of Goods / Services, Bid Specific Special Conditions, Project Specific Special Conditions etc.
+
+e. To finalize, upload and approve Technical Specification Frameworks for various item / service categories on GeM and to monitor conformity of offered products to the larger framework so finalized and uploaded.
+
+f. To decide addition / deletion of any of the offered product(s)/Product category
+
+(ies) and their framework of technical parameters on GeM.
+
+g. To work and co-ordinate with different Organizations/Departments / Agencies for integration of their Databases with the GeM portal on real time basis for the purpose of verification/authentication of data entries made by stakeholders.
+
+h. To offer and manage Demand Aggregation services for identified categories across buyers with assured reasonability of price, recommending for placement of orders by individual buyers
+
+i. To co-ordinate with MSP for conducting workshops for the various Stakeholders in capacity building and in change management associated with the implementation of technology enabled procurement process.
+
+j. To monitor MSP that the Buyers, Sellers and Service Providers are being assisted properly by them to onboard their goods and services on the GeM platform.
+
+k. To identify and offer services of 3 rd parties for Vendor Assessment relating to technical, financial capacity, past experience of sellers including manufacturing / testing facilities / quality control arrangement(s) of manufacturing premises and/or any of the premises related to manufacturing process of products / services offered by the seller / service provider on GeM.
+
+l. To identify and offer services of 3 rd parties for testing and certifying the quality of the product offered/ supplied, through documents, test reports/ certificates, testing at any independent lab or through inspection/testing by its authorized representative/s at firm’s premises or at user’s premises, that buyer choose to use.
+
+m. Overall monitoring and management of Call Centre/Help desk operations being provided by the MSP.
+
+n. Removal / debarring the Sellers/Buyers and Goods / services in GeM.
+
+o. Management of complaints and their redressal mechanism in GeM (not disputes related to concluded contracts).
+
+p. To identify, integrate and manage MoUs with verifying, certifying and validating entities across government(s) and also professional agencies to reinforce the online paperless, contactless and cashless system on GeM.
+
+q. To issue Notices, Circulars, News, Flashes, Updates etc in GeM
+
+r. Reporting and MIS mechanism in GeM
+
+s. Any other related activities in the GeM
+
+t. In exceptional circumstances, for ensuring propriety of procurement processes or to obviate possible misuse of GeM functionalities, GeM SPV as GeM Admin may keep any Bidding / RA process on hold for some time as considered appropriate.
+
+u. To take approved User Charges from Buyers and Sellers for the various transactions on the GeM portal as decided and notified on the GeM portal.
+
+23. Miscellaneous Provisions
+
+a. Assignment: Users understand and agree that the GTC, STC and ATC provisions, rights and obligations granted by GeM are non- transferrable or assignable by the User to any third party, without the prior written consent of GeM. If same is permitted by GeM, all the conditions, rights and obligations of the GTC or any on–going STC/ATC shall also be binding upon such third party assignee besides the User.
+
+b. Indemnification: The Seller shall at all time indemnify Buyer against all suits and claims which may be made in respect of the goods/services for infringement of any right protected by patent, registration of designs or trade mark. Provided always that in the event of any claim and suit in respect of alleged breach of patent, registered designs or trade-mark being made against the Buyer, the Buyer shall notify the Seller/ Service Provider of the same who shall at its own expense either settle any such dispute or conduct and litigation that may arise there from.
+
+Buyers and Sellers agree to indemnify, defend and hold harmless GeM, its officials, Managed Service Provider (herein after individually and collectively referred to as "indemnified parties") from and against any and all losses, liabilities, claims, suits, proceedings, penalties, interests, damages, demands, costs and expenses (including legal and other statutory fees and disbursements in connection therewith and interest chargeable thereon) asserted against or incurred by the indemnified parties that arise out of, result from, or in connection with i.
+
+Breach of the contract(s); or
+
+ii.
+
+Any claims made by any third party due to, or arising out of, or in connection with, use of the Website; or
+
+iii.
+
+Any claim made by any third party regarding content/ information or materials provided by Seller cause any damage to a third party; or arising out of, or in connection with, use of the Website.
+
+iv.
+
+Violation of any intellectual property rights or any other rights.
+
+Once GeM notifies the Buyer/ Seller of such claims, they shall defend and indemnify GeM for the same. Further, in no case they shall compromise or settle any claim or admit any liability on the part of GeM without the express or prior written consent of GeM which can be withheld or denied or modified by GeM in its sole discretion or as per the Applicable Laws.
+
+c. Severability: If due to any change in Applicable laws, certain part of the GTC or any applicable STC or any provisions of the GeM policies or portions thereof, becomes unenforceable, the remaining provisions shall continue in full force and effect so as to give effect to the intent of the parties.
+
+d. Website Terms and Policies Updation: Buyers and Sellers are advised to check the website terms and conditions as well as policies such as Privacy
+
+Policy and the Website Disclaimer at all times, as GeM may update the Website and such terms from time to time.
+
+e. List of Prohibitive Activities (Suggestive And Non-Exhaustive): i.
+
+Indulging in Cyber Crime activities which can become a threat to the GeM or to the Government of India.
+
+ii.
+
+Advertising, exhibiting, representing, publishing, pronouncing, listing, delivering, exposing for sale, offering to sell any kind of goods/services which can cause any kind of infringement or disparagement of intellectual property rights.
+
+iii.
+
+Selling refurbished, counterfeit / fake products.
+
+iv.
+
+Offering to sell or selling above MRP and/or, any kind of misrepresentation of MRP including contravening the provisions of the Legal Metrology Act 2009.
+
+v.
+
+Delivering some other product / used product/ empty parcels
+
+vi.
+
+Offering to sell or selling freebies which are written 'Not for sale' products.
+
+vii.
+
+Listing of the products on GeM without authorization to sell products manufactured by the OEM in open market.
+
+viii.
+
+Listing of the products is done on GeM website without warranty or genuine warranty.
+
+ix.
+
+Listing of the products is done in irrelevant/inappropriate categories and/or with vague/conflicting product specifications/details/irrelevant product photographs etc.
+
+x.
+
+The Buyer /Seller registering on GeM and/or offering or buying the Goods and/or Services and/or participating in e-bidding/reverse auction on GeM, without the requisite authorization to enter into contract on behalf of the concerned legal entity. Failing which such individual(s) shall be individually liable for its actions and also for any liability arising out of such actions.
+
+xi.
+
+If any Seller has been debarred from GeM then such Seller or their authorized sellers shall also not be permitted to register and offer/sell their products on GeM and / or participate in Bids / RA on GeM.
+
+xii.
+
+Using GeM prices for making procurement outside GeM Portal.
+
+xiii.
+
+Splitting of demands by creating multiple Bids/RAs of same goods / services or making repeated procurements of same goods/services through L-1 buying as per rule 149(i) and 9(ii) of GFR-2017.
+
+xiv.
+
+Uploading goods / services containing information that —
+
+(a) belongs to another person and to which the user does not have any right to;
+
+(b) is grossly harmful, harassing, blasphemous, defamatory, obscene, pornographic, paedophilic, libellous, invasive of another's privacy, hateful, or racially, ethnically objectionable, disparaging, relating or encouraging money laundering or gambling, or otherwise unlawful in any manner whatever;
+
+(c) harm minors in any way;
+
+(d) infringes any patent, trademark, copyright or other proprietary rights;
+
+(e) violates any law for the time being in force;
+
+(f) deceives or misleads the addressee about the origin of such messages or communicates any information which is grossly offensive or menacing in nature;
+
+(g) impersonate another person;
+
+(h) contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer resource;
+
+(i) threatens the unity, integrity, defence, security or sovereignty of India, friendly relations with foreign states, or public order or causes incitement to the commission of any cognizable offence or prevents investigation of any offence or is insulting any other nation. "
+
+24. Incident management Policy on GeM: GeM is a trust based system and self-declaration is the key, along with a strong automated process to penalize any deviant behaviour on part of Sellers / Buyers. For this purpose, deviations from the terms and conditions of procurement on GeM, including general terms and conditions, special and additional terms and conditions and any other relevant Government rules and guidelines, are termed as “deviation”. A deviation can occur while listing the products on GeM, at pre-contract stage, during bidding or at post contract stage on GeM. The mechanism for reporting and initiating action on such deviation has been detailed in the Incident Management Policy available on GeM portal under Resources. All stake holders of GeM shall be bound by the actions as detailed in the Incident Management Policy.
+
+All administrative actions under this Incident management Policy, taken by GeM against any of the stakeholders shall not cause any limitation on the legal and/or contractual remedies including any financial recoveries, available to Buyers/Sellers under the Terms and Conditions of contract and/or GeM policies. In case the Buyer / Seller choose to pursue any of these remedies, GeM shall not be made party to such proceedings / remedial actions taken by Buyer/Seller under the contractual provisions.
+
+25. e-Sign authorization:
+
+I hereby authorize NSDL e-Gov on behalf of my organisation to:
+
+1. Use my Aadhaar details for all transactions on Government e-Marketplace and authenticate my identity through the Aadhaar Authentication system (Aadhaar based e-KYC services of UIDAI) in accordance with the provisions of the Aadhar (Targeted Delivery of Financial and other Subsidies, Benefits and Services) Act, 2016 and the allied rules and regulations notified there under and for no other purpose.
+
+2. Authenticate my Aadhaar through OTP or Biometric for authenticating my identity through the Aadhaar Authentication system for obtaining my e-KYC through Aadhaar based e-KYC services of UIDAI and use my Photo and Demographic details (Name, Gender, Date of Birth and Address) for signing all documents related to transactions on Government e-Marketplace.
+
+3. I understand that Security and confidentiality of personal identity data provided, for the purpose of Aadhaar based authentication is ensured by NSDL e-Gov and the data will be stored by NSDL e-Govt till such time as mentioned in guidelines from UIDAI from time to time.

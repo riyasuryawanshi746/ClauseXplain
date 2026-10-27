@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.zip
+*.pdf
+CUAD_v1.json
+stageB*/
+partial/
+.ipynb_checkpoints/
+.env
+.DS_Store

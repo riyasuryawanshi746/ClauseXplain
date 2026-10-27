@@ -1,0 +1,267 @@
+CLAUSEXPLAIN -- SIX TARGET CATEGORIES WITH ZERO CUAD-DERIVED TRAINING SIGNAL
+=============================================================================
+
+IMPORTANT CORRECTION BEFORE READING FURTHER:
+
+The original project framing assumed the sixth zero-coverage category was
+"Dispute Resolution." Verified directly against the final 41->18 mapping,
+this is NOT correct. Dispute Resolution receives 173 CUAD-derived spans
+(via the CUAD category "Covenant Not To Sue"), so it has narrow but
+non-zero coverage -- it is inadequately covered, not absent.
+
+The sixth category that is actually and fully absent (zero spans, verified
+directly against clauses_mapped.jsonl) is PAYMENT. This is a direct
+consequence of the decision to scope "Payment" strictly to
+invoicing/payment-timing/interest-on-late-payment provisions and route all
+commercial/deal-structure provisions (Minimum Commitment, Revenue Sharing,
+etc.) to the new "Commercial Terms" category instead. None of CUAD's 41
+categories concern payment timing or invoicing at all, so once
+"Commercial Terms" absorbed the closest adjacent CUAD categories, Payment
+was left with nothing.
+
+The corrected list of six categories with ZERO CUAD-derived spans is:
+  1. Indemnification
+  2. Confidentiality
+  3. Privacy / Data Protection
+  4. Modification
+  5. Force Majeure
+  6. Payment
+
+Dispute Resolution is a separate, SEVENTH category worth flagging in the
+paper as "narrowly/inadequately covered" (173 spans, but only from one
+CUAD category that covers a small slice of what "dispute resolution"
+usually means -- see its own entry below for detail).
+
+=============================================================================
+
+1. INDEMNIFICATION
+-------------------
+Why CUAD does not adequately cover it:
+  None of CUAD's 41 categories concern indemnification. CUAD's annotation
+  scheme was built around what a corporate/M&A lawyer reviews in SEC-filed
+  commercial agreements; indemnification, while extremely common in real
+  contracts, was not isolated as one of the 41 categories CUAD's authors
+  chose to annotate.
+
+Consequence for ClauseXplain:
+  The neural component receives zero training signal for this category
+  from CUAD. Any indemnification-risk detection must come entirely from
+  the symbolic rule layer or from a supplementary annotated dataset.
+
+Indian-law relevance:
+  Indemnity clauses are governed generally by contract principles under
+  the Indian Contract Act, 1872 (Sections 124-125 define indemnity and a
+  right to indemnity). Uncapped or unusually broad indemnity obligations
+  are a commonly cited risk for freelancers and SMEs. (Verify current
+  case law before final publication -- this note states the general
+  statutory basis, not a specific risk threshold.)
+
+Current ClauseXplain handling:
+  Symbolic rule layer only (existing rule ICA_007 in the prototype system
+  targets indemnity + uncapped-liability co-occurrence).
+
+Future dataset requirement:
+  A supplementary corpus of Indian service/vendor/freelance agreements
+  with indemnification clauses manually identified and reviewed, or
+  LLM-assisted weak labeling validated against a human-annotated subset.
+
+Research-paper wording (Limitations / Threats to Validity):
+  "CUAD does not annotate indemnification as a distinct category, as its
+  scheme reflects the review priorities of SEC-filed M&A agreements rather
+  than the concerns of freelance or SME service contracts. Consequently,
+  the neural component of ClauseXplain receives no CUAD-derived training
+  signal for indemnification risk; detection currently relies entirely on
+  the symbolic rule layer, and closing this gap is identified as a primary
+  direction for future dataset expansion."
+
+
+2. CONFIDENTIALITY
+-------------------
+Why CUAD does not adequately cover it:
+  CUAD's source contracts are commercial/M&A agreements, not standalone
+  NDAs; general confidentiality obligations were not tagged as one of the
+  41 categories despite being common in real-world contracts.
+
+Consequence for ClauseXplain:
+  Zero neural training signal from CUAD for this category.
+
+Indian-law relevance:
+  Confidentiality obligations are enforced as ordinary contractual terms
+  under the Indian Contract Act, 1872; there is no dedicated confidentiality
+  statute analogous to trade-secret statutes in some other jurisdictions.
+  (This is a general statement of contract-law treatment, not a claim about
+  any specific enforcement outcome.)
+
+Current ClauseXplain handling:
+  Not currently covered by either the neural or symbolic layer of the
+  prototype system.
+
+Future dataset requirement:
+  Same as Indemnification -- supplementary annotation of confidentiality
+  clauses from real or synthetic Indian contracts.
+
+Research-paper wording:
+  "Confidentiality obligations, though common in real-world commercial
+  contracts, are not annotated as a distinct category in CUAD. This
+  category currently has no representation in either the neural or
+  symbolic components of ClauseXplain and is identified as an open gap."
+
+
+3. PRIVACY / DATA PROTECTION
+-----------------------------
+Why CUAD does not adequately cover it:
+  CUAD (published 2021, sourced from SEC filings predating comprehensive
+  personal-data-protection legislation in many jurisdictions) does not tag
+  any category related to processing of personal or sensitive data.
+
+Consequence for ClauseXplain:
+  Zero neural training signal. This is the most significant gap for the
+  project's stated Indian-law focus, since data-protection risk assessment
+  is one of ClauseXplain's central design goals.
+
+Indian-law relevance:
+  The Digital Personal Data Protection Act (DPDPA), 2023 is the primary
+  relevant statute. (Confirm current provisions and effective-date status
+  against the official text before final publication, as implementation
+  timelines for DPDPA rules have been subject to change.)
+
+Current ClauseXplain handling:
+  Symbolic rule layer only (existing rules DPDPA_001 through DPDPA_004 in
+  the prototype system).
+
+Future dataset requirement:
+  A dedicated Indian-contract data-protection clause corpus is likely the
+  single highest-priority annotation task for this project, given the
+  centrality of this category to the stated research contribution.
+
+Research-paper wording:
+  "Privacy and data-protection provisions are entirely unrepresented in
+  CUAD's annotation scheme, reflecting both its US origin and its 2021
+  publication date, prior to the Digital Personal Data Protection Act,
+  2023 coming into force in India. This is the most consequential gap for
+  a project centered on Indian data-protection risk, and closing it via
+  supplementary annotation is treated as the highest-priority direction
+  for future work."
+
+
+4. MODIFICATION
+----------------
+Why CUAD does not adequately cover it:
+  No CUAD category addresses contract amendment/modification mechanics
+  (e.g., whether changes require written consent of both parties).
+
+Consequence for ClauseXplain:
+  Zero neural training signal.
+
+Indian-law relevance:
+  Amendment/modification of a contract is governed by general principles
+  of offer, acceptance, and consideration under the Indian Contract Act,
+  1872; no single dedicated section addresses "modification clauses" as a
+  distinct legal category. (General statement; not a claim of comprehensive
+  statutory coverage.)
+
+Current ClauseXplain handling:
+  Not currently covered.
+
+Future dataset requirement:
+  Supplementary annotation from real or synthetic Indian contracts.
+
+Research-paper wording:
+  "No CUAD category addresses contract modification/amendment mechanics.
+  This category is currently unsupported by either the neural or symbolic
+  components of ClauseXplain."
+
+
+5. FORCE MAJEURE
+------------------
+Why CUAD does not adequately cover it:
+  No CUAD category addresses force majeure/excused-performance provisions,
+  despite their prevalence in real commercial contracts.
+
+Consequence for ClauseXplain:
+  Zero neural training signal.
+
+Indian-law relevance:
+  Force majeure is addressed both through express contractual clauses and,
+  in their absence, through the doctrine of frustration under Section 56
+  of the Indian Contract Act, 1872. (General statement of statutory basis;
+  the interaction between an express force majeure clause and Section 56
+  is a substantive area of case law that should be reviewed separately
+  before making specific claims in the paper.)
+
+Current ClauseXplain handling:
+  Not currently covered.
+
+Future dataset requirement:
+  Supplementary annotation; force majeure clauses became a heavily
+  litigated area in India following COVID-19, so recent Indian case law
+  may be a useful source of real examples.
+
+Research-paper wording:
+  "Force majeure provisions, despite their prevalence in commercial
+  contracts and their heightened relevance in India following COVID-19-era
+  litigation, are not represented in CUAD's annotation scheme. This
+  category is currently unsupported and is identified as a future
+  annotation priority."
+
+
+6. PAYMENT
+-----------
+Why CUAD does not adequately cover it:
+  None of CUAD's 41 categories concern payment timing, invoicing, or
+  interest on delayed payment. Categories that superficially seem
+  payment-adjacent (Revenue/Profit Sharing, Minimum Commitment, Price
+  Restrictions, Volume Restriction) concern deal-structure/commercial
+  economics rather than payment mechanics, and were deliberately routed to
+  the new "Commercial Terms" category instead of being force-fit into
+  Payment. This is a direct, documented consequence of that taxonomy
+  decision, not an oversight.
+
+Consequence for ClauseXplain:
+  Zero neural training signal for the category that is arguably most
+  directly actionable for the project's target users (Indian freelancers
+  and SMEs, for whom late payment is a well-documented practical problem).
+
+Indian-law relevance:
+  Sections 15-16 of the Micro, Small and Medium Enterprises Development
+  (MSMED) Act, 2006 impose a statutory ceiling on buyer credit periods
+  (payment due within 45 days of acceptance, absent a shorter agreed date)
+  and require compound interest at three times the RBI-notified bank rate
+  on delayed payments to micro and small enterprise suppliers. This is a
+  directly relevant, verifiable statute for the target user base.
+
+Current ClauseXplain handling:
+  Not currently covered by either layer of the prototype system.
+
+Future dataset requirement:
+  Supplementary annotation of payment-timing clauses from real Indian
+  vendor/freelance contracts; given the MSMED Act's specific, checkable
+  45-day threshold, this may be one of the more tractable categories to
+  build a symbolic rule for even before neural training data exists
+  (a rule checking for the presence/absence of a payment-timing clause and
+  flagging terms exceeding 45 days would already be a defensible symbolic
+  check that would not require any additional annotated training data).
+
+Research-paper wording:
+  "Payment received zero CUAD-derived spans once its scope was strictly
+  limited to invoicing/payment-timing provisions, as no CUAD category
+  addresses payment mechanics; the categories initially considered adjacent
+  (revenue sharing, minimum commitment, etc.) were instead routed to a
+  newly introduced Commercial Terms category on the grounds that they
+  concern deal-structure economics rather than payment timing. Given the
+  direct relevance of Sections 15-16 of the MSMED Act, 2006 to the
+  project's target users, this is treated as a near-term priority for
+  either supplementary annotation or a rule-based interim solution."
+
+
+SEVENTH FLAG (not one of the six, but should be disclosed alongside them):
+
+DISPUTE RESOLUTION -- narrow/inadequate coverage, not zero
+------------------------------------------------------------
+173 spans, but from a single CUAD category ("Covenant Not To Sue") that
+addresses only restrictions on a party's ability to bring legal proceedings
+-- it says nothing about arbitration clauses, choice of forum/venue, or
+mediation, which are the provisions most people mean by "dispute
+resolution." This should be disclosed as a coverage gap in the same
+"Limitations" section, worded as "narrowly represented" rather than
+"absent," to keep the six-category list above accurate.

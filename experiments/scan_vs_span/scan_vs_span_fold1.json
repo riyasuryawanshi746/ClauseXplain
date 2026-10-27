@@ -1,0 +1,44 @@
+{
+ "n_windows": 500,
+ "fold": 1,
+ "span_head": {
+  "n": 500,
+  "token_f1": 0.755174390907278,
+  "exact_match": 0.51,
+  "iou": 0.7029579157904977,
+  "forward_passes_per_window": 1.0,
+  "ms_per_window": 53.916420499992455
+ },
+ "classifier_scan": {
+  "n": 500,
+  "token_f1": 0.6134298264753417,
+  "exact_match": 0.122,
+  "iou": 0.5516228010650273,
+  "forward_passes_per_window": 49.542,
+  "ms_per_window": 1299.7526797459868
+ },
+ "candidate_ceiling_token_f1": 0.959076271594624,
+ "span_minus_scan_token_f1": {
+  "mean": 0.14174456443193623,
+  "ci95": [
+   0.10492567915249218,
+   0.1796605907074561
+  ]
+ },
+ "settings": {
+  "run_dir": "/kaggle/working/cuad_project",
+  "fold": 1,
+  "ckpt_span": "/kaggle/working/cuad_project/ckpt_joint_cls_span_fold1.pt",
+  "ckpt_cls": "/kaggle/working/cuad_project/ckpt_cls_only_fold1.pt",
+  "mapped_jsonl": "/kaggle/working/cuad_project/clauses_mapped.jsonl",
+  "cuad_json": "/kaggle/working/cuad_project/CUAD_v1.json",
+  "n_windows": 500,
+  "max_candidates": 60,
+  "scan_batch": 32,
+  "span_batch": 4,
+  "n_boot": 2000,
+  "tiny": false
+ },
+ "device": "cuda",
+ "gpu": "Tesla T4"
+}

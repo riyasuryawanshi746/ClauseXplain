@@ -83,7 +83,16 @@ def main(argv=None):
     docs = {p.name: p.read_text(encoding="utf-8", errors="replace") for p in sorted(docs_dir.glob("*.txt"))}
     rows, problems, multi = [], [], []
     per_doc = Counter()
-    with open(a.clauses_csv, newline="", encoding="utf-8-sig") as f:
+    raw = Path(a.clauses_csv).read_bytes()
+    try:
+        csv_text, enc_used = raw.decode("utf-8-sig"), "utf-8"
+    except UnicodeDecodeError:
+        csv_text, enc_used = raw.decode("cp1252", errors="replace"), "cp1252 (Excel default; re-save as CSV UTF-8 if text looks wrong)"
+    import io
+    seen_spans, per_cat_doc = [], Counter()
+    notes = []
+    if True:
+        f = io.StringIO(csv_text, newline="")
         for n, r in enumerate(csv.DictReader(f), start=2):
             fn, cat, txt = (r.get("document_file") or "").strip(), (r.get("category") or "").strip(), r.get("clause_text") or ""
             if fn.startswith("example_nda"):
@@ -98,6 +107,19 @@ def main(argv=None):
             if count > 1:
                 multi.append(f"line {n}: text occurs {count} times in {fn}; first occurrence used")
             s, e = loc
+            if len(txt.split()) < 12:
+                notes.append(f"line {n}: only {len(txt.split())} words -- looks like a heading, not a clause (check it is not a table-of-contents line)")
+            if re.search(r"\.{4,}|\s\d{1,3}\s*$", docs[fn][s:e]):
+                notes.append(f"line {n}: text ends in dot leaders or a page number -- probably a table-of-contents line")
+            clash = [(o_fn, o_n, o_cat) for (o_fn, o_s, o_e, o_n, o_cat) in seen_spans
+                     if o_fn == fn and s < o_e and o_s < e]
+            if clash:
+                same = [c for c in clash if c[2] == cat]
+                if same:
+                    problems.append(f"line {n}: DUPLICATE/overlapping row for the same category as line {same[0][1]}; skipped so it is not double counted")
+                    continue
+                notes.append(f"line {n}: span overlaps line {clash[0][1]} ({clash[0][2]}) but has a different category -- confirm both labels are intended")
+            seen_spans.append((fn, s, e, n, cat))
             cid = slug(fn)
             i = per_doc[fn]; per_doc[fn] += 1
             rows.append({"clause_id": f"{cid}__{cat}__{i}", "contract_id": cid, "cuad_category": "INDIAN_SET",
@@ -117,6 +139,16 @@ def main(argv=None):
     thin = [c for c in CATEGORIES if 0 < cnt[c] < 3]
     if thin:
         rep += ["", "Categories with fewer than 3 clauses (too thin for per-category scores): " + ", ".join(thin)]
+    rep += ["", f"CSV encoding read as: {enc_used}"]
+    rep += ["", "## Clauses per document", ""] + [f"- {d}: {c}" + ("  <-- more than 6; one document may dominate" if c > 6 else "")
+                                                for d, c in per_doc.most_common()]
+    nz = [c for c in CATEGORIES if cnt[c]]
+    unseen_n = sum(cnt[c] for c in NO_TRAINING_DATA)
+    rep += ["", f"Clauses in never-seen categories: {unseen_n} of {len(rows)}",
+            "NOTE: Dispute Resolution is only 'seen' via CUAD's Covenant Not To Sue (no arbitration/forum clauses), "
+            "so score it separately from the other seen categories."]
+    if notes:
+        rep += ["", "## Warnings (rows kept, but check them)"] + [f"- {p}" for p in notes]
     if problems:
         rep += ["", "## Problems (these rows were skipped)"] + [f"- {p}" for p in problems]
     if multi:

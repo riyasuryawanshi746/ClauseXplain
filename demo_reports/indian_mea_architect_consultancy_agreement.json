@@ -1,0 +1,1802 @@
+{
+ "n_chars": 24254,
+ "n_units": 70,
+ "min_prob": 0.6,
+ "units": [
+  {
+   "start": 104,
+   "end": 146,
+   "text": "Renovation of Ambassador Residence, Prague",
+   "category": "Intellectual Property",
+   "prob": 0.540104329586029,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.540104329586029
+    ],
+    [
+     "Termination",
+     0.28684723377227783
+    ],
+    [
+     "Other",
+     0.07395679503679276
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 429,
+   "end": 478,
+   "text": "PERFORMANCE GUARANTEE AND LIMITATION OF LIABILITY",
+   "category": "Liability",
+   "prob": 0.9964662790298462,
+   "top3": [
+    [
+     "Liability",
+     0.9964662790298462
+    ],
+    [
+     "Termination",
+     0.0007358550210483372
+    ],
+    [
+     "Dispute Resolution",
+     0.000670658249873668
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 513,
+   "end": 561,
+   "text": "DOCUMENTS/INFORMATION TO BE PROVIDED BY EMPLOYER",
+   "category": "Liability",
+   "prob": 0.8430531620979309,
+   "top3": [
+    [
+     "Liability",
+     0.8430531620979309
+    ],
+    [
+     "Intellectual Property",
+     0.036218464374542236
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.03548326715826988
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 902,
+   "end": 942,
+   "text": "REPRESENTATION WARRANTIES AND DISCLAIMER",
+   "category": "Liability",
+   "prob": 0.9123732447624207,
+   "top3": [
+    [
+     "Liability",
+     0.9123732447624207
+    ],
+    [
+     "Dispute Resolution",
+     0.022203031927347183
+    ],
+    [
+     "Intellectual Property",
+     0.018210288137197495
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 1005,
+   "end": 1116,
+   "text": "This Agreement (hereinafter referred to as `AGREEMENT\u2019) is drawn on __________2021 at Embassy of India, Prague.",
+   "category": "Other",
+   "prob": 0.3734423816204071,
+   "top3": [
+    [
+     "Other",
+     0.3734423816204071
+    ],
+    [
+     "Termination",
+     0.32572224736213684
+    ],
+    [
+     "Intellectual Property",
+     0.1820012778043747
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 1118,
+   "end": 1337,
+   "text": "By and Between Embassy of India, Prague (hereinafter referred to as `Employer\u2019 which expression shall unless repugnant to the context on meaning thereof be deemed to include its successors and assigns) on the First Part",
+   "category": "Intellectual Property",
+   "prob": 0.7165543437004089,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.7165543437004089
+    ],
+    [
+     "Non-Compete",
+     0.07399120926856995
+    ],
+    [
+     "Assignment",
+     0.0691022202372551
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 1344,
+   "end": 1520,
+   "text": "M/s (Name of the Architect/Consultant) (hereinafter referred to as `Architect/Consultant\u2019, a company registered in ____ and having its registered office at No. _____ (address).",
+   "category": "Intellectual Property",
+   "prob": 0.7619584798812866,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.7619584798812866
+    ],
+    [
+     "Non-Compete",
+     0.12079503387212753
+    ],
+    [
+     "Termination",
+     0.04443800821900368
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 1531,
+   "end": 2069,
+   "text": "i. Embassy of India, Prague intends to engage an Architect/Consultancy agency for ARCHITECT/CONSULTANCY SERVICES/PROJECT MANAGEMENT (hereinafter referred to as 'the Services') for (Renovation of Ambassador Residence, Prague) (hereinafter referred to as `the Project\u2019). ii. It is agreed by each of the party that the Architect/Consultant will act as its representative to do or execute all acts and things, in connection with this AGREEMENT. iii. Embassy of India, Prague agrees to engage Architect/Consultant for performing such services:",
+   "category": "Other",
+   "prob": 0.26457667350769043,
+   "top3": [
+    [
+     "Other",
+     0.26457667350769043
+    ],
+    [
+     "Non-Compete",
+     0.23716498911380768
+    ],
+    [
+     "Intellectual Property",
+     0.1943260282278061
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 2071,
+   "end": 2172,
+   "text": "Now this AGREEMENT witnesseth and it is hereby mutually agreed by and between the parties as follows:",
+   "category": "Assignment",
+   "prob": 0.7834994792938232,
+   "top3": [
+    [
+     "Assignment",
+     0.7834994792938232
+    ],
+    [
+     "Intellectual Property",
+     0.09654607623815536
+    ],
+    [
+     "Other",
+     0.03829102963209152
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 2199,
+   "end": 2934,
+   "text": "i. For the Purpose of this AGREEMENT, unless otherwise specified or repugnant to or inconsistent with the subject, content or meaning thereof, the following terms shall be deemed to have the following meanings. ii. 'AGREEMENT' shall mean this AGREEMENT including all sections, annexures and appendices hereto and all documents herein attached and amendments to be made to the 'AGREEMENT', if any, which the parties may hereafter mutually agreed in writing. iii. 'Date of Acceptance' shall mean the date on which Employer confirms written acceptance to Consultant's SERVICES. iv. 'Architect/Consultant' shall mean M/s (Name of the Architect/Consultant) as company registered in ____ having its registered office at ___________(Address).",
+   "category": "Intellectual Property",
+   "prob": 0.24013307690620422,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.24013307690620422
+    ],
+    [
+     "Other",
+     0.18574175238609314
+    ],
+    [
+     "Termination",
+     0.14465582370758057
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 2936,
+   "end": 3003,
+   "text": "v. 'Parties' shall mean Embassy Architect/Consultant) collectively.",
+   "category": "Assignment",
+   "prob": 0.44249773025512695,
+   "top3": [
+    [
+     "Assignment",
+     0.44249773025512695
+    ],
+    [
+     "Intellectual Property",
+     0.27853527665138245
+    ],
+    [
+     "Non-Compete",
+     0.0680583268404007
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 3051,
+   "end": 3482,
+   "text": "vi. 'Services' shall mean the responsibilities to be discharged by the Architect/Consultant for fulfilling its obligations under this AGREEMENT as defined under Section 4 `SCOPE OF SERVICES' of this AGREEMENT. vii. 'Architect' shall mean M/s (name of the Architect/Consultant). viii. 'EOI' shall mean Expression of Interest document issued by the Employer. ix. 'RFP' shall mean Request for Proposal document issued by the Employer.",
+   "category": "Other",
+   "prob": 0.48347219824790955,
+   "top3": [
+    [
+     "Other",
+     0.48347219824790955
+    ],
+    [
+     "Termination",
+     0.19419920444488525
+    ],
+    [
+     "Intellectual Property",
+     0.14375396072864532
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 3484,
+   "end": 4034,
+   "text": "x. 'LOI' shall mean Letter of Intent issued by the Employer. xi. 'Estimated cost of a package' would mean the cost estimate prepared for a package using the tender quantities given by the Architect/Consultant and approved by the Employer. xii. 'Estimated Project Cost' would mean the estimated Construction cost as per the Detailed Project Report submitted by the Architect/Consultant and approved by the Employer. xiii. 'Executed cost of a package' shall mean the value of awarded contract adjusted for any revision in scope and any cost variations.",
+   "category": "Other",
+   "prob": 0.693683385848999,
+   "top3": [
+    [
+     "Other",
+     0.693683385848999
+    ],
+    [
+     "Commercial Terms",
+     0.11094203591346741
+    ],
+    [
+     "Termination",
+     0.04526451602578163
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4069,
+   "end": 4180,
+   "text": "The following documents shall be deemed to form and be read and construed as an integral part of the AGREEMENT:",
+   "category": "Intellectual Property",
+   "prob": 0.4087337553501129,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.4087337553501129
+    ],
+    [
+     "Other",
+     0.23701943457126617
+    ],
+    [
+     "Assignment",
+     0.20713618397712708
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4510,
+   "end": 4719,
+   "text": "iv. Correspondence between Architect/Consultant and the Employer before signing of the agreement. (Annexure \u2013 4) (To be enclosed by the Embassy of India, Prague vide letter Nos. ___ dated ___, 2020 (Enclosed).",
+   "category": "Intellectual Property",
+   "prob": 0.4590804874897003,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.4590804874897003
+    ],
+    [
+     "Other",
+     0.17527127265930176
+    ],
+    [
+     "Assignment",
+     0.15138867497444153
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4721,
+   "end": 5092,
+   "text": "v. LOI issued by the Employer vide letter No.___ dated ____ 2021 (To be indicated by the Embassy of India, Prague) (Annexure \u2013 5) (Enclosed). vi. The above documents combined together shall form the part of the agreement and shall be enclosed as Annexures to this AGREEMENT. The aforesaid documents shall be taken as complementary and mutually exploratory of one another.",
+   "category": "Intellectual Property",
+   "prob": 0.3841005265712738,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.3841005265712738
+    ],
+    [
+     "Other",
+     0.24847877025604248
+    ],
+    [
+     "Termination",
+     0.18683038651943207
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 5135,
+   "end": 5291,
+   "text": "Notwithstanding the date of its execution, the AGREEMENT shall be deemed to have come into force with effect from ________day _________month___________year.",
+   "category": "Termination",
+   "prob": 0.9960067868232727,
+   "top3": [
+    [
+     "Termination",
+     0.9960067868232727
+    ],
+    [
+     "Intellectual Property",
+     0.001051521860063076
+    ],
+    [
+     "Assignment",
+     0.0007198820821940899
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 5324,
+   "end": 5431,
+   "text": "The scope of Services shall be as per Section 4 of RFP document referred to in Section 2 of this AGREEMENT.",
+   "category": "Other",
+   "prob": 0.9444855451583862,
+   "top3": [
+    [
+     "Other",
+     0.9444855451583862
+    ],
+    [
+     "Commercial Terms",
+     0.015967609360814095
+    ],
+    [
+     "Termination",
+     0.011796794831752777
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 5463,
+   "end": 5607,
+   "text": "For the scope of services identified under Section 4 of this AGREEMENT, the Employer shall pay the fees to the Architect/ Consultant as follows:",
+   "category": "Commercial Terms",
+   "prob": 0.9202497005462646,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9202497005462646
+    ],
+    [
+     "Penalties",
+     0.018529638648033142
+    ],
+    [
+     "Termination",
+     0.013516915962100029
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 5622,
+   "end": 5735,
+   "text": "Fee in % of of the project cost, which will be either the estimated cost or the tendered cost, whichever is lower",
+   "category": "Commercial Terms",
+   "prob": 0.915562093257904,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.915562093257904
+    ],
+    [
+     "Penalties",
+     0.024880127981305122
+    ],
+    [
+     "Other",
+     0.02258734405040741
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 5737,
+   "end": 5959,
+   "text": "ARCHITECT/CONSULTANCY SERVICES FOR Architect/Consultancy Fee @ _____% of Renovation of Ambassador Residence, the project cost which will be either the Sarecka 1540/7, Dejvice, Prague 6. estimated cost or the tendered cost,",
+   "category": "Commercial Terms",
+   "prob": 0.9203734993934631,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9203734993934631
+    ],
+    [
+     "Other",
+     0.0503263883292675
+    ],
+    [
+     "Penalties",
+     0.00708917248994112
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 5990,
+   "end": 6367,
+   "text": "i. The said fee is exclusive of VAT/ Service Tax. ii. If the project duration extends beyond the time schedule as per Section 14 of this agreement, the Architect/Consultant agrees to provide services to the extended time schedule and the fee for the services for the extended period shall be governed as per Para 5 of the RFP document referred to in Section 6 of the Agreement.",
+   "category": "Commercial Terms",
+   "prob": 0.9646905064582825,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9646905064582825
+    ],
+    [
+     "Other",
+     0.011013822630047798
+    ],
+    [
+     "Termination",
+     0.006919249426573515
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 6373,
+   "end": 6517,
+   "text": "The Architect/Consultant shall be jointly and severely responsible for the successful performance of the scope of services as per this contract.",
+   "category": "Other",
+   "prob": 0.5087404251098633,
+   "top3": [
+    [
+     "Other",
+     0.5087404251098633
+    ],
+    [
+     "Intellectual Property",
+     0.12762871384620667
+    ],
+    [
+     "Warranty",
+     0.11530294269323349
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6553,
+   "end": 6814,
+   "text": "The Architect/Consultant shall be entitled for payment of fees as percentage (as quoted in the financial bid) of the project cost, which will be either the estimated cost or the tendered cost, whichever is lower. This payment shall be excluding VAT, taxes, etc.",
+   "category": "Commercial Terms",
+   "prob": 0.9083556532859802,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9083556532859802
+    ],
+    [
+     "Other",
+     0.03021431155502796
+    ],
+    [
+     "Penalties",
+     0.02327950857579708
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 6820,
+   "end": 7184,
+   "text": "The fee to the Architect/Consultant, indicated in Section 5 of this AGREEMENT, shall be paid as per Para 5 of RFP. Payments made to the Architect/Consultant for various stages shall be running account bills and shall be adjusted against the final fee payable. The payments will be made after successful realization of the objectives at each stage as Para 5 of RFP.",
+   "category": "Commercial Terms",
+   "prob": 0.9714113473892212,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9714113473892212
+    ],
+    [
+     "Penalties",
+     0.008114023134112358
+    ],
+    [
+     "Other",
+     0.006393695715814829
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 7190,
+   "end": 7341,
+   "text": "60% of the consultancy fee will be released to the consultant in per-construction stage and 40% consultancy fee will be paid during construction phase.",
+   "category": "Commercial Terms",
+   "prob": 0.9872857928276062,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9872857928276062
+    ],
+    [
+     "Other",
+     0.004324495326727629
+    ],
+    [
+     "Penalties",
+     0.0018608507234603167
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 7347,
+   "end": 7661,
+   "text": "Retention Money: 5% of the Architect/Consultancy Fee shall be held back from each payment, as Retention money. Half of this 5% of the Architect/Consultancy fee shall be released after one month of issue of completion certificate to the Contractor and remaining half shall be released after one year from that date.",
+   "category": "Commercial Terms",
+   "prob": 0.9821861982345581,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9821861982345581
+    ],
+    [
+     "Penalties",
+     0.009063306264579296
+    ],
+    [
+     "Other",
+     0.0025689362082630396
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 7699,
+   "end": 8424,
+   "text": "In addition to Architect/consultancy fees specified above, the Architect/Consultant will be reimbursed actual expenditure incurred, on rendering the following services:i. Soil Test, Laboratory tests, investigations, site survey or any other investigation report or any other services required for the project. ii. Payment for statutory clearances as per local law, will be reimbursable with the prior approval of Embassy of India, Prague. iii. Any tax levied by law, as applicable. iv. The Embassy of India, Prague can also make direct payment/ reimbursement to the concerned agencies through which the services are organised/rendered and Architect/ Consultant shall fulfill their obligations as per the RFP & this agreement.",
+   "category": "Commercial Terms",
+   "prob": 0.3027559816837311,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.3027559816837311
+    ],
+    [
+     "Termination",
+     0.16622093319892883
+    ],
+    [
+     "Liability",
+     0.1152503564953804
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 8432,
+   "end": 8723,
+   "text": "The Architect/Consultant would not be entitled for reimbursement of expenditure towards stationery, transport, incidental expenditures, communications (telephone, internet etc.), site office, equipment, etc. which are part and parcel of administration of the Architect/Consultant\u2019s services.",
+   "category": "Commercial Terms",
+   "prob": 0.21908047795295715,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.21908047795295715
+    ],
+    [
+     "Liability",
+     0.2016293853521347
+    ],
+    [
+     "Termination",
+     0.15027786791324615
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 8729,
+   "end": 8937,
+   "text": "As early as possible but not later than fifteen (15) working days of completion of a stage, the Architect/Consultant shall submit invoices along with appropriate supporting documents for claiming the fee due.",
+   "category": "Other",
+   "prob": 0.3369881808757782,
+   "top3": [
+    [
+     "Other",
+     0.3369881808757782
+    ],
+    [
+     "Termination",
+     0.23989565670490265
+    ],
+    [
+     "Warranty",
+     0.21885453164577484
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 8969,
+   "end": 9058,
+   "text": "The Remuneration indicated in Section 5 of the agreement is exclusive of the service tax.",
+   "category": "Commercial Terms",
+   "prob": 0.9790575504302979,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9790575504302979
+    ],
+    [
+     "Other",
+     0.006532729137688875
+    ],
+    [
+     "Non-Compete",
+     0.004381585866212845
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 9060,
+   "end": 9121,
+   "text": "SECTION 8: PERFORMANCE GUARANTEE AND LIMITATION OF LIABILITY:",
+   "category": "Liability",
+   "prob": 0.9970288872718811,
+   "top3": [
+    [
+     "Liability",
+     0.9970288872718811
+    ],
+    [
+     "Termination",
+     0.0005942155257798731
+    ],
+    [
+     "Penalties",
+     0.000433042470831424
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 9123,
+   "end": 9492,
+   "text": "i. Architect/Consultant shall carry out the Services in conformity with generally accepted norms and sound standards of engineering. Architect/Consultant shall be responsible for the technical soundness of the services rendered. In the event of any deficiencies in these services, the Architect/Consultant's liability shall be limited to promptly redoing such services.",
+   "category": "Liability",
+   "prob": 0.5799204707145691,
+   "top3": [
+    [
+     "Liability",
+     0.5799204707145691
+    ],
+    [
+     "Warranty",
+     0.33107471466064453
+    ],
+    [
+     "Other",
+     0.022706620395183563
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 9494,
+   "end": 10078,
+   "text": "The Employer shall not be required to pay additional compensation to the Architect/consultant for such re-done services. ii. Architect/Consultant shall, in order to safeguard the interests of the Employer, endeavour to incorporate appropriate provisions in the specifications for purchase of equipment/ appointment of contractors to ensure that the equipment suppliers/ contractors provide the necessary guarantees of performance. Architect\u2019s/Consultant's obligations in this regard shall be limited to providing technical assistance to the Employer in procuring such guarantees. iii.",
+   "category": "Liability",
+   "prob": 0.29711201786994934,
+   "top3": [
+    [
+     "Liability",
+     0.29711201786994934
+    ],
+    [
+     "Commercial Terms",
+     0.260159969329834
+    ],
+    [
+     "Penalties",
+     0.16504508256912231
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 10079,
+   "end": 10431,
+   "text": "The overall total liability of Architect/Consultant arising out of this Agreement for conclusively proven lapse of the Architect/ Consultant in executing his scope of services as defined in Section 4 of the Agreement or any subsequent change thereof shall be limited to a maximum ten per cent (10%) of the remuneration mentioned in Section 5 above. iv.",
+   "category": "Liability",
+   "prob": 0.9876263737678528,
+   "top3": [
+    [
+     "Liability",
+     0.9876263737678528
+    ],
+    [
+     "Penalties",
+     0.008867685683071613
+    ],
+    [
+     "Termination",
+     0.0010250065242871642
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 10432,
+   "end": 11123,
+   "text": "Without prejudice to the generality of the above person, the liability clause will be involved to ensure timely delivery of services by the Architect/Consultant, as per time schedule of the project that will be finalized by mutual agreement between Architect/Consultant, Employer & Contractor. 0.5% of consultancy fee will be deducted for per week of delay of delivery of services as per time schedule, subject to limit of 10% of the total consultancy fee as provided in the section 5 of this AGREEMENT, provided it is conclusively proven that such delay is attributable to the Architect/Consultant within its responsibility in the scope of services as defined in Section 4 of the Agreement.",
+   "category": "Liability",
+   "prob": 0.9751186370849609,
+   "top3": [
+    [
+     "Liability",
+     0.9751186370849609
+    ],
+    [
+     "Penalties",
+     0.017175717279314995
+    ],
+    [
+     "Warranty",
+     0.0034996967297047377
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 11161,
+   "end": 11300,
+   "text": "Architect/Consultant shall carry out the review work indicated in Section 4 of RFP document based on the drawings provided by the Employer.",
+   "category": "Other",
+   "prob": 0.9882914423942566,
+   "top3": [
+    [
+     "Other",
+     0.9882914423942566
+    ],
+    [
+     "Termination",
+     0.006607234477996826
+    ],
+    [
+     "Warranty",
+     0.0019078513141721487
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 11302,
+   "end": 11351,
+   "text": "SECTION 10: DOCUMENTS/INFORMATION TO BE PROVIDED:",
+   "category": "Liability",
+   "prob": 0.5092297792434692,
+   "top3": [
+    [
+     "Liability",
+     0.5092297792434692
+    ],
+    [
+     "Intellectual Property",
+     0.1940383017063141
+    ],
+    [
+     "Other",
+     0.08593597263097763
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 11353,
+   "end": 11688,
+   "text": "The scope of services, as detailed in the RFP document indicated in Section 2 of this AGREEMENT, is based on the understanding that Employer shall provide all necessary data/ document/information to the Architect/Consultant, which shall be the base information/input, relied upon by the Architect/Consultant for rendering the services.",
+   "category": "Other",
+   "prob": 0.8229649662971497,
+   "top3": [
+    [
+     "Other",
+     0.8229649662971497
+    ],
+    [
+     "Commercial Terms",
+     0.05721968412399292
+    ],
+    [
+     "Non-Compete",
+     0.04387185350060463
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 11718,
+   "end": 12507,
+   "text": "In the event that either party is prevented wholly or in part, by any force majeure cause, as defined hereinafter from performing or accepting performance by the other party, the parties will either agree to a fresh completion date by condoning the period of delay arising out of such non-performance or may by mutual consent, treat the contract as terminated. However, if the force majeure conditions persist for an unreasonably long time, the party not under force majeure conditions may, by giving a notice to the other party, terminate the contract. In either case of termination, both parties will have no claim for compensation against each other, but shall receive their dues as prevailing on the date of commencement of force majeure conditions. Force Majeure is herein defined as:",
+   "category": "Termination",
+   "prob": 0.6161262392997742,
+   "top3": [
+    [
+     "Termination",
+     0.6161262392997742
+    ],
+    [
+     "Penalties",
+     0.10811737924814224
+    ],
+    [
+     "Other",
+     0.08273472636938095
+    ]
+   ],
+   "confident": true,
+   "flags": [
+    {
+     "rule_id": "ICA_S39_01",
+     "provision": "Indian Contract Act, 1872, Section 39",
+     "status": "context",
+     "reasons": [
+      "termination tied to breach/default"
+     ],
+     "note": "background right under s.39; compare how the clause narrows or widens it",
+     "rule_confidence": "Low",
+     "evidence": [
+      [
+       259,
+       264,
+       "delay"
+      ],
+      [
+       285,
+       300,
+       "non-performance"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "start": 12509,
+   "end": 12980,
+   "text": "i. Any cause which is beyond the reasonable control of the Architect/Consultant or Employer. ii. Natural phenomena including but not limited to weather conditions, fire, explosion, flood, drought, earthquake and epidemic. iii. Acts of any Governmental authority, domestic or foreign, including but not limited to war declared or undeclared, priorities, guarantees, endangers, licensing controls or production or distribution restrictions; iv. Disruption in communication;",
+   "category": "Liability",
+   "prob": 0.4858415424823761,
+   "top3": [
+    [
+     "Liability",
+     0.4858415424823761
+    ],
+    [
+     "Intellectual Property",
+     0.1302526742219925
+    ],
+    [
+     "Dispute Resolution",
+     0.09191308915615082
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 12982,
+   "end": 13070,
+   "text": "v. Strikes and lockouts; vi. Sabotage, riot, civil commotion, invasion and insurrection.",
+   "category": "Liability",
+   "prob": 0.4683153033256531,
+   "top3": [
+    [
+     "Liability",
+     0.4683153033256531
+    ],
+    [
+     "Dispute Resolution",
+     0.25511640310287476
+    ],
+    [
+     "Intellectual Property",
+     0.06276365369558334
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 13098,
+   "end": 13989,
+   "text": "i. In the event of any dispute or difference arising at any time between the parties relating to the construction; meaning or effect of this AGREEMENT or any other cause or any content of the rights and liabilities of the parties or other matters specified herein or with reference to anything arising out of or incidental to this AGREEMENT or otherwise in relation to the terms; whether during the continuance of this AGREEMENT or thereafter, such disputes or differences shall be endeavoured to be solved by mutual negotiations. ii. If, however, such negotiations are infructuous, Arbitration shall be carried out as per provisions of UNCITRAL (United Nations Commission on International Trade Laws). The venue of arbitration shall be Prague, Czech Republic. iii. Any reference to arbitration shall not relieve either party from the due performance of its obligations under this AGREEMENT.",
+   "category": "Other",
+   "prob": 0.25683239102363586,
+   "top3": [
+    [
+     "Other",
+     0.25683239102363586
+    ],
+    [
+     "Termination",
+     0.23384855687618256
+    ],
+    [
+     "Intellectual Property",
+     0.10769283771514893
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 14028,
+   "end": 14454,
+   "text": "All the drawings, reports and documents reviewed by the Architect/Consultant in the performance of the AGREEMENT shall at all stages be and remain the property of the Employer and while in the custody of Architect/Consultant shall be fully available to Employer and its duly authorized representatives. On completion of assignment, all the reviewed drawings etc. shall be delivered by the Architect/Consultant to the Employer.",
+   "category": "Intellectual Property",
+   "prob": 0.7343442440032959,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.7343442440032959
+    ],
+    [
+     "Termination",
+     0.1342574506998062
+    ],
+    [
+     "Other",
+     0.1164172887802124
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 14484,
+   "end": 14888,
+   "text": "Subject to Section 20 (i), the time period for completion of the Services which shall be carried out by the Architect/Consultant/Project Manager and their Local Sub Architect/Consultants with the due expedition and strictly in accordance with the time schedule, which is as per the contractor's work i.e. upto ___ (to be indicated by the Mission) months or till completion of the work whichever is later.",
+   "category": "Termination",
+   "prob": 0.5282461047172546,
+   "top3": [
+    [
+     "Termination",
+     0.5282461047172546
+    ],
+    [
+     "Warranty",
+     0.27085766196250916
+    ],
+    [
+     "Other",
+     0.0674876794219017
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 14916,
+   "end": 15004,
+   "text": "Under overall circumstances, if the Employer terminates the Agreement either in whole or",
+   "category": "Termination",
+   "prob": 0.710422933101654,
+   "top3": [
+    [
+     "Termination",
+     0.710422933101654
+    ],
+    [
+     "Assignment",
+     0.18568719923496246
+    ],
+    [
+     "Other",
+     0.0455046072602272
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 15006,
+   "end": 15344,
+   "text": "portion thereof, Architect/Consultant shall be compensated for the services carried out till the date of termination, less any disputed amount. The Employer shall discuss in detail with Architect/Consultant to exhaust all possibilities of Architect/Consultant not being able to deliver its services before applying the termination clause.",
+   "category": "Penalties",
+   "prob": 0.5221695303916931,
+   "top3": [
+    [
+     "Penalties",
+     0.5221695303916931
+    ],
+    [
+     "Termination",
+     0.360286146402359
+    ],
+    [
+     "Liability",
+     0.05272151157259941
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 15370,
+   "end": 16013,
+   "text": "Subject to Section 8 of this AGREEMENT, Architect/Consultant shall be liable for and shall defend indemnify and hold Employer, its officers, agents and employees free and harmless for all losses, injuries, claims, demands, liens and judgements of any description arising out of performance or non-performance of this Agreement to the extent that such losses, injuries, claims, demands, lens and judgements are the result of an actual or alleged error, omission or negligent act of the Architect/Consultant or any person employed or agent engaged by the Architect/Consultant, unless such injury / damages are caused by the Employer\u2019s personnel.",
+   "category": "Liability",
+   "prob": 0.9812129139900208,
+   "top3": [
+    [
+     "Liability",
+     0.9812129139900208
+    ],
+    [
+     "Dispute Resolution",
+     0.00492275133728981
+    ],
+    [
+     "Penalties",
+     0.004013910889625549
+    ]
+   ],
+   "confident": true,
+   "flags": [
+    {
+     "rule_id": "ICA_S73_01",
+     "provision": "Indian Contract Act, 1872, Section 73",
+     "status": "context",
+     "reasons": [
+      "damages/breach mentioned, no cap or formula visible"
+     ],
+     "note": "statutory default compensation rule (s.73) would fill the gap; context, not a defect",
+     "rule_confidence": "Low",
+     "evidence": [
+      [
+       293,
+       308,
+       "non-performance"
+      ],
+      [
+       596,
+       603,
+       "damages"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "start": 16054,
+   "end": 16401,
+   "text": "The English language will be used in all written communications, data drawings and documents exchanged between the Employer and Architect/Consultant with respect to the services to be performed. All reports, drawings, documents and other technical information procured or prepared by Architect/Consultant shall employ metric units of measurements.",
+   "category": "Intellectual Property",
+   "prob": 0.5423678159713745,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.5423678159713745
+    ],
+    [
+     "Commercial Terms",
+     0.32197052240371704
+    ],
+    [
+     "Other",
+     0.04061540961265564
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 16403,
+   "end": 16474,
+   "text": "Gregorian calendar will be followed for the execution of the AGREEMENT.",
+   "category": "Governing Law / Jurisdiction",
+   "prob": 0.4833989143371582,
+   "top3": [
+    [
+     "Governing Law / Jurisdiction",
+     0.4833989143371582
+    ],
+    [
+     "Other",
+     0.22436274588108063
+    ],
+    [
+     "Intellectual Property",
+     0.12733964622020721
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 16510,
+   "end": 16848,
+   "text": "Architect/Consultant shall make available on the Employer\u2019s request such services as may be mutually agreed between the Employer and Architect/Consultant in addition to those described in this AGREEMENT. The terms and conditions for such additional services shall be mutually agreed upon between the Employer and the Architect/Consultant.",
+   "category": "Other",
+   "prob": 0.511340856552124,
+   "top3": [
+    [
+     "Other",
+     0.511340856552124
+    ],
+    [
+     "Non-Compete",
+     0.17094352841377258
+    ],
+    [
+     "Termination",
+     0.1326119303703308
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 16891,
+   "end": 17111,
+   "text": "Should circumstances arise which call for modifications of the AGREEMENT, these may be made by mutual consent given in writing. Proposal in this respect from one Party shall be given due consideration by the other Party.",
+   "category": "Assignment",
+   "prob": 0.8769199848175049,
+   "top3": [
+    [
+     "Assignment",
+     0.8769199848175049
+    ],
+    [
+     "Other",
+     0.08350055664777756
+    ],
+    [
+     "Intellectual Property",
+     0.014160256832838058
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 17149,
+   "end": 17802,
+   "text": "i. This AGREEMENT shall without prejudice to the provision of Section 11 (Force Majeure) and Section 15 (Termination) remains in force till the successful commissioning of the project which is expected as per the contractor\u2019s work i.e. ___ (To be indicated by the Mission/Post) months or till completion of the work whichever is later. ii. If, however, due to some unavoidable reasons the successful commissioning of the project gets delayed, the validity of the agreement, as provided in Section 14 may be suitably extended by way of an amended agreement duly executed by the parties\u2019 upto ___ months, or till completion of the work whichever is later.",
+   "category": "Termination",
+   "prob": 0.7977163195610046,
+   "top3": [
+    [
+     "Termination",
+     0.7977163195610046
+    ],
+    [
+     "Warranty",
+     0.10141825675964355
+    ],
+    [
+     "Intellectual Property",
+     0.03556640446186066
+    ]
+   ],
+   "confident": true,
+   "flags": [
+    {
+     "rule_id": "ICA_S39_01",
+     "provision": "Indian Contract Act, 1872, Section 39",
+     "status": "context",
+     "reasons": [
+      "termination tied to breach/default"
+     ],
+     "note": "background right under s.39; compare how the clause narrows or widens it",
+     "rule_confidence": "Low",
+     "evidence": [
+      [
+       434,
+       441,
+       "delayed"
+      ]
+     ]
+    },
+    {
+     "rule_id": "ICA_S75_01",
+     "provision": "Indian Contract Act, 1872, Section 75",
+     "status": "context",
+     "reasons": [
+      "termination for breach, no compensation language"
+     ],
+     "note": "background entitlement under s.75; context only",
+     "rule_confidence": "Low",
+     "evidence": [
+      [
+       434,
+       441,
+       "delayed"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "start": 17828,
+   "end": 17954,
+   "text": "Any approvals to be obtained by either party from the other under this AGREEMENT shall not be unreasonably denied or withheld.",
+   "category": "Assignment",
+   "prob": 0.31782448291778564,
+   "top3": [
+    [
+     "Assignment",
+     0.31782448291778564
+    ],
+    [
+     "Other",
+     0.29566696286201477
+    ],
+    [
+     "Intellectual Property",
+     0.21047984063625336
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 17956,
+   "end": 17997,
+   "text": "SECTION 22: CO-OPERATION BETWEEN PARTIES:",
+   "category": "Intellectual Property",
+   "prob": 0.30704328417778015,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.30704328417778015
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.18085433542728424
+    ],
+    [
+     "Non-Compete",
+     0.1251518428325653
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 17999,
+   "end": 18857,
+   "text": "i. The Employer shall nominate an officer to represent it for the purpose of this AGREEMENT and the name, designation and address of the officer so nominated shall be intimated to Architect/Consultant. Similarly, Architect/Consultant shall nominate and intimate in writing particulars of an officer to represent it. ii. The officer nominated by the Employer and by Architect/Consultant shall be fully authorized to give and receive instructions and decisions which shall be deemed to have been given by the Employer and Architect/Consultant respectively who shall be bound by such decisions and instructions given/received by their nominated officers. It is, however, understood and agreed to by and between the parties hereto that the parties shall work in close co-operation with each other at all times in order to ensure timely completion of the project.",
+   "category": "Intellectual Property",
+   "prob": 0.309720516204834,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.309720516204834
+    ],
+    [
+     "Other",
+     0.21370072662830353
+    ],
+    [
+     "Termination",
+     0.1390577256679535
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 18890,
+   "end": 19291,
+   "text": "i. This AGREEMENT constitutes the entire AGREEMENT by and between the parties. Each party to this Agreement by its execution acknowledges that the parties jointly prepared this Agreement hereto. There are no understandings, agreements or representations not specified in this Agreement. ii. All previous AGREEMENTS and communications relative hereto is superseded unless otherwise incorporated hereto.",
+   "category": "Intellectual Property",
+   "prob": 0.42422714829444885,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.42422714829444885
+    ],
+    [
+     "Assignment",
+     0.3714657127857208
+    ],
+    [
+     "Termination",
+     0.04517405480146408
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 19323,
+   "end": 20117,
+   "text": "i. This Agreement, all communications and information obtained by Architect/Consultant from the Employer relating to this Agreement, and all information developed by the Architect/Consultant under this Agreement are confidential. Except as provided by law or with prior written consent of the authorized representative of the Employer, the Architect/Consultant shall neither divulge to nor discuss with any third party either the work and service provided hereunder, or any communication or information in connection with such services or work. ii. Architect/Consultant shall not publish or cause to disseminate through any press / media release, public statement or marketing or selling effort any information which relates to this Agreement without the prior written approval of the Employer.",
+   "category": "Intellectual Property",
+   "prob": 0.37499719858169556,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.37499719858169556
+    ],
+    [
+     "Other",
+     0.2738184928894043
+    ],
+    [
+     "Non-Compete",
+     0.14858205616474152
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 20119,
+   "end": 20175,
+   "text": "SECTION 25: REPRESENTATIONS, WARRANTIES AND DISCLAIMERS:",
+   "category": "Liability",
+   "prob": 0.7918432950973511,
+   "top3": [
+    [
+     "Liability",
+     0.7918432950973511
+    ],
+    [
+     "Dispute Resolution",
+     0.05052207410335541
+    ],
+    [
+     "Intellectual Property",
+     0.03915497660636902
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 20177,
+   "end": 20245,
+   "text": "The Architect/Consultant represents and warrants to the client that:",
+   "category": "Other",
+   "prob": 0.5055895447731018,
+   "top3": [
+    [
+     "Other",
+     0.5055895447731018
+    ],
+    [
+     "Intellectual Property",
+     0.10976935923099518
+    ],
+    [
+     "Non-Compete",
+     0.08540502190589905
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 20247,
+   "end": 20714,
+   "text": "i. It has full power and authority to execute, deliver and perform its obligations under this Agreement and to carry out the transactions contemplated hereby. ii. This Agreement constitutes its legal valid and binding obligation enforceable against it in accordance with the terms hereof. iii. It is subject to Laws of Czech Republic with respect to this Agreement and it is hereby expressly and irrevocably waives any immunity in any jurisdiction in respect thereof.",
+   "category": "Governing Law / Jurisdiction",
+   "prob": 0.537903904914856,
+   "top3": [
+    [
+     "Governing Law / Jurisdiction",
+     0.537903904914856
+    ],
+    [
+     "Intellectual Property",
+     0.15261436998844147
+    ],
+    [
+     "Assignment",
+     0.08200830221176147
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 20716,
+   "end": 21165,
+   "text": "iv. There are no actions, suits, proceedings or investigations pending or to the Architect/Consultant knowledge, threatened against it at law or in equity before any court or other judicial, quasi-judicial or other authority the outcome of which may result in the breach of or constitutes a default of the Architect/Consultant under this Contract or materially affect the discharge by the Architect/Consultant or its obligations under the Agreement.",
+   "category": "Dispute Resolution",
+   "prob": 0.8538553714752197,
+   "top3": [
+    [
+     "Dispute Resolution",
+     0.8538553714752197
+    ],
+    [
+     "Liability",
+     0.057653408497571945
+    ],
+    [
+     "Other",
+     0.035623446106910706
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 21167,
+   "end": 21463,
+   "text": "v. No representation or warranty by the Architect/Consultant contained herein or any other document furnished by the Employer contains or will contain any untrue statement of material fact or omits or will omit to state a material fact necessary to make representation or warranty and misleading.",
+   "category": "Liability",
+   "prob": 0.38067564368247986,
+   "top3": [
+    [
+     "Liability",
+     0.38067564368247986
+    ],
+    [
+     "Other",
+     0.30409443378448486
+    ],
+    [
+     "Dispute Resolution",
+     0.1376025676727295
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 21487,
+   "end": 21776,
+   "text": "No waiver of any condition, requirement or right expressed in this Agreement shall be implied by any forbearance of the Employer to declare a default or failure to perform or to take any other action on account of the violation of such condition if such violation be continued or repeated.",
+   "category": "Liability",
+   "prob": 0.6292402148246765,
+   "top3": [
+    [
+     "Liability",
+     0.6292402148246765
+    ],
+    [
+     "Warranty",
+     0.09180882573127747
+    ],
+    [
+     "Dispute Resolution",
+     0.06977629661560059
+    ]
+   ],
+   "confident": true,
+   "flags": [
+    {
+     "rule_id": "ICA_S73_01",
+     "provision": "Indian Contract Act, 1872, Section 73",
+     "status": "context",
+     "reasons": [
+      "damages/breach mentioned, no cap or formula visible"
+     ],
+     "note": "statutory default compensation rule (s.73) would fill the gap; context, not a defect",
+     "rule_confidence": "Low",
+     "evidence": [
+      [
+       142,
+       149,
+       "default"
+      ],
+      [
+       153,
+       163,
+       "failure to"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "start": 21805,
+   "end": 22445,
+   "text": "If for any reason any provision of the Contract is, or becomes invalid, illegal or unenforceable or is declared by any Court of competent jurisdiction or any other instrumentation to be invalid, illegal or unenforceable, the validity, legality or enforceability of the remaining provisions shall not be affected in any manner and the Parties shall negotiate in good faith with a view to agreeing upon one or more provisions which may be substituted for such invalid, unenforceable or illegal provisions, as nearby as possible. Failure to agree upon such provisions shall not be subject to dispute resolution under the Contract or otherwise.",
+   "category": "Assignment",
+   "prob": 0.542087733745575,
+   "top3": [
+    [
+     "Assignment",
+     0.542087733745575
+    ],
+    [
+     "Intellectual Property",
+     0.10406724363565445
+    ],
+    [
+     "Termination",
+     0.09671756625175476
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 22470,
+   "end": 22514,
+   "text": "The termination of this Agreement shall not;",
+   "category": "Assignment",
+   "prob": 0.7873567938804626,
+   "top3": [
+    [
+     "Assignment",
+     0.7873567938804626
+    ],
+    [
+     "Termination",
+     0.1016775444149971
+    ],
+    [
+     "Intellectual Property",
+     0.03675331175327301
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 22516,
+   "end": 23019,
+   "text": "i. Relieve the Architect/Consultant or the Employer of any obligations hereunder which expressly or by implication survive Termination hereof. ii. Except as otherwise provided in any provision of the Contract expressly limiting the liability of either party shall not relieve either party of any obligations or liabilities for loss or damage to the other party arising out of or caused by acts of omissions of such Party prior to the effectiveness of such Termination or arising out of such Termination.",
+   "category": "Liability",
+   "prob": 0.5214765071868896,
+   "top3": [
+    [
+     "Liability",
+     0.5214765071868896
+    ],
+    [
+     "Termination",
+     0.16996124386787415
+    ],
+    [
+     "Assignment",
+     0.13288402557373047
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 23043,
+   "end": 23384,
+   "text": "All notices to be given by either Party to the other in connection with rights and obligations of both Parties under or pertaining to this AGREEMENT shall be sent by post, postage prepaid or by courier and if given by facsimile, e-mail, telephone or verbally, they shall be confirmed by registered letter or courier and addressed as follows:",
+   "category": "Intellectual Property",
+   "prob": 0.3530336618423462,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.3530336618423462
+    ],
+    [
+     "Termination",
+     0.23197777569293976
+    ],
+    [
+     "Other",
+     0.12260235846042633
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 23577,
+   "end": 23767,
+   "text": "Either party may change individuals designated to receive Notices or addresses and in such an event, notices shall be given to the other Party by means of written Notices of any such change.",
+   "category": "Assignment",
+   "prob": 0.7019402384757996,
+   "top3": [
+    [
+     "Assignment",
+     0.7019402384757996
+    ],
+    [
+     "Termination",
+     0.14684757590293884
+    ],
+    [
+     "Intellectual Property",
+     0.053029078990221024
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 23769,
+   "end": 23872,
+   "text": "IN WITNESS WHEREOF the parties hereto have executed this AGREEMENT on _____ day of _______ year ______.",
+   "category": "Liability",
+   "prob": 0.557307243347168,
+   "top3": [
+    [
+     "Liability",
+     0.557307243347168
+    ],
+    [
+     "Termination",
+     0.11935485899448395
+    ],
+    [
+     "Intellectual Property",
+     0.09009377658367157
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  }
+ ],
+ "contract_flags": [],
+ "found": {
+  "Termination": [
+   {
+    "start": 5135,
+    "end": 5291,
+    "text": "Notwithstanding the date of its execution, the AGREEMENT shall be deemed to have come into force with effect from ________day _________month___________year.",
+    "span_score": 0.1787109375,
+    "verify_prob": 0.9960052371025085
+   },
+   {
+    "start": 17152,
+    "end": 17484,
+    "text": "This AGREEMENT shall without prejudice to the provision of Section 11 (Force Majeure) and Section 15 (Termination) remains in force till the successful commissioning of the project which is expected as per the contractor\u2019s work i.e. ___ (To be indicated by the Mission/Post) months or till completion of the work whichever is later.",
+    "span_score": 10.794921875,
+    "verify_prob": 0.9853935241699219
+   },
+   {
+    "start": 17752,
+    "end": 17802,
+    "text": "or till completion of the work whichever is later.",
+    "span_score": -0.203125,
+    "verify_prob": 0.8965917825698853
+   }
+  ],
+  "Governing Law / Jurisdiction": [
+   {
+    "start": 20541,
+    "end": 20714,
+    "text": "It is subject to Laws of Czech Republic with respect to this Agreement and it is hereby expressly and irrevocably waives any immunity in any jurisdiction in respect thereof.",
+    "span_score": 10.265625,
+    "verify_prob": 0.9415966272354126
+   },
+   {
+    "start": 23769,
+    "end": 23929,
+    "text": "IN WITNESS WHEREOF the parties hereto have executed this AGREEMENT on _____ day of _______ year ______.\n\nFor Embassy of India, Prague\n\nFor M/s (Name Consultant)",
+    "span_score": -8.384765625,
+    "verify_prob": 0.027779897674918175
+   },
+   {
+    "start": 1118,
+    "end": 1803,
+    "text": "By and Between Embassy of India, Prague (hereinafter referred to as `Employer\u2019 which expression shall unless repugnant to the context on meaning thereof be deemed to include its successors and assigns) on the First Part\n\nAND\n\nM/s (Name of the Architect/Consultant) (hereinafter referred to as `Architect/Consultant\u2019, a company registered in ____ and having its registered office at No. _____ (address).\n\nWHEREAS\n\ni. Embassy of India, Prague intends to engage an Architect/Consultancy agency for ARCHITECT/CONSULTANCY SERVICES/PROJECT MANAGEMENT (hereinafter referred to as 'the Services') for (Renovation of Ambassador Residence, Prague) (hereinafter referred to as `the Project\u2019). ii.",
+    "span_score": -4.58544921875,
+    "verify_prob": 0.00455491291359067
+   }
+  ],
+  "Liability": [
+   {
+    "start": 10079,
+    "end": 10427,
+    "text": "The overall total liability of Architect/Consultant arising out of this Agreement for conclusively proven lapse of the Architect/ Consultant in executing his scope of services as defined in Section 4 of the Agreement or any subsequent change thereof shall be limited to a maximum ten per cent (10%) of the remuneration mentioned in Section 5 above.",
+    "span_score": 12.83203125,
+    "verify_prob": 0.9885973334312439
+   },
+   {
+    "start": 15370,
+    "end": 16013,
+    "text": "Subject to Section 8 of this AGREEMENT, Architect/Consultant shall be liable for and shall defend indemnify and hold Employer, its officers, agents and employees free and harmless for all losses, injuries, claims, demands, liens and judgements of any description arising out of performance or non-performance of this Agreement to the extent that such losses, injuries, claims, demands, lens and judgements are the result of an actual or alleged error, omission or negligent act of the Architect/Consultant or any person employed or agent engaged by the Architect/Consultant, unless such injury / damages are caused by the Employer\u2019s personnel.",
+    "span_score": 7.345703125,
+    "verify_prob": 0.9812135100364685
+   },
+   {
+    "start": 22663,
+    "end": 22998,
+    "text": "Except as otherwise provided in any provision of the Contract expressly limiting the liability of either party shall not relieve either party of any obligations or liabilities for loss or damage to the other party arising out of or caused by acts of omissions of such Party prior to the effectiveness of such Termination or arising out",
+    "span_score": 0.4296875,
+    "verify_prob": 0.9654120206832886
+   }
+  ]
+ },
+ "category_counts": {
+  "Liability": 9,
+  "Intellectual Property": 3,
+  "Assignment": 4,
+  "Termination": 4,
+  "Commercial Terms": 9,
+  "Dispute Resolution": 1
+ },
+ "seconds": 4.6
+}

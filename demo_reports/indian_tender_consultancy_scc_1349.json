@@ -1,0 +1,897 @@
+{
+ "n_chars": 9732,
+ "n_units": 34,
+ "min_prob": 0.6,
+ "units": [
+  {
+   "start": 77,
+   "end": 432,
+   "text": "Tender for Providing Architectural Planning, Designing and Engineering Consultancy Services, approval of DPR, including drawings and specifications, as per scope of work for Beautification work of Sensorial Park, Construction of Destitute Home, Prefab Rental Housing and Old age Home at CDA-09, Cuttack, Odisha and Old age Home at CDA-09, Cuttack, Odisha.",
+   "category": "Intellectual Property",
+   "prob": 0.719642698764801,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.719642698764801
+    ],
+    [
+     "Other",
+     0.0866231694817543
+    ],
+    [
+     "Termination",
+     0.07879430800676346
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 447,
+   "end": 522,
+   "text": "Special Conditions of Contract (SCC) and Agreement for Consultancy Services",
+   "category": "Other",
+   "prob": 0.43830564618110657,
+   "top3": [
+    [
+     "Other",
+     0.43830564618110657
+    ],
+    [
+     "Non-Compete",
+     0.2291734218597412
+    ],
+    [
+     "Intellectual Property",
+     0.1625082939863205
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 593,
+   "end": 712,
+   "text": "Unit No. 1204, 12th Floor, Ambuja Neotia Ecocentre, Plot No.04, Block-EM, Sector \u2013 V, Salt Lake City, Kolkata \u2013 700091.",
+   "category": "Non-Compete",
+   "prob": 0.3964277505874634,
+   "top3": [
+    [
+     "Non-Compete",
+     0.3964277505874634
+    ],
+    [
+     "Termination",
+     0.19282647967338562
+    ],
+    [
+     "Intellectual Property",
+     0.18149784207344055
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 900,
+   "end": 1133,
+   "text": "The Special Conditions of Contract (SCC) are to be read in conjunction with the clauses/conditions of the tender documents and in case of any differences with conditions provided elsewhere, provision of the SCC shall take precedence.",
+   "category": "Other",
+   "prob": 0.7443416118621826,
+   "top3": [
+    [
+     "Other",
+     0.7443416118621826
+    ],
+    [
+     "Intellectual Property",
+     0.08110164850950241
+    ],
+    [
+     "Assignment",
+     0.06322373449802399
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 1155,
+   "end": 1574,
+   "text": "The award of the Contract shall be on \u201eWork Contract\u201f as defined in section 2 (119) of the CGST Act, 2017. The rates/amount quoted in the Bill of Quantities shall be inclusive of all taxes, duties, cess, levies, fees, royalty, etc, except Goods and Service Tax (GST). The Goods and Services Tax (GST) applicable on all items of Works described in the Bill of Quantities, shall be paid extra as shown in the \u201cPrice Bid\u201d.",
+   "category": "Commercial Terms",
+   "prob": 0.769090473651886,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.769090473651886
+    ],
+    [
+     "Other",
+     0.15995557606220245
+    ],
+    [
+     "Penalties",
+     0.015440678223967552
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 1576,
+   "end": 1990,
+   "text": "The GST quoted by the bidder shall be as applicable in India as on seven (7) days prior to the deadline for submission of Techno-Commercial Bids. Due Input Tax credits under GST as per the relevant Govt. Policy, wherever applicable, shall be taken into account by the Bidder while quoting his price. Income Tax and other Deductions of Taxes as applicable shall be deducted from Bills / due payment of the Supplier.",
+   "category": "Commercial Terms",
+   "prob": 0.7875140905380249,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.7875140905380249
+    ],
+    [
+     "Other",
+     0.13954854011535645
+    ],
+    [
+     "Non-Compete",
+     0.02307172492146492
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 1992,
+   "end": 2342,
+   "text": "EPI shall bear and pay/reimburse to the bidder Goods and Services Tax (GST) applicable on the value of Works Contract described in the Bill of Quantities. However, the taxes, duties & levies as may be applicable on the materials used for Works Contract shall be to the bidder\u201fs account and no separate claim in this regard will be entertained by EPI.",
+   "category": "Liability",
+   "prob": 0.6833528876304626,
+   "top3": [
+    [
+     "Liability",
+     0.6833528876304626
+    ],
+    [
+     "Commercial Terms",
+     0.11047019809484482
+    ],
+    [
+     "Penalties",
+     0.09311611950397491
+    ]
+   ],
+   "confident": true,
+   "flags": [
+    {
+     "rule_id": "ICA_S73_01",
+     "provision": "Indian Contract Act, 1872, Section 73",
+     "status": "context",
+     "reasons": [
+      "damages/breach mentioned, no cap or formula visible"
+     ],
+     "note": "statutory default compensation rule (s.73) would fill the gap; context, not a defect",
+     "rule_confidence": "Low",
+     "evidence": [
+      [
+       23,
+       32,
+       "reimburse"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "start": 2344,
+   "end": 2611,
+   "text": "Further, in case of any variation in the rates of the GST after the date seven (7) days prior to deadline set for submission of the Techno-Commercial bids, the same shall be paid/ reimbursed to/ recovered from the bidder subject to submission of documentary evidence.",
+   "category": "Commercial Terms",
+   "prob": 0.871713399887085,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.871713399887085
+    ],
+    [
+     "Liability",
+     0.033734045922756195
+    ],
+    [
+     "Other",
+     0.028545960783958435
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 2613,
+   "end": 3013,
+   "text": "If a new tax, duty or levy is imposed under statute or law in India after the date seven (7) days prior to date of Techno-Commercial bid opening and the successful bidder becomes liable there under to pay and actually pays the said new tax, duty or levy for bona fide use on the works contracted, the same shall be reimbursed to the successful bidder against documentary evidence of proof of payment.",
+   "category": "Liability",
+   "prob": 0.2747892737388611,
+   "top3": [
+    [
+     "Liability",
+     0.2747892737388611
+    ],
+    [
+     "Penalties",
+     0.18978413939476013
+    ],
+    [
+     "Other",
+     0.15444415807724
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 3015,
+   "end": 3287,
+   "text": "The Contractor shall, within a period of 30 days of the imposition of any such new tax, duty or levy give a written notice thereof to the Engineer-in-Charge of EPI that the same is given pursuant to this condition, together with all necessary information relating thereto.",
+   "category": "Other",
+   "prob": 0.8203026056289673,
+   "top3": [
+    [
+     "Other",
+     0.8203026056289673
+    ],
+    [
+     "Termination",
+     0.07903016358613968
+    ],
+    [
+     "Intellectual Property",
+     0.023868603631854057
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 3289,
+   "end": 3533,
+   "text": "The payment/reimbursement of statutory variations in the rates of tax and/or of new tax, duty or levy imposed under statute or law in India as per above, would be restricted only to direct transactions between the EPI and the successful bidder.",
+   "category": "Commercial Terms",
+   "prob": 0.7685322165489197,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.7685322165489197
+    ],
+    [
+     "Non-Compete",
+     0.10482528805732727
+    ],
+    [
+     "Other",
+     0.0769919827580452
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 3535,
+   "end": 3809,
+   "text": "a) It shall be incumbent upon the successful bidder to obtain a registration certificate under the GST Law, and other law(s) relating to levy of tax, duty, cess etc. and necessary evidence & GSTIN number to this effect shall be furnished by the successful bidder to the EPI.",
+   "category": "Other",
+   "prob": 0.8290303945541382,
+   "top3": [
+    [
+     "Other",
+     0.8290303945541382
+    ],
+    [
+     "Intellectual Property",
+     0.05212555453181267
+    ],
+    [
+     "Assignment",
+     0.032651204615831375
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 3811,
+   "end": 4054,
+   "text": "b) The successful bidder must submit as a compliance of GST Act, the invoices in GST compliant format failing which the GST amount shall be recovered / adjusted by EPI without any prior notice from the next invoices or available dues with EPI.",
+   "category": "Other",
+   "prob": 0.9253085851669312,
+   "top3": [
+    [
+     "Other",
+     0.9253085851669312
+    ],
+    [
+     "Termination",
+     0.021465681493282318
+    ],
+    [
+     "Assignment",
+     0.011837122961878777
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4056,
+   "end": 4293,
+   "text": "c) The successful bidder should update /upload the GST/ Taxes data periodically so as to avail ITC credit by EPI failing which it shall be recovered / adjusted by EPI without any prior notice from the next invoices or available dues with",
+   "category": "Other",
+   "prob": 0.5294800400733948,
+   "top3": [
+    [
+     "Other",
+     0.5294800400733948
+    ],
+    [
+     "Termination",
+     0.16857220232486725
+    ],
+    [
+     "Intellectual Property",
+     0.0841037929058075
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4301,
+   "end": 4461,
+   "text": "d) The rates/amount quoted in the Schedule of Quantities shall be inclusive of all taxes, duties, cess, levies, fees, royalty, etc, except Goods and Service Tax",
+   "category": "Commercial Terms",
+   "prob": 0.9719422459602356,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.9719422459602356
+    ],
+    [
+     "Liability",
+     0.0073487539775669575
+    ],
+    [
+     "Penalties",
+     0.0073058209381997585
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 4471,
+   "end": 4586,
+   "text": "e) Bidder while quoting the rates in the tender must also consider the ITC Credit applicable for the works, if any.",
+   "category": "Commercial Terms",
+   "prob": 0.6918172836303711,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.6918172836303711
+    ],
+    [
+     "Other",
+     0.24764052033424377
+    ],
+    [
+     "Liability",
+     0.012845502234995365
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 4588,
+   "end": 5244,
+   "text": "In case any reduction in the rate of GST or other taxes in future of the project getting exemption status prior to the last date of bid submission or afterwards, the subcontractor shall pass on the benefit to EPIL immediately, failing which EPI shall have the right to recover the differential amount due to the sub-contractor. Further, in case of any increase in rate of GST or other taxes in future or the project losing exemption status prior to the last date of bid submission or afterwards, the said increase of taxes shall be paid / reimbursed to the subcontractor, subject to the condition that the client reimburses the said increase taxes to EPIL.",
+   "category": "Commercial Terms",
+   "prob": 0.665173351764679,
+   "top3": [
+    [
+     "Commercial Terms",
+     0.665173351764679
+    ],
+    [
+     "Liability",
+     0.16364572942256927
+    ],
+    [
+     "Penalties",
+     0.07376091182231903
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 5268,
+   "end": 5549,
+   "text": "Before resorting to arbitration as per the clause given below, the parties if they so agree may explore the possibility of conciliation as per the provisions of Part III of the Arbitration and Conciliation Act, 1996 as amended by Arbitration and Conciliation (Amendment) Act, 2015.",
+   "category": "Other",
+   "prob": 0.5222417712211609,
+   "top3": [
+    [
+     "Other",
+     0.5222417712211609
+    ],
+    [
+     "Liability",
+     0.16691850125789642
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.11162687838077545
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 5551,
+   "end": 5653,
+   "text": "When such conciliation has failed, the parties shall adopt the following procedure for arbitration: i)",
+   "category": "Other",
+   "prob": 0.5145505666732788,
+   "top3": [
+    [
+     "Other",
+     0.5145505666732788
+    ],
+    [
+     "Termination",
+     0.17001250386238098
+    ],
+    [
+     "Liability",
+     0.09462620317935944
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 5655,
+   "end": 6491,
+   "text": "Except where otherwise provided for in the contract, any disputes and differences relating to the meaning of the Specifications, Design, Drawing and Instructions herein before mentioned and as to the quality of workmanship or materials used in the work or as to any other questions, claim, right, matter or things whatsoever in any way arising out of or relating to the Contract, Designs, Drawings, Specifications, Estimates, Instructions, or these conditions or otherwise concerning the works of the execution or failure to execute the same whether arising during the progress of the work or after the completion or abandonment thereof shall be referred to the Sole Arbitrator appointed by the Chairman & Managing Director (CMD) of Engineering Projects (India) Limited (EPI) or any other person discharging the functions of CMD of EPI.",
+   "category": "Liability",
+   "prob": 0.4253508448600769,
+   "top3": [
+    [
+     "Liability",
+     0.4253508448600769
+    ],
+    [
+     "Dispute Resolution",
+     0.2641063332557678
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.1322832703590393
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6492,
+   "end": 6751,
+   "text": "The person approached for appointment as Arbitrator shall disclose in writing circumstances, in terms of Sub-Section (1) of Section (12) of the Arbitration and Conciliation Act, 1996 as amended by Arbitration and Conciliation (Amendment) Act, 2015 as follows:",
+   "category": "Other",
+   "prob": 0.8296557664871216,
+   "top3": [
+    [
+     "Other",
+     0.8296557664871216
+    ],
+    [
+     "Termination",
+     0.04848076403141022
+    ],
+    [
+     "Assignment",
+     0.038765642791986465
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6753,
+   "end": 6901,
+   "text": "a) such as the existence either direct or indirect, of any past or present relationship with or interest in any of the parties or in relation to the",
+   "category": "Non-Compete",
+   "prob": 0.5004794597625732,
+   "top3": [
+    [
+     "Non-Compete",
+     0.5004794597625732
+    ],
+    [
+     "Non-Solicitation",
+     0.15549619495868683
+    ],
+    [
+     "Dispute Resolution",
+     0.0896434336900711
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6903,
+   "end": 7081,
+   "text": "subject-matter in dispute, whether financial, business, professional or other kind, which is likely to give rise to justifiable doubts as to his independence or impartiality; and",
+   "category": "Other",
+   "prob": 0.35415545105934143,
+   "top3": [
+    [
+     "Other",
+     0.35415545105934143
+    ],
+    [
+     "Dispute Resolution",
+     0.22336305677890778
+    ],
+    [
+     "Liability",
+     0.17243310809135437
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7083,
+   "end": 7309,
+   "text": "b) which are likely to affect his ability to devote sufficient time to the arbitration and in particular his ability to complete the entire arbitration within a period of twelve months. The Arbitrator shall be appointed within",
+   "category": "Other",
+   "prob": 0.7477733492851257,
+   "top3": [
+    [
+     "Other",
+     0.7477733492851257
+    ],
+    [
+     "Liability",
+     0.10709759593009949
+    ],
+    [
+     "Termination",
+     0.07881473004817963
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7314,
+   "end": 7425,
+   "text": "days of the receipt of letter of invocation of arbitration duly satisfying the requirements of this clause. ii)",
+   "category": "Liability",
+   "prob": 0.5944384932518005,
+   "top3": [
+    [
+     "Liability",
+     0.5944384932518005
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.13237835466861725
+    ],
+    [
+     "Assignment",
+     0.07990044355392456
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7427,
+   "end": 7866,
+   "text": "if the arbitrator so appointed resigns or is unable or unwilling to act due to any reason whatsoever, or dies, the Chairman & Managing Director aforesaid or in his absence the person discharging the duties of the CMD of EPI may appoint a new arbitrator in accordance with these terms and conditions of the contract, to act in his place and the new arbitrator so appointed may proceed from the stage at which it was left by his predecessor.",
+   "category": "Termination",
+   "prob": 0.44550174474716187,
+   "top3": [
+    [
+     "Termination",
+     0.44550174474716187
+    ],
+    [
+     "Liability",
+     0.12615135312080383
+    ],
+    [
+     "Assignment",
+     0.11701324582099915
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7874,
+   "end": 8107,
+   "text": "It is a term of the contract that the party invoking the arbitration shall specify the dispute/ differences or questions to be referred to the Arbitrator under this clause together with the amounts claimed in respect of each dispute.",
+   "category": "Liability",
+   "prob": 0.4103466868400574,
+   "top3": [
+    [
+     "Liability",
+     0.4103466868400574
+    ],
+    [
+     "Termination",
+     0.13731475174427032
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.115517757833004
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 8114,
+   "end": 8269,
+   "text": "The Arbitrator may proceed with the arbitration ex-parte, if either party, in spite of a notice from the arbitrator, fails to take part in the proceedings.",
+   "category": "Liability",
+   "prob": 0.4346866309642792,
+   "top3": [
+    [
+     "Liability",
+     0.4346866309642792
+    ],
+    [
+     "Other",
+     0.18405789136886597
+    ],
+    [
+     "Termination",
+     0.16053815186023712
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 8275,
+   "end": 8391,
+   "text": "The work under the contract shall continue as directed by the Engineer-InCharge, during the arbitration proceedings.",
+   "category": "Termination",
+   "prob": 0.9671526551246643,
+   "top3": [
+    [
+     "Termination",
+     0.9671526551246643
+    ],
+    [
+     "Other",
+     0.011248724535107613
+    ],
+    [
+     "Intellectual Property",
+     0.00648488150909543
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 8398,
+   "end": 8532,
+   "text": "Unless otherwise agreed, the venue of arbitration proceedings shall be at the venue given in the \u201eMemorandum\u201f to the \u201eForm of Tender\u201d.",
+   "category": "Governing Law / Jurisdiction",
+   "prob": 0.5497950315475464,
+   "top3": [
+    [
+     "Governing Law / Jurisdiction",
+     0.5497950315475464
+    ],
+    [
+     "Liability",
+     0.19337351620197296
+    ],
+    [
+     "Termination",
+     0.10431719571352005
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 8540,
+   "end": 8627,
+   "text": "The award of the Arbitrator shall be final, conclusive and binding on both the parties.",
+   "category": "Governing Law / Jurisdiction",
+   "prob": 0.5212149620056152,
+   "top3": [
+    [
+     "Governing Law / Jurisdiction",
+     0.5212149620056152
+    ],
+    [
+     "Liability",
+     0.17458514869213104
+    ],
+    [
+     "Assignment",
+     0.11000199615955353
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 8629,
+   "end": 8999,
+   "text": "viii) Subject to the aforesaid, the provisions of the Arbitration and Conciliation Act, 1996 as amended by Arbitration and Conciliation (Amendment) Act, 2015 or any statutory modifications or re-enactment thereof and the Rules made there under and for the time being in force shall apply to the arbitration proceedings and Arbitrator shall publish his Award accordingly.",
+   "category": "Governing Law / Jurisdiction",
+   "prob": 0.4514855444431305,
+   "top3": [
+    [
+     "Governing Law / Jurisdiction",
+     0.4514855444431305
+    ],
+    [
+     "Liability",
+     0.17372354865074158
+    ],
+    [
+     "Termination",
+     0.13036729395389557
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 9006,
+   "end": 9612,
+   "text": "ln the event of any dispute or difference relating to the interpretation and application of the provisions of commercial contract(s) between Central Public Sector Enterprises (CPSEs) / Port Trusts inter se and also between CPSEs and Government Department Organizations (excluding disputes relating to Railways, lncome Tax, Customs & Excise Departments), such dispute or difference shall be taken up by either party for its resolution through AMRCD as mentioned in DPE OM No. 05/0003/2019-FTS-10937 dated 14th December, 2022 and the decision of AMRCD on the said dispute will be binding on both the parties.",
+   "category": "Liability",
+   "prob": 0.2882116138935089,
+   "top3": [
+    [
+     "Liability",
+     0.2882116138935089
+    ],
+    [
+     "Intellectual Property",
+     0.15351712703704834
+    ],
+    [
+     "Termination",
+     0.11475467681884766
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 9634,
+   "end": 9732,
+   "text": "The courts in Kolkata alone will have jurisdiction to deal with matters arising from the contract.",
+   "category": "Governing Law / Jurisdiction",
+   "prob": 0.9734318256378174,
+   "top3": [
+    [
+     "Governing Law / Jurisdiction",
+     0.9734318256378174
+    ],
+    [
+     "Liability",
+     0.011310705915093422
+    ],
+    [
+     "Intellectual Property",
+     0.003807155881077051
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  }
+ ],
+ "contract_flags": [
+  {
+   "rule_id": "ICA_S56_01",
+   "provision": "Indian Contract Act, 1872, Section 56 (doctrine of frustration)",
+   "status": "gap",
+   "reasons": [
+    "no force-majeure wording anywhere in the contract"
+   ],
+   "note": "falls back on the narrow s.56 frustration doctrine; coarse flag only"
+  }
+ ],
+ "found": {
+  "Termination": [
+   {
+    "start": 8275,
+    "end": 8391,
+    "text": "The work under the contract shall continue as directed by the Engineer-InCharge, during the arbitration proceedings.",
+    "span_score": 0.93701171875,
+    "verify_prob": 0.9672703742980957
+   },
+   {
+    "start": 7427,
+    "end": 7866,
+    "text": "if the arbitrator so appointed resigns or is unable or unwilling to act due to any reason whatsoever, or dies, the Chairman & Managing Director aforesaid or in his absence the person discharging the duties of the CMD of EPI may appoint a new arbitrator in accordance with these terms and conditions of the contract, to act in his place and the new arbitrator so appointed may proceed from the stage at which it was left by his predecessor.",
+    "span_score": -0.5361328125,
+    "verify_prob": 0.4454534947872162
+   },
+   {
+    "start": 4588,
+    "end": 5244,
+    "text": "In case any reduction in the rate of GST or other taxes in future of the project getting exemption status prior to the last date of bid submission or afterwards, the subcontractor shall pass on the benefit to EPIL immediately, failing which EPI shall have the right to recover the differential amount due to the sub-contractor. Further, in case of any increase in rate of GST or other taxes in future or the project losing exemption status prior to the last date of bid submission or afterwards, the said increase of taxes shall be paid / reimbursed to the subcontractor, subject to the condition that the client reimburses the said increase taxes to EPIL.",
+    "span_score": -2.680908203125,
+    "verify_prob": 0.019946563988924026
+   }
+  ],
+  "Governing Law / Jurisdiction": [
+   {
+    "start": 8635,
+    "end": 9732,
+    "text": "Subject to the aforesaid, the provisions of the Arbitration and Conciliation Act, 1996 as amended by Arbitration and Conciliation (Amendment) Act, 2015 or any statutory modifications or re-enactment thereof and the Rules made there under and for the time being in force shall apply to the arbitration proceedings and Arbitrator shall publish his Award accordingly.\n\n2.2\n\nln the event of any dispute or difference relating to the interpretation and application of the provisions of commercial contract(s) between Central Public Sector Enterprises (CPSEs) / Port Trusts inter se and also between CPSEs and Government Department Organizations (excluding disputes relating to Railways, lncome Tax, Customs & Excise Departments), such dispute or difference shall be taken up by either party for its resolution through AMRCD as mentioned in DPE OM No. 05/0003/2019-FTS-10937 dated 14th December, 2022 and the decision of AMRCD on the said dispute will be binding on both the parties.\n\n2.3\n\nJURISDICTION:\n\nThe courts in Kolkata alone will have jurisdiction to deal with matters arising from the contract.",
+    "span_score": -2.1953125,
+    "verify_prob": 0.10658189654350281
+   },
+   {
+    "start": 5551,
+    "end": 5650,
+    "text": "When such conciliation has failed, the parties shall adopt the following procedure for arbitration:",
+    "span_score": -6.404296875,
+    "verify_prob": 0.0677521824836731
+   },
+   {
+    "start": 2613,
+    "end": 3013,
+    "text": "If a new tax, duty or levy is imposed under statute or law in India after the date seven (7) days prior to date of Techno-Commercial bid opening and the successful bidder becomes liable there under to pay and actually pays the said new tax, duty or levy for bona fide use on the works contracted, the same shall be reimbursed to the successful bidder against documentary evidence of proof of payment.",
+    "span_score": -1.188079833984375,
+    "verify_prob": 0.01635788008570671
+   }
+  ],
+  "Liability": [
+   {
+    "start": 9006,
+    "end": 9732,
+    "text": "ln the event of any dispute or difference relating to the interpretation and application of the provisions of commercial contract(s) between Central Public Sector Enterprises (CPSEs) / Port Trusts inter se and also between CPSEs and Government Department Organizations (excluding disputes relating to Railways, lncome Tax, Customs & Excise Departments), such dispute or difference shall be taken up by either party for its resolution through AMRCD as mentioned in DPE OM No. 05/0003/2019-FTS-10937 dated 14th December, 2022 and the decision of AMRCD on the said dispute will be binding on both the parties.\n\n2.3\n\nJURISDICTION:\n\nThe courts in Kolkata alone will have jurisdiction to deal with matters arising from the contract.",
+    "span_score": -6.05859375,
+    "verify_prob": 0.284574031829834
+   },
+   {
+    "start": 2613,
+    "end": 3013,
+    "text": "If a new tax, duty or levy is imposed under statute or law in India after the date seven (7) days prior to date of Techno-Commercial bid opening and the successful bidder becomes liable there under to pay and actually pays the said new tax, duty or levy for bona fide use on the works contracted, the same shall be reimbursed to the successful bidder against documentary evidence of proof of payment.",
+    "span_score": 3.02734375,
+    "verify_prob": 0.276132732629776
+   },
+   {
+    "start": 1992,
+    "end": 2146,
+    "text": "EPI shall bear and pay/reimburse to the bidder Goods and Services Tax (GST) applicable on the value of Works Contract described in the Bill of Quantities.",
+    "span_score": -2.1099853515625,
+    "verify_prob": 0.029114438220858574
+   }
+  ]
+ },
+ "category_counts": {
+  "Intellectual Property": 1,
+  "Commercial Terms": 7,
+  "Liability": 1,
+  "Termination": 1,
+  "Governing Law / Jurisdiction": 1
+ },
+ "seconds": 2.2
+}

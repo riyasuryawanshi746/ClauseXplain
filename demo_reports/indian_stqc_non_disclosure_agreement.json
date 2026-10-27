@@ -1,0 +1,1368 @@
+{
+ "n_chars": 15017,
+ "n_units": 53,
+ "min_prob": 0.6,
+ "units": [
+  {
+   "start": 75,
+   "end": 209,
+   "text": "STQC Directorate, Ministry of Electronics & Information Technology, Electronics Niketan, 6 CGO Complex, Lodi Road, New Delhi \u2013 110003.",
+   "category": "Intellectual Property",
+   "prob": 0.447892427444458,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.447892427444458
+    ],
+    [
+     "Non-Compete",
+     0.20747728645801544
+    ],
+    [
+     "Termination",
+     0.15313363075256348
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 1603,
+   "end": 2009,
+   "text": "Auditor (Audit Organisation) is a services organization empaneled by the Standardisation, Testing and Quality Certification Response Team (hereinafter referred to as STQC) under Ministry of Electronics & IT, for auditing, including vulnerability assessment and penetration testing of Digital Locker services, networks, computer resources & applications of various agencies or departments of the Government.",
+   "category": "Other",
+   "prob": 0.9950106143951416,
+   "top3": [
+    [
+     "Other",
+     0.9950106143951416
+    ],
+    [
+     "Non-Compete",
+     0.0011604956816881895
+    ],
+    [
+     "Termination",
+     0.001040261471644044
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 2014,
+   "end": 2336,
+   "text": "Auditor, as an empanelled Information Security and service management Auditing organization, has agreed to fully comply with the \u201cRules and procedures of Digital Locker Service Provider ( DLSP) / DL Repositories certification scheme, Terms & conditions of empanelment and Policy guidelines for handling audit related data\u201d",
+   "category": "Other",
+   "prob": 0.9961810111999512,
+   "top3": [
+    [
+     "Other",
+     0.9961810111999512
+    ],
+    [
+     "Termination",
+     0.001192903146147728
+    ],
+    [
+     "Non-Compete",
+     0.0005555647076107562
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 2367,
+   "end": 2425,
+   "text": "Auditee is also aware of the aforesaid Guidelines by STQC.",
+   "category": "Other",
+   "prob": 0.9179630279541016,
+   "top3": [
+    [
+     "Other",
+     0.9179630279541016
+    ],
+    [
+     "Termination",
+     0.02086300402879715
+    ],
+    [
+     "Intellectual Property",
+     0.019714154303073883
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 2430,
+   "end": 2590,
+   "text": "Both Auditor and Auditee have given their irrevocable consent to fully comply with the aforesaid Guidelines and any amendments thereof without any reservations.",
+   "category": "Other",
+   "prob": 0.9944794178009033,
+   "top3": [
+    [
+     "Other",
+     0.9944794178009033
+    ],
+    [
+     "Termination",
+     0.0019273108337074518
+    ],
+    [
+     "Intellectual Property",
+     0.0013895462034270167
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 2592,
+   "end": 2722,
+   "text": "NOW, THEREFORE, in consideration of the foregoing and the covenants and agreements contained herein, the parties agree as follows:",
+   "category": "Assignment",
+   "prob": 0.335318922996521,
+   "top3": [
+    [
+     "Assignment",
+     0.335318922996521
+    ],
+    [
+     "Intellectual Property",
+     0.2790771722793579
+    ],
+    [
+     "Other",
+     0.13169804215431213
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 2746,
+   "end": 3536,
+   "text": "The term \u201cConfidential Information\u201d shall include, without limitation, all information and materials, furnished by either Party to the other in connection with Auditee products and services including information transmitted in writing, orally, visually (e.g. video terminal display) or on magnetic media, and including all proprietary information, customer & prospect lists, trade secrets, trade names or proposed trade names, methods and procedures of operation, business or marketing plans, licensed document know-how, ideas, concepts, designs, drawings, flow charts, diagrams, quality manuals, checklists, guidelines, processes, formulae, source code materials, specifications, programs, software packages, codes and other intellectual property relating to Auditee products and services.",
+   "category": "Intellectual Property",
+   "prob": 0.7719957232475281,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.7719957232475281
+    ],
+    [
+     "Other",
+     0.10864020138978958
+    ],
+    [
+     "Non-Compete",
+     0.046452585607767105
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 3537,
+   "end": 3777,
+   "text": "Results of any information security audits, tests, analysis, extracts or usages carried out by the Auditor in connection with the Auditee\u2019s products and/or services, IT infrastructure, etc. shall also be considered Confidential Information.",
+   "category": "Other",
+   "prob": 0.9963293671607971,
+   "top3": [
+    [
+     "Other",
+     0.9963293671607971
+    ],
+    [
+     "Termination",
+     0.0012650765711441636
+    ],
+    [
+     "Intellectual Property",
+     0.0006582386558875442
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 3783,
+   "end": 3948,
+   "text": "The term \u201cAuditee products\u201d shall include all such products, goods, services, deliverables, which are subject to audit by the empanelled auditor under the Agreement.",
+   "category": "Other",
+   "prob": 0.997178316116333,
+   "top3": [
+    [
+     "Other",
+     0.997178316116333
+    ],
+    [
+     "Termination",
+     0.0007200253312475979
+    ],
+    [
+     "Non-Compete",
+     0.0005118225235491991
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 3953,
+   "end": 4115,
+   "text": "Protection of Confidential Information: With respect to any Confidential Information disclosed to it or to which it has access, Auditor affirms that it shall: (a)",
+   "category": "Other",
+   "prob": 0.9904358983039856,
+   "top3": [
+    [
+     "Other",
+     0.9904358983039856
+    ],
+    [
+     "Termination",
+     0.003255584044381976
+    ],
+    [
+     "Intellectual Property",
+     0.0026006523985415697
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4117,
+   "end": 4267,
+   "text": "Use the Confidential Information as necessary only in connection with scope of audit and in accordance with the terms and conditions contained herein;",
+   "category": "Other",
+   "prob": 0.9965343475341797,
+   "top3": [
+    [
+     "Other",
+     0.9965343475341797
+    ],
+    [
+     "Termination",
+     0.0013869889080524445
+    ],
+    [
+     "Intellectual Property",
+     0.00048097167746163905
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4274,
+   "end": 4625,
+   "text": "Maintain the Confidential Information in strict confidence and take all reasonable steps to enforce the confidentiality obligations imposed hereunder, but in no event take less care with the Confidential Information than the parties take to protect the confidentiality of its own proprietary and confidential information and that of its other clients;",
+   "category": "Other",
+   "prob": 0.8335906863212585,
+   "top3": [
+    [
+     "Other",
+     0.8335906863212585
+    ],
+    [
+     "Intellectual Property",
+     0.07844997942447662
+    ],
+    [
+     "Termination",
+     0.04890134930610657
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4632,
+   "end": 4854,
+   "text": "Not to make or retain copy of any details of products and/or services, prototypes, business or marketing plans, Client lists, Proposals developed by or originating from Auditee or any of the prospective clients of Auditee.",
+   "category": "Non-Compete",
+   "prob": 0.4692489206790924,
+   "top3": [
+    [
+     "Non-Compete",
+     0.4692489206790924
+    ],
+    [
+     "Intellectual Property",
+     0.4425438940525055
+    ],
+    [
+     "Dispute Resolution",
+     0.04850186035037041
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 4861,
+   "end": 5143,
+   "text": "Not to make or retain copy of any details of results of any information security audits, tests, analysis, extracts or usages carried out by the Auditor in connection with the Auditee\u2019s products and/or services, IT infrastructure, etc. without the express written consent of Auditee.",
+   "category": "Other",
+   "prob": 0.9915542006492615,
+   "top3": [
+    [
+     "Other",
+     0.9915542006492615
+    ],
+    [
+     "Non-Compete",
+     0.0021291417069733143
+    ],
+    [
+     "Termination",
+     0.0015388138126581907
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 5150,
+   "end": 5330,
+   "text": "Not to disclose or in any way assist or permit the disclosure of any Confidential Information to any other person or entity without the express written consent of the auditee ; and",
+   "category": "Other",
+   "prob": 0.9826709628105164,
+   "top3": [
+    [
+     "Other",
+     0.9826709628105164
+    ],
+    [
+     "Non-Compete",
+     0.004915643949061632
+    ],
+    [
+     "Assignment",
+     0.0032809264957904816
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 5337,
+   "end": 5749,
+   "text": "Return to the auditee, or destroy, at auditee\u2019s discretion, any and all Confidential Information disclosed in a printed form or other permanent record, or in any other tangible form (including without limitation, all copies, notes, extracts, analyses, studies, summaries, records and reproductions thereof) immediately on (i) expiration or termination of this agreement, or (ii) the request of Auditee there for.",
+   "category": "Other",
+   "prob": 0.7183243036270142,
+   "top3": [
+    [
+     "Other",
+     0.7183243036270142
+    ],
+    [
+     "Termination",
+     0.26015982031822205
+    ],
+    [
+     "Intellectual Property",
+     0.010706664994359016
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 5756,
+   "end": 5983,
+   "text": "Not to send Auditee\u2019s audit information or data and/or any such Confidential Information at any time outside India for the purpose of storage, processing, analysis or handling without the express written consent of the Auditee.",
+   "category": "Other",
+   "prob": 0.9731786251068115,
+   "top3": [
+    [
+     "Other",
+     0.9731786251068115
+    ],
+    [
+     "Non-Compete",
+     0.009466460905969143
+    ],
+    [
+     "Non-Solicitation",
+     0.005222773179411888
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 5990,
+   "end": 6227,
+   "text": "The auditor shall use only the best possible secure methodology to avoid confidentiality breach, while handling audit related data for the purpose of storage, processing, transit or analysis including sharing of information with auditee.",
+   "category": "Other",
+   "prob": 0.9978554844856262,
+   "top3": [
+    [
+     "Other",
+     0.9978554844856262
+    ],
+    [
+     "Termination",
+     0.0006026004557497799
+    ],
+    [
+     "Liability",
+     0.00030042839352972806
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6234,
+   "end": 6350,
+   "text": "Not to engage or appoint any non-resident/foreigner to undertake any activity related to Information Security Audit.",
+   "category": "Other",
+   "prob": 0.8611369729042053,
+   "top3": [
+    [
+     "Other",
+     0.8611369729042053
+    ],
+    [
+     "Non-Compete",
+     0.06473894417285919
+    ],
+    [
+     "Non-Solicitation",
+     0.045106884092092514
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6357,
+   "end": 6585,
+   "text": "Not to discuss with any member of public, media, press, any or any other person about the nature of arrangement entered into between the Auditor and the Auditee or the nature of services to be provided by Auditor to the Auditee.",
+   "category": "Other",
+   "prob": 0.8005284070968628,
+   "top3": [
+    [
+     "Other",
+     0.8005284070968628
+    ],
+    [
+     "Non-Compete",
+     0.10019787400960922
+    ],
+    [
+     "Non-Solicitation",
+     0.058903295546770096
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6587,
+   "end": 6734,
+   "text": "Make sure that all the employees and/or consultants engaged to undertake any audit on its behalf have signed the mandatory nondisclosure agreement.",
+   "category": "Other",
+   "prob": 0.9975904226303101,
+   "top3": [
+    [
+     "Other",
+     0.9975904226303101
+    ],
+    [
+     "Termination",
+     0.0010000693146139383
+    ],
+    [
+     "Assignment",
+     0.00023718959710095078
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6744,
+   "end": 6913,
+   "text": "Onus. Auditor shall have the burden of proving that any disclosure or use inconsistent with the terms and conditions hereof falls within any of the foregoing exceptions.",
+   "category": "Other",
+   "prob": 0.9777421355247498,
+   "top3": [
+    [
+     "Other",
+     0.9777421355247498
+    ],
+    [
+     "Liability",
+     0.008119190111756325
+    ],
+    [
+     "Warranty",
+     0.004291065502911806
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6918,
+   "end": 6968,
+   "text": "Permitted disclosure of audit related information:",
+   "category": "Other",
+   "prob": 0.9940379858016968,
+   "top3": [
+    [
+     "Other",
+     0.9940379858016968
+    ],
+    [
+     "Termination",
+     0.002298919949680567
+    ],
+    [
+     "Intellectual Property",
+     0.0010848729871213436
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 6970,
+   "end": 7170,
+   "text": "The auditor may share audit information with STQC or similar Government entities mandated under the law as and when called upon to do so by such agencies with prior written information to the auditee.",
+   "category": "Other",
+   "prob": 0.9978626370429993,
+   "top3": [
+    [
+     "Other",
+     0.9978626370429993
+    ],
+    [
+     "Termination",
+     0.0007052046712487936
+    ],
+    [
+     "Assignment",
+     0.00027731069712899625
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7175,
+   "end": 7299,
+   "text": "Exceptions. The Confidentiality obligations as enumerated in Article 2 of this Agreement shall not apply in following cases:",
+   "category": "Intellectual Property",
+   "prob": 0.417602002620697,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.417602002620697
+    ],
+    [
+     "Non-Compete",
+     0.21329021453857422
+    ],
+    [
+     "Assignment",
+     0.10314042121171951
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7305,
+   "end": 7451,
+   "text": "Which is independently developed by Auditor or lawfully received from another, source free of restriction and without breach of this Agreement; or",
+   "category": "Other",
+   "prob": 0.4967745840549469,
+   "top3": [
+    [
+     "Other",
+     0.4967745840549469
+    ],
+    [
+     "Intellectual Property",
+     0.25772327184677124
+    ],
+    [
+     "Assignment",
+     0.15121206641197205
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7457,
+   "end": 7558,
+   "text": "After it has become generally available to the public without breach of this Agreement by Auditor; or",
+   "category": "Other",
+   "prob": 0.9705050587654114,
+   "top3": [
+    [
+     "Other",
+     0.9705050587654114
+    ],
+    [
+     "Intellectual Property",
+     0.009749642573297024
+    ],
+    [
+     "Termination",
+     0.008578860200941563
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7564,
+   "end": 7713,
+   "text": "Which at the time of disclosure to Auditor was known to such party free of restriction and evidenced by documents in the possession of such party; or",
+   "category": "Other",
+   "prob": 0.8539383411407471,
+   "top3": [
+    [
+     "Other",
+     0.8539383411407471
+    ],
+    [
+     "Intellectual Property",
+     0.06701638549566269
+    ],
+    [
+     "Termination",
+     0.04660257697105408
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7719,
+   "end": 7780,
+   "text": "Which Auditee agrees in writing is free of such restrictions.",
+   "category": "Intellectual Property",
+   "prob": 0.6768021583557129,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.6768021583557129
+    ],
+    [
+     "Other",
+     0.18394644558429718
+    ],
+    [
+     "Termination",
+     0.034495074301958084
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 7786,
+   "end": 7905,
+   "text": "Which is received from a third party not subject to the obligation of confidentiality with respect to such Information;",
+   "category": "Other",
+   "prob": 0.40873435139656067,
+   "top3": [
+    [
+     "Other",
+     0.40873435139656067
+    ],
+    [
+     "Intellectual Property",
+     0.3239676058292389
+    ],
+    [
+     "Termination",
+     0.10214022547006607
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 7910,
+   "end": 8142,
+   "text": "Remedies. Auditor acknowledges that any actual or threatened disclosure or use of the Confidential Information by Auditor would be a breach of this agreement and may cause immediate and irreparable harm to Auditee or to its clients;",
+   "category": "Other",
+   "prob": 0.9896608591079712,
+   "top3": [
+    [
+     "Other",
+     0.9896608591079712
+    ],
+    [
+     "Termination",
+     0.0027473685331642628
+    ],
+    [
+     "Non-Compete",
+     0.0021105988416820765
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 8144,
+   "end": 8523,
+   "text": "Auditor affirms that damages from such disclosure or use by it may be impossible to measure accurately; and injury sustained by Auditee / its clients may be impossible to calculate and compensate fully. Therefore, Auditor acknowledges that in the event of such a breach, Auditee shall be entitled to specific performance by Auditor of its obligations contained in this Agreement.",
+   "category": "Liability",
+   "prob": 0.9422712922096252,
+   "top3": [
+    [
+     "Liability",
+     0.9422712922096252
+    ],
+    [
+     "Penalties",
+     0.030886663123965263
+    ],
+    [
+     "Warranty",
+     0.0073004914447665215
+    ]
+   ],
+   "confident": true,
+   "flags": [
+    {
+     "rule_id": "ICA_S73_01",
+     "provision": "Indian Contract Act, 1872, Section 73",
+     "status": "context",
+     "reasons": [
+      "damages/breach mentioned, no cap or formula visible"
+     ],
+     "note": "statutory default compensation rule (s.73) would fill the gap; context, not a defect",
+     "rule_confidence": "Low",
+     "evidence": [
+      [
+       21,
+       28,
+       "damages"
+      ],
+      [
+       185,
+       195,
+       "compensate"
+      ],
+      [
+       263,
+       269,
+       "breach"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "start": 8525,
+   "end": 9219,
+   "text": "In addition, Auditor shall compensate the Auditee for the loss or damages caused to the auditee, actual and liquidated damages, which may be demanded by Auditee with liquidated damages not to exceed the Contract value. Moreover, Auditee shall be entitled to recover all costs of litigation including reasonable attorneys\u2019 fees which it or they may incur in connection with defending its interests and enforcement of contractual rights arising due to a breach of this agreement by Auditor. All rights and remedies hereunder are cumulative and in addition to any other rights or remedies under any applicable law, at equity, or under this Agreement, subject only to any limitations stated herein.",
+   "category": "Liability",
+   "prob": 0.5583075284957886,
+   "top3": [
+    [
+     "Liability",
+     0.5583075284957886
+    ],
+    [
+     "Penalties",
+     0.37924832105636597
+    ],
+    [
+     "Termination",
+     0.016364669427275658
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 9224,
+   "end": 9535,
+   "text": "Need to Know. Auditor shall restrict disclosure of such Confidential Information to its employees and/or consultants with a need to know (and advise such employees and/or consultants of the obligations assumed herein), shall use the Confidential Information only for the purposes set forth in the Agreement, and",
+   "category": "Other",
+   "prob": 0.9668751955032349,
+   "top3": [
+    [
+     "Other",
+     0.9668751955032349
+    ],
+    [
+     "Termination",
+     0.015536779537796974
+    ],
+    [
+     "Intellectual Property",
+     0.008766558952629566
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 9537,
+   "end": 9695,
+   "text": "shall not disclose such Confidential Information to any affiliates, subsidiaries, associates and/or third party without prior written approval of the Auditee.",
+   "category": "Other",
+   "prob": 0.9680497646331787,
+   "top3": [
+    [
+     "Other",
+     0.9680497646331787
+    ],
+    [
+     "Non-Compete",
+     0.007648145314306021
+    ],
+    [
+     "Termination",
+     0.007648145314306021
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 9697,
+   "end": 9798,
+   "text": "No Information relating to auditee shall be hosted or taken outside the country in any circumstances.",
+   "category": "Other",
+   "prob": 0.9677246809005737,
+   "top3": [
+    [
+     "Other",
+     0.9677246809005737
+    ],
+    [
+     "Non-Compete",
+     0.014925521798431873
+    ],
+    [
+     "Termination",
+     0.004205827601253986
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 9803,
+   "end": 10078,
+   "text": "Intellectual Property Rights Protection. No license to a party, under any trademark, patent, copyright, design right, mask work protection right, or any other intellectual property right is either granted or implied by the conveying of Confidential Information to such party.",
+   "category": "Intellectual Property",
+   "prob": 0.960440456867218,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.960440456867218
+    ],
+    [
+     "Non-Compete",
+     0.016300896182656288
+    ],
+    [
+     "Dispute Resolution",
+     0.012449604459106922
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 10083,
+   "end": 10346,
+   "text": "No Conflict. The parties represent and warrant that the performance of its obligations hereunder do not and shall not conflict with any other agreement or obligation of the respective parties to which they are a party or by which the respective parties are bound.",
+   "category": "Dispute Resolution",
+   "prob": 0.45657044649124146,
+   "top3": [
+    [
+     "Dispute Resolution",
+     0.45657044649124146
+    ],
+    [
+     "Assignment",
+     0.28238582611083984
+    ],
+    [
+     "Non-Compete",
+     0.09990420192480087
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 10352,
+   "end": 10515,
+   "text": "Authority. The parties represent and warrant that they have all necessary authority and power to enter into this Agreement and perform their obligations hereunder.",
+   "category": "Assignment",
+   "prob": 0.7418497800827026,
+   "top3": [
+    [
+     "Assignment",
+     0.7418497800827026
+    ],
+    [
+     "Intellectual Property",
+     0.14381414651870728
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.035833146423101425
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 10521,
+   "end": 10758,
+   "text": "Governing Law. This Agreement shall be interpreted in accordance with and governed by the substantive and procedural laws of India and the parties hereby consent to the jurisdiction of Courts and/or Forums situated at <Name of the city>.",
+   "category": "Governing Law / Jurisdiction",
+   "prob": 0.9987444877624512,
+   "top3": [
+    [
+     "Governing Law / Jurisdiction",
+     0.9987444877624512
+    ],
+    [
+     "Intellectual Property",
+     0.0002563839661888778
+    ],
+    [
+     "Assignment",
+     0.00019732168584596366
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 10764,
+   "end": 11064,
+   "text": "Entire Agreement. This Agreement constitutes the entire understanding and agreement between the parties, and supersedes all previous or contemporaneous agreement or communications, both oral and written, representations and under standings among the parties with respect to the subject matter hereof.",
+   "category": "Assignment",
+   "prob": 0.37588924169540405,
+   "top3": [
+    [
+     "Assignment",
+     0.37588924169540405
+    ],
+    [
+     "Intellectual Property",
+     0.2356853485107422
+    ],
+    [
+     "Termination",
+     0.0860290601849556
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 11070,
+   "end": 11316,
+   "text": "Amendments. No amendment, modification and/or discharge of this Agreement shall be valid or binding on the parties unless made in writing and signed on behalf of each of the parties by their respective duly authorized officers or representatives.",
+   "category": "Assignment",
+   "prob": 0.8782984018325806,
+   "top3": [
+    [
+     "Assignment",
+     0.8782984018325806
+    ],
+    [
+     "Intellectual Property",
+     0.06312859803438187
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.025233732536435127
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 11322,
+   "end": 11479,
+   "text": "Binding Agreement. This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and permitted assigns.",
+   "category": "Assignment",
+   "prob": 0.5728259682655334,
+   "top3": [
+    [
+     "Assignment",
+     0.5728259682655334
+    ],
+    [
+     "Intellectual Property",
+     0.268478125333786
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.06496340781450272
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 11485,
+   "end": 11795,
+   "text": "Severability. It is the intent of the parties that in case any one or more of the provisions contained in this Agreement shall be held to be invalid or unenforceable in any respect, such provision shall be modified to the extent necessary to render it, as modified, valid and enforceable under applicable laws,",
+   "category": "Intellectual Property",
+   "prob": 0.35062792897224426,
+   "top3": [
+    [
+     "Intellectual Property",
+     0.35062792897224426
+    ],
+    [
+     "Assignment",
+     0.15124565362930298
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.14194345474243164
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 11797,
+   "end": 11893,
+   "text": "and such invalidity or unenforceability shall not affect the other provisions of this Agreement.",
+   "category": "Assignment",
+   "prob": 0.588575005531311,
+   "top3": [
+    [
+     "Assignment",
+     0.588575005531311
+    ],
+    [
+     "Dispute Resolution",
+     0.1837620884180069
+    ],
+    [
+     "Governing Law / Jurisdiction",
+     0.11343386769294739
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 11899,
+   "end": 12091,
+   "text": "Waiver. Waiver by either party of a breach of any provision of this Agreement, shall not be deemed to be waiver of any preceding or succeeding breach of the same or any other provision hereof.",
+   "category": "Liability",
+   "prob": 0.7229264378547668,
+   "top3": [
+    [
+     "Liability",
+     0.7229264378547668
+    ],
+    [
+     "Warranty",
+     0.0753081813454628
+    ],
+    [
+     "Assignment",
+     0.04183352738618851
+    ]
+   ],
+   "confident": true,
+   "flags": [
+    {
+     "rule_id": "ICA_S73_01",
+     "provision": "Indian Contract Act, 1872, Section 73",
+     "status": "context",
+     "reasons": [
+      "damages/breach mentioned, no cap or formula visible"
+     ],
+     "note": "statutory default compensation rule (s.73) would fill the gap; context, not a defect",
+     "rule_confidence": "Low",
+     "evidence": [
+      [
+       36,
+       42,
+       "breach"
+      ],
+      [
+       143,
+       149,
+       "breach"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "start": 12097,
+   "end": 12336,
+   "text": "Survival. Both parties agree that all of their obligations undertaken herein with respect to Confidential Information received pursuant to this Agreement shall survive till perpetuity even after expiration or termination of this Agreement.",
+   "category": "Termination",
+   "prob": 0.7480989098548889,
+   "top3": [
+    [
+     "Termination",
+     0.7480989098548889
+    ],
+    [
+     "Liability",
+     0.1433359980583191
+    ],
+    [
+     "Warranty",
+     0.037611160427331924
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 12342,
+   "end": 12770,
+   "text": "Non-solicitation. During the term of this Agreement and thereafter for a further period of two (2) years Auditor shall not solicit or attempt to solicit Auditee\u2019s employees and/or consultants, for the purpose of hiring/contract or to proceed to conduct business similar to Auditee with any employee and/or consultant of the Auditee who has knowledge of the Confidential Information, without the prior written consent of Auditee.",
+   "category": "Non-Solicitation",
+   "prob": 0.9335916042327881,
+   "top3": [
+    [
+     "Non-Solicitation",
+     0.9335916042327881
+    ],
+    [
+     "Non-Compete",
+     0.039524856954813004
+    ],
+    [
+     "Other",
+     0.01634819060564041
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 12776,
+   "end": 13133,
+   "text": "This Agreement is governed by and shall be construed in accordance with the laws of India. In the event of dispute arising between the parties in connection with the validity, interpretation, and implementation or alleged breach of any provision of this Agreement, the parties shall attempt to resolve the dispute in good faith by senior level negotiations.",
+   "category": "Governing Law / Jurisdiction",
+   "prob": 0.9933193922042847,
+   "top3": [
+    [
+     "Governing Law / Jurisdiction",
+     0.9933193922042847
+    ],
+    [
+     "Other",
+     0.0015117370057851076
+    ],
+    [
+     "Termination",
+     0.0011613549431785941
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 13134,
+   "end": 13788,
+   "text": "In case, any such difference or dispute is not amicably resolved within forty five (45) days of such referral for negotiations, it shall be resolved through arbitration process, wherein both the parties will appoint one arbitrator each and the third one will be appointed by the two arbitrators in accordance with the Arbitration and Conciliation Act, 1996. The venue of arbitration in India shall be (please choose the venue of dispute resolution as the city) or where the services are provided. The proceedings of arbitration shall be conducted in English language and the arbitration award shall be substantiated in writing and binding on the parties.",
+   "category": "Other",
+   "prob": 0.42155522108078003,
+   "top3": [
+    [
+     "Other",
+     0.42155522108078003
+    ],
+    [
+     "Liability",
+     0.21280090510845184
+    ],
+    [
+     "Termination",
+     0.14884941279888153
+    ]
+   ],
+   "confident": false,
+   "flags": []
+  },
+  {
+   "start": 13790,
+   "end": 13947,
+   "text": "The arbitration proceedings shall be completed within a period of one hundred and eighty (180) days from the date of reference of the dispute to arbitration.",
+   "category": "Termination",
+   "prob": 0.7143164873123169,
+   "top3": [
+    [
+     "Termination",
+     0.7143164873123169
+    ],
+    [
+     "Other",
+     0.19528324902057648
+    ],
+    [
+     "Liability",
+     0.02716134674847126
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 13953,
+   "end": 14077,
+   "text": "Term. This Agreement shall come into force on the date of its signing by both the parties and shall be valid up to one year.",
+   "category": "Termination",
+   "prob": 0.9971961975097656,
+   "top3": [
+    [
+     "Termination",
+     0.9971961975097656
+    ],
+    [
+     "Intellectual Property",
+     0.0009182489011436701
+    ],
+    [
+     "Non-Compete",
+     0.00033929263008758426
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  },
+  {
+   "start": 14079,
+   "end": 14238,
+   "text": "IN WITNESS HEREOF, and intending to be legally bound, the parties have executed this Agreement to make it effective from the date and year first written above.",
+   "category": "Termination",
+   "prob": 0.9245927333831787,
+   "top3": [
+    [
+     "Termination",
+     0.9245927333831787
+    ],
+    [
+     "Assignment",
+     0.03543268144130707
+    ],
+    [
+     "Intellectual Property",
+     0.020748592913150787
+    ]
+   ],
+   "confident": true,
+   "flags": []
+  }
+ ],
+ "contract_flags": [
+  {
+   "rule_id": "ICA_S56_01",
+   "provision": "Indian Contract Act, 1872, Section 56 (doctrine of frustration)",
+   "status": "gap",
+   "reasons": [
+    "no force-majeure wording anywhere in the contract"
+   ],
+   "note": "falls back on the narrow s.56 frustration doctrine; coarse flag only"
+  }
+ ],
+ "found": {
+  "Termination": [
+   {
+    "start": 13959,
+    "end": 14077,
+    "text": "This Agreement shall come into force on the date of its signing by both the parties and shall be valid up to one year.",
+    "span_score": 13.92578125,
+    "verify_prob": 0.997312605381012
+   },
+   {
+    "start": 5337,
+    "end": 5749,
+    "text": "Return to the auditee, or destroy, at auditee\u2019s discretion, any and all Confidential Information disclosed in a printed form or other permanent record, or in any other tangible form (including without limitation, all copies, notes, extracts, analyses, studies, summaries, records and reproductions thereof) immediately on (i) expiration or termination of this agreement, or (ii) the request of Auditee there for.",
+    "span_score": 2.2021484375,
+    "verify_prob": 0.2609070837497711
+   },
+   {
+    "start": 7715,
+    "end": 8346,
+    "text": "(d) Which Auditee agrees in writing is free of such restrictions.\n\n(e) Which is received from a third party not subject to the obligation of confidentiality with respect to such Information;\n\n6. Remedies. Auditor acknowledges that any actual or threatened disclosure or use of the Confidential Information by Auditor would be a breach of this agreement and may cause immediate and irreparable harm to Auditee or to its clients;\n\nAuditor affirms that damages from such disclosure or use by it may be impossible to measure accurately; and injury sustained by Auditee / its clients may be impossible to calculate and compensate fully.",
+    "span_score": -8.58203125,
+    "verify_prob": 0.18293559551239014
+   }
+  ],
+  "Governing Law / Jurisdiction": [
+   {
+    "start": 10536,
+    "end": 10758,
+    "text": "This Agreement shall be interpreted in accordance with and governed by the substantive and procedural laws of India and the parties hereby consent to the jurisdiction of Courts and/or Forums situated at <Name of the city>.",
+    "span_score": 17.32421875,
+    "verify_prob": 0.9989283680915833
+   },
+   {
+    "start": 12776,
+    "end": 12866,
+    "text": "This Agreement is governed by and shall be construed in accordance with the laws of India.",
+    "span_score": 11.26171875,
+    "verify_prob": 0.9987622499465942
+   },
+   {
+    "start": 373,
+    "end": 778,
+    "text": "In case of Central Government Ministry/ Departments #/State Government Departments DLSP/DL Repository President of India/Governor of (name of state) acting through ... (Name, Designation) of ... (Name of Ministry/ Department) address ... hereinafter referred to as \u201cAuditee\u201d which expression shall, unless repugnant to the context or meaning thereof, include its successors and assigns) of the first part.",
+    "span_score": -3.87890625,
+    "verify_prob": 0.004624532535672188
+   }
+  ],
+  "Liability": [
+   {
+    "start": 8525,
+    "end": 8743,
+    "text": "In addition, Auditor shall compensate the Auditee for the loss or damages caused to the auditee, actual and liquidated damages, which may be demanded by Auditee with liquidated damages not to exceed the Contract value.",
+    "span_score": 8.7900390625,
+    "verify_prob": 0.39417222142219543
+   },
+   {
+    "start": 13134,
+    "end": 14891,
+    "text": "In case, any such difference or dispute is not amicably resolved within forty five (45) days of such referral for negotiations, it shall be resolved through arbitration process, wherein both the parties will appoint one arbitrator each and the third one will be appointed by the two arbitrators in accordance with the Arbitration and Conciliation Act, 1996. The venue of arbitration in India shall be (please choose the venue of dispute resolution as the city) or where the services are provided. The proceedings of arbitration shall be conducted in English language and the arbitration award shall be substantiated in writing and binding on the parties.\n\nThe arbitration proceedings shall be completed within a period of one hundred and eighty (180) days from the date of reference of the dispute to arbitration.\n\n20. Term. This Agreement shall come into force on the date of its signing by both the parties and shall be valid up to one year.\n\nIN WITNESS HEREOF, and intending to be legally bound, the parties have executed this Agreement to make it effective from the date and year first written above.\n\n# In case of auditee being Central Government Ministry/ Departments # For & on behalf of President of India (Name and designation of authorized signatory) ... <Name of Central Govt. Ministry/Department> Or # In case of auditee being State Government Department # For & on behalf of Governor of ... < State name> ... (Name and designation of authorized signatory) <Name of State Department> Or # In case of Autonomous Societies/Not-for-profit-company/Public sector undertaking /Private Sector # For <Name of organization>, <Name and designation of authorized signatory> duly authorized by rules & regulations / of <Name of society>/ vide resolution no.",
+    "span_score": -6.2265625,
+    "verify_prob": 0.16827179491519928
+   },
+   {
+    "start": 7187,
+    "end": 7299,
+    "text": "The Confidentiality obligations as enumerated in Article 2 of this Agreement shall not apply in following cases:",
+    "span_score": -4.55859375,
+    "verify_prob": 0.013075551949441433
+   }
+  ]
+ },
+ "category_counts": {
+  "Intellectual Property": 3,
+  "Liability": 2,
+  "Assignment": 2,
+  "Governing Law / Jurisdiction": 2,
+  "Termination": 4,
+  "Non-Solicitation": 1
+ },
+ "seconds": 3.2
+}

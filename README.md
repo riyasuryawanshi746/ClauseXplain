@@ -14,7 +14,8 @@ Clause understanding for Indian-context contracts: one multi-task Longformer (18
 | `phase3_model/` | Dataset loader, multi-task model, training, metrics, CV comparison, scan-vs-span, Indian-set builder/evaluator, label-sheet tool, demo `pipeline.py`, smoke tests. |
 | `indian_law/` | Current rule table (`indian_legal_rules.csv`), human feature-audit sheets and rule-coverage reports. The engine itself is `phase3_model/rules_engine.py`. |
 | `indian_set/` | Small Indian test set: cleaned text of 11 public Indian contracts/tenders, clause drafts, built set and evaluation output. |
-| `experiments/` | Result files, Kaggle notebooks, early runs. |
+| `experiments/` | Result files. See `experiments/README.md`: only `stageB_3fold` and `scan_vs_span` are canonical, the rest is archived. |
+| `notebooks/` | Kaggle notebooks (training, scan-vs-span, Indian set). |
 | `docs/` | Status and plan. |
 
 ## What the results support so far

@@ -1,0 +1,142 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{url}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+\begin{document}
+
+\title{ClauseXplain: Clause Classification and Evidence Localisation on Indian Contracts under Domain Shift from CUAD}
+
+\author{\IEEEauthorblockN{Riya Suryawanshi}
+\IEEEauthorblockA{Department of Computer Engineering\\
+Sardar Patel Institute of Technology, Mumbai, India\\
+riya.suryawanshi23@spit.ac.in}
+\and
+\IEEEauthorblockN{\todo{co-author / supervisor}}
+\IEEEauthorblockA{\todo{affiliation}}}
+
+\maketitle
+
+\begin{abstract}
+Public contract-understanding resources are almost entirely based on US agreements, yet practitioners in India work with contracts governed by the Indian Contract Act, 1872 and related statutes. We study how well a Longformer model trained only on CUAD transfers to Indian contracts. We map CUAD's 41 clause types to an 18-category Indian-context taxonomy (12 categories have training data), train a multi-task Longformer-base with a clause classifier and a question-conditioned evidence-span head, and evaluate it on a new hand-labelled set of 228 clauses from 11 Indian documents. In 3-fold contract-grouped cross-validation on CUAD the classifier reaches 0.84 macro-F1, but on Indian clauses in categories it was trained on, accuracy falls to 0.38 and macro-F1 to 0.38, statistically indistinguishable from a TF-IDF baseline. The span head, however, localises evidence better than lexical and random baselines on Indian text (token-F1 0.35 vs.\ 0.31 and 0.11) and is about 24$\times$ faster and 0.125 token-F1 better than scanning candidate spans with the classifier. We also report where the model fails (e.g., Dispute Resolution, and six categories absent from CUAD) and describe a rule layer that attaches candidate Indian-statute flags for human review. The Indian set is small and single-annotator, so we present the results as a domain-shift study and benchmark seed, not as a deployable system.
+\end{abstract}
+
+\begin{IEEEkeywords}
+legal NLP, contract analysis, domain shift, Longformer, evidence extraction, Indian law
+\end{IEEEkeywords}
+
+\section{Introduction}
+Automated contract review is a well-studied task in legal NLP, driven by datasets such as CUAD \cite{hendrycks2021cuad}. These datasets are drawn from US filings, whereas Indian contracts follow different drafting conventions and statutes (for example the Indian Contract Act, 1872; the MSMED Act, 2006; and the Digital Personal Data Protection Act, 2023). It is unclear how much a model trained on US contracts transfers.
+
+This paper makes four contributions:
+\begin{enumerate}
+\item A mapping from CUAD's 41 clause types to an 18-category Indian-context taxonomy, with an explicit account of which categories have training data (Section~\ref{sec:data}).
+\item A multi-task Longformer with a clause classifier and an evidence-span head, with a controlled comparison against single-task models and lexical baselines on CUAD (Section~\ref{sec:cuad}).
+\item A measurement of domain shift on a new set of 228 hand-labelled Indian clauses, including what the model predicts for categories it never saw (Section~\ref{sec:indian}).
+\item A comparison of the span head with scanning candidate spans using the classifier, showing a large accuracy and speed advantage (Section~\ref{sec:scan}).
+\end{enumerate}
+We deliberately report negative and uncertain results (for example, no reliable gain over TF-IDF out of domain) and list limitations in Section~\ref{sec:limits}.
+
+\section{Related Work}
+\textbf{Contract datasets.} CUAD \cite{hendrycks2021cuad} provides 510 contracts with 41 expert-annotated clause types and is the source of our training data. LexGLUE \cite{chalkidis2022lexglue} benchmarks legal language understanding more broadly. \todo{add: LEDGAR, ContractNLI, other contract/clause datasets, with citations}
+
+\textbf{Legal language models.} LEGAL-BERT \cite{chalkidis2020legalbert} pretrains BERT on legal text. We use Longformer \cite{beltagy2020longformer} because contracts are long and the span head sees windows of up to 1,024 tokens. \todo{add LegalBERT / RoBERTa baseline results (Section~\ref{sec:next})}
+
+\textbf{Indian legal NLP.} Work on Indian legal text has focused mainly on court judgments, for example ILDC \cite{malik2021ildc}. \todo{survey Indian contract-specific work; verify no existing Indian contract clause benchmark before claiming novelty}
+
+\section{Data and Taxonomy}\label{sec:data}
+\subsection{CUAD mapping}
+CUAD v1 has 510 contracts. We map its clause types to 18 categories (Assignment, Commercial Terms, Confidentiality, Dispute Resolution, Force Majeure, Governing Law/Jurisdiction, Indemnification, Intellectual Property, Liability, Modification, Non-Compete, Non-Solicitation, Other, Payment, Penalties, Privacy/Data Protection, Termination, Warranty). After mapping, 13,823 annotated spans from 510 contracts remain. Only 12 categories receive any CUAD data; Confidentiality, Force Majeure, Indemnification, Modification, Payment and Privacy/Data Protection have none, so the model cannot output them. Dispute Resolution is represented only by CUAD's ``Covenant Not To Sue'' type (173 spans), which is a narrow slice of what Indian arbitration and dispute clauses contain.
+
+\subsection{Indian evaluation set}
+We collected 11 publicly available Indian documents (government RFP/consultancy agreements, a unified telecom licence, concession agreements, a non-disclosure agreement, and general terms and conditions) and extracted 228 clauses with exact character offsets. Each clause was assigned one of the 18 categories by one annotator using written definitions and tie-break rules. Of the 228 clauses, 129 fall in categories with CUAD training data (including Other) and 99 fall in the six unseen categories. Documents are unevenly sized: one agreement contributes 58 clauses. Clause selection was keyword-assisted and is therefore biased toward typical wording. \todo{second-annotator agreement (Cohen's kappa) on a 100-unit random sample, labelled blind}
+
+\section{Method}\label{sec:method}
+\subsection{Model}
+The encoder is Longformer-base-4096 \cite{beltagy2020longformer}. The classifier head predicts a category from a clause (maximum 512 tokens). The span head takes a category-specific question and a 3,000-character window of the contract (maximum 1,024 tokens) and predicts start/end logits over the window. An ordinal risk head exists in the code but is not used in any reported result. We compare three variants: classifier only, span only, and joint training.
+
+\subsection{Training and protocol}
+All CUAD experiments use contract-grouped 5-fold splits so no contract appears in both training and test data; we ran folds 0--2. Settings: 2 epochs, learning rate $2\times10^{-5}$ (heads $10^{-4}$), seed 13, mixed precision on a T4 GPU, span training on 50\% of eligible items. Baselines: majority class, TF-IDF with logistic regression (trained on the same split), a whole-window span, a lexical-centroid span, and a random span.
+
+\subsection{Rule layer}
+A rule engine applies hand-written features (e.g., whether a duration or cap is stated) to confidently classified clauses and raises candidate flags tied to the Indian Contract Act (ss.\,27, 28, 39, 56, 73--75, 124), the MSMED Act (ss.\,15--16) and the DPDPA (s.\,8). Flags are prompts for human review, not legal findings. The 15 rules have not been reviewed by a lawyer. \todo{legal review of the rules before claiming anything about them}
+
+\section{Results on CUAD}\label{sec:cuad}
+Table~\ref{tab:cuad} gives means over three folds (about 2,030 test clauses per fold). The Longformer classifiers beat TF-IDF by 0.036 to 0.037 macro-F1 with fold-level intervals above zero, but the folds are few. Joint training did not change classification (difference $-0.001$, interval includes zero). For span localisation, the joint model reaches 0.760 token-F1 against 0.604 for the lexical-centroid baseline.
+
+\begin{table}[t]
+\caption{CUAD, 3-fold contract-grouped CV (mean $\pm$ s.d.; 12 categories scored).}\label{tab:cuad}
+\centering
+\begin{tabular}{lccc}
+\toprule
+Model & Macro-F1 & Micro-F1 & Span tok-F1\\
+\midrule
+Majority & 0.030 & 0.220 & --\\
+TF-IDF + LR & $0.802\pm0.016$ & 0.853 & --\\
+Classifier only & $0.839\pm0.017$ & 0.875 & --\\
+Span only & -- & -- & 0.736\\
+Joint (cls+span) & $0.837\pm0.011$ & 0.872 & 0.760\\
+\midrule
+Lexical-centroid span & -- & -- & 0.604\\
+Whole-window span & -- & -- & 0.236\\
+Random span & -- & -- & 0.106\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Domain Shift to Indian Contracts}\label{sec:indian}
+We evaluate the three joint checkpoints (folds 0--2) on the 129 Indian clauses in trained categories (Table~\ref{tab:indian}). The same 129 clauses are used for every fold, so the folds are not independent samples. Wilson 95\% intervals on accuracy are roughly $\pm0.08$ and overlap those of TF-IDF in every fold.
+
+\begin{table}[t]
+\caption{Indian set, 129 clauses in trained categories (CUAD-only checkpoints).}\label{tab:indian}
+\centering
+\begin{tabular}{lcccc}
+\toprule
+ & F0 & F1 & F2 & Mean\\
+\midrule
+Accuracy, Longformer & 0.364 & 0.364 & 0.403 & 0.377\\
+Accuracy, TF-IDF & 0.333 & 0.372 & 0.341 & 0.349\\
+Macro-F1, Longformer & 0.387 & 0.367 & 0.392 & 0.382\\
+Macro-F1, TF-IDF & 0.349 & 0.371 & 0.360 & 0.360\\
+\midrule
+Span tok-F1, head & 0.323 & 0.361 & 0.357 & 0.347\\
+Span tok-F1, lexical & 0.299 & 0.316 & 0.320 & 0.312\\
+Span tok-F1, random & 0.120 & 0.105 & 0.109 & 0.111\\
+Span exact match, head & 0.116 & 0.093 & 0.116 & 0.108\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Findings.} (i) Macro-F1 falls from 0.84 on CUAD to about 0.38, consistently across checkpoints. (ii) Out of domain, the classifier is comparable to TF-IDF. (iii) The span head is modestly but consistently better than the lexical baseline and far better than random, and is the only method with non-zero exact match. (iv) Per-category results from fold 0 show Penalties (F1 0.61), Governing Law (0.53) and IP (0.48) transfer best and Dispute Resolution does not (F1 0.00 on 10 clauses), consistent with the narrow CUAD coverage of that category. (v) For the 99 clauses in unseen categories, predictions go to the nearest trained category: 17 of 22 Payment clauses become Commercial Terms, 11 of 15 Indemnification clauses become Liability, and most Confidentiality clauses become Other. Per-document accuracy varies (0.14--0.78) but most documents have fewer than 15 clauses, so we do not draw conclusions per document.
+
+\section{Span Head versus Classifier Scan}\label{sec:scan}
+To locate a clause type in a 3,000-character window one can either run the span head once or split the window into about 50 sentence-aligned candidates and score each with the category classifier. On 500 test windows per fold (T4 GPU), the span head achieves a mean token-F1 of 0.756 against 0.630 for the scan (differences of +0.132, +0.142, +0.102, each with a paired-bootstrap 95\% interval excluding zero), at 54\,ms against about 1,314\,ms per window (about 24$\times$ faster). The two methods use different checkpoints by design, and three folds are too few for a cross-fold interval.
+
+\section{Limitations}\label{sec:limits}
+\begin{itemize}
+\item The Indian set is small (228 clauses, 11 documents), keyword-assisted, labelled by a single annotator, and partly OCR-noisy (the concession agreement). No valid inter-annotator agreement is reported yet.
+\item Only 12 of 18 categories are learnable from CUAD; the system cannot recognise the others.
+\item Training was short (2 epochs, 50\% of span items); only 3 of 5 folds and a single seed were run.
+\item Folds on the Indian set reuse the same clauses and are not independent.
+\item The rule layer is unreviewed by a lawyer; outputs are not legal advice.
+\end{itemize}
+
+\section{Conclusion and Next Steps}\label{sec:next}
+A CUAD-trained Longformer loses more than half of its macro-F1 on Indian contracts and does not reliably beat TF-IDF there, while its span head remains useful as a fast, better-than-baseline evidence localiser. Priorities before submission: \todo{RoBERTa/LegalBERT baseline; folds 3--4 and 2--3 seeds; train on Indian-set clauses for the six missing categories with a held-out test set; blind second annotator; legal review of rules; larger Indian set}.
+
+\section*{Availability}
+Code, mapping, results, and the Indian set tooling: \url{https://github.com/riyasuryawanshi746/ClauseXplain}. \todo{confirm what can be released given source-document licences}
+
+\begin{thebibliography}{00}
+\bibitem{hendrycks2021cuad} D. Hendrycks, C. Burns, A. Chen, and S. Ball, ``CUAD: An expert-annotated NLP dataset for legal contract review,'' in \emph{NeurIPS Datasets and Benchmarks}, 2021.
+\bibitem{beltagy2020longformer} I. Beltagy, M. E. Peters, and A. Cohan, ``Longformer: The long-document transformer,'' arXiv:2004.05150, 2020.
+\bibitem{chalkidis2020legalbert} I. Chalkidis \emph{et al.}, ``LEGAL-BERT: The muppets straight out of law school,'' in \emph{Findings of EMNLP}, 2020.
+\bibitem{chalkidis2022lexglue} I. Chalkidis \emph{et al.}, ``LexGLUE: A benchmark dataset for legal language understanding in English,'' in \emph{Proc. ACL}, 2022.
+\bibitem{malik2021ildc} V. Malik \emph{et al.}, ``ILDC for CJPE: Indian legal documents corpus for court judgment prediction and explanation,'' in \emph{Proc. ACL-IJCNLP}, 2021.
+\end{thebibliography}
+
+\end{document}

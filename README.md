@@ -13,7 +13,7 @@ Clause understanding for Indian-context contracts: one multi-task Longformer (18
 | `phase2b_annotation_pilot/` | Annotation app and AI-assisted pilot labels. **The AI risk labels are not used for training** (single AI annotator, no human review). Kept for provenance. |
 | `phase3_model/` | Dataset loader, multi-task model, training, metrics, CV comparison, scan-vs-span, Indian-set builder/evaluator, label-sheet tool, demo `pipeline.py`, smoke tests. |
 | `indian_law/` | Current rule table (`indian_legal_rules.csv`), human feature-audit sheets and rule-coverage reports. The engine itself is `phase3_model/rules_engine.py`. |
-| `indian_set/` | Small Indian test set: cleaned text of 11 public Indian contracts/tenders, clause drafts, built set and evaluation output. |
+| `indian_set/` | Small Indian test set: cleaned text of 11 public Indian contracts/tenders, `clauses_v1.csv` (labelled clauses), built set and evaluation output. |
 | `experiments/` | Result files. See `experiments/README.md`: only `stageB_3fold` and `scan_vs_span` are canonical, the rest is archived. |
 | `notebooks/` | Kaggle notebooks (training, scan-vs-span, Indian set). |
 | `docs/` | Status and plan. |
@@ -22,7 +22,7 @@ Clause understanding for Indian-context contracts: one multi-task Longformer (18
 
 - Longformer category classifier beats TF-IDF+LogReg by about +2.2 micro-F1 / +3.7 macro-F1 (3 folds, interval above 0).
 - Joint cls+span model is on par with the single-task models at roughly half the parameters. No speed-up.
-- Span head beats scanning the window with the classifier by about +0.125 token-F1 using roughly 50x fewer forward passes (folds run so far).
+- Span head beats scanning the window with the classifier by +0.125 token-F1 on average (+0.10 to +0.14 per fold) using about 50x fewer forward passes and about 24x less time on a T4 (see `experiments/scan_vs_span/README.md`).
 - Indian test set evidence is anecdotal at this point (few scorable clauses, keyword-selected). Growing it to 100+ clauses via `make_label_sheet.py` is in progress.
 
 ## Known limits

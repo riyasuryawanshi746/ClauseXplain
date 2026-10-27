@@ -167,6 +167,32 @@ def main(argv=None) -> dict:
                     confusion[CATEGORIES[t]][CATEGORIES[p]] += 1
     res["unseen_category_predictions"] = {k: dict(v) for k, v in confusion.items()}
 
+    # ---- per-clause predictions (all clauses) -> indian_predictions.csv ---------------
+    # Lets you slice results by document, drop noisy documents, or inspect errors.
+    _, lall = loaders_for(everything, ("clause",))
+    pred_rows = []
+    m_cls.eval()
+    with torch.no_grad():
+        for batch in lall.get("clause", []):
+            b = {k: v.to(device) for k, v in batch.items() if k != "meta"}
+            with torch.autocast(device_type=device.type, dtype=amp_dtype,
+                                enabled=device.type == "cuda" and amp_dtype is not None):
+                logits = m_cls(**b)["cls_logits"].float()
+            prob = torch.softmax(logits, -1)
+            top = prob.argmax(-1).tolist()
+            conf = prob.max(-1).values.tolist()
+            for meta, t, p_, c in zip(batch["meta"], batch["cls_labels"].tolist(), top, conf):
+                cid = meta["clause_id"]
+                pred_rows.append([cid, cid.split("__")[0], CATEGORIES[t], CATEGORIES[p_],
+                                  int(CATEGORIES[t] not in NO_TRAINING_DATA), int(t == p_), f"{c:.3f}",
+                                  ex_map[cid].text[:300].replace("\n", " ")])
+    with open(ind / "indian_predictions.csv", "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["clause_id", "document", "true_category", "pred_category", "seen_category",
+                    "correct", "confidence", "clause_text"])
+        w.writerows(pred_rows)
+    print(f"wrote {len(pred_rows)} per-clause predictions to {ind / 'indian_predictions.csv'}")
+
     # ---- rule flags ---------------------------------------------------------------------
     if a.rules:
         rules = load_rules(a.rules)

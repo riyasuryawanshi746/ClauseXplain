@@ -437,6 +437,8 @@ def run_fixture_tests(tmp: Path):
                         "--mapped_jsonl", str(mapped2), "--cuad_json", str(cuad2), "--tiny"]
                        + (["--rules", "indian_legal_rules.csv"] if Path("indian_legal_rules.csv").exists() else []))
         assert ev["n_unseen"] == 1 and ev["cls"]["n"] >= 5 and "Indemnification" in ev["unseen_category_predictions"]
+        pc = list(_csv.DictReader(open(indd / "built" / "indian_predictions.csv", encoding="utf-8")))
+        assert len(pc) == len(keep) and {"document", "pred_category", "correct"} <= set(pc[0]), "per-clause predictions"
         assert (indd / "built" / "indian_eval.md").exists() and "tfidf_logreg" in ev["baselines_cls"]
         print(f"      indian set: {ev['n_total']} clauses built and evaluated end to end")
         res2 = train_main(argv + ["--resume"])

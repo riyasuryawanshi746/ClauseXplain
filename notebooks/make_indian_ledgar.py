@@ -21,7 +21,7 @@ before any result) and at most 100 per category are added to every training fold
 (LegalBERT CUAD -> Indian) and the LEDGAR run, so the gain can be compared with seed noise.
 
 Settings: attach `clausexplain-indian-eval` and `scan-vs-span`; **GPU T4**; **Internet ON** (LegalBERT weights and the
-LEDGAR parquet, ~21 MB). Run all; download `indian_ledgar_results.zip`. About 3 h. Resumable; the last run (no CUAD init) can be dropped if time is short."""
+LEDGAR parquet, ~21 MB). Run all; download `indian_ledgar_results.zip`. About 2 h (6 runs; two optional runs are commented out in the RUNS list). Resumable."""
 
 setup = f'''import os, shutil, base64, io, zipfile, subprocess, sys, json
 BASE = "/kaggle/input/datasets/riyasuryawanshi"
@@ -52,8 +52,8 @@ RUNS = [
     ("legalbert_cuad_indian_ledgar_s13",   "neural", LB + LG + ["--seed", "13"]),
     ("legalbert_cuad_indian_ledgar_s14",   "neural", LB + LG + ["--seed", "14"]),
     ("legalbert_cuad_indian_ledgar_s15",   "neural", LB + LG + ["--seed", "15"]),
-    ("legalbert_cuad_indian_ledgar_missing_s13", "neural", LB + LG + MISSING + ["--seed", "13"]),
-    ("legalbert_indian_ledgar_s13",        "neural", ["--encoder", LEGALBERT] + LG + ["--seed", "13"]),   # no CUAD init
+#   ("legalbert_cuad_indian_ledgar_missing_s13", "neural", LB + LG + MISSING + ["--seed", "13"]),
+#   ("legalbert_indian_ledgar_s13",        "neural", ["--encoder", LEGALBERT] + LG + ["--seed", "13"]),   # no CUAD init
 ]
 print("ready;", len(RUNS), "configurations")'''
 

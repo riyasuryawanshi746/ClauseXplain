@@ -1,4 +1,4 @@
-# Regenerates notebooks/legalbert_baseline_kaggle.ipynb (embeds current phase3 code + built_v3 + built_judgments).
+# Regenerates notebooks/legalbert_baseline_v4_kaggle.ipynb (embeds current phase3 code + built_v4 + built_judgments).
 # Run from repo root after the code or the Indian set changes.
 import base64, io, json, zipfile
 from pathlib import Path
@@ -9,7 +9,7 @@ buf = io.BytesIO()
 with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
     for f in CODE:
         z.write(f"phase3_model/{f}", f)
-    for d in ["built_v3", "built_judgments"]:
+    for d in ["built_v4", "built_judgments"]:
         for f in ["indian_mapped.jsonl", "indian_contracts.json", "build_report.md"]:
             z.write(f"indian_set/{d}/{f}", f"{d}/{f}")
 blob = base64.b64encode(buf.getvalue()).decode()
@@ -20,7 +20,7 @@ Trains `nlpaueb/legal-bert-base-uncased` as a classifier only (`cls_only`) on th
 (334 clauses) and the judgment slice. No span head: BERT only takes 512 tokens.
 
 Settings: attach `clausexplain-indian-eval` and `scan-vs-span`; **GPU T4**; **Internet ON** (downloads LegalBERT from
-Hugging Face). Run all, then download `legalbert_results.zip` from the Output tab.
+Hugging Face). Run all, then download `legalbert_results_v4.zip` from the Output tab.
 Roughly 15-30 min per fold. Set FOLDS = [0] for a quick first check."""
 
 setup = f'''import os, shutil, base64, io, zipfile, subprocess, sys, json
@@ -65,7 +65,7 @@ for k, c in zip(FOLDS, rows):
     print(f"fold {k}: macro-F1 {c['macro_f1']:.3f}  micro-F1 {c['micro_f1']:.3f}  n {c['n']}")
 print(f"mean: macro-F1 {st.mean(c['macro_f1'] for c in rows):.3f}  micro-F1 {st.mean(c['micro_f1'] for c in rows):.3f}")'''
 
-indian = '''SETS = {"main": "built_v3", "judgments": "built_judgments"}
+indian = '''SETS = {"main": "built_v4", "judgments": "built_judgments"}
 for k in FOLDS:
     for tag, src in SETS.items():
         out = f"{WORK}/{tag}_fold{k}"
@@ -77,7 +77,7 @@ for k in FOLDS:
         print("=== fold", k, tag, "==="); r = subprocess.run(cmd, capture_output=True, text=True)
         print(r.stdout[-200:], r.stderr[-1500:] if r.returncode else "")'''
 
-summ = r'''# LegalBERT accuracy on seen categories by source (Longformer v3 means: all 0.344, original 0.377, batch 2 0.275, judgments 0.606)
+summ = r'''# LegalBERT accuracy on seen categories by source (pre-adjudication LegalBERT means: all 0.349, original 0.375, batch 2 0.296, judgments 0.545)
 import csv, math
 def wilson(k, n, z=1.96):
     if n == 0: return (float("nan"),) * 2
@@ -96,7 +96,7 @@ for k in FOLDS:
             extra = f"{mf1:.3f}" if name in ("all 334 (main)", "judgments") else ""
             print(f"| {k} | {name} | {n} | " + (f"{c/n:.3f} | {lo:.3f} to {hi:.3f} | {extra} |" if n else "n/a | n/a | |"))'''
 
-zipc = '''with zipfile.ZipFile("/kaggle/working/legalbert_results.zip", "w", zipfile.ZIP_DEFLATED) as z:
+zipc = '''with zipfile.ZipFile("/kaggle/working/legalbert_results_v4.zip", "w", zipfile.ZIP_DEFLATED) as z:
     for f in ["results.json", "results.md", "partial/config.json"] + [f"partial/cls_only_fold{k}.json" for k in FOLDS]:
         if os.path.exists(f"{RUN}/{f}"): z.write(f"{RUN}/{f}", f"cuad/{f}")
     for k in FOLDS:
@@ -104,7 +104,7 @@ zipc = '''with zipfile.ZipFile("/kaggle/working/legalbert_results.zip", "w", zip
             for f in ["indian_eval.json", "indian_eval.md", "indian_predictions.csv"]:
                 p = f"{WORK}/{tag}_fold{k}/{f}"
                 if os.path.exists(p): z.write(p, f"{tag}/fold{k}/{f}")
-print("download /kaggle/working/legalbert_results.zip from the Output tab (checkpoints are not included)")'''
+print("download /kaggle/working/legalbert_results_v4.zip from the Output tab (checkpoints are not included)")'''
 
 
 def cell(t, s):
@@ -117,7 +117,7 @@ def cell(t, s):
 nb = {"cells": [cell("markdown", md)] + [cell("code", s) for s in (setup, train, cuad, indian, summ, zipc)],
       "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"}},
       "nbformat": 4, "nbformat_minor": 5}
-Path("notebooks/legalbert_baseline_kaggle.ipynb").write_text(json.dumps(nb, indent=1), encoding="utf-8")
+Path("notebooks/legalbert_baseline_v4_kaggle.ipynb").write_text(json.dumps(nb, indent=1), encoding="utf-8")
 for c in nb["cells"][1:]:
     compile("".join(c["source"]), "cell", "exec")
 print("embedded", len(blob) // 1024, "KB; all cells compile")

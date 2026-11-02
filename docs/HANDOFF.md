@@ -18,7 +18,7 @@ Paper framing: domain-shift study (CUAD -> Indian contracts) + cheap span locali
   Dispute Resolution only comes from "Covenant Not To Sue" (173 spans).
 - Indian set: 228 clauses from 11 public documents (mostly government agreements). 129 in seen categories (incl. Other), 99 in unseen ones.
   Single primary annotator (Riya). Second annotator on 100 random units: raw agreement 0.68, Cohen kappa 0.65 (0.73/0.71 on the 79 clause units).
-  32 disagreements in `indian_set/labelling/second_annotator_disagreements.csv` - Riya must adjudicate.
+  32 disagreements adjudicated blind on 2026-11-02 (see next steps).
   The old 50-unit spot check (kappa 1.00) is NOT credible; never report it.
 - Batch 2 (labelled by Riya, 2026-11-02): CPWD GCC 2023 + SBM waste-to-compost draft, 107 keyword-assisted units
   (`indian_set/labelling/label_sheet_batch2_labelled.csv`; she marked none as not-a-clause, kept all labels after review;
@@ -52,12 +52,13 @@ max_len_span 1024, max_len_clause 512, T4 fp16. Needs GPU (Kaggle). Code in `pha
 - `indian_set/labelling/`: LABELLING_GUIDE, FINDING_CONTRACTS, second-annotator files.
 
 ## Known limitations (be upfront)
-Small single-primary-annotator Indian set (kappa 0.65, adjudication pending); classifier ~ TF-IDF out of domain; 6 categories untrained;
+Small single-primary-annotator Indian set (kappa 0.65; disagreements adjudicated); classifier ~ TF-IDF out of domain; 6 categories untrained;
 rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBERT baseline yet; Indian clauses mostly government documents.
 
 ## Next steps (in order)
-1. Riya adjudicates the 32 disagreements (`indian_set/labelling/adjudication_sheet.csv`, blind; `phase3_model/adjudicate.py apply`).
-   Then regenerate + re-run `notebooks/make_indian_eval_v3.py` -> Kaggle (labels in the 228 may change).
+1. DONE 2026-11-02: 32 disagreements adjudicated blind (final = annotator 1 in 21, annotator 2 in 11; 11 primary labels changed;
+   `indian_set/labelling/adjudication_report.md`). Frozen set: `indian_set/clauses_v4.csv` -> `built_v4` (334 clauses, 192 seen).
+   NEXT: run `notebooks/indian_eval_v4_kaggle.ipynb` and `notebooks/legalbert_baseline_v4_kaggle.ipynb` on Kaggle, then update paper numbers.
 2. Find more private-sector style contracts (see FINDING_CONTRACTS.md); target 400+ clauses.
 3. Re-run Indian eval on the enlarged set; train with some Indian clauses for missing categories, held-out contracts for test.
 4. LegalBERT cls-only baseline: DONE 2026-11-02 (`experiments/legalbert_baseline/`): CUAD macro-F1 0.870 (> Longformer 0.839),

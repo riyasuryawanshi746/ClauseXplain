@@ -82,6 +82,7 @@ class ClauseXplainMTL(nn.Module):
         if cfg.gradient_checkpointing:
             self.encoder.gradient_checkpointing_enable()
         H = self.encoder.config.hidden_size
+        self._longformer = self.encoder.config.model_type == "longformer"   # BERT-style encoders take no global mask
         self.drop = nn.Dropout(cfg.dropout)
 
         self.cls_head = nn.Linear(H, cfg.n_cats)
@@ -174,8 +175,8 @@ class ClauseXplainMTL(nn.Module):
                 cls_labels=None, risk_levels=None, start_positions=None,
                 end_positions=None, **_ignored) -> Dict[str, torch.Tensor]:
         act = set(self.cfg.active_tasks)
-        h = self.encoder(input_ids=input_ids, attention_mask=attention_mask,
-                         global_attention_mask=global_attention_mask).last_hidden_state
+        extra = {"global_attention_mask": global_attention_mask} if self._longformer else {}
+        h = self.encoder(input_ids=input_ids, attention_mask=attention_mask, **extra).last_hidden_state
         out: Dict[str, torch.Tensor] = {}
         pooled = self.drop(h[:, 0])                                  # <s>, global attention
 

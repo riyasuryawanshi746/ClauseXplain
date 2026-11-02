@@ -70,6 +70,7 @@ def main(argv=None) -> dict:
     ap.add_argument("--clause_batch", type=int, default=32)
     ap.add_argument("--span_batch", type=int, default=4)
     ap.add_argument("--tiny", action="store_true")
+    ap.add_argument("--cls_only", action="store_true", help="classifier-only checkpoint (e.g. LegalBERT): skip span scoring")
     a = ap.parse_args(argv)
 
     run, ind = Path(a.run_dir), Path(a.indian_dir)
@@ -132,9 +133,10 @@ def main(argv=None) -> dict:
     med = float(np.median(train_chars)) if train_chars else None
 
     if seen:
-        _, lo = loaders_for(seen, ("clause", "span"))
+        _, lo = loaders_for(seen, ("clause",) if a.cls_only else ("clause", "span"))
         r1 = evaluate(m_cls, {k: v for k, v in lo.items() if k == "clause"}, ("cls",), device, amp_dtype, med)
-        r2 = evaluate(m_span, {k: v for k, v in lo.items() if k == "span"}, ("span",), device, amp_dtype, med)
+        r2 = {} if a.cls_only else evaluate(m_span, {k: v for k, v in lo.items() if k == "span"}, ("span",),
+                                            device, amp_dtype, med)
         cls = r1.get("cls")
         res["cls"] = cls
         k = int(round(cls["accuracy"] * cls["n"])) if cls else 0
@@ -148,8 +150,9 @@ def main(argv=None) -> dict:
             if tb:
                 kt = int(round(tb["accuracy"] * tb["n"]))
                 res["tfidf_acc_ci95"] = wilson(kt, tb["n"])
-            _, lo2 = loaders_for(seen, ("span",))
-            res["baselines_span"] = span_baselines(train_ex, lo2["span"]) if "span" in lo2 else {}
+            if not a.cls_only:
+                _, lo2 = loaders_for(seen, ("span",))
+                res["baselines_span"] = span_baselines(train_ex, lo2["span"]) if "span" in lo2 else {}
 
     # ---- what the model does on categories it never saw -------------------------------
     confusion = defaultdict(Counter)

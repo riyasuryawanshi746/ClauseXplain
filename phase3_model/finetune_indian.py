@@ -27,7 +27,13 @@ USAGE
     python finetune_indian.py run --method neural --name legalbert_indian_tricks --encoder nlpaueb/legal-bert-base-uncased --tricks ...
     python finetune_indian.py run --method neural --name longformer_cuad_indian --encoder allenai/longformer-base-4096 \
         --init_ckpt ckpt_joint_cls_span_fold0.pt ...
+    python finetune_indian.py run --method neural --name legalbert_cuad_indian_ledgar --encoder nlpaueb/legal-bert-base-uncased         --init_ckpt ckpt_cls_only_fold0.pt --extra_jsonl ledgar_mapped.jsonl --extra_cap 100 ...
     python finetune_indian.py summarise --out_dir runs_ft      # comparison table of every run in out_dir
+
+EXTRA DATA (step 5, fixed 2026-11-03 before any LEDGAR result was seen)
+    --extra_jsonl: mapped LEDGAR provisions from ledgar_extra.py.  --extra_cap N samples at most N per category
+    (sampling seed 13, independent of --seed), added to every training fold for TF-IDF and neural alike.
+    --extra_categories restricts the extra data to the listed categories.
 """
 from __future__ import annotations
 
@@ -58,6 +64,18 @@ def load_set(d):
 
 def group_of(doc):
     return "mea" if doc.startswith("indian_mea_") else doc
+
+
+def load_extra(path, cap, cats, seed=13):
+    by = defaultdict(list)
+    for l in open(path, encoding="utf-8"):
+        r = json.loads(l)
+        if not cats or r["clausexplain_category"] in cats:
+            by[r["clausexplain_category"]].append({"text": r["clause_text"], "y": CAT2ID[r["clausexplain_category"]]})
+    rng = random.Random(seed); out = []
+    for c in sorted(by):
+        xs = by[c][:]; rng.shuffle(xs); out += xs[:cap] if cap else xs
+    return out
 
 
 def load_cuad(path):
@@ -235,6 +253,10 @@ def run(a):
     data = load_set(a.indian_dir)
     judg = load_set(a.judgments_dir) if a.judgments_dir else []
     extra = load_cuad(a.cuad_mapped) if a.cuad_mapped else []
+    if a.extra_jsonl:
+        ext = load_extra(a.extra_jsonl, a.extra_cap, set(a.extra_categories or []))
+        print(f"extra training data: {len(ext)} clauses", dict(Counter(CATEGORIES[e['y']] for e in ext)), flush=True)
+        extra += ext
     groups = sorted({group_of(e["doc"]) for e in data})
     out = Path(a.out_dir) / a.name; out.mkdir(parents=True, exist_ok=True)
     nn = Neural(a) if a.method == "neural" else None
@@ -253,7 +275,9 @@ def run(a):
         for e, p, c in zip(test, preds, confs):
             rows.append({**e, "group": g, "pred": p, "conf": c})
     res = {"name": a.name, "method": a.method, "tricks": a.tricks, "encoder": a.encoder, "init_ckpt": a.init_ckpt,
-           "with_cuad_train": bool(extra), "n_folds": len(groups), "settings": {k: getattr(a, k) for k in
+           "with_cuad_train": bool(a.cuad_mapped),
+           "extra_jsonl": a.extra_jsonl, "extra_cap": a.extra_cap, "extra_categories": a.extra_categories,
+           "n_extra": len(extra), "n_folds": len(groups), "settings": {k: getattr(a, k) for k in
            ["epochs", "lr", "head_lr", "batch", "max_len", "seed", "llrd"]}, "fold_log": log,
            "heldout": summarise_preds(rows)}
     if judg:
@@ -312,6 +336,9 @@ def main(argv=None):
     r.add_argument("--judgments_dir", default=None)
     r.add_argument("--out_dir", required=True)
     r.add_argument("--cuad_mapped", default=None, help="also train on all mapped CUAD spans (TF-IDF only)")
+    r.add_argument("--extra_jsonl", default=None, help="extra mapped clauses (ledgar_extra.py output)")
+    r.add_argument("--extra_cap", type=int, default=0, help="max extra clauses per category (0 = all)")
+    r.add_argument("--extra_categories", nargs="*", default=None)
     r.add_argument("--encoder", default=None)
     r.add_argument("--tokenizer", default=None)
     r.add_argument("--init_ckpt", default=None, help="start from a CUAD-trained ClauseXplain checkpoint")

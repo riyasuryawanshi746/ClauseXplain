@@ -20,9 +20,12 @@ Paper framing: domain-shift study (CUAD -> Indian contracts) + cheap span locali
   Single primary annotator (Riya). Second annotator on 100 random units: raw agreement 0.68, Cohen kappa 0.65 (0.73/0.71 on the 79 clause units).
   32 disagreements in `indian_set/labelling/second_annotator_disagreements.csv` - Riya must adjudicate.
   The old 50-unit spot check (kappa 1.00) is NOT credible; never report it.
-- Batch 2 (new, unlabelled): `indian_set/documents_batch2/` (CPWD GCC 2023, SBM waste-to-compost concession draft) ->
-  `indian_set/labelling/label_sheet_batch2_agreements.csv` (107 keyword-assisted units, label or mark not-a-clause);
-  `indian_set/judgment_clauses/judgment_candidates.csv` (11 clauses quoted in judgments; keep as a separate slice).
+- Batch 2 (labelled by Riya, 2026-11-02): CPWD GCC 2023 + SBM waste-to-compost draft, 107 keyword-assisted units
+  (`indian_set/labelling/label_sheet_batch2_labelled.csv`; she marked none as not-a-clause, kept all labels after review;
+  53% of labels equal the keyword that selected the unit -> say "keyword-assisted pool" in the paper).
+  Merged set: `indian_set/clauses_v3.csv` -> `indian_set/built_v3/` = 334 clauses, 13 docs (v2's 228 unchanged + 106; 1 duplicate dropped).
+  NOT yet evaluated: Indian results below are still on built_v2 (228).
+- Judgment slice (labelled): `indian_set/built_judgments/` (11 clauses, 5 judgments; classification only; report separately, never merge).
   Waste-to-compost is a draft full of [placeholders]; GCC text came from a PDF so check OCR noise.
 
 ## Training / eval setup
@@ -51,7 +54,8 @@ Small single-primary-annotator Indian set (kappa 0.65, adjudication pending); cl
 rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBERT baseline yet; Indian clauses mostly government documents.
 
 ## Next steps (in order)
-1. Riya labels batch 2 sheet + judgment candidates; adjudicates the 32 disagreements.
+1. Riya adjudicates the 32 disagreements (`indian_set/labelling/adjudication_sheet.csv`, blind; `phase3_model/adjudicate.py apply`).
+   Then re-run Indian eval on built_v3 + built_judgments (Kaggle).
 2. Find more private-sector style contracts (see FINDING_CONTRACTS.md); target 400+ clauses.
 3. Re-run Indian eval on the enlarged set; train with some Indian clauses for missing categories, held-out contracts for test.
 4. Baselines: RoBERTa/LegalBERT; folds 3-4; 2-3 seeds.

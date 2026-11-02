@@ -61,7 +61,7 @@ def locate(doc: str, clause: str):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--docs_dir")
+    ap.add_argument("--docs_dir", nargs="+", help="one or more folders of .txt documents")
     ap.add_argument("--clauses_csv")
     ap.add_argument("--out_dir", default="indian_set/built")
     ap.add_argument("--make_template", metavar="DIR", help="create DIR/documents and DIR/clauses.csv")
@@ -78,9 +78,10 @@ def main(argv=None):
             w.writerow(["example_nda.txt", "Termination", "Either party may terminate this Agreement by giving thirty (30) days written notice.", "public template (example row, delete me)"])
         print(f"created {d}/documents and {d}/clauses.csv; put plain-text agreements in documents/"); return
 
-    docs_dir, out = Path(a.docs_dir), Path(a.out_dir)
+    docs_dir, out = ", ".join(a.docs_dir), Path(a.out_dir)
     out.mkdir(parents=True, exist_ok=True)
-    docs = {p.name: p.read_text(encoding="utf-8", errors="replace") for p in sorted(docs_dir.glob("*.txt"))}
+    docs = {p.name: p.read_text(encoding="utf-8", errors="replace")
+            for d in a.docs_dir for p in sorted(Path(d).glob("*.txt"))}
     rows, problems, multi = [], [], []
     per_doc = Counter()
     raw = Path(a.clauses_csv).read_bytes()

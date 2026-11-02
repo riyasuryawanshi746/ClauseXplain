@@ -43,6 +43,7 @@ RUNS = [
     ("tfidf_indian",                 "tfidf",  []),
     ("tfidf_indian_balanced",        "tfidf",  ["--tricks"]),
     ("tfidf_cuad_indian",            "tfidf",  ["--cuad_mapped", f"{{MODEL_SRC}}/clauses_mapped.jsonl"]),
+    ("tfidf_cuad_indian_balanced",   "tfidf",  ["--cuad_mapped", f"{{MODEL_SRC}}/clauses_mapped.jsonl", "--tricks"]),
     ("legalbert_indian",             "neural", ["--encoder", LEGALBERT]),
     ("legalbert_indian_tricks",      "neural", ["--encoder", LEGALBERT, "--tricks"]),
     ("legalbert_cuad_indian",        "neural", ["--encoder", LEGALBERT, "--init_ckpt", f"{{LB_RUN}}/ckpt_cls_only_fold0.pt"]),

@@ -24,7 +24,7 @@ Paper framing: domain-shift study (CUAD -> Indian contracts) + cheap span locali
   (`indian_set/labelling/label_sheet_batch2_labelled.csv`; she marked none as not-a-clause, kept all labels after review;
   53% of labels equal the keyword that selected the unit -> say "keyword-assisted pool" in the paper).
   Merged set: `indian_set/clauses_v3.csv` -> `indian_set/built_v3/` = 334 clauses, 13 docs (v2's 228 unchanged + 106; 1 duplicate dropped).
-  NOT yet evaluated: Indian results below are still on built_v2 (228).
+  Evaluated 2026-11-02: see `experiments/indian_eval_v3/README.md`.
 - Judgment slice (labelled): `indian_set/built_judgments/` (11 clauses, 5 judgments; classification only; report separately, never merge).
   Waste-to-compost is a draft full of [placeholders]; GCC text came from a PDF so check OCR noise.
 
@@ -37,7 +37,9 @@ max_len_span 1024, max_len_clause 512, T4 fp16. Needs GPU (Kaggle). Code in `pha
   Joint vs cls_only: no difference (CI includes 0) - say so.
 - Span token-F1: joint 0.760, span_only 0.736, lexical-centroid 0.604, whole-window 0.236, random 0.106. Exact match joint 0.520.
 - Span head vs scanning every clause with the classifier (500 windows/fold): 0.756 vs 0.630 token-F1, 54 ms vs ~1314 ms per window (~24x faster).
-- Indian set: Longformer acc 0.377 / macro-F1 0.382 vs TF-IDF 0.349 / 0.360 (i.e. barely better out of domain). Span F1 0.347 vs lexical 0.312.
+- Indian v3 (334 clauses, 192 seen; `experiments/indian_eval_v3/`): Longformer acc 0.344 / macro-F1 0.343 vs TF-IDF 0.337 / 0.345.
+  By source: original 228 0.377 (identical to v2), batch 2 0.275 (n=63), judgment slice 0.606 (n=11; TF-IDF 0.667). Span 0.323 vs lexical 0.307.
+- Indian v2 (228, the numbers below): Longformer acc 0.377 / macro-F1 0.382 vs TF-IDF 0.349 / 0.360 (i.e. barely better out of domain). Span F1 0.347 vs lexical 0.312.
   Folds reuse the same 129 clauses, so they are not independent. Dispute Resolution F1 0.00. Best: Penalties 0.61, Governing Law 0.53, IP 0.48.
   Unseen-category errors: Payment->Commercial Terms 17/22, Indemnification->Liability 11/15, Confidentiality->Other 28/40.
   Excluding OCR-noisy Noida doc and true "Other": acc 0.412/0.459/0.482 (n=85; TF-IDF not rescored).
@@ -55,7 +57,7 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
 
 ## Next steps (in order)
 1. Riya adjudicates the 32 disagreements (`indian_set/labelling/adjudication_sheet.csv`, blind; `phase3_model/adjudicate.py apply`).
-   Then re-run Indian eval on built_v3 + built_judgments (Kaggle).
+   Then regenerate + re-run `notebooks/make_indian_eval_v3.py` -> Kaggle (labels in the 228 may change).
 2. Find more private-sector style contracts (see FINDING_CONTRACTS.md); target 400+ clauses.
 3. Re-run Indian eval on the enlarged set; train with some Indian clauses for missing categories, held-out contracts for test.
 4. Baselines: RoBERTa/LegalBERT; folds 3-4; 2-3 seeds.

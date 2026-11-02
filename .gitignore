@@ -10,3 +10,4 @@ partial/
 .ipynb_checkpoints/
 .env
 .DS_Store
+demo_model/

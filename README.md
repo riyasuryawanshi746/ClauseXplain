@@ -48,7 +48,18 @@ python train_phase3.py --mapped_jsonl ../phase1_cuad_mapping/clauses_mapped.json
   --experiments cls_only span_only joint_cls_span --cv_folds 5 --folds 0 1 2 --resume --save_ckpt --out_dir stageB
 ```
 
-Demo on a contract (needs a trained checkpoint, which is not in the repo):
+Live demo on a laptop (CPU). First train the demo classifier with `notebooks/demo_model_kaggle.ipynb` (~15 min on a
+Kaggle T4) and unzip `demo_model_legalbert.zip` into `demo_model/`; it is LEGAL-BERT trained on CUAD and all 334
+Indian clauses, covers all 18 categories, and is not in the repo (~200 MB):
+
+```bash
+pip install gradio pypdf
+python app.py --cls_model ../demo_model/demo_model_legalbert      # opens http://127.0.0.1:7860
+python pipeline.py --input contract.pdf --cls_model ../demo_model/demo_model_legalbert \
+  --rules indian_legal_rules.csv --out report.html                  # same report, no UI
+```
+
+Older demo with the CUAD-only Longformer (needs its checkpoint, also not in the repo; adds span search with `--find`):
 
 ```bash
 python pipeline.py --input contract.pdf --ckpt ckpt_joint_cls_span_fold0.pt \

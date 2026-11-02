@@ -6,6 +6,9 @@ rule flags out, as a self-contained HTML report (+ JSON).
     python pipeline.py --input contract.pdf --ckpt ckpt_joint_cls_span_fold0.pt \
         --rules indian_legal_rules.csv --out report.html
     python pipeline.py --input contract.txt ... --find "Termination" "Liability"
+    python pipeline.py --input contract.pdf --cls_model demo_model --rules indian_legal_rules.csv --out report.html
+        # --cls_model: classifier trained on CUAD + Indian clauses (finetune_indian.py final), all 18 categories,
+        # runs on CPU.  --ckpt (Longformer) is then only needed for --find.
 
 WHAT IT DOES
     1. PDF -> cleaned text (same cleaner as the test set), or plain .txt as is.
@@ -95,30 +98,59 @@ def segment(text: str, lo: int = 40, hi: int = 900, target: int = 700) -> List[d
 
 
 class ClauseXplain:
-    def __init__(self, ckpt: str, rules_csv: Optional[str] = None, encoder: str = "allenai/longformer-base-4096",
+    def __init__(self, ckpt: Optional[str], rules_csv: Optional[str] = None, encoder: str = "allenai/longformer-base-4096",
                  max_len_clause: int = 512, max_len_span: int = 1024, window_chars: int = 3000,
-                 tiny_tokenizer_dir: Optional[str] = None, tiny: bool = False):
+                 tiny_tokenizer_dir: Optional[str] = None, tiny: bool = False, cls_model: Optional[str] = None):
         self.cfg = {"encoder": encoder, "tiny": tiny, "max_len_clause": max_len_clause,
                     "max_len_span": max_len_span, "window_chars": window_chars}
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.amp = choose_amp_dtype(self.device, "none" if tiny else "auto")
         from transformers import AutoTokenizer
-        self.tok = AutoTokenizer.from_pretrained(tiny_tokenizer_dir if tiny else encoder)
-        self.model = load_model(ckpt, self.cfg, self.tok, self.device)
+        if not ckpt and not cls_model:
+            raise ValueError("need --ckpt (Longformer) and/or --cls_model (demo classifier)")
+        self.model = self.tok = None
+        if ckpt:
+            self.tok = AutoTokenizer.from_pretrained(tiny_tokenizer_dir if tiny else encoder)
+            self.model = load_model(ckpt, self.cfg, self.tok, self.device)
+            self.collate = make_collator(self.tok.pad_token_id, pad_to_multiple_of=32 if tiny else 512)
         self.rules = load_rules(rules_csv) if rules_csv else None
-        self.collate = make_collator(self.tok.pad_token_id, pad_to_multiple_of=32 if tiny else 512)
-        self.mask = torch.tensor([c in NO_DATA for c in CATEGORIES])
+        if cls_model:                                     # all 18 categories, trained on CUAD + Indian clauses
+            self.cls, self.cls_tok, self.cls_amp = self._load_cls_model(cls_model), AutoTokenizer.from_pretrained(cls_model), None
+            self.cls_collate = make_collator(self.cls_tok.pad_token_id, pad_to_multiple_of=8)
+            self.mask = torch.zeros(len(CATEGORIES), dtype=torch.bool)
+            self.cls_note = ("The category model was trained on US contracts (CUAD), then on 334 Indian clauses. On "
+                             "Indian documents it had not seen it was right about 57% of the time, so expect errors.")
+        else:
+            self.cls, self.cls_tok, self.cls_amp, self.cls_collate = self.model, self.tok, self.amp, self.collate
+            self.mask = torch.tensor([c in NO_DATA for c in CATEGORIES])
+            self.cls_note = ("The category model was trained on US contracts (CUAD) and tested on a small Indian sample, "
+                             "so expect errors on Indian text. It cannot recognise Confidentiality, Force Majeure, "
+                             "Indemnification, Modification, Payment or Privacy clauses (it mislabels them).")
+        self.cls_max_len = 512 if cls_model else self.cfg["max_len_clause"]
+
+    def _load_cls_model(self, d):
+        from model import ClauseXplainMTL, MTLConfig
+        meta = json.loads((Path(d) / "meta.json").read_text(encoding="utf-8"))
+        if meta["categories"] != CATEGORIES:
+            raise ValueError("demo model was trained with a different category list")
+        m = ClauseXplainMTL(MTLConfig(encoder_name=str(d), active_tasks=("cls",)))
+        missing, unexpected = m.load_state_dict(torch.load(Path(d) / "heads.pt", map_location="cpu"), strict=False)
+        missing = [k for k in missing if not k.startswith("encoder.")]
+        if unexpected or any(k.startswith("cls_head") for k in missing):
+            raise RuntimeError(f"heads.pt does not match: missing {missing[:5]}, unexpected {unexpected[:5]}")
+        return m.float().to(self.device).eval()
 
     # ---------------------------------------------------------------- helpers
     def _item(self, ids):
         return {"input_ids": ids, "global_attention_mask": [1] + [0] * (len(ids) - 1), "cls_label": -100,
                 "risk_levels": [-100] * 4, "start_pos": -100, "end_pos": -100, "meta": {}}
 
-    def _forward(self, batch):
+    def _forward(self, batch, model=None, amp="span"):
         b = {k: v.to(self.device) for k, v in batch.items() if k != "meta"}
-        with torch.autocast(device_type=self.device.type, dtype=self.amp,
-                            enabled=self.device.type == "cuda" and self.amp is not None):
-            return self.model(**b)
+        amp = self.amp if amp == "span" else amp
+        with torch.autocast(device_type=self.device.type, dtype=amp or torch.float32,
+                            enabled=self.device.type == "cuda" and amp is not None):
+            return (model or self.model)(**b)
 
     @torch.no_grad()
     def classify(self, texts: List[str], bs: int = 32) -> np.ndarray:
@@ -126,9 +158,9 @@ class ClauseXplain:
         out = np.zeros((len(texts), len(CATEGORIES)), dtype=np.float32)
         for s in range(0, len(texts), bs):
             idx = order[s:s + bs]
-            items = [self._item(self.tok(texts[i], truncation=True,
-                                         max_length=self.cfg["max_len_clause"])["input_ids"]) for i in idx]
-            logits = self._forward(self.collate(items))["cls_logits"].float().cpu()
+            items = [self._item(self.cls_tok(texts[i], truncation=True, max_length=self.cls_max_len)["input_ids"])
+                     for i in idx]
+            logits = self._forward(self.cls_collate(items), self.cls, self.cls_amp)["cls_logits"].float().cpu()
             logits[:, self.mask] = -1e9
             out[idx] = logits.softmax(-1).numpy()
         return out
@@ -136,6 +168,8 @@ class ClauseXplain:
     @torch.no_grad()
     def find(self, text: str, category: str, top_k: int = 3, overlap: int = 500) -> List[dict]:
         """Span head proposes, classifier verifies."""
+        if self.model is None:
+            raise ValueError("--find needs the Longformer checkpoint (--ckpt)")
         w = self.cfg["window_chars"]
         step = max(1, w - overlap)
         wins = [(s, min(len(text), s + w)) for s in range(0, max(1, len(text) - overlap), step)]
@@ -209,6 +243,7 @@ class ClauseXplain:
             if u["confident"]:
                 cnt[u["category"]] = cnt.get(u["category"], 0) + 1
         return {"n_chars": len(text), "n_units": len(units), "min_prob": min_prob, "units": units,
+                "model_note": self.cls_note,
                 "contract_flags": contract_flags, "found": found, "category_counts": cnt,
                 "seconds": round(time.time() - t0, 1)}
 
@@ -234,7 +269,7 @@ def render_html(res: dict, title: str = "ClauseXplain report") -> str:
     E = html.escape
     flagged = [(u, f) for u in res["units"] for f in u["flags"] if f["status"] in ("flag", "possible", "gap", "needs_fact")]
     flagged.sort(key=lambda x: (SEVERITY[x[1]["status"]], x[0]["start"]))
-    css = ("body{font-family:system-ui,sans-serif;max-width:1000px;margin:2rem auto;padding:0 1rem;color:#1c1c1c}"
+    css = ("body{font-family:system-ui,sans-serif;max-width:1000px;margin:2rem auto;padding:0 1rem;color:#1c1c1c;background:#fff}"
            "h1{font-size:1.5rem}h2{margin-top:2rem;border-bottom:1px solid #ddd;padding-bottom:.3rem}"
            ".warn{background:#fff6dd;border:1px solid #ecd58a;padding:.8rem 1rem;border-radius:8px;font-size:.92rem}"
            ".card{border:1px solid #ddd;border-radius:8px;padding:.8rem 1rem;margin:.8rem 0}"
@@ -245,9 +280,7 @@ def render_html(res: dict, title: str = "ClauseXplain report") -> str:
            "small{color:#666}details{margin:.4rem 0}")
     h = [f"<!doctype html><html><head><meta charset='utf-8'><title>{E(title)}</title><style>{css}</style></head><body>",
          f"<h1>{E(title)}</h1>",
-         "<div class='warn'><b>Research prototype, not legal advice.</b> The category model was trained on US contracts "
-         "(CUAD) and tested on a small Indian sample, so expect errors on Indian text. It cannot recognise "
-         "Confidentiality, Force Majeure, Indemnification, Modification, Payment or Privacy clauses (it mislabels them). "
+         f"<div class='warn'><b>Research prototype, not legal advice.</b> {E(res.get('model_note', ''))} "
          "Rule flags are candidates for human review under the Indian statutes named, not findings that a clause is void.</div>",
          f"<p>{res['n_units']} clause units from {res['n_chars']:,} characters, analysed in {res['seconds']} s. "
          f"Categories shown only when the classifier confidence is at least {res['min_prob']:.2f}.</p>"]
@@ -303,7 +336,8 @@ def load_input(path: str) -> str:
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--input", required=True)
-    ap.add_argument("--ckpt", required=True)
+    ap.add_argument("--ckpt", default=None, help="Longformer checkpoint (span head; needed for --find)")
+    ap.add_argument("--cls_model", default=None, help="demo classifier folder from finetune_indian.py final")
     ap.add_argument("--rules", default=None)
     ap.add_argument("--out", default="report.html")
     ap.add_argument("--find", nargs="*", default=None)
@@ -315,7 +349,7 @@ def main(argv=None):
     ap.add_argument("--tiny_tokenizer_dir", default=None)
     a = ap.parse_args(argv)
     cx = ClauseXplain(a.ckpt, a.rules, a.encoder, window_chars=a.window_chars, max_len_span=a.max_len_span,
-                      tiny=a.tiny, tiny_tokenizer_dir=a.tiny_tokenizer_dir)
+                      tiny=a.tiny, tiny_tokenizer_dir=a.tiny_tokenizer_dir, cls_model=a.cls_model)
     res = cx.analyze(load_input(a.input), a.find, a.min_prob)
     Path(a.out).write_text(render_html(res, f"ClauseXplain: {Path(a.input).name}"), encoding="utf-8")
     Path(a.out).with_suffix(".json").write_text(json.dumps(res, indent=1, default=float), encoding="utf-8")

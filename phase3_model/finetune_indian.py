@@ -29,6 +29,9 @@ USAGE
         --init_ckpt ckpt_joint_cls_span_fold0.pt ...
     python finetune_indian.py run --method neural --name legalbert_cuad_indian_ledgar --encoder nlpaueb/legal-bert-base-uncased         --init_ckpt ckpt_cls_only_fold0.pt --extra_jsonl ledgar_mapped.jsonl --extra_cap 100 ...
     python finetune_indian.py summarise --out_dir runs_ft      # comparison table of every run in out_dir
+    python finetune_indian.py final --encoder nlpaueb/legal-bert-base-uncased --init_ckpt ckpt_cls_only_fold0.pt         --indian_dir ../indian_set/built_v4 --judgments_dir ../indian_set/built_judgments --save_dir demo_model
+        # demo model: same settings, trained on ALL Indian clauses (no held-out test; only the judgment slice is
+        # scored). Saves encoder + tokenizer (save_pretrained, fp16) + heads.pt + meta.json for pipeline.py --cls_model.
 
 EXTRA DATA (step 5, fixed 2026-11-03 before any LEDGAR result was seen)
     --extra_jsonl: mapped LEDGAR provisions from ledgar_extra.py.  --extra_cap N samples at most N per category
@@ -207,7 +210,13 @@ class Neural:
                     "global_attention_mask": g.to(self.dev)},
                    self.torch.tensor([e["y"] for e in chunk], device=self.dev))
 
-    def fit_predict(self, train, test, seed):
+    def save(self, m, d):
+        d = Path(d); d.mkdir(parents=True, exist_ok=True)
+        m.encoder.half().save_pretrained(d); self.tok.save_pretrained(d)
+        self.torch.save({k: v.float().cpu() for k, v in m.state_dict().items() if not k.startswith("encoder.")},
+                        d / "heads.pt")
+
+    def fit_predict(self, train, test, seed, save_dir=None):
         torch, a = self.torch, self.a
         from transformers import get_linear_schedule_with_warmup
         random.seed(seed); np.random.seed(seed); torch.manual_seed(seed)
@@ -242,6 +251,8 @@ class Neural:
                     pr = torch.softmax(m(**x)["cls_logits"].float(), -1)
                 c, i = pr.max(-1); preds += i.tolist(); confs += c.tolist()
         last_loss = tot / max(1, nb)
+        if save_dir:
+            self.save(m, save_dir)
         del m, opt
         if use_amp:
             torch.cuda.empty_cache()
@@ -307,6 +318,25 @@ def run(a):
           + (f"; judgments acc {res['judgments']['accuracy']:.3f}" if judg else ""))
 
 
+def final(a):
+    """Train once on all Indian clauses (+ extra data) and save the model for the demo."""
+    data = load_set(a.indian_dir)
+    judg = load_set(a.judgments_dir) if a.judgments_dir else []
+    extra = load_extra(a.extra_jsonl, a.extra_cap, set(a.extra_categories or [])) if a.extra_jsonl else []
+    nn = Neural(a)
+    test = judg or data[:1]
+    preds, _, last = nn.fit_predict(data + extra, test, a.seed, save_dir=a.save_dir)
+    meta = {"categories": CATEGORIES, "encoder": a.encoder, "init_ckpt": a.init_ckpt, "n_indian": len(data),
+            "n_extra": len(extra), "extra_jsonl": a.extra_jsonl, "extra_cap": a.extra_cap, "last_epoch_loss": last,
+            "settings": {k: getattr(a, k) for k in ["epochs", "lr", "head_lr", "batch", "max_len", "seed", "llrd", "tricks"]},
+            "note": "trained on all Indian clauses; held-out estimates are in experiments/indian_finetune*/"}
+    if judg:
+        k = sum(p == e["y"] for p, e in zip(preds, judg)); meta["judgment_accuracy"] = k / len(judg)
+    (Path(a.save_dir) / "meta.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
+    print(f"saved demo model to {a.save_dir}; last-epoch loss {last:.3f}"
+          + (f"; judgment slice acc {meta['judgment_accuracy']:.3f}" if judg else ""))
+
+
 def summarise(a):
     runs = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(Path(a.out_dir).glob("*/metrics.json"))]
     f3 = lambda x: "n/a" if x is None or (isinstance(x, float) and math.isnan(x)) else f"{x:.3f}"
@@ -329,31 +359,37 @@ def summarise(a):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    r = sub.add_parser("run")
-    r.add_argument("--method", choices=["tfidf", "neural"], required=True)
-    r.add_argument("--name", required=True)
-    r.add_argument("--indian_dir", required=True)
-    r.add_argument("--judgments_dir", default=None)
-    r.add_argument("--out_dir", required=True)
-    r.add_argument("--cuad_mapped", default=None, help="also train on all mapped CUAD spans (TF-IDF only)")
-    r.add_argument("--extra_jsonl", default=None, help="extra mapped clauses (ledgar_extra.py output)")
-    r.add_argument("--extra_cap", type=int, default=0, help="max extra clauses per category (0 = all)")
-    r.add_argument("--extra_categories", nargs="*", default=None)
-    r.add_argument("--encoder", default=None)
-    r.add_argument("--tokenizer", default=None)
-    r.add_argument("--init_ckpt", default=None, help="start from a CUAD-trained ClauseXplain checkpoint")
-    r.add_argument("--tricks", action="store_true")
-    r.add_argument("--epochs", type=int, default=8)
-    r.add_argument("--lr", type=float, default=2e-5)
-    r.add_argument("--head_lr", type=float, default=1e-4)
-    r.add_argument("--llrd", type=float, default=0.9)
-    r.add_argument("--batch", type=int, default=16)
-    r.add_argument("--max_len", type=int, default=512)
-    r.add_argument("--seed", type=int, default=13)
+    run_p, fi = sub.add_parser("run"), sub.add_parser("final")
+    run_p.add_argument("--method", choices=["tfidf", "neural"], required=True)
+    run_p.add_argument("--name", required=True)
+    run_p.add_argument("--out_dir", required=True)
+    for r in (run_p, fi):
+        r.add_argument("--indian_dir", required=True)
+        r.add_argument("--judgments_dir", default=None)
+        r.add_argument("--cuad_mapped", default=None, help="also train on all mapped CUAD spans (TF-IDF only)")
+        r.add_argument("--extra_jsonl", default=None, help="extra mapped clauses (ledgar_extra.py output)")
+        r.add_argument("--extra_cap", type=int, default=0, help="max extra clauses per category (0 = all)")
+        r.add_argument("--extra_categories", nargs="*", default=None)
+        r.add_argument("--encoder", default=None)
+        r.add_argument("--tokenizer", default=None)
+        r.add_argument("--init_ckpt", default=None, help="start from a CUAD-trained ClauseXplain checkpoint")
+        r.add_argument("--tricks", action="store_true")
+        r.add_argument("--epochs", type=int, default=8)
+        r.add_argument("--lr", type=float, default=2e-5)
+        r.add_argument("--head_lr", type=float, default=1e-4)
+        r.add_argument("--llrd", type=float, default=0.9)
+        r.add_argument("--batch", type=int, default=16)
+        r.add_argument("--max_len", type=int, default=512)
+        r.add_argument("--seed", type=int, default=13)
+    fi.add_argument("--save_dir", required=True)
     s = sub.add_parser("summarise")
     s.add_argument("--out_dir", required=True)
     a = ap.parse_args(argv)
-    if a.cmd == "run":
+    if a.cmd == "final":
+        if not a.encoder:
+            raise SystemExit("--encoder is required")
+        final(a)
+    elif a.cmd == "run":
         if a.method == "neural" and not a.encoder:
             raise SystemExit("--encoder is required for --method neural")
         if a.method == "neural" and a.cuad_mapped:

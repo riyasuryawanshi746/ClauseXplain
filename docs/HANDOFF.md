@@ -60,7 +60,8 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
    Then regenerate + re-run `notebooks/make_indian_eval_v3.py` -> Kaggle (labels in the 228 may change).
 2. Find more private-sector style contracts (see FINDING_CONTRACTS.md); target 400+ clauses.
 3. Re-run Indian eval on the enlarged set; train with some Indian clauses for missing categories, held-out contracts for test.
-4. LegalBERT cls-only baseline: `notebooks/legalbert_baseline_kaggle.ipynb` (prepped 2026-11-02, not run yet; Internet ON).
+4. LegalBERT cls-only baseline: DONE 2026-11-02 (`experiments/legalbert_baseline/`): CUAD macro-F1 0.870 (> Longformer 0.839),
+   Indian acc 0.349 / macro-F1 0.341 (= Longformer, = TF-IDF). In the paper. Re-run after adjudication with make_legalbert_kaggle.py.
    Folds 3-4 and extra seeds: decided to skip (limitation in paper).
 5. Paper: related work, verify citations, second-annotator background, fill red TODOs, data-release licensing.
 ON HOLD until she says so: lawyer review of rules; 12-vs-18 category decision.

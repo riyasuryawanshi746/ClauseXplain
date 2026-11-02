@@ -1,0 +1,417 @@
+{
+ "n_total": 334,
+ "n_seen": 192,
+ "n_unseen": 142,
+ "cls": {
+  "n": 192,
+  "accuracy": 0.3229166666666667,
+  "micro_f1": 0.3229166666666667,
+  "macro_f1": 0.3009612528195093,
+  "macro_f1_n_classes": 12,
+  "per_class": {
+   "Assignment": {
+    "precision": 0.18181818181818182,
+    "recall": 0.6666666666666666,
+    "f1": 0.2857142857142857,
+    "support": 6
+   },
+   "Commercial Terms": {
+    "precision": 0.30434782608695654,
+    "recall": 0.3181818181818182,
+    "f1": 0.3111111111111111,
+    "support": 22
+   },
+   "Dispute Resolution": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 18
+   },
+   "Governing Law / Jurisdiction": {
+    "precision": 0.32,
+    "recall": 0.5,
+    "f1": 0.3902439024390244,
+    "support": 16
+   },
+   "Intellectual Property": {
+    "precision": 0.4,
+    "recall": 0.8888888888888888,
+    "f1": 0.5517241379310345,
+    "support": 9
+   },
+   "Liability": {
+    "precision": 0.20833333333333334,
+    "recall": 0.5,
+    "f1": 0.29411764705882354,
+    "support": 10
+   },
+   "Non-Compete": {
+    "precision": NaN,
+    "recall": NaN,
+    "f1": NaN,
+    "support": 0
+   },
+   "Non-Solicitation": {
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "support": 1
+   },
+   "Other": {
+    "precision": 0.17647058823529413,
+    "recall": 0.06382978723404255,
+    "f1": 0.09375,
+    "support": 47
+   },
+   "Penalties": {
+    "precision": 0.8666666666666667,
+    "recall": 0.65,
+    "f1": 0.7428571428571429,
+    "support": 20
+   },
+   "Termination": {
+    "precision": 0.48,
+    "recall": 0.46153846153846156,
+    "f1": 0.47058823529411764,
+    "support": 26
+   },
+   "Warranty": {
+    "precision": 0.09090909090909091,
+    "recall": 0.058823529411764705,
+    "f1": 0.07142857142857142,
+    "support": 17
+   },
+   "Confidentiality": {
+    "precision": NaN,
+    "recall": NaN,
+    "f1": NaN,
+    "support": 0
+   },
+   "Force Majeure": {
+    "precision": NaN,
+    "recall": NaN,
+    "f1": NaN,
+    "support": 0
+   },
+   "Indemnification": {
+    "precision": NaN,
+    "recall": NaN,
+    "f1": NaN,
+    "support": 0
+   },
+   "Modification": {
+    "precision": NaN,
+    "recall": NaN,
+    "f1": NaN,
+    "support": 0
+   },
+   "Payment": {
+    "precision": NaN,
+    "recall": NaN,
+    "f1": NaN,
+    "support": 0
+   },
+   "Privacy / Data Protection": {
+    "precision": NaN,
+    "recall": NaN,
+    "f1": NaN,
+    "support": 0
+   }
+  }
+ },
+ "cls_acc_ci95": [
+  0.26080901782325255,
+  0.3919715967142103
+ ],
+ "span": null,
+ "span_own_label": null,
+ "span_random_baseline": null,
+ "baselines_cls": {
+  "majority": {
+   "n": 192,
+   "accuracy": 0.046875,
+   "micro_f1": 0.046875,
+   "macro_f1": 0.008141112618724558,
+   "macro_f1_n_classes": 11,
+   "per_class": {
+    "Assignment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 6
+    },
+    "Commercial Terms": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "Dispute Resolution": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 18
+    },
+    "Governing Law / Jurisdiction": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 16
+    },
+    "Intellectual Property": {
+     "precision": 0.046875,
+     "recall": 1.0,
+     "f1": 0.08955223880597014,
+     "support": 9
+    },
+    "Liability": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 10
+    },
+    "Non-Compete": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Non-Solicitation": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    },
+    "Other": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 47
+    },
+    "Penalties": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 20
+    },
+    "Termination": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 26
+    },
+    "Warranty": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 17
+    },
+    "Confidentiality": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Force Majeure": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Indemnification": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Modification": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Payment": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Privacy / Data Protection": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    }
+   }
+  },
+  "tfidf_logreg": {
+   "n": 192,
+   "accuracy": 0.3645833333333333,
+   "micro_f1": 0.3645833333333333,
+   "macro_f1": 0.35476661500878093,
+   "macro_f1_n_classes": 12,
+   "per_class": {
+    "Assignment": {
+     "precision": 0.2857142857142857,
+     "recall": 0.6666666666666666,
+     "f1": 0.4,
+     "support": 6
+    },
+    "Commercial Terms": {
+     "precision": 0.2702702702702703,
+     "recall": 0.45454545454545453,
+     "f1": 0.3389830508474576,
+     "support": 22
+    },
+    "Dispute Resolution": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 18
+    },
+    "Governing Law / Jurisdiction": {
+     "precision": 1.0,
+     "recall": 0.125,
+     "f1": 0.2222222222222222,
+     "support": 16
+    },
+    "Intellectual Property": {
+     "precision": 0.32142857142857145,
+     "recall": 1.0,
+     "f1": 0.4864864864864865,
+     "support": 9
+    },
+    "Liability": {
+     "precision": 0.18181818181818182,
+     "recall": 0.6,
+     "f1": 0.27906976744186046,
+     "support": 10
+    },
+    "Non-Compete": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Non-Solicitation": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "support": 1
+    },
+    "Other": {
+     "precision": 0.35714285714285715,
+     "recall": 0.2127659574468085,
+     "f1": 0.26666666666666666,
+     "support": 47
+    },
+    "Penalties": {
+     "precision": 0.9166666666666666,
+     "recall": 0.55,
+     "f1": 0.6875,
+     "support": 20
+    },
+    "Termination": {
+     "precision": 0.5151515151515151,
+     "recall": 0.6538461538461539,
+     "f1": 0.576271186440678,
+     "support": 26
+    },
+    "Warranty": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 17
+    },
+    "Confidentiality": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Force Majeure": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Indemnification": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Modification": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Payment": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    },
+    "Privacy / Data Protection": {
+     "precision": NaN,
+     "recall": NaN,
+     "f1": NaN,
+     "support": 0
+    }
+   }
+  }
+ },
+ "tfidf_acc_ci95": [
+  0.29977624853011825,
+  0.4347030449397062
+ ],
+ "unseen_category_predictions": {
+  "Confidentiality": {
+   "Intellectual Property": 12,
+   "Other": 29,
+   "Non-Compete": 1,
+   "Assignment": 2,
+   "Liability": 1,
+   "Termination": 2
+  },
+  "Indemnification": {
+   "Termination": 1,
+   "Liability": 16,
+   "Other": 1,
+   "Intellectual Property": 1
+  },
+  "Force Majeure": {
+   "Liability": 19
+  },
+  "Payment": {
+   "Commercial Terms": 22,
+   "Liability": 12,
+   "Penalties": 4,
+   "Non-Compete": 1,
+   "Intellectual Property": 1,
+   "Assignment": 2,
+   "Warranty": 1,
+   "Termination": 1
+  },
+  "Modification": {
+   "Assignment": 2,
+   "Termination": 2,
+   "Warranty": 1,
+   "Other": 1
+  },
+  "Privacy / Data Protection": {
+   "Other": 3,
+   "Termination": 1,
+   "Intellectual Property": 2,
+   "Commercial Terms": 1
+  }
+ },
+ "cuad_reference": {
+  "cls_only": {
+   "cls_macro_f1": 0.8703173436118448,
+   "cls_micro_f1": 0.8906345480348524,
+   "span_token_f1": null
+  }
+ }
+}

@@ -10,7 +10,7 @@ with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
     for f in CODE:
         z.write(f"phase3_model/{f}", f)
     for d in ["built_v4", "built_judgments"]:
-        for f in ["indian_mapped.jsonl", "indian_contracts.json", "build_report.md"]:
+        for f in ["indian_mapped.jsonl", "build_report.md"]:   # contract texts not needed (keeps the notebook < 1 MB for Save Version)
             z.write(f"indian_set/{d}/{f}", f"{d}/{f}")
 blob = base64.b64encode(buf.getvalue()).decode()
 

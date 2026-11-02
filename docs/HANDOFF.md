@@ -66,6 +66,10 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
    Indian acc 0.349 / macro-F1 0.341 (= Longformer, = TF-IDF). In the paper. Re-run after adjudication with make_legalbert_kaggle.py.
    Folds 3-4 and extra seeds: decided to skip (limitation in paper).
 5. Paper: related work, verify citations, second-annotator background, fill red TODOs, data-release licensing.
+6. DONE 2026-11-03: document-held-out training on built_v4 (`experiments/indian_finetune/`, `phase3_model/finetune_indian.py`).
+   Best: LegalBERT CUAD->Indian 0.566 acc / 0.528 macro-F1 over 334 (seen mF1 0.597 vs 0.342 zero-shot). Class weights/
+   smoothing/LLRD did not help; legalbert_indian_tricks failed to train. In the paper (Section "Training on Indian Clauses").
+   Next: LEDGAR data for weak categories (step 5 of the plan), then InLegalBERT / domain-adaptive pretraining (step 6).
 ON HOLD until she says so: lawyer review of rules; 12-vs-18 category decision.
 
 ## Environment notes

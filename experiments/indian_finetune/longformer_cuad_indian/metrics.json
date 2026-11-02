@@ -1,0 +1,358 @@
+{
+ "name": "longformer_cuad_indian",
+ "method": "neural",
+ "tricks": false,
+ "encoder": "allenai/longformer-base-4096",
+ "init_ckpt": "/kaggle/input/datasets/riyasuryawanshi/scan-vs-span/ckpt_joint_cls_span_fold0.pt",
+ "with_cuad_train": false,
+ "n_folds": 12,
+ "settings": {
+  "epochs": 8,
+  "lr": 2e-05,
+  "head_lr": 0.0001,
+  "batch": 16,
+  "max_len": 512,
+  "seed": 13,
+  "llrd": 0.9
+ },
+ "fold_log": [
+  "fold  0 indian_aera_rfp_consultant_2025                         n= 10 acc=0.600 last-epoch loss 0.240 (264s)",
+  "fold  1 indian_cpwd_gcc_2023                                    n= 39 acc=0.462 last-epoch loss 0.268 (491s)",
+  "fold  2 indian_dot_unified_licence_agreement                    n= 21 acc=0.381 last-epoch loss 0.241 (731s)",
+  "fold  3 indian_gem_general_terms_and_conditions                 n= 14 acc=0.500 last-epoch loss 0.258 (976s)",
+  "fold  4 indian_himachal_hemodialysis_ppp_concession_agreement   n= 13 acc=0.846 last-epoch loss 0.264 (1223s)",
+  "fold  5 indian_meity_msa_cloud_services_template                n= 19 acc=0.737 last-epoch loss 0.268 (1464s)",
+  "fold  6 indian_mha_rfp_project_management_consultants           n= 12 acc=0.667 last-epoch loss 0.280 (1710s)",
+  "fold  7 indian_noida_airport_concession_agreement               n= 23 acc=0.696 last-epoch loss 0.301 (1949s)",
+  "fold  8 indian_sbm_waste_to_compost_mca                         n= 67 acc=0.478 last-epoch loss 0.301 (2155s)",
+  "fold  9 indian_stqc_non_disclosure_agreement                    n= 41 acc=0.366 last-epoch loss 0.256 (2381s)",
+  "fold 10 indian_tender_consultancy_scc_1349                      n=  2 acc=0.500 last-epoch loss 0.246 (2634s)",
+  "fold 11 mea                                                     n= 73 acc=0.521 last-epoch loss 0.376 (2836s)"
+ ],
+ "heldout": {
+  "all": {
+   "n": 334,
+   "accuracy": 0.5209580838323353,
+   "accuracy_ci95": [
+    0.46744862773140416,
+    0.5739909107978948
+   ],
+   "macro_f1": 0.4691735308345128,
+   "macro_f1_ci95": [
+    0.41284000108996016,
+    0.517073401675285
+   ]
+  },
+  "seen": {
+   "n": 192,
+   "accuracy": 0.4895833333333333,
+   "accuracy_ci95": [
+    0.4197742628582597,
+    0.5598010674086498
+   ],
+   "macro_f1": 0.5595702021665511
+  },
+  "unseen": {
+   "n": 142,
+   "accuracy": 0.5633802816901409,
+   "accuracy_ci95": [
+    0.48119867101430536,
+    0.6422229041741182
+   ],
+   "macro_f1": 0.49351537038104204
+  },
+  "original_pool": {
+   "n": 228,
+   "accuracy": 0.543859649122807,
+   "accuracy_ci95": [
+    0.4790147520651148,
+    0.6072510432019987
+   ],
+   "macro_f1": 0.5350190958523848
+  },
+  "batch2": {
+   "n": 106,
+   "accuracy": 0.4716981132075472,
+   "accuracy_ci95": [
+    0.37932593057045705,
+    0.5660499561609816
+   ],
+   "macro_f1": 0.37452526539483066
+  },
+  "per_category": {
+   "Assignment": {
+    "precision": 0.42857142857142855,
+    "recall": 0.5,
+    "f1": 0.46153846153846156,
+    "support": 6
+   },
+   "Commercial Terms": {
+    "precision": 0.38095238095238093,
+    "recall": 0.3333333333333333,
+    "f1": 0.35555555555555557,
+    "support": 24
+   },
+   "Dispute Resolution": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1": 0.8333333333333334,
+    "support": 18
+   },
+   "Governing Law / Jurisdiction": {
+    "precision": 0.5714285714285714,
+    "recall": 0.5,
+    "f1": 0.5333333333333333,
+    "support": 16
+   },
+   "Intellectual Property": {
+    "precision": 0.5454545454545454,
+    "recall": 0.6666666666666666,
+    "f1": 0.6,
+    "support": 9
+   },
+   "Liability": {
+    "precision": 0.2222222222222222,
+    "recall": 0.2222222222222222,
+    "f1": 0.2222222222222222,
+    "support": 9
+   },
+   "Non-Solicitation": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "support": 1
+   },
+   "Other": {
+    "precision": 0.3125,
+    "recall": 0.4444444444444444,
+    "f1": 0.3669724770642202,
+    "support": 45
+   },
+   "Penalties": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7,
+    "f1": 0.6829268292682927,
+    "support": 20
+   },
+   "Termination": {
+    "precision": 0.5483870967741935,
+    "recall": 0.6538461538461539,
+    "f1": 0.5964912280701754,
+    "support": 26
+   },
+   "Warranty": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 18
+   },
+   "Confidentiality": {
+    "precision": 0.7073170731707317,
+    "recall": 0.6304347826086957,
+    "f1": 0.6666666666666666,
+    "support": 46
+   },
+   "Force Majeure": {
+    "precision": 0.8823529411764706,
+    "recall": 0.7894736842105263,
+    "f1": 0.8333333333333334,
+    "support": 19
+   },
+   "Indemnification": {
+    "precision": 0.5833333333333334,
+    "recall": 0.7368421052631579,
+    "f1": 0.6511627906976745,
+    "support": 19
+   },
+   "Modification": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 7
+   },
+   "Payment": {
+    "precision": 0.5,
+    "recall": 0.5116279069767442,
+    "f1": 0.5057471264367817,
+    "support": 43
+   },
+   "Privacy / Data Protection": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 8
+   }
+  },
+  "per_group": {
+   "indian_aera_rfp_consultant_2025": {
+    "n": 10,
+    "accuracy": 0.6,
+    "accuracy_ci95": [
+     0.3126695474501864,
+     0.8318224187964902
+    ],
+    "macro_f1": 0.5555555555555556
+   },
+   "indian_cpwd_gcc_2023": {
+    "n": 39,
+    "accuracy": 0.46153846153846156,
+    "accuracy_ci95": [
+     0.3156664723404835,
+     0.6143081317826119
+    ],
+    "macro_f1": 0.35365079365079366
+   },
+   "indian_dot_unified_licence_agreement": {
+    "n": 21,
+    "accuracy": 0.38095238095238093,
+    "accuracy_ci95": [
+     0.20750767797982506,
+     0.5912170418449848
+    ],
+    "macro_f1": 0.3416666666666666
+   },
+   "indian_gem_general_terms_and_conditions": {
+    "n": 14,
+    "accuracy": 0.5,
+    "accuracy_ci95": [
+     0.2679886791947528,
+     0.7320113208052472
+    ],
+    "macro_f1": 0.4861111111111111
+   },
+   "indian_himachal_hemodialysis_ppp_concession_agreement": {
+    "n": 13,
+    "accuracy": 0.8461538461538461,
+    "accuracy_ci95": [
+     0.5776482949136899,
+     0.9567427368172621
+    ],
+    "macro_f1": 0.8444444444444444
+   },
+   "indian_meity_msa_cloud_services_template": {
+    "n": 19,
+    "accuracy": 0.7368421052631579,
+    "accuracy_ci95": [
+     0.5120803155892935,
+     0.8819376166045982
+    ],
+    "macro_f1": 0.5990675990675991
+   },
+   "indian_mha_rfp_project_management_consultants": {
+    "n": 12,
+    "accuracy": 0.6666666666666666,
+    "accuracy_ci95": [
+     0.3906175873976139,
+     0.8618821601026385
+    ],
+    "macro_f1": 0.619047619047619
+   },
+   "indian_noida_airport_concession_agreement": {
+    "n": 23,
+    "accuracy": 0.6956521739130435,
+    "accuracy_ci95": [
+     0.49133870939427393,
+     0.8439617197902755
+    ],
+    "macro_f1": 0.622979797979798
+   },
+   "indian_sbm_waste_to_compost_mca": {
+    "n": 67,
+    "accuracy": 0.47761194029850745,
+    "accuracy_ci95": [
+     0.36250188635242525,
+     0.5951501147316833
+    ],
+    "macro_f1": 0.4267937191014114
+   },
+   "indian_stqc_non_disclosure_agreement": {
+    "n": 41,
+    "accuracy": 0.36585365853658536,
+    "accuracy_ci95": [
+     0.23589630416936816,
+     0.5187957674783876
+    ],
+    "macro_f1": 0.3074803983894893
+   },
+   "indian_tender_consultancy_scc_1349": {
+    "n": 2,
+    "accuracy": 0.5,
+    "accuracy_ci95": [
+     0.09452865480086614,
+     0.9054713451991339
+    ],
+    "macro_f1": 0.5
+   },
+   "mea": {
+    "n": 73,
+    "accuracy": 0.5205479452054794,
+    "accuracy_ci95": [
+     0.4078139828476829,
+     0.6312273697529917
+    ],
+    "macro_f1": 0.5153651987110633
+   }
+  },
+  "top_confusions": [
+   [
+    "Confidentiality",
+    "Other",
+    13
+   ],
+   [
+    "Commercial Terms",
+    "Other",
+    10
+   ],
+   [
+    "Warranty",
+    "Other",
+    8
+   ],
+   [
+    "Other",
+    "Payment",
+    7
+   ],
+   [
+    "Privacy / Data Protection",
+    "Confidentiality",
+    6
+   ],
+   [
+    "Payment",
+    "Penalties",
+    5
+   ],
+   [
+    "Payment",
+    "Commercial Terms",
+    4
+   ],
+   [
+    "Payment",
+    "Indemnification",
+    4
+   ],
+   [
+    "Other",
+    "Warranty",
+    4
+   ],
+   [
+    "Other",
+    "Termination",
+    4
+   ]
+  ]
+ },
+ "judgments": {
+  "n": 11,
+  "accuracy": 0.36363636363636365,
+  "accuracy_ci95": [
+   0.15166223614131383,
+   0.6462032231083628
+  ],
+  "macro_f1": 0.3466666666666667
+ }
+}

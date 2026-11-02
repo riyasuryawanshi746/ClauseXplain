@@ -1,6 +1,6 @@
 # Experiments index
 
-**Cite only `stageB_3fold/`, `scan_vs_span/`, `indian_eval_v4/` and `legalbert_baseline_v4/`.** Everything in `archive/` is kept for the record and is superseded.
+**Cite only `stageB_3fold/`, `scan_vs_span/`, `indian_eval_v4/`, `legalbert_baseline_v4/` and `indian_finetune/`.** Everything in `archive/` is kept for the record and is superseded.
 
 | Folder | Run | Setup | Status |
 |---|---|---|---|
@@ -8,6 +8,7 @@
 | `scan_vs_span/` | folds 0-2 | span head vs classifier scan, per-fold md/json | **Canonical** for the speed/accuracy comparison. |
 | `indian_eval_v4/` | 2026-11-02, T4 | Longformer joint folds 0-2 on frozen `built_v4` (334 adjudicated clauses) + judgment slice | **Canonical** Indian results (README also tabulates LegalBERT and TF-IDF). |
 | `legalbert_baseline_v4/` | 2026-11-02, T4 | LegalBERT cls_only, same CUAD folds; scored on `built_v4` | **Canonical** LegalBERT baseline. |
+| `indian_finetune/` | 2026-11-03, T4 | Document-held-out training on `built_v4` (leave-one-group-out, 12 folds): TF-IDF, LegalBERT, Longformer, with/without CUAD init and class weights/smoothing/LLRD | **Canonical** adapted results (best: LegalBERT CUAD->Indian 0.566 acc / 0.528 macro-F1). |
 | `indian_eval_v3/`, `legalbert_baseline/` | 2026-11-02 | same, pre-adjudication labels | Superseded by the v4 folders. |
 | `indian_eval/` | 2026-10-28 | Longformer on the 228-clause v2 set | Superseded. |
 | `archive/2026-10-09_single_fold_3000char/` | 1 fold | same setup as stageB, one fold | Superseded by stageB_3fold. |

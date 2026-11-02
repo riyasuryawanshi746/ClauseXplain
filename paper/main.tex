@@ -42,11 +42,11 @@ This paper makes four contributions:
 We deliberately report negative and uncertain results (for example, no reliable gain over TF-IDF out of domain) and list limitations in Section~\ref{sec:limits}.
 
 \section{Related Work}
-\textbf{Contract datasets.} CUAD \cite{hendrycks2021cuad} provides 510 contracts with 41 expert-annotated clause types and is the source of our training data. LexGLUE \cite{chalkidis2022lexglue} benchmarks legal language understanding more broadly. \todo{add: LEDGAR, ContractNLI, other contract/clause datasets, with citations}
+\textbf{Contract datasets.} CUAD \cite{hendrycks2021cuad} provides 510 commercial contracts from SEC filings with over 13,000 expert annotations in 41 clause types and is the source of our training data. LEDGAR \cite{tuggener2020ledgar} labels about 100,000 provisions from more than 60,000 SEC-filed contracts with provision types, and ContractNLI \cite{koreeda2021contractnli} frames review of 607 non-disclosure agreements as document-level inference with evidence spans. LexGLUE \cite{chalkidis2022lexglue} groups LEDGAR with other English legal tasks into one benchmark. All of these are drawn from US or other Western filings, so they say little about contracts drafted under Indian law.
 
-\textbf{Legal language models.} LEGAL-BERT \cite{chalkidis2020legalbert} pretrains BERT on legal text. We use Longformer \cite{beltagy2020longformer} because contracts are long and the span head sees windows of up to 1,024 tokens, and use LEGAL-BERT as a classification baseline.
+\textbf{Legal language models and domain shift.} LEGAL-BERT \cite{chalkidis2020legalbert} pretrains BERT on legal text; we use it as a classification baseline. Longformer \cite{beltagy2020longformer} handles long inputs, which our span head needs (windows of up to 1,024 tokens). Continued pretraining on in-domain text is a standard remedy for domain shift \cite{gururangan2020dontstop}, and InLegalBERT \cite{paul2023inlegalbert} applies it to Indian court judgments. We do not use such adaptation here; our results measure the gap it would have to close for contracts.
 
-\textbf{Indian legal NLP.} Work on Indian legal text has focused mainly on court judgments, for example ILDC \cite{malik2021ildc}. \todo{survey Indian contract-specific work; verify no existing Indian contract clause benchmark before claiming novelty}
+\textbf{Indian legal NLP.} Indian legal NLP has mostly studied court judgments: judgment prediction and explanation (ILDC) \cite{malik2021ildc}, rhetorical-role segmentation \cite{kalamkar2022rhetorical}, and the IL-TUR benchmark of judgment-centred tasks \cite{joshi2024iltur}. Work on Indian contracts is scarce. ICAT \cite{icat} collects contract clauses quoted in about 60 Indian judgments; like our judgment slice, it sees contracts only through litigation. LAUKIN \cite{singh2026laukin} pairs clauses from Australian, UK and Indian contracts for legal-equivalence classification and reports that drafting conventions differ across these jurisdictions. We found no public dataset that labels clause categories with evidence spans in Indian contract documents, or that measures how CUAD-trained models transfer to them; ours is a small first step.
 
 \section{Data and Taxonomy}\label{sec:data}
 \subsection{CUAD mapping}
@@ -144,17 +144,25 @@ To locate a clause type in a 3,000-character window one can either run the span 
 \end{itemize}
 
 \section{Conclusion and Next Steps}\label{sec:next}
-A CUAD-trained Longformer loses about 60\% of its macro-F1 on Indian contracts and does not beat TF-IDF there; a LEGAL-BERT classifier that is stronger on CUAD behaves the same. Its span head is fast and accurate on CUAD, but on Indian text it is only marginally better than a lexical baseline. Priorities before submission: \todo{folds 3--4 and 2--3 seeds (or state as a limitation); train on Indian-set clauses for the six missing categories with a held-out test set; blind second annotator; legal review of rules; larger Indian set}.
+A CUAD-trained Longformer loses about 60\% of its macro-F1 on Indian contracts and does not beat TF-IDF there; a LEGAL-BERT classifier that is stronger on CUAD behaves the same. Its span head is fast and accurate on CUAD, but on Indian text it is only marginally better than a lexical baseline. Priorities before submission: \todo{folds 3--4 and 2--3 seeds (or state as a limitation); train on Indian-set clauses for the six missing categories with a held-out test set; try an Indian-adapted encoder (InLegalBERT \cite{paul2023inlegalbert}); blind second annotator; legal review of rules; larger Indian set}.
 
 \section*{Availability}
 Code, mapping, results, and the Indian set tooling: \url{https://github.com/riyasuryawanshi746/ClauseXplain}. \todo{confirm what can be released given source-document licences}
 
 \begin{thebibliography}{00}
-\bibitem{hendrycks2021cuad} D. Hendrycks, C. Burns, A. Chen, and S. Ball, ``CUAD: An expert-annotated NLP dataset for legal contract review,'' in \emph{NeurIPS Datasets and Benchmarks}, 2021.
+\bibitem{hendrycks2021cuad} D. Hendrycks, C. Burns, A. Chen, and S. Ball, ``CUAD: An expert-annotated NLP dataset for legal contract review,'' in \emph{Proc. NeurIPS Datasets and Benchmarks Track}, 2021. arXiv:2103.06268.
+\bibitem{tuggener2020ledgar} D. Tuggener, P. von D\"aniken, T. Peetz, and M. Cieliebak, ``LEDGAR: A large-scale multi-label corpus for text classification of legal provisions in contracts,'' in \emph{Proc. LREC}, 2020, pp. 1235--1241.
+\bibitem{koreeda2021contractnli} Y. Koreeda and C. Manning, ``ContractNLI: A dataset for document-level natural language inference for contracts,'' in \emph{Findings of EMNLP}, 2021, pp. 1907--1919.
+\bibitem{chalkidis2022lexglue} I. Chalkidis, A. Jana, D. Hartung, M. Bommarito, I. Androutsopoulos, D. Katz, and N. Aletras, ``LexGLUE: A benchmark dataset for legal language understanding in English,'' in \emph{Proc. ACL}, 2022, pp. 4310--4330.
+\bibitem{chalkidis2020legalbert} I. Chalkidis, M. Fergadiotis, P. Malakasiotis, N. Aletras, and I. Androutsopoulos, ``LEGAL-BERT: The muppets straight out of law school,'' in \emph{Findings of EMNLP}, 2020, pp. 2898--2904.
 \bibitem{beltagy2020longformer} I. Beltagy, M. E. Peters, and A. Cohan, ``Longformer: The long-document transformer,'' arXiv:2004.05150, 2020.
-\bibitem{chalkidis2020legalbert} I. Chalkidis \emph{et al.}, ``LEGAL-BERT: The muppets straight out of law school,'' in \emph{Findings of EMNLP}, 2020.
-\bibitem{chalkidis2022lexglue} I. Chalkidis \emph{et al.}, ``LexGLUE: A benchmark dataset for legal language understanding in English,'' in \emph{Proc. ACL}, 2022.
-\bibitem{malik2021ildc} V. Malik \emph{et al.}, ``ILDC for CJPE: Indian legal documents corpus for court judgment prediction and explanation,'' in \emph{Proc. ACL-IJCNLP}, 2021.
+\bibitem{gururangan2020dontstop} S. Gururangan, A. Marasovi\'c, S. Swayamdipta, K. Lo, I. Beltagy, D. Downey, and N. A. Smith, ``Don't stop pretraining: Adapt language models to domains and tasks,'' in \emph{Proc. ACL}, 2020, pp. 8342--8360.
+\bibitem{paul2023inlegalbert} S. Paul, A. Mandal, P. Goyal, and S. Ghosh, ``Pre-trained language models for the legal domain: A case study on Indian law,'' in \emph{Proc. ICAIL}, 2023, pp. 187--196.
+\bibitem{malik2021ildc} V. Malik, R. Sanjay, S. K. Nigam, K. Ghosh, S. K. Guha, A. Bhattacharya, and A. Modi, ``ILDC for CJPE: Indian legal documents corpus for court judgment prediction and explanation,'' in \emph{Proc. ACL-IJCNLP}, 2021, pp. 4046--4062.
+\bibitem{kalamkar2022rhetorical} P. Kalamkar, A. Tiwari, A. Agarwal, S. Karn, S. Gupta, V. Raghavan, and A. Modi, ``Corpus for automatic structuring of legal documents,'' in \emph{Proc. LREC}, 2022, pp. 4420--4429.
+\bibitem{joshi2024iltur} A. Joshi, S. Paul, A. Sharma, P. Goyal, S. Ghosh, and A. Modi, ``IL-TUR: Benchmark for Indian legal text understanding and reasoning,'' in \emph{Proc. ACL}, 2024, pp. 11460--11499.
+\bibitem{icat} Schematise, ``Indian Contracts in Adjudicated Texts (ICAT), version 1,'' Hugging Face dataset, CC BY-SA 4.0. [Online]. Available: \url{https://huggingface.co/datasets/schematise/ICAT-version1} (accessed Nov. 2, 2026).
+\bibitem{singh2026laukin} A. Singh, A. Joshi, J. Jiang, H.-y. Paik, and M. F. Cheong, ``LAUKIN: A multi-jurisdictional common law contract dataset,'' arXiv:2606.13184, 2026.
 \end{thebibliography}
 
 \end{document}

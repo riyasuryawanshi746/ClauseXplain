@@ -16,8 +16,10 @@
 Sardar Patel Institute of Technology, Mumbai, India\\
 riya.suryawanshi23@spit.ac.in}
 \and
-\IEEEauthorblockN{\todo{co-author / supervisor}}
-\IEEEauthorblockA{\todo{affiliation}}}
+\IEEEauthorblockN{\todo{supervisor's name and title}}
+\IEEEauthorblockA{Department of Computer Engineering\\
+Sardar Patel Institute of Technology, Mumbai, India\\
+\todo{supervisor's email}}}
 
 \maketitle
 
@@ -55,7 +57,7 @@ CUAD v1 has 510 contracts. We map its clause types to 18 categories (Assignment,
 \subsection{Indian evaluation set}
 The set was built in two pools from 13 publicly available Indian documents; every clause has exact character offsets in its source document.
 
-\textbf{Original pool (228 clauses, 11 documents).} Government RFP/consultancy agreements, a unified telecom licence, concession agreements, a non-disclosure agreement, and general terms and conditions. Each clause was assigned one of the 18 categories by one annotator using written definitions and tie-break rules. A second annotator independently labelled a random sample of 100 units (18 of which the first annotator marked as not a clause) without seeing the first labels; raw agreement was 0.68 and Cohen's $\kappa=0.65$ (agreement 0.73, $\kappa=0.71$ on the 79 units both treated as clauses). The 32 disagreements are listed in the repository; most involve the catch-all category Other, Commercial Terms, and whether a unit is a clause at all. The disagreements were adjudicated blind (the two labels shown in random order without annotator identity): the final label matched the primary annotator in 21 cases and the second annotator in 11, changing 11 primary labels. All Indian results below use the adjudicated labels. \todo{describe second annotator's background} Clause selection was partly keyword-assisted and is therefore biased toward typical wording.
+\textbf{Original pool (228 clauses, 11 documents).} Government RFP/consultancy agreements, a unified telecom licence, concession agreements, a non-disclosure agreement, and general terms and conditions. Each clause was assigned one of the 18 categories by one annotator using written definitions and tie-break rules. A second annotator independently labelled a random sample of 100 units (18 of which the first annotator marked as not a clause) without seeing the first labels; raw agreement was 0.68 and Cohen's $\kappa=0.65$ (agreement 0.73, $\kappa=0.71$ on the 79 units both treated as clauses). The 32 disagreements are listed in the repository; most involve the catch-all category Other, Commercial Terms, and whether a unit is a clause at all. The disagreements were adjudicated blind (the two labels shown in random order without annotator identity): the final label matched the primary annotator in 21 cases and the second annotator in 11, changing 11 primary labels. All Indian results below use the adjudicated labels. Neither annotator has legal training: the primary annotator is the first author, and the second annotator is a computer-engineering undergraduate who worked only from the written guidelines. Agreement therefore measures how consistently the guidelines can be applied by non-experts, not expert legal judgement. Clause selection was partly keyword-assisted and is therefore biased toward typical wording.
 
 \textbf{Batch 2 (106 clauses, 2 documents).} The CPWD General Conditions of Contract 2023 (text extracted from PDF, with some garbled lines) and a draft waste-to-compost concession agreement containing bracketed placeholders. Candidate units were selected by category keywords and labelled by the primary annotator only; no unit was marked as not a clause, so some definitions and noisy units remain. On 53\% of units the label equals the keyword category that selected the unit. This pool has no second-annotator check.
 
@@ -71,7 +73,7 @@ The encoder is Longformer-base-4096 \cite{beltagy2020longformer}. The classifier
 All CUAD experiments use contract-grouped 5-fold splits so no contract appears in both training and test data; we ran folds 0--2. Settings: 2 epochs, learning rate $2\times10^{-5}$ (heads $10^{-4}$), seed 13, mixed precision on a T4 GPU, span training on 50\% of eligible items. Baselines: majority class, TF-IDF with logistic regression (trained on the same split), a whole-window span, a lexical-centroid span, and a random span.
 
 \subsection{Rule layer}
-A rule engine applies hand-written features (e.g., whether a duration or cap is stated) to confidently classified clauses and raises candidate flags tied to the Indian Contract Act (ss.\,27, 28, 39, 56, 73--75, 124), the MSMED Act (ss.\,15--16) and the DPDPA (s.\,8). Flags are prompts for human review, not legal findings. The 15 rules have not been reviewed by a lawyer. \todo{legal review of the rules before claiming anything about them}
+A rule engine applies hand-written features (e.g., whether a duration or cap is stated) to confidently classified clauses and raises candidate flags tied to the Indian Contract Act (ss.\,27, 28, 39, 56, 73--75, 124), the MSMED Act (ss.\,15--16) and the DPDPA (s.\,8). Flags are prompts for human review, not legal findings. The 15 rules have not been reviewed by a lawyer, so we make no claim about their legal correctness and report no accuracy for them; we describe the layer only as a review aid.
 
 \section{Results on CUAD}\label{sec:cuad}
 Table~\ref{tab:cuad} gives means over three folds (about 2,030 test clauses per fold). The Longformer classifiers beat TF-IDF by 0.036 to 0.037 macro-F1 with fold-level intervals above zero, but the folds are few. Joint training did not change classification (difference $-0.001$, interval includes zero). LEGAL-BERT is the strongest classifier (0.866 macro-F1, +0.027 over the Longformer classifier; its lowest fold, 0.854, is above the Longformer mean), and trains in about 3.3 minutes per fold. A second run with the same seed and splits gave 0.870, so GPU non-determinism alone moves this number by about 0.005. Clause classification therefore does not need Longformer's long context; we keep Longformer for the span head. For span localisation, the joint model reaches 0.760 token-F1 against 0.604 for the lexical-centroid baseline.
@@ -136,7 +138,7 @@ To locate a clause type in a 3,000-character window one can either run the span 
 
 \section{Limitations}\label{sec:limits}
 \begin{itemize}
-\item The Indian set is small (334 clauses, 13 documents, almost all government documents), partly keyword-selected, labelled by one primary annotator (second-annotator $\kappa=0.65$ on 100 units of the original pool; none for batch 2), and partly OCR/PDF-noisy (the airport concession agreement and the CPWD GCC).
+\item The Indian set is small (334 clauses, 13 documents, almost all government documents), partly keyword-selected, labelled by one primary annotator without legal training (second-annotator $\kappa=0.65$ on 100 units of the original pool; none for batch 2), and partly OCR/PDF-noisy (the airport concession agreement and the CPWD GCC).
 \item Only 12 of 18 categories are learnable from CUAD; the system cannot recognise the others.
 \item Training was short (2 epochs, 50\% of span items); only 3 of 5 folds and a single seed were run.
 \item Folds on the Indian set reuse the same clauses and are not independent.
@@ -144,10 +146,10 @@ To locate a clause type in a 3,000-character window one can either run the span 
 \end{itemize}
 
 \section{Conclusion and Next Steps}\label{sec:next}
-A CUAD-trained Longformer loses about 60\% of its macro-F1 on Indian contracts and does not beat TF-IDF there; a LEGAL-BERT classifier that is stronger on CUAD behaves the same. Its span head is fast and accurate on CUAD, but on Indian text it is only marginally better than a lexical baseline. Priorities before submission: \todo{folds 3--4 and 2--3 seeds (or state as a limitation); train on Indian-set clauses for the six missing categories with a held-out test set; try an Indian-adapted encoder (InLegalBERT \cite{paul2023inlegalbert}); blind second annotator; legal review of rules; larger Indian set}.
+A CUAD-trained Longformer loses about 60\% of its macro-F1 on Indian contracts and does not beat TF-IDF there; a LEGAL-BERT classifier that is stronger on CUAD behaves the same. Its span head is fast and accurate on CUAD, but on Indian text it is only marginally better than a lexical baseline. The Indian set is best read as a benchmark seed for measuring this gap. Future work: fine-tune on Indian clauses, including the six categories CUAD lacks, with documents held out for testing; try an Indian-adapted encoder such as InLegalBERT \cite{paul2023inlegalbert}; grow the set with private-sector contracts and annotators with legal training; have the rule layer reviewed by a lawyer; and complete all five folds with several seeds.
 
 \section*{Availability}
-Code, mapping, results, and the Indian set tooling: \url{https://github.com/riyasuryawanshi746/ClauseXplain}. \todo{confirm what can be released given source-document licences}
+Code, the CUAD category mapping, per-fold results and the annotation tooling are available at \url{https://github.com/riyasuryawanshi746/ClauseXplain}. The Indian documents are publicly available government publications; the repository includes their extracted text, the annotations (labels with character offsets into that text) and the adjudication records. The judgment slice cites each judgment's public Indian Kanoon page and quotes only the contract clause.
 
 \begin{thebibliography}{00}
 \bibitem{hendrycks2021cuad} D. Hendrycks, C. Burns, A. Chen, and S. Ball, ``CUAD: An expert-annotated NLP dataset for legal contract review,'' in \emph{Proc. NeurIPS Datasets and Benchmarks Track}, 2021. arXiv:2103.06268.

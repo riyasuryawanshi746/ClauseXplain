@@ -37,9 +37,10 @@ max_len_span 1024, max_len_clause 512, T4 fp16. Needs GPU (Kaggle). Code in `pha
   Joint vs cls_only: no difference (CI includes 0) - say so.
 - Span token-F1: joint 0.760, span_only 0.736, lexical-centroid 0.604, whole-window 0.236, random 0.106. Exact match joint 0.520.
 - Span head vs scanning every clause with the classifier (500 windows/fold): 0.756 vs 0.630 token-F1, 54 ms vs ~1314 ms per window (~24x faster).
-- Indian v3 (334 clauses, 192 seen; `experiments/indian_eval_v3/`): Longformer acc 0.344 / macro-F1 0.343 vs TF-IDF 0.337 / 0.345.
-  By source: original 228 0.377 (identical to v2), batch 2 0.275 (n=63), judgment slice 0.606 (n=11; TF-IDF 0.667). Span 0.323 vs lexical 0.307.
-- Indian v2 (228, the numbers below): Longformer acc 0.377 / macro-F1 0.382 vs TF-IDF 0.349 / 0.360 (i.e. barely better out of domain). Span F1 0.347 vs lexical 0.312.
+- FINAL Indian (v4, adjudicated, 334 clauses / 192 seen; `experiments/indian_eval_v4/README.md`): accuracy Longformer 0.347,
+  LegalBERT 0.356, TF-IDF 0.333; macro-F1 0.338 / 0.342 / 0.344. Original pool 0.382, batch 2 0.275, judgments 0.606 (n=11).
+  Span head 0.322 vs lexical 0.302 (random 0.098). LegalBERT CUAD macro-F1 0.866 (+-0.011; first run 0.870, GPU noise).
+- Older (superseded, do not quote): v3 = pre-adjudication 334; Indian v2 (228, the numbers below): Longformer acc 0.377 / macro-F1 0.382 vs TF-IDF 0.349 / 0.360 (i.e. barely better out of domain). Span F1 0.347 vs lexical 0.312.
   Folds reuse the same 129 clauses, so they are not independent. Dispute Resolution F1 0.00. Best: Penalties 0.61, Governing Law 0.53, IP 0.48.
   Unseen-category errors: Payment->Commercial Terms 17/22, Indemnification->Liability 11/15, Confidentiality->Other 28/40.
   Excluding OCR-noisy Noida doc and true "Other": acc 0.412/0.459/0.482 (n=85; TF-IDF not rescored).
@@ -58,7 +59,7 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
 ## Next steps (in order)
 1. DONE 2026-11-02: 32 disagreements adjudicated blind (final = annotator 1 in 21, annotator 2 in 11; 11 primary labels changed;
    `indian_set/labelling/adjudication_report.md`). Frozen set: `indian_set/clauses_v4.csv` -> `built_v4` (334 clauses, 192 seen).
-   NEXT: run `notebooks/indian_eval_v4_kaggle.ipynb` and `notebooks/legalbert_baseline_v4_kaggle.ipynb` on Kaggle, then update paper numbers.
+   v4 Kaggle runs done 2026-11-02; paper uses them. Experiments are finished; remaining work is writing (step 5).
 2. Find more private-sector style contracts (see FINDING_CONTRACTS.md); target 400+ clauses.
 3. Re-run Indian eval on the enlarged set; train with some Indian clauses for missing categories, held-out contracts for test.
 4. LegalBERT cls-only baseline: DONE 2026-11-02 (`experiments/legalbert_baseline/`): CUAD macro-F1 0.870 (> Longformer 0.839),

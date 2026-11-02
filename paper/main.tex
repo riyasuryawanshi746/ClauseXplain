@@ -22,7 +22,7 @@ riya.suryawanshi23@spit.ac.in}
 \maketitle
 
 \begin{abstract}
-Public contract-understanding resources are almost entirely based on US agreements, yet practitioners in India work with contracts governed by the Indian Contract Act, 1872 and related statutes. We study how well a Longformer model trained only on CUAD transfers to Indian contracts. We map CUAD's 41 clause types to an 18-category Indian-context taxonomy (12 categories have training data), train a multi-task Longformer-base with a clause classifier and a question-conditioned evidence-span head, and evaluate it on a new hand-labelled set of 334 clauses from 13 Indian documents. In 3-fold contract-grouped cross-validation on CUAD the classifier reaches 0.84 macro-F1, but on the 192 Indian clauses in categories it was trained on, accuracy falls to 0.34 and macro-F1 to 0.34, indistinguishable from a TF-IDF baseline (0.34 and 0.35). A LEGAL-BERT classifier, stronger on CUAD (0.87 macro-F1), drops to the same level (accuracy 0.35). On CUAD the span head is about 24$\times$ faster and 0.125 token-F1 better than scanning candidate spans with the classifier, but on Indian text it is only marginally better than a lexical baseline (token-F1 0.32 vs.\ 0.31; random 0.11). We also report where the model fails (e.g., Dispute Resolution, and six categories absent from CUAD) and describe a rule layer that attaches candidate Indian-statute flags for human review. The Indian set is small, mostly drawn from government documents, and its labels only moderately reliable ($\kappa=0.65$ on a 100-unit sample), so we present the results as a domain-shift study and benchmark seed, not as a deployable system.
+Public contract-understanding resources are almost entirely based on US agreements, yet practitioners in India work with contracts governed by the Indian Contract Act, 1872 and related statutes. We study how well a Longformer model trained only on CUAD transfers to Indian contracts. We map CUAD's 41 clause types to an 18-category Indian-context taxonomy (12 categories have training data), train a multi-task Longformer-base with a clause classifier and a question-conditioned evidence-span head, and evaluate it on a new hand-labelled set of 334 clauses from 13 Indian documents. In 3-fold contract-grouped cross-validation on CUAD the classifier reaches 0.84 macro-F1, but on the 192 Indian clauses in categories it was trained on, accuracy falls to 0.35 and macro-F1 to 0.34, indistinguishable from a TF-IDF baseline (0.33 and 0.34). A LEGAL-BERT classifier, stronger on CUAD (0.87 macro-F1), drops to the same level (accuracy 0.36, macro-F1 0.34). On CUAD the span head is about 24$\times$ faster and 0.125 token-F1 better than scanning candidate spans with the classifier, but on Indian text it is only marginally better than a lexical baseline (token-F1 0.32 vs.\ 0.30; random 0.10). We also report where the model fails (e.g., Dispute Resolution, and six categories absent from CUAD) and describe a rule layer that attaches candidate Indian-statute flags for human review. The Indian set is small, mostly drawn from government documents, and its labels only moderately reliable ($\kappa=0.65$ on a 100-unit sample), so we present the results as a domain-shift study and benchmark seed, not as a deployable system.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -55,7 +55,7 @@ CUAD v1 has 510 contracts. We map its clause types to 18 categories (Assignment,
 \subsection{Indian evaluation set}
 The set was built in two pools from 13 publicly available Indian documents; every clause has exact character offsets in its source document.
 
-\textbf{Original pool (228 clauses, 11 documents).} Government RFP/consultancy agreements, a unified telecom licence, concession agreements, a non-disclosure agreement, and general terms and conditions. Each clause was assigned one of the 18 categories by one annotator using written definitions and tie-break rules. A second annotator independently labelled a random sample of 100 units (18 of which the first annotator marked as not a clause) without seeing the first labels; raw agreement was 0.68 and Cohen's $\kappa=0.65$ (agreement 0.73, $\kappa=0.71$ on the 79 units both treated as clauses). The 32 disagreements are listed in the repository; most involve the catch-all category Other, Commercial Terms, and whether a unit is a clause at all. The disagreements were adjudicated blind (the two labels shown in random order without annotator identity): the final label matched the primary annotator in 21 cases and the second annotator in 11, changing 11 primary labels. \todo{describe second annotator's background; replace all Indian numbers with the post-adjudication run (built\_v4)} Clause selection was partly keyword-assisted and is therefore biased toward typical wording.
+\textbf{Original pool (228 clauses, 11 documents).} Government RFP/consultancy agreements, a unified telecom licence, concession agreements, a non-disclosure agreement, and general terms and conditions. Each clause was assigned one of the 18 categories by one annotator using written definitions and tie-break rules. A second annotator independently labelled a random sample of 100 units (18 of which the first annotator marked as not a clause) without seeing the first labels; raw agreement was 0.68 and Cohen's $\kappa=0.65$ (agreement 0.73, $\kappa=0.71$ on the 79 units both treated as clauses). The 32 disagreements are listed in the repository; most involve the catch-all category Other, Commercial Terms, and whether a unit is a clause at all. The disagreements were adjudicated blind (the two labels shown in random order without annotator identity): the final label matched the primary annotator in 21 cases and the second annotator in 11, changing 11 primary labels. All Indian results below use the adjudicated labels. \todo{describe second annotator's background} Clause selection was partly keyword-assisted and is therefore biased toward typical wording.
 
 \textbf{Batch 2 (106 clauses, 2 documents).} The CPWD General Conditions of Contract 2023 (text extracted from PDF, with some garbled lines) and a draft waste-to-compost concession agreement containing bracketed placeholders. Candidate units were selected by category keywords and labelled by the primary annotator only; no unit was marked as not a clause, so some definitions and noisy units remain. On 53\% of units the label equals the keyword category that selected the unit. This pool has no second-annotator check.
 
@@ -74,7 +74,7 @@ All CUAD experiments use contract-grouped 5-fold splits so no contract appears i
 A rule engine applies hand-written features (e.g., whether a duration or cap is stated) to confidently classified clauses and raises candidate flags tied to the Indian Contract Act (ss.\,27, 28, 39, 56, 73--75, 124), the MSMED Act (ss.\,15--16) and the DPDPA (s.\,8). Flags are prompts for human review, not legal findings. The 15 rules have not been reviewed by a lawyer. \todo{legal review of the rules before claiming anything about them}
 
 \section{Results on CUAD}\label{sec:cuad}
-Table~\ref{tab:cuad} gives means over three folds (about 2,030 test clauses per fold). The Longformer classifiers beat TF-IDF by 0.036 to 0.037 macro-F1 with fold-level intervals above zero, but the folds are few. Joint training did not change classification (difference $-0.001$, interval includes zero). LEGAL-BERT is the strongest classifier (0.870 macro-F1, +0.031 over the Longformer classifier; its lowest fold, 0.861, is above the Longformer mean), and trains in about 3.4 minutes per fold. Clause classification therefore does not need Longformer's long context; we keep Longformer for the span head. For span localisation, the joint model reaches 0.760 token-F1 against 0.604 for the lexical-centroid baseline.
+Table~\ref{tab:cuad} gives means over three folds (about 2,030 test clauses per fold). The Longformer classifiers beat TF-IDF by 0.036 to 0.037 macro-F1 with fold-level intervals above zero, but the folds are few. Joint training did not change classification (difference $-0.001$, interval includes zero). LEGAL-BERT is the strongest classifier (0.866 macro-F1, +0.027 over the Longformer classifier; its lowest fold, 0.854, is above the Longformer mean), and trains in about 3.3 minutes per fold. A second run with the same seed and splits gave 0.870, so GPU non-determinism alone moves this number by about 0.005. Clause classification therefore does not need Longformer's long context; we keep Longformer for the span head. For span localisation, the joint model reaches 0.760 token-F1 against 0.604 for the lexical-centroid baseline.
 
 \begin{table}[t]
 \caption{CUAD, 3-fold contract-grouped CV (mean $\pm$ s.d.; 12 categories scored).}\label{tab:cuad}
@@ -88,7 +88,7 @@ TF-IDF + LR & $0.802\pm0.016$ & 0.853 & --\\
 Classifier only & $0.839\pm0.017$ & 0.875 & --\\
 Span only & -- & -- & 0.736\\
 Joint (cls+span) & $0.837\pm0.011$ & 0.872 & 0.760\\
-LEGAL-BERT classifier & $0.870\pm0.009$ & 0.891 & --\\
+LEGAL-BERT classifier & $0.866\pm0.011$ & 0.889 & --\\
 \midrule
 Lexical-centroid span & -- & -- & 0.604\\
 Whole-window span & -- & -- & 0.236\\
@@ -98,7 +98,7 @@ Random span & -- & -- & 0.106\\
 \end{table}
 
 \section{Domain Shift to Indian Contracts}\label{sec:indian}
-We evaluate the three joint checkpoints (folds 0--2) on the 192 Indian clauses in trained categories (Table~\ref{tab:indian}). The same clauses are used for every fold, so the folds are not independent samples. Wilson 95\% intervals on accuracy are roughly $\pm0.07$ and overlap those of TF-IDF in every fold. Scores on the original pool are identical to an earlier run on that pool alone.
+We evaluate the three joint checkpoints (folds 0--2) on the 192 Indian clauses in trained categories (Table~\ref{tab:indian}). The same clauses are used for every fold, so the folds are not independent samples. Wilson 95\% intervals on accuracy are roughly $\pm0.07$ and overlap those of TF-IDF in every fold. Before adjudication the original pool scored 0.377 with the same checkpoints; adjudication changed 11 of its labels.
 
 \begin{table}[t]
 \caption{Indian set, 192 clauses in trained categories (CUAD-only checkpoints). Pool rows give Longformer accuracy on each pool.}\label{tab:indian}
@@ -107,27 +107,27 @@ We evaluate the three joint checkpoints (folds 0--2) on the 192 Indian clauses i
 \toprule
  & F0 & F1 & F2 & Mean\\
 \midrule
-Accuracy, Longformer & 0.328 & 0.333 & 0.370 & 0.344\\
-Accuracy, TF-IDF & 0.307 & 0.365 & 0.339 & 0.337\\
+Accuracy, Longformer & 0.323 & 0.344 & 0.375 & 0.347\\
+Accuracy, TF-IDF & 0.302 & 0.365 & 0.333 & 0.333\\
 Accuracy, majority & 0.047 & 0.047 & 0.047 & 0.047\\
-Macro-F1, Longformer & 0.349 & 0.333 & 0.348 & 0.343\\
-Macro-F1, TF-IDF & 0.327 & 0.355 & 0.353 & 0.345\\
-Accuracy, LEGAL-BERT & 0.375 & 0.323 & 0.349 & 0.349\\
-Macro-F1, LEGAL-BERT & 0.388 & 0.301 & 0.335 & 0.341\\
+Macro-F1, Longformer & 0.316 & 0.343 & 0.355 & 0.338\\
+Macro-F1, TF-IDF & 0.325 & 0.356 & 0.350 & 0.344\\
+Accuracy, LEGAL-BERT & 0.359 & 0.349 & 0.359 & 0.356\\
+Macro-F1, LEGAL-BERT & 0.354 & 0.324 & 0.349 & 0.342\\
 \midrule
-\quad original pool ($n=129$) & 0.364 & 0.364 & 0.403 & 0.377\\
+\quad original pool ($n=129$) & 0.357 & 0.380 & 0.411 & 0.382\\
 \quad batch 2 ($n=63$) & 0.254 & 0.270 & 0.302 & 0.275\\
 \midrule
-Span tok-F1, head & 0.322 & 0.322 & 0.325 & 0.323\\
-Span tok-F1, lexical & 0.306 & 0.307 & 0.309 & 0.307\\
-Span tok-F1, random & 0.097 & 0.108 & 0.109 & 0.105\\
-Span exact match, head & 0.128 & 0.084 & 0.121 & 0.111\\
+Span tok-F1, head & 0.317 & 0.317 & 0.331 & 0.322\\
+Span tok-F1, lexical & 0.306 & 0.297 & 0.301 & 0.302\\
+Span tok-F1, random & 0.097 & 0.097 & 0.100 & 0.098\\
+Span exact match, head & 0.123 & 0.084 & 0.121 & 0.109\\
 Span exact match, lexical & 0.011 & 0.011 & 0.011 & 0.011\\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\textbf{Findings.} (i) Macro-F1 falls from 0.84 on CUAD to about 0.34, consistently across checkpoints. (ii) Out of domain, the classifier is no better than TF-IDF (accuracy 0.344 vs.\ 0.337, macro-F1 0.343 vs.\ 0.345), and neither is LEGAL-BERT (0.349, 0.341) despite its higher CUAD score, so the drop is not specific to the Longformer encoder; LEGAL-BERT sends unseen categories to the same neighbours. (iii) Batch 2 is harder than the original pool (0.275 vs.\ 0.377), but with 63 clauses the intervals overlap (fold 0: 0.16--0.37 vs.\ 0.29--0.45); keyword selection, retained noisy units and PDF noise are possible causes we have not separated. (iv) On Indian text the span head's advantage over the lexical baseline nearly disappears (0.016 token-F1, against 0.156 on CUAD), although its exact match stays well above the baselines. (v) Per category (fold 0), Penalties (F1 0.56) and Termination (0.53) transfer best; Dispute Resolution does not (F1 0.00 on 18 clauses), consistent with its narrow CUAD coverage, and the catch-all Other is mostly misclassified (F1 0.21 on 47). (vi) For the 142 clauses in unseen categories, predictions go to the nearest trained category (fold 0): 21 of 44 Payment clauses become Commercial Terms, 15 of 19 Indemnification clauses become Liability, and 34 of 47 Confidentiality clauses become Other. Per-document accuracy varies (0.14--0.78), but most documents have fewer than 15 clauses in trained categories, so we do not draw conclusions per document.
+\textbf{Findings.} (i) Macro-F1 falls from 0.84 on CUAD to about 0.34, consistently across checkpoints. (ii) Out of domain, the classifier is no better than TF-IDF (accuracy 0.347 vs.\ 0.333, macro-F1 0.338 vs.\ 0.344), and neither is LEGAL-BERT (0.356, 0.342) despite its higher CUAD score, so the drop is not specific to the Longformer encoder; LEGAL-BERT sends unseen categories to the same neighbours. (iii) Batch 2 is harder than the original pool (0.275 vs.\ 0.382), but with 63 clauses the intervals overlap (fold 0: 0.16--0.37 vs.\ 0.28--0.44); keyword selection, retained noisy units and PDF noise are possible causes we have not separated. (iv) On Indian text the span head's advantage over the lexical baseline nearly disappears (0.020 token-F1, against 0.156 on CUAD), although its exact match stays well above the baselines. (v) Per category (fold 0), Penalties (F1 0.56) and Termination (0.53) transfer best; Dispute Resolution does not (F1 0.00 on 18 clauses), consistent with its narrow CUAD coverage, and the catch-all Other is mostly misclassified (F1 0.22 on 45). (vi) For the 142 clauses in unseen categories, predictions go to the nearest trained category (fold 0): 20 of 43 Payment clauses become Commercial Terms, 15 of 19 Indemnification clauses become Liability, and 33 of 46 Confidentiality clauses become Other. Per-document accuracy varies (0.14--0.78), but most documents have fewer than 15 clauses in trained categories, so we do not draw conclusions per document.
 
 \textbf{Judgment slice.} On the 11 judgment-quoted clauses, Longformer accuracy is 0.606 (folds: 0.455, 0.727, 0.636), LEGAL-BERT 0.545 and TF-IDF 0.667; with $n=11$ hand-picked clauses, mostly restrictive covenants, this is reported for completeness only.
 

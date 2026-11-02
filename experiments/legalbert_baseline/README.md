@@ -1,5 +1,7 @@
 # LegalBERT classification baseline (CUAD folds 0-2 + Indian v3)
 
+> Superseded by `experiments/legalbert_baseline_v4/` (adjudicated labels). Kept for traceability; do not quote these numbers.
+
 `nlpaueb/legal-bert-base-uncased` (110M parameters, 512 tokens), classifier only, run 2026-11-02 on a Kaggle T4 with
 `notebooks/legalbert_baseline_kaggle.ipynb` (executed copy: `notebooks/legalbert_baseline_kaggle_run.ipynb`).
 Same CUAD folds as the Longformer runs (`splits.json` reused; the log confirms "splits loaded ... identical to the

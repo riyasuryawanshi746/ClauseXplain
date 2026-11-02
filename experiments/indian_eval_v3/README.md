@@ -1,5 +1,7 @@
 # Indian-set evaluation v3 (334 clauses + judgment slice, 3 CUAD-trained checkpoints)
 
+> Superseded by `experiments/indian_eval_v4/` (adjudicated labels). Kept for traceability; do not quote these numbers.
+
 Checkpoint: `joint_cls_span` folds 0-2 (CUAD only; never saw Indian text). Run 2026-11-02 on Kaggle with
 `notebooks/indian_eval_v3_kaggle.ipynb` (executed copy: `notebooks/indian_eval_v3_kaggle_run.ipynb`).
 Test data: `indian_set/built_v3` (228 v2 clauses + 106 batch-2 clauses from CPWD GCC 2023 and the SBM

@@ -91,6 +91,8 @@ print(r.stdout, r.stderr[-1000:])'''
 
 zipc = '''with zipfile.ZipFile("/kaggle/working/indian_ledgar_results.zip", "w", zipfile.ZIP_DEFLATED) as z:
     z.write(f"{OUT}/summary.md", "summary.md")
+    for f in ["results.json", "results.md"]:                  # CUAD fold-0 score of the encoder used as init
+        if os.path.exists(f"{LB_RUN}/{f}"): z.write(f"{LB_RUN}/{f}", f"cuad_fold0_{f}")
     for name, _, _ in RUNS:
         for f in ["metrics.json", "predictions.csv"]:
             p = f"{OUT}/{name}/{f}"

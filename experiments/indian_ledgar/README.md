@@ -37,6 +37,9 @@ with and without LEDGAR (cap 100 per category). Three seeds each; mean +- s.d. o
 Per-seed values in `kaggle/summary.md`. Paired bootstrap (1000 resamples over clauses, same seed) for the accuracy
 gain from LEDGAR: s13 (-0.018, 0.063), s14 (0.009, 0.096), s15 (-0.006, 0.075); only s14 excludes zero.
 
-Reading: the baseline replicates the first run (0.566 / 0.528) closely. LEDGAR raises accuracy by about 0.035 by
-improving the categories CUAD lacks (unseen macro-F1 +0.125) while the seen categories lose about 0.07 macro-F1, so
-overall macro-F1 does not move. Suggestive, not conclusive. InLegalBERT results: `../indian_inlegalbert/`.
+Reading: the baseline replicates the first run (0.566 / 0.528) closely. LEDGAR raises accuracy by about 0.035 and
+improves F1 in 13 of 17 categories (3-seed means, e.g. Confidentiality 0.75 -> 0.82, Payment 0.51 -> 0.62,
+Modification 0.00 -> 0.23, Dispute Resolution 0.79 -> 0.87). Overall macro-F1 looks flat mainly because
+Non-Solicitation has a single clause (F1 1.00 -> 0.00); without it macro-F1 rises 0.494 -> 0.544 (seen categories
+0.503 -> 0.539). Other (0.43 -> 0.33) and Force Majeure (0.92 -> 0.85) lose F1. Accuracy gain: suggestive, not
+conclusive (one of three seeds' intervals excludes zero). InLegalBERT results: `../indian_inlegalbert/`.

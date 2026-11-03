@@ -1,6 +1,6 @@
 # Labelling guide v2 (DRAFT for Riya's review, 2026-11-03)
 
-**Status: draft. Not in use until Riya approves it.** It does not replace `LABELLING_GUIDE.md` yet.
+**Status: superseded.** Approved with edits on 2026-11-03 as `LABELLING_GUIDE.md` v2; kept for the record.
 Each new rule comes from the 32 annotator disagreements on the original pool and from **how they were adjudicated**
 (`adjudication_sheet.csv`), so it writes down decisions already made rather than new ones. Rules marked
 **[DECISION]** are new: they cover contract types that only appear in batch 3 (employment, share deals, leases).

@@ -9,7 +9,7 @@ WHY
     for Liability, Penalties, Non-Compete, Non-Solicitation or Commercial Terms.
 
 MAPPING
-    Fixed on 2026-11-03 from the category definitions in indian_set/labelling/LABELLING_GUIDE.md, before any LEDGAR
+    Fixed on 2026-11-03 from the category definitions in indian_set/labelling/LABELLING_GUIDE_v1.md, before any LEDGAR
     result was seen.  Only LEDGAR labels that clearly match a guide definition are used; everything else is dropped.
     Uses the LEDGAR train split only (never its validation/test splits, never Indian data).
 

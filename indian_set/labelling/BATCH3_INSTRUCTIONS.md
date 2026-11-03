@@ -28,7 +28,22 @@ document-held-out training (add them to `group_of` in `finetune_indian.py` when 
 - Near-duplicate units (mostly repeated text across the Azure agreements) are skipped. Rows are shuffled, and the
   sheets do not say which pool or keyword a unit came from (`batch3_sheet_key_DO_NOT_SHARE.csv` has that).
 
-## How to label
+## Status (2026-11-03)
+
+Round 1 is done (guide v1, both annotators, all 523 units): raw agreement 0.62, kappa 0.57, 200 disagreements,
+mostly Commercial Terms vs Other, not-a-clause (party blocks), and Payment. Guide v2 is now final
+(`LABELLING_GUIDE.md`). **Round 2 = re-check**: each annotator re-labels only the 200 disagreement units under v2,
+seeing their own round-1 label but not the other's:
+
+1. Give `recheck_annotator1.csv` to annotator 1 and `recheck_annotator2.csv` to annotator 2 (never the other's).
+   Fill `your_category` or `not_a_clause (y)` on every row; `context_before` / `context_after` show the
+   neighbouring text for list items. Read guide v2 first.
+2. `python recheck.py merge --sheet1 ../indian_set/labelling/batch3/label_sheet_batch3_annotator1_filled.csv --sheet2 ../indian_set/labelling/batch3/label_sheet_batch3_annotator2_filled.csv --recheck1 ../indian_set/labelling/batch3/recheck_annotator1_filled.csv --recheck2 ../indian_set/labelling/batch3/recheck_annotator2_filled.csv --out_dir ../indian_set/labelling/batch3`
+   -> round-2 sheets and `recheck_report.md` (round 1 and round 2 kappa, who changed what).
+3. Convert the round-2 sheets (`make_label_sheet.py convert --sheet round2_annotator1.csv --second round2_annotator2.csv`)
+   and adjudicate what is still split, blind (`adjudicate.py sheet`).
+
+## How to label (round 1, kept for the record)
 
 1. **First fix the guideline** (`LABELLING_GUIDE.md`, phase A of the plan): clearer rules for Other vs Commercial
    Terms, Warranty vs Liability, and "not a clause". Label batch 3 with that version.

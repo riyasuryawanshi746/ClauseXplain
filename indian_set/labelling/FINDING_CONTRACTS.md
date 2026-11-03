@@ -40,5 +40,5 @@ Then I run `prepare_documents.py` (clean text) and `--browse` (candidate clauses
 ## Rules while selecting clauses
 - Copy clause text exactly; do not edit. It must appear verbatim in the document (the builder checks and rejects anything that does not).
 - One clause = one obligation or right, 100-900 characters. No headings, no partial sentences.
-- Label with `LABELLING_GUIDE.md`. When unsure between a category and Other, follow the tie-break rules there.
+- Label with `LABELLING_GUIDE.md` (v2). When unsure between a category and Other, follow the tie-break rules there.
 - Do not look at model predictions while labelling.

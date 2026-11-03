@@ -43,5 +43,4 @@ Paired bootstrap (2000 resamples, 95% interval), v5 seed 13 against each v4 seed
 
 The gain is mostly in categories CUAD lacks (seed 13: Modification 0.00 -> 0.33, Privacy 0.00 -> 0.50,
 Confidentiality 0.75 -> 0.87); seen-category accuracy is unchanged (0.538 -> 0.536). Only one seed for v5.
-Rerun the comparison: `python experiments/indian_v5/compare_v5.py <repo> <folder with the unzipped v5 results>`
-(needs the full predictions with clause text, which stay local).
+Rerun the comparison from the repo root: `python experiments/indian_v5/compare_v5.py . experiments/indian_v5/kaggle`.

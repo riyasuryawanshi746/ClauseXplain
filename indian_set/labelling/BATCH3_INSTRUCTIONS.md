@@ -49,6 +49,11 @@ about 140 of the 200 re-checked labels. 127 disagreements remain ->
 `batch3/round2/adjudication_sheet_round2.csv` (blind; key in `adjudication_key_DO_NOT_OPEN.csv`). A first
 round-2 submission had identical labels in both sheets and was discarded (`batch3/discarded_round2_attempt1/`).
 
+**Adjudication (2026-11-03):** all 127 adjudicated blind (`round2/adjudication_sheet_round2_filled.csv`). Final label =
+annotator 1 in 111, annotator 2 in 7, neither in 9; 16 of 523 labels differ from annotator 1's round 2 ->
+`round2/label_sheet_batch3_adjudicated.csv`. 454 clauses, 69 not-a-clause. Merged with v4 into
+`indian_set/clauses_v5.csv` -> `built_v5` (788 clauses, local only). Results: `experiments/indian_v5/`.
+
 ## How to label (round 1, kept for the record)
 
 1. **First fix the guideline** (`LABELLING_GUIDE.md`, phase A of the plan): clearer rules for Other vs Commercial

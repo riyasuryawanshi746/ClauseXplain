@@ -76,6 +76,9 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
    (model from `notebooks/demo_model_kaggle.ipynb`, not in repo).
    LATER (decided 2026-11-03): steps 2-4 = more (private-sector) data, label consistency (more double annotation,
    guideline fixes), cleaning noisy test units. Paper lists them as future work.
+8. DONE 2026-11-03: batch 3 (15 private-sector docs) double-annotated, re-checked under guide v2, adjudicated ->
+   v5 = 788 clauses (`built_v5`, local only, 23 groups). TF-IDF on the same 334 v4 clauses: 0.482/0.351 -> 0.536/0.469
+   with batch 3 in training (`experiments/indian_v5/`). NEXT: run `notebooks/indian_v5_kaggle.ipynb` (private), add to paper.
 ON HOLD until she says so: lawyer review of rules; 12-vs-18 category decision.
 
 ## Environment notes

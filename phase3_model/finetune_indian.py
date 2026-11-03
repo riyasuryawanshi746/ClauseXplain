@@ -65,8 +65,18 @@ def load_set(d):
              "y": CAT2ID[r["clausexplain_category"]]} for r in rows]
 
 
+# batch 3 (built_v5) documents that share a template or a transaction; held out together
+TEMPLATE_GROUPS = {"azure": ("indian_azure_",), "leave_license": ("indian_leave_license_",),
+                   "dec2022": ("indian_dec2022_",)}
+
+
 def group_of(doc):
-    return "mea" if doc.startswith("indian_mea_") else doc
+    if doc.startswith("indian_mea_"):
+        return "mea"
+    for g, prefixes in TEMPLATE_GROUPS.items():
+        if doc.startswith(prefixes):
+            return g
+    return doc
 
 
 def load_extra(path, cap, cats, seed=13):

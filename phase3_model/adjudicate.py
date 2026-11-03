@@ -128,7 +128,8 @@ def apply(a):
         r["your_category"], r["not_a_clause (y)"] = ("", "y") if f == NOT else (f, "")
         r["notes"] = (r.get("notes", "") + " [adjudicated]").strip()
     with open(a.out, "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
+        cols = list(rows[0].keys()) + ([] if "notes" in rows[0] else ["notes"])   # batch 3 sheets have no notes
+        w = csv.DictWriter(f, fieldnames=cols, restval=""); w.writeheader(); w.writerows(rows)
 
     n = len(adj)
     rep = ["# Adjudication", "",

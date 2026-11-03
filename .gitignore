@@ -13,3 +13,6 @@ partial/
 demo_model/
 indian_set/documents_batch3/
 indian_set/labelling/batch3/
+indian_set/clauses_v5.csv
+indian_set/built_v5/
+notebooks/indian_v5_kaggle.ipynb

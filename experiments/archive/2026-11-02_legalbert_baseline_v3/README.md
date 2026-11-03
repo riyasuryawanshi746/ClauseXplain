@@ -3,10 +3,10 @@
 > Superseded by `experiments/legalbert_baseline_v4/` (adjudicated labels). Kept for traceability; do not quote these numbers.
 
 `nlpaueb/legal-bert-base-uncased` (110M parameters, 512 tokens), classifier only, run 2026-11-02 on a Kaggle T4 with
-`notebooks/legalbert_baseline_kaggle.ipynb` (executed copy: `notebooks/legalbert_baseline_kaggle_run.ipynb`).
+`notebooks/archive/legalbert_baseline_kaggle.ipynb` (executed copy: `notebooks/archive/legalbert_baseline_kaggle_run.ipynb`).
 Same CUAD folds as the Longformer runs (`splits.json` reused; the log confirms "splits loaded ... identical to the
 original run"), same settings: 2 epochs, lr 2e-5 (head 1e-4), seed 13, batch 16, max 512 tokens. No span head.
-Indian labels are pre-adjudication (same as `experiments/indian_eval_v3/`).
+Indian labels are pre-adjudication (same as `experiments/archive/2026-11-02_indian_eval_v3/`).
 
 ## CUAD (12 categories scored, about 2,030 test clauses per fold)
 

@@ -1,6 +1,6 @@
 # LegalBERT classification baseline v4 (FINAL; adjudicated Indian labels)
 
-Same setup as `experiments/legalbert_baseline/` (nlpaueb/legal-bert-base-uncased, cls_only, CUAD folds 0-2 with the
+Same setup as `experiments/archive/2026-11-02_legalbert_baseline_v3/` (nlpaueb/legal-bert-base-uncased, cls_only, CUAD folds 0-2 with the
 reused `splits.json`, 2 epochs, lr 2e-5 / head 1e-4, seed 13), retrained 2026-11-02 with
 `notebooks/legalbert_baseline_v4_kaggle.ipynb` (executed copy `notebooks/legalbert_baseline_v4_kaggle_run.ipynb`),
 scored on `indian_set/built_v4` and the judgment slice.

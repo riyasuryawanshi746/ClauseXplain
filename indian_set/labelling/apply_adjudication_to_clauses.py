@@ -29,7 +29,7 @@ def load(p):
 lab = lambda r: "NOT" if (r.get("not_a_clause (y)") or "").strip() else r["your_category"].strip()
 old = {r["unit_id"]: r for r in load(ROOT / "label_sheet_labelled.csv")}
 new = {r["unit_id"]: r for r in load(ROOT / "label_sheet_adjudicated.csv")}
-v2 = load(ROOT / "clauses_v2.csv")
+v2 = load(ROOT / "archive" / "clauses_v2.csv")
 log = []
 for uid, o in old.items():
     a, b = lab(o), lab(new[uid])

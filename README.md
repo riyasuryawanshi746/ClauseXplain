@@ -1,82 +1,106 @@
 # ClauseXplain
 
-Clause understanding for Indian-context contracts: one multi-task Longformer (18-way clause category + evidence-span head) with a rule layer that flags clauses against Indian statutes (Indian Contract Act, MSMED Act, DPDPA).
+Clause classification for Indian contracts, and how badly models trained on US contracts (CUAD) transfer to them.
+A contract goes in; each clause gets one of 18 categories, and a rule layer flags clauses that may raise issues
+under Indian statutes (Indian Contract Act, MSMED Act, DPDPA).
 
-**Status: research prototype, work in progress. Not legal advice.** Rule flags use cautious "may raise issues" wording and have not been reviewed by a lawyer.
+**Research prototype, not legal advice.** The rule flags use cautious "may raise issues" wording and have not been
+reviewed by a lawyer.
 
-## Repo map (in the order the work happened)
+## Main results
 
-| Folder | What it is |
+Indian test set: 334 double-annotated clauses from 13 public Indian documents (kappa 0.65, disagreements adjudicated
+blind). Training on Indian clauses is document-held-out: every document group is tested by a model that never saw it.
+
+Zero-shot (trained on CUAD only, 3 CUAD folds), scored on the 192 Indian clauses whose category exists in CUAD:
+
+| Model | accuracy | macro-F1 |
+|---|---|---|
+| TF-IDF + LogReg | 0.333 | 0.344 |
+| Longformer (cls + span) | 0.347 | 0.338 |
+| LegalBERT (CUAD macro-F1 0.870) | 0.356 | 0.342 |
+
+Trained on Indian clauses too (document-held-out, all 334 clauses, mean ± sd over 3 seeds):
+
+| Model | accuracy | macro-F1 |
+|---|---|---|
+| LegalBERT, CUAD -> Indian | 0.565 ± 0.007 | 0.524 ± 0.006 (seen 0.593) |
+| + LEDGAR provisions | 0.600 ± 0.017 | 0.512 ± 0.017 |
+| InLegalBERT, CUAD -> Indian | 0.537 ± 0.009 | 0.450 ± 0.007 |
+
+- On CUAD the models score well; on Indian clauses all three fall to the same level, TF-IDF included. Six of the 18
+  categories have no CUAD training data at all.
+- LEDGAR improves 13 of 17 categories; macro-F1 is flat only because the single Non-Solicitation clause flips.
+  Indian-law pretraining (InLegalBERT) did not help.
+- A few hundred Indian clauses do far more than a better encoder or extra US data.
+- v5 (788 clauses, adding 15 private-sector documents) is in progress: see `experiments/indian_v5/`.
+
+Full numbers, intervals and caveats: `experiments/README.md` and the paper (`paper/main.tex`).
+
+## Repository layout
+
+| Folder | Contents |
 |---|---|
-| `phase1_cuad_mapping/` | CUAD v1 (510 US contracts, 13,823 expert spans, 41 categories) mapped to an 18-category Indian taxonomy. `clauses_mapped.jsonl` = 9,786 mapped spans. Start with `FINAL_DATASET_README.txt`. |
+| `phase1_cuad_mapping/` | CUAD v1 (510 US contracts, 41 categories) mapped to the 18 ClauseXplain categories. `clauses_mapped.jsonl` = 9,786 spans. Start with `FINAL_DATASET_README.txt`. |
 | `phase2a_risk_schema/` | Risk schema, annotation guidelines, first version of the statutory rule table. |
-| `phase2b_annotation_pilot/` | Annotation app and AI-assisted pilot labels. **The AI risk labels are not used for training** (single AI annotator, no human review). Kept for provenance. |
-| `phase3_model/` | Dataset loader, multi-task model, training, metrics, CV comparison, scan-vs-span, Indian-set builder/evaluator, label-sheet tool, demo `pipeline.py`, smoke tests. |
-| `indian_law/` | Current rule table (`indian_legal_rules.csv`), human feature-audit sheets and rule-coverage reports. The engine itself is `phase3_model/rules_engine.py`. |
-| `indian_set/` | Small Indian test set: cleaned text of 11 public Indian contracts/tenders, `clauses_v1.csv` (labelled clauses), built set and evaluation output. |
-| `experiments/` | Result files. See `experiments/README.md`: only `stageB_3fold` and `scan_vs_span` are canonical, the rest is archived. |
-| `notebooks/` | Kaggle notebooks (training, scan-vs-span, Indian set). |
-| `docs/` | Status and plan. |
-
-## What the results support so far
-
-- Longformer category classifier beats TF-IDF+LogReg by about +2.2 micro-F1 / +3.7 macro-F1 (3 folds, interval above 0).
-- Joint cls+span model is on par with the single-task models at roughly half the parameters. No speed-up.
-- Span head beats scanning the window with the classifier by +0.125 token-F1 on average (+0.10 to +0.14 per fold) using about 50x fewer forward passes and about 24x less time on a T4 (see `experiments/scan_vs_span/README.md`).
-- Indian test set evidence is anecdotal at this point (few scorable clauses, keyword-selected). Growing it to 100+ clauses via `make_label_sheet.py` is in progress.
-
-## Known limits
-
-- Training data is US (CUAD). Category labels come from a mapping, so classification is partly circular; span localisation is the headline task.
-- 6 of 18 categories have no training data (Confidentiality, Force Majeure, Indemnification, Modification, Payment, Privacy / Data Protection). The pipeline masks them.
-- Span task is windowed localisation, not comparable to full-contract CUAD numbers. Span results are noisy and probably undertrained; only folds 0-2 were run.
-- No risk head is trained. Risk is handled by rules over extracted text features.
+| `phase2b_annotation_pilot/` | Annotation app and an AI-assisted risk-label pilot. **These AI labels are not used anywhere** (single AI annotator, no human review); kept for provenance. |
+| `phase3_model/` | All model code: data loading, models, training (`train_phase3.py`, `finetune_indian.py`), evaluation, labelling tools (`make_label_sheet.py`, `recheck.py`, `adjudicate.py`), rule engine and the demo (`pipeline.py`, `app.py`). |
+| `indian_set/` | Indian clause set. `documents/`, `documents_batch2/`: public contract texts. `clauses_v4.csv` -> `built_v4/`: the frozen 334-clause test set. `labelling/`: labelling guide (v2), instructions, agreement and adjudication files. `archive/`: earlier versions. |
+| `indian_law/` | Human feature-audit sheets and rule-coverage reports (the rule table is `phase3_model/indian_legal_rules.csv`). |
+| `experiments/` | Result files, one folder per experiment. `experiments/README.md` lists which ones are canonical; `archive/` is superseded. |
+| `notebooks/` | Kaggle notebooks and the `make_*.py` scripts that generate them. Upload the `.ipynb`, not the `make_*.py`. Old ones are in `archive/`. |
+| `demo_reports/` | Three sample HTML reports from the demo. |
+| `paper/` | IEEE workshop paper (`main.tex`). |
+| `docs/` | `HANDOFF.md`: current status, decisions and next steps. |
 
 ## Quick start
 
 ```bash
 pip install -r requirements.txt
 cd phase3_model
-python smoke_test.py            # CPU, ~2 min, 16 checks, tiny random model
+python smoke_test.py            # CPU, ~2 min, tiny random model
 python test_rules_engine.py     # rule engine tests
 ```
 
-Real training needs a GPU (Kaggle/Colab T4 works) plus `CUAD_v1.json` (not in this repo, download from the CUAD release; license CC BY 4.0):
+Document-held-out training on the Indian set (TF-IDF runs on a CPU in under a minute; neural runs need a GPU, see
+`notebooks/indian_finetune_kaggle.ipynb`):
+
+```bash
+python finetune_indian.py run --method tfidf --tricks --indian_dir ../indian_set/built_v4 --name tfidf --out_dir runs
+```
+
+CUAD training needs a GPU and `CUAD_v1.json` (not in this repo; from the CUAD release, CC BY 4.0):
 
 ```bash
 python train_phase3.py --mapped_jsonl ../phase1_cuad_mapping/clauses_mapped.jsonl --cuad_json CUAD_v1.json \
   --experiments cls_only span_only joint_cls_span --cv_folds 5 --folds 0 1 2 --resume --save_ckpt --out_dir stageB
 ```
 
-Live demo on a laptop (CPU). First train the demo classifier with `notebooks/demo_model_kaggle.ipynb` (~15 min on a
-Kaggle T4) and unzip `demo_model_legalbert.zip` into `demo_model/`; it is LEGAL-BERT trained on CUAD and all 334
-Indian clauses, covers all 18 categories, and is not in the repo (~200 MB):
+## Demo
+
+Runs on a laptop CPU, about 25 s per contract. Train the demo classifier with `notebooks/demo_model_kaggle.ipynb`
+(~15 min on a Kaggle T4) and unzip `demo_model_legalbert.zip` into `demo_model/` (not in the repo, ~200 MB). It is
+LegalBERT trained on CUAD plus all 334 Indian clauses.
 
 ```bash
 pip install gradio pypdf
-python app.py --cls_model ../demo_model/demo_model_legalbert      # opens http://127.0.0.1:7860
+python app.py --cls_model ../demo_model/demo_model_legalbert      # http://127.0.0.1:7860
 python pipeline.py --input contract.pdf --cls_model ../demo_model/demo_model_legalbert \
   --rules indian_legal_rules.csv --out report.html                  # same report, no UI
 ```
 
-Older demo with the CUAD-only Longformer (needs its checkpoint, also not in the repo; adds span search with `--find`):
+## Known limits
 
-```bash
-python pipeline.py --input contract.pdf --ckpt ckpt_joint_cls_span_fold0.pt \
-  --rules indian_legal_rules.csv --out report.html --find "Termination" "Liability"
-```
+- The Indian set is small and mostly government documents; categories such as Non-Solicitation have very few clauses.
+- CUAD category labels come from a mapping, so CUAD scores are partly circular.
+- The rules have not been reviewed by a lawyer, and no risk model is trained.
 
-Grow the Indian set without keyword bias:
+## Not in the repo
 
-```bash
-python make_label_sheet.py build --docs_dir ../indian_set/documents --out label_sheet.csv
-python make_label_sheet.py convert --sheet label_sheet.csv [--second other_annotator.csv] --out clauses_new.csv
-```
-
-## Not in the repo (by design)
-
-Model checkpoints (`*.pt`, ~0.6 GB each), `CUAD_v1.json`, the original contract PDFs, and the large regenerable JSONL files from Phase 1/2A (`clauses.jsonl`, `clauses_risk_annotation.jsonl`; rebuild with the scripts in those folders).
+Model checkpoints, `CUAD_v1.json`, original PDFs, large regenerable JSONL files, and the batch 3 private-sector
+documents and labels (they name private individuals; `indian_set/labelling/BATCH3_INSTRUCTIONS.md` describes them).
 
 ## Data notes
 
-CUAD: Hendrycks et al., CC BY 4.0. Indian documents are publicly available government tenders/agreements; check each source's terms before making this repo public.
+CUAD: Hendrycks et al., CC BY 4.0. The Indian documents in this repo are publicly available government
+tenders/agreements; check each source's terms before reusing them.

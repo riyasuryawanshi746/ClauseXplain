@@ -3,7 +3,7 @@
 > Superseded by `experiments/indian_eval_v4/` (adjudicated labels). Kept for traceability; do not quote these numbers.
 
 Checkpoint: `joint_cls_span` folds 0-2 (CUAD only; never saw Indian text). Run 2026-11-02 on Kaggle with
-`notebooks/indian_eval_v3_kaggle.ipynb` (executed copy: `notebooks/indian_eval_v3_kaggle_run.ipynb`).
+`notebooks/archive/indian_eval_v3_kaggle.ipynb` (executed copy: `notebooks/archive/indian_eval_v3_kaggle_run.ipynb`).
 Test data: `indian_set/built_v3` (228 v2 clauses + 106 batch-2 clauses from CPWD GCC 2023 and the SBM
 waste-to-compost draft) and `indian_set/built_judgments` (11 clauses quoted in judgments, scored separately).
 192 of the 334 clauses are in categories with CUAD training data (incl. Other); 142 are in the 6 unseen ones.

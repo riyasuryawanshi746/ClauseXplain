@@ -23,8 +23,8 @@ Paper framing: domain-shift study (CUAD -> Indian contracts) + cheap span locali
 - Batch 2 (labelled by Riya, 2026-11-02): CPWD GCC 2023 + SBM waste-to-compost draft, 107 keyword-assisted units
   (`indian_set/labelling/label_sheet_batch2_labelled.csv`; she marked none as not-a-clause, kept all labels after review;
   53% of labels equal the keyword that selected the unit -> say "keyword-assisted pool" in the paper).
-  Merged set: `indian_set/clauses_v3.csv` -> `indian_set/built_v3/` = 334 clauses, 13 docs (v2's 228 unchanged + 106; 1 duplicate dropped).
-  Evaluated 2026-11-02: see `experiments/indian_eval_v3/README.md`.
+  Merged set: `indian_set/archive/clauses_v3.csv` -> `indian_set/archive/built_v3/` = 334 clauses, 13 docs (v2's 228 unchanged + 106; 1 duplicate dropped).
+  Evaluated 2026-11-02: see `experiments/archive/2026-11-02_indian_eval_v3/README.md`.
 - Judgment slice (labelled): `indian_set/built_judgments/` (11 clauses, 5 judgments; classification only; report separately, never merge).
   Waste-to-compost is a draft full of [placeholders]; GCC text came from a PDF so check OCR noise.
 
@@ -47,8 +47,8 @@ max_len_span 1024, max_len_clause 512, T4 fp16. Needs GPU (Kaggle). Code in `pha
 
 ## Repo map
 - `phase3_model/`: train/eval code, `eval_indian.py` (writes indian_predictions.csv), `summarise_predictions.py`, `pipeline.py` (segment -> classify -> rules -> optional `--find` span head -> HTML report), `rules_engine.py`, `make_label_sheet.py`, `build_indian_testset.py`, `smoke_test.py` (16/16).
-- `notebooks/`: `indian_eval_v2_kaggle.ipynb`, `demo_kaggle.ipynb`. Kaggle datasets: `riyasuryawanshi/clausexplain-indian-eval`, `riyasuryawanshi/scan-vs-span`; checkpoints `ckpt_joint_cls_span_fold{k}.pt`.
-- `experiments/indian_eval/` results per fold + README table; `demo_reports/` 3 sample HTML reports.
+- `notebooks/`: `archive/indian_eval_v2_kaggle.ipynb`, `archive/demo_kaggle.ipynb`. Kaggle datasets: `riyasuryawanshi/clausexplain-indian-eval`, `riyasuryawanshi/scan-vs-span`; checkpoints `ckpt_joint_cls_span_fold{k}.pt`.
+- `experiments/archive/2026-10-28_indian_eval_v2/` results per fold + README table; `demo_reports/` 3 sample HTML reports.
 - `paper/main.tex` IEEEtran skeleton (compiled only with a stub class; check on Overleaf). References are from memory: VERIFY every one.
 - `indian_set/labelling/`: LABELLING_GUIDE, FINDING_CONTRACTS, second-annotator files.
 
@@ -62,7 +62,7 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
    v4 Kaggle runs done 2026-11-02; paper uses them. Experiments are finished; remaining work is writing (step 5).
 2. Find more private-sector style contracts (see FINDING_CONTRACTS.md); target 400+ clauses.
 3. Re-run Indian eval on the enlarged set; train with some Indian clauses for missing categories, held-out contracts for test.
-4. LegalBERT cls-only baseline: DONE 2026-11-02 (`experiments/legalbert_baseline/`): CUAD macro-F1 0.870 (> Longformer 0.839),
+4. LegalBERT cls-only baseline: DONE 2026-11-02 (`experiments/archive/2026-11-02_legalbert_baseline_v3/`): CUAD macro-F1 0.870 (> Longformer 0.839),
    Indian acc 0.349 / macro-F1 0.341 (= Longformer, = TF-IDF). In the paper. Re-run after adjudication with make_legalbert_kaggle.py.
    Folds 3-4 and extra seeds: decided to skip (limitation in paper).
 5. Paper: related work, verify citations, second-annotator background, fill red TODOs, data-release licensing.

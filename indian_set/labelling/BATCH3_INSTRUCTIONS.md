@@ -43,6 +43,12 @@ seeing their own round-1 label but not the other's:
 3. Convert the round-2 sheets (`make_label_sheet.py convert --sheet round2_annotator1.csv --second round2_annotator2.csv`)
    and adjudicate what is still split, blind (`adjudicate.py sheet`).
 
+**Round 2 result (2026-11-03):** raw agreement 0.76, kappa 0.73 over all 523 units (the 323 round-1 agreements
+were not re-checked, so this is somewhat optimistic compared with a fresh double annotation). Each annotator changed
+about 140 of the 200 re-checked labels. 127 disagreements remain ->
+`batch3/round2/adjudication_sheet_round2.csv` (blind; key in `adjudication_key_DO_NOT_OPEN.csv`). A first
+round-2 submission had identical labels in both sheets and was discarded (`batch3/discarded_round2_attempt1/`).
+
 ## How to label (round 1, kept for the record)
 
 1. **First fix the guideline** (`LABELLING_GUIDE.md`, phase A of the plan): clearer rules for Other vs Commercial

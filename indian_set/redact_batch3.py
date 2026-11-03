@@ -26,12 +26,20 @@ PATTERNS = [
     re.compile(r"\bIN30[0-9]{4}\b"),                                 # depository participant ID (after client ID)
 ]
 
-DST.mkdir(exist_ok=True)
-for p in sorted(SRC.glob("*.txt")):
-    if p.stem in SKIP:
-        continue
-    text, n = p.read_text(encoding="utf-8"), 0
+
+
+def redact(text):
+    n = 0
     for pat in PATTERNS:
         text, k = pat.subn("[REDACTED]", text); n += k
-    (DST / p.name).write_text(text, encoding="utf-8")
-    print(f"{p.name}: {n} masked")
+    return text, n
+
+
+if __name__ == "__main__":
+    DST.mkdir(exist_ok=True)
+    for p in sorted(SRC.glob("*.txt")):
+        if p.stem in SKIP:
+            continue
+        text, n = redact(p.read_text(encoding="utf-8"))
+        (DST / p.name).write_text(text, encoding="utf-8")
+        print(f"{p.name}: {n} masked")

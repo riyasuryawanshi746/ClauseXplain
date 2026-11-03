@@ -48,7 +48,7 @@ Full numbers, intervals and caveats: `experiments/README.md` and the paper (`pap
 | `phase2a_risk_schema/` | Risk schema, annotation guidelines, first version of the statutory rule table. |
 | `phase2b_annotation_pilot/` | Annotation app and an AI-assisted risk-label pilot. **These AI labels are not used anywhere** (single AI annotator, no human review); kept for provenance. |
 | `phase3_model/` | All model code: data loading, models, training (`train_phase3.py`, `finetune_indian.py`), evaluation, labelling tools (`make_label_sheet.py`, `recheck.py`, `adjudicate.py`), rule engine and the demo (`pipeline.py`, `app.py`). |
-| `indian_set/` | Indian clause set. `documents/`, `documents_batch2/`: public contract texts; `documents_batch3_redacted/`: 13 private-sector agreements with personal numbers masked. `clauses_v4.csv` -> `built_v4/`: the frozen 334-clause test set. `labelling/`: labelling guide (v2), instructions, agreement and adjudication files. `archive/`: earlier versions. |
+| `indian_set/` | Indian clause set. `documents/`, `documents_batch2/`: public contract texts; `documents_batch3_redacted/`: 13 private-sector agreements with personal numbers masked. `clauses_v5_public.csv` -> `built_v5_public/`: public v5 training set (769 clauses; v4 + batch 3 without the two leave-and-license deeds). `clauses_v4.csv` -> `built_v4/`: the frozen 334-clause test set. `labelling/`: labelling guide (v2), instructions, agreement and adjudication files. `archive/`: earlier versions. |
 | `indian_law/` | Human feature-audit sheets and rule-coverage reports (the rule table is `phase3_model/indian_legal_rules.csv`). |
 | `experiments/` | Result files, one folder per experiment. `experiments/README.md` lists which ones are canonical; `archive/` is superseded. |
 | `notebooks/` | Kaggle notebooks and the `make_*.py` scripts that generate them. Upload the `.ipynb`, not the `make_*.py`. Old ones are in `archive/`. |
@@ -101,7 +101,7 @@ python pipeline.py --input contract.pdf --cls_model ../demo_model/demo_model_leg
 ## Not in the repo
 
 Model checkpoints, `CUAD_v1.json`, original PDFs, large regenerable JSONL files, the unredacted batch 3 documents,
-the two leave-and-license deeds and the batch 3 labels (`indian_set/labelling/BATCH3_INSTRUCTIONS.md` describes them).
+the two leave-and-license deeds and their 19 clauses, and the batch 3 annotation sheets (`indian_set/labelling/BATCH3_INSTRUCTIONS.md` describes them).
 
 ## Data notes
 

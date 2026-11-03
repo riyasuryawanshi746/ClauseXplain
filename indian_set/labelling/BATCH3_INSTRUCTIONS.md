@@ -3,7 +3,8 @@
 Texts and sheets are **local only** (gitignored: `indian_set/documents_batch3/`, `indian_set/labelling/batch3/`)
 because several documents name private individuals (leave-and-license parties, employees, salaries).
 Only this file and the tooling are in git, plus a redacted public copy of 13 of the documents
-(`indian_set/documents_batch3_redacted/`, from `indian_set/redact_batch3.py`; leave-and-license deeds left out).
+(`indian_set/documents_batch3_redacted/`, from `indian_set/redact_batch3.py`; leave-and-license deeds left out) and the
+public clause set `indian_set/clauses_v5_public.csv` -> `built_v5_public/` (769 clauses, from `make_public_v5.py`).
 
 ## Documents (15, all governed by Indian law, text layer, none in CUAD)
 

@@ -1,6 +1,7 @@
 # v5: 788 Indian clauses (v4 + batch 3)
 
-**Data.** `indian_set/clauses_v5.csv` -> `built_v5` (local only: batch 3 clauses name private individuals). v4's 334
+**Data.** `indian_set/clauses_v5.csv` -> `built_v5` (788 clauses, local only). Public version without the two
+leave-and-license deeds, identifiers masked: `clauses_v5_public.csv` -> `built_v5_public` (769 clauses). v4's 334
 clauses plus 454 batch 3 clauses (385 random units, 69 keyword top-up units; 69 units marked not-a-clause) from 15
 private-sector documents. Batch 3 labels: two annotators, guide v1 round 1 (kappa 0.57), re-check of the 200
 disagreements under guide v2 (kappa 0.73 over all 523 units), then 127 remaining disagreements adjudicated blind.

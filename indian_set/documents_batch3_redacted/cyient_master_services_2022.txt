@@ -1,0 +1,471 @@
+MASTER SERVICES AGREEMENT
+
+effective as of 13th December 2022 is made by and between Cyient Limited, a company incorporated under the Companies Act, 1956 and having its registered office at 11 Software Units Layout, Infocity, Madhapur, Hyderabad, 500081 (hereinafter referred to as "Cyient", which expression shall, unless it be repugnant to the context or meaning thereof, be deemed to mean and include its successors and permitted assigns), and Cyient DLM Limited, a company incorporated under the Companies Act, 1956 and having its registered office at , 3rd floor, Plot No. 11, Software Units Layout Infocity, Madhapur, Telangana 500081 India (hereinafter referred to as "Service Provider", which expression shall, unless it be repugnant to the context or meaning thereof, be deemed to mean and include its successors and permitted assigns)
+
+CYIENT and the Service Provider separately are hereinaf .
+
+In consideration of the mutual covenants, terms, and conditions herein contained, the Parties agree as follows:
+
+1. Definitions & Interpretation
+
+1.1 As used herein, the following terms shall have the meanings ascribed to them as set forth below:
+
+a.
+
+means this Master Services Agreement including its Annexures and any SOW(s)
+
+executed hereunder.
+
+b. Affiliate means any entity that controls, is controlled by, or is under common control with the relevant Party. For purposes of this Agreement, "control" means possessing, directly or indirectly, the power to direct or cause the direction of the management, policies or operations of an entity, whether through ownership of voting securities, by contract or otherwise.
+
+c.
+
+means the fees for the Services set out in the applicable SOW under this Agreement.
+
+d.
+
+means an order under this Agreement that sets out the description
+
+of the Services to be performed by the Service Provider as agreed between and signed by CYIENT
+
+and Service Provider from time to time. A SOW shall be entered into in a form substantially similar
+
+to the template attached to this Agreement as Annexure 1, and each executed SOW shall be
+
+incorporated under this Agreement.
+
+e.
+
+means the services performed by the Service Provider more particularly described
+
+under a SOW.
+
+f. Service Provider means a provider of Services and shall also include a consultant who provides expert advice professionally.
+
+g.
+
+means the individuals employed by the Service Provider.
+
+h. Site(s) means the location from / CYIENT location at which Service Provider shall provide the Services and as may be identified under the applicable SOW.
+
+i.
+
+shall mean and include Service Provider Employees, agents, contractors, sub-
+
+contractors and such personnel providing Services to CYIENT on behalf of the Service Provider.
+
+1.2 In this Agreement, unless the context requires otherwise:
+
+a. references to statutes or statutory provisions will include those statutes or statutory provisions as amended, extended, consolidated, re-enacted or replaced from time to time and any orders, regulations, instruments or other subordinate legislation made under them;
+
+b. references to any Party will, where relevant, be deemed to be references to or include, as appropriate, their lawful successors, assigns and transferees, use of the singular is deemed to
+
+include the plural, use of any gender is deemed to include every gender and any reference to a person is deemed to include a corporation, a partnership and other body or entity and (in each case) vice versa;
+
+c. the Annexures referenced in this Agreement set forth additional obligations, covenants and other provisions for the implementation and interpretation of this Agreement, and accordingly, all provisions of this Agreement shall be read together with the relevant provisions of such Annexures; and
+
+d. the headings will not affect interpretation.
+
+1.3 SOWs shall only become effective and legally binding once agreed and signed by the Parties and no obligation to provide or purchase the Services described in the respective SOW shall exist between the Parties unless and until a SOW is so executed and delivered by the Parties. The terms of this Agreement shall apply to each SOW save to the extent any provision of this Agreement is inconsistent with any provision of the SOW or to the extent CYIENT and Service Provider agree in writing to vary the application of the terms of this Agreement under such SOW. SOWs shall be deemed to form part of this Agreement. In the event that there is a conflict between the terms and condition of a SOW and the Agreement, the terms of the SOW shall prevail.
+
+2. Term
+
+2.1 This Agreement shall begin upon the Effective Date and shall expire on the 5th anniversary of the Initial Term Renewal Term
+
+(90) days prior written notice to the other Party of its intent to terminate this Agreement.
+
+3. Engagement
+
+3.1 This Agreement sets forth the general terms and conditions governing the contractual relationship between CYIENT and Service Provider. During the term of this Agreement, Service Provider will perform the Services as specified in the respective SOW. Any changes to the SOW terms shall be mutually agreed by the Parties and documented by executing a change request in the form as
+
+3.2 CYIENT mutual agreement in writing regarding the specific terms and conditions applicable to each project, enter into one or more SOWs setting forth the specific terms and conditions applicable to Services to be provided under this Agreement by Service Provider to the CYIENT. The Parties further agree that any of CYIENT Affiliates by entering into separate SOW(s) pursuant to this Agreement.
+
+4. Payment & Taxes:
+
+4.1 Unless otherwise agreed upon in a SOW, Cyient will pay Service Provider a service fee equal to the costs incurred by Service Provider plus a mark-up of 5% on such costs. Such mark-up might be adjusted/reviewed/revised by the mutual agreement of the parties from time to time. However, in no case the rates shall exceed the price agreed in the specific work order received from the thirdparty customer. The invoice shall be raised on a monthly basis, unless otherwise stated in the relevant SOW and the undisputed Charges shall be paid within forty five (45) days from the receipt post deduction of applicable taxes. Where applicable, the Service Provider agrees to pay its employees not later than the date stipulated under law.
+
+4.2 Unless prohibited by law or otherwise specified under the applicable SOW, Service Provider shall pay all foreign, federal, state or local tax, transportation tax, or other tax which is required to be
+
+imposed upon the goods or services ordered, or by reason of their sale or delivery. The Charges shall be all inclusive of applicable taxes, if applicable for the receipt of the Services.
+
+4.3 GST, if any, applicable on the Services may be additionally billed by Service Provider to Cyient which Cyient herewith agrees to pay in addition to the agreed upon prices in a SOW.
+
+4.4 Withholding/TDS, if any, applicable on the payment by Cyient to Service Provider would be made according to the applicable Income Tax provision. Cyient herewith agrees to provide the withholding / TDS certificates within the statutory deadlines as provided in the Income Tax Act, 1961.
+
+5. Representations and Warranties
+
+5.1 Service Provider hereby confirms that it has taken all necessary action/ corporate action or authorization or approvals as may be required to execute and to perform its obligations under this Agreement;
+
+5.2 Service Provider represents and warrants that, the Services shall be in accordance with the SOW and shall meet specifications and details as determined by CYIENT and communicated to the Service Provider from time to time.
+
+5.3 The Service Provider shall perform and ensure performance of the Services in a timely, diligent, competent, highly professional manner and follow the best industry practices. The Service Provider hereby represents and warrants that all Services provided hereunder shall be performed in accordance with applicable laws for the time being in force.
+
+5.4 The Service Provider shall ensure observance and conformation to all applicable laws and
+
+standards of business ethics, honest business practices and shall ensure that the Service
+
+its
+
+entatives and agents shall not act
+
+and shall refrain from acting, in any manner that could materially harm or tarnish the reputation of
+
+CYIENT or the goodwill of CYIENT. In the event CYIENT is required to disclose any personal data
+
+with the Service Provider, CYIENT and Service Provider agree to execute relevant documentation
+
+as per the requirements of the relevant data protection regulations.
+
+5.5 The Service Provider hereby represents and warrants that it has and shall maintain all times, applicable permissions, licenses, authorizations, permits, etc. including any amendments that may be required by the Service Provider to provide the Services pursuant to the Agreement.
+
+5.6 Insurance: During the term of the Agreement, Service Provider, at its own cost and expense shall maintain appropriate insurance in accordance with generally accepted industry and upon request shall provide proof of such insurance to CYIENT. In the instance, the Service Provider fails to maintain and provide proof of insurance, CYIENT shall consider such action to be a breach of
+
+Section 7.2 of this Agreement.
+
+6. Indemnification
+
+6.1 Service Provider shall fully defend, indemnify and hold CYIENT and its respective officers, directors, employees, successors and permitted assigns, harmless from and against all losses arising from, in connection with or relating to losses, damages, and other actions and / or allegations including attorney fees or claims, demand, proceeding of third party claims based upon any:
+
+a) Acts or omissions, or negligence, or fraud by Service Provider and/or its Personnel;
+
+b) Service P
+
+its P
+
+CYIENT or any
+
+third party information including infringement of intellectual property rights ( IPR );
+
+c) The wrongful termination of, or abandonment of work under, any master statement of work and/or any schedule;
+
+d) Any actual, alleged, threatened or potential violation, contravention, or non-compliance of any laws, registrations, or licenses by Service Provider or its Personnel; and
+
+e) Any breach of Service P
+
+Agreement.
+
+6.2 Service Provider further agrees to indemnify and hold harmless CYIENT for any and all costs, damages and losses that CYIENT may incur resulting from (i) any claims for benefits that the Personnel makes under any employee benefit plans or compensation arrangements that CYIENT makes available to its employees, and (ii) any claims for taxes, penalties and interest made by any governmental authority arising out of any payments that Service Provider makes to the Personnel.
+
+6.3 Indemnification Procedures: Promptly after receipt of any written claim or notice of any action CYIENT, shall notify the Service Provider and provide copies of such Claim and any documents relating to same in its possession. No failure to so notify by CYIENT shall relieve the Service Provider of its indemnification obligations except to the extent, the failure is prejudicial to Service Provider in defending the Claim. The Service Provider shall be responsible for indemnification hereunder and shall have sole control over the defense and any settlement of such Claim; provided, however, that (i) CYIENT shall be entitled to participate in the defense of such Claim and to employ counsel at its own expense to assist in the handling of such Claim, and (ii) CYIENT shall obtain the prior written approval of the Service Provider before entering into any settlement of such Claim.
+
+7. Termination
+
+7.1 Termination for Convenience:
+
+Either Party may, by giving prior thirty (30) days written notice to the other Party, terminate the Agreement for convenience, as of the date specified in the notice of termination.
+
+7.2 Termination with Cause:
+
+Either Party may on written notice to the other Party immediately terminate the Agreement or the
+
+relevant SOW under this Agreement if the other Party commits a material breach of any of its
+
+obligations hereunder:
+
+(i)
+
+if capable of being remedied, is not remedied within 30 days of receiving written notice by the other
+
+Party specifying that the notifying Party has the right to terminate under this Section if the breach
+
+is not remedied; or
+
+(ii) is not capable of being remedied.
+
+8. Service Provider Employee Qualifications and other requirements Service Provider shall retain only such Personnel with suitable professional training to perform the Services for CYIENT under this Agreement. CYIENT shall have the right to reject with reasonable justifications in writing to the Service Provider any Service Provider Personnel whom CYIENT reasonably finds to be unacceptable at any time and require the immediate removal of such Service Provider Employee from performing any Services under this Agreement. In the event CYIENT deems it necessary, Service Provider shall promptly identify an acceptable replacement.
+
+8.1 Status of Service Provider Employees Service Provider acknowledges and agrees that any Service Provider Employee it furnishes to perform Services for CYIENT under this Agreement is an employee of Service Provider and is not an employee of CYIENT. Service Provider acknowledges and agrees that all matters of compensation and benefits (including without limitation, pension plans, profit sharing plans, life insurance plans, medical plans, disability plans, severance plans, vacation or sickness arrangements, bonus or stock option arrangements, or any other compensation or incentive compensation arrangements) of any nature whatsoever for the Service Provider Employee is solely a matter between Service Provider and the Service Provider Employee.
+
+8.2 Misrepresentation as an Employee
+
+At no time shall any Service Provider Employee represent himself or herself as an employee of CYIENT.
+
+8.3 Subcontractors
+
+Service Provider will not retain any subcontractors to perform work under this Agreement without
+
+the prior written consent of CYIENT provided, however, that Service Provider may retain
+
+subcontractors without CYIENT
+
+such
+
+subcontractors is set forth and approved by CYIENT and attached as annexure to this Agreement
+
+or any subsequent Statement of Work agreed between the Parties. Notwithstanding the foregoing,
+
+no permitted subcontracting shall relieve Service Provider of its responsibility and liability for any
+
+work performed by its subcontractor. CYIENT shall have the right to reject any subcontractor
+
+employee whom CYIENT finds to be unacceptable at any time and require the immediate
+
+termination or removal of such subcontractor. Upon such termination or removal, CYIENT shall
+
+have no liability to Service Provider for work performed by such subcontractor, other than work
+
+performed prior to the date of termination or removal.
+
+8.4 Change of Resources In the event Service Provider must replace a Service Provider Employee performing Services under this Agreement for any reason, and the replacement for that Service Provider Employee requires
+
+9. Confidentiality
+
+9.1 Service Provider
+
+agrees to treat as confidential all information, which may at any time
+
+come into its possession which relates to any actual or proposed business activities, financial
+
+affairs, products, developments, trade secrets, customers or suppliers or other information which
+
+may reasonably be regarded as confidential, obtained from or made available by CYIENT
+
+, in whatever form, whether in verbal, paper, electronic or digital but does not
+
+include any information to the extent the Recipient can show the relevant information:
+
+(a) is publicly known at the time of disclosure or becomes publicly known other than through a breach of this Agreement;
+
+(b) is already or comes in the unrestricted possession of the Recipient without there having been any
+
+(c) has been independently developed by the Recipient (as evidenced by records in its possession); or
+
+(d) legally must be disclosed, or is required to be disclosed pursuant to the listing rules of any applicable stock exchange, provided that prior to making the disclosure the Recipient has given the Disclosing Party notice of the request for disclosure and where practical obtained a confidentiality order or similar protection limiting the persons to whom disclosure of the Confidential Information is made.
+
+9.2 The Recipient may share such information only to its own employees, advisors, agents or subcontractors, on a need-to-know basis to the extent required to perform the obligations under this Agreement. The requirements of this Section shall survive for three (3) years post the expiry of this Agreement. Recipient shall immediately return to the Disclosing Party or destroy any and all Information under its possession, and will not at any time thereafter use, copy, reproduce, transmit or furnish to any other party, any such Information. The Service Provider shall provide in writing of compliance of this Section post expiration/ termination of this Agreement.
+
+10. Intellectual Property Rights
+
+10.1. Service Provider represents and warrants that it shall not license or use CYIENT marks or similar
+
+name or mark for its favour without the prior written consent of CYIENT. CYIENT marks shall
+
+include CYIENT
+
+designs,
+
+copyrights, patent and database rights (whether or not any of these is registered and including
+
+applications for registration of any such thing) and all rights or forms of protection of a similar nature
+
+or having equivalent or similar effect to any of these which may subsist anywhere in the world.
+
+10.2. Service Provider shall promptly disclose in writing to CYIENT all deliverables pursuant to the
+
+provisioning of services and all deliverables shall be deemed to be commissioned by CYIENT and
+
+CYIENT including all intellectual property
+
+rights contained in the deliverables. Service Provider shall promptly give CYIENT all reasonable
+
+assistance and execute all documents and enable CYIENT to register its rights in the deliverables.
+
+Service Provider hereby appoints CYIENT
+
+attorney-in-fact to
+
+execute, deliver and file as and if necessary, any and all documents necessary to give effect to the
+
+provisions of this Section and to take all actions necessary thereo
+
+name with the same force and effect as if executed, delivered and/or filed by Service Provider.
+
+11. Limitation of Liability
+
+11.1. Indirect Damages
+
+11.1.1.
+
+Except as set forth in Section 11.1.2 below, neither Party shall be liable for indirect, consequential, exemplary, special or punitive damages (or any comparable category or form of such damages, howsoever characterized in any jurisdiction), regardless of the form of action, whether in contract, tort, strict liability or otherwise, and even if foreseeable or if such Party has been advised of the possibility of such damages.
+
+11.1.2.
+
+The exclusion set forth in Section 11.1.1 shall not apply to (i) fraud, malicious or willful misconduct,
+
+gross negligence of a Party; (ii) any breac
+
+-disclosure or confidentiality obligations
+
+contained in this Agreement; (iii) any claim that is the subject of indemnification pursuant to Section
+
+7; (iv) personal injury, wrongful death or property damage; or (v) any breach of IPR pursuant to
+
+Section 10; (vi) any non-compliance or breach of the provisions pursuant to Sections 5 and 6
+
+relating to Obligations of the Service Provider and Representations and Warranties respectively;
+
+(vii) any non-compliance or breach of data protection laws as applicable.
+
+11.2. Direct Damages
+
+11.2.1.
+
+Subject to the exclusion of Section 11.1.2, t
+
+aggregate liability for damages
+
+under this Agreement shall not exceed three (3) times of the amount of aggregate of Charges
+
+paid or payable by CYIENT pursuant to this Agreement in the twelve (12) months preceding the
+
+act, omission or event (or if multiple acts, omissions or events, the last date of same) giving rise to
+
+such claim or action or twenty four (24) times the average monthly Charges in case the claim arose
+
+within the first twelve (12) months from the Effective Date of this Agreement.
+
+11.2.2. The Parties mutually agree that the following shall be considered as direct damages:
+
+a) Costs of recreating or reloading any of CYIENT
+
+b) Costs of implementing a workaround in respect of improper Services or failure to provide the Services in accordance with the Agreement or any schedules forming part of the Agreement arising from an act or omission of the breaching Party;
+
+c) Costs of replacing lost or damaged CYIENT facilities, equipment, software or other materials;
+
+d) Costs and expenses incurred to correct errors committed by the Service Provider in facilities, equipment and/or software maintenance and enhancements provided as part of the Services;
+
+e) Costs and expenses incurred to procure the services from an alternate source; and
+
+f) Cost and expenses incurred by CYIENT including not limited to wages and salaries of additional employees, travel expenses, overtime expenses, telecommunication charges and similar charges due to the failure of the Service Provider to provide the Services.
+
+11.2.3. Each Party shall have a duty to mitigate damages for which the other Party is liable.
+
+11.3. Section 11.1.2 shall not be applicable to CYIENT and CYIENT liabilities and damages arising out of or in connection with this Agreement (whether caused by negligence or otherwise) shall in no event be greater than in any year a sum equal to the Charges paid during the last six (6) months pursuant to relevant SOW of this Agreement.
+
+12. Governing Law and Arbitration
+
+12.1. The Parties agree that this Agreement shall be governed by, enforced and construed under and in accordance with the Indian laws, without regards to its rules on conflict of laws and the Parties submit to the exclusive jurisdiction of the courts in India. Any dispute, controversy, differences or claim arising out of or in connection with this Agreement or the relevant SOW, shall be referred to the arbitration, of a sole arbitrator. The arbitration shall be subject to the Arbitration and Conciliation Act, 1996 as may be amended from time to time. The seat and venue of arbitration shall be Hyderabad. The prevailing party shall be entitled to receive its reasonable attorney's fees and all costs relating to the arbitration. Any award rendered by arbitration shall be final and binding on the parties, and judgment thereon may be entered in any court of competent jurisdiction mentioned below.
+
+13. Force Majeure
+
+13.1. Non-Performance Due to Force Majeure: Neither Party shall be liable to the other Party for any delay or non-performance of its obligations, except for monetary obligations (including compliance with Service Level obligations) under this Agreement or any applicable SOWs, to the Force Majeure Event including but not limited to acts of God, war, riots, embargoes, civil commotions or sabotage, acts of civil or military authorities, national or state emergencies or other governmental action / restrictions imposed , (including but not limited to a lockdown, shutdown, curfew or red alert) prohibiting or impeding any Party from performing its respective obligations under the Agreement, acts of terrorism, fire, explosions or other catastrophes, floods, earthquakes other severe weather, pestilence, epidemics/pandemics, strikes, lockouts, cyberattacks or any other similar cause or situation, subject to the affected Party:
+
+(i) promptly notifying the other Party in writing of such delay or prevention, stating the commencement date and extent of such delay or prevention, the cause thereof and estimated duration of delay or prevention; (ii) using all reasonable endeavors to limit the effect of that delay or non-performance on the other Party.
+
+13.2. Reasonable Endeavors for Mitigation: The occurrence of a Force Majeure event shall not excuse the Service Provider from performing its business continuity responsibilities, unless the functioning of the business continuity plan itself is incapacitated by the Force Majeure Event. In the event that CYIENT or the Service Provider is delayed or prevented from performing its obligations under this Agreement by a Force Majeure Event, such Party shall:
+
+(i) use all reasonable endeavors to mitigate the effects of such delay or prevention on the performance of its obligations under this Agreement or any applicable SOWs; (ii) keep CYIENT informed of all developments relating to the Force Majeure Event; and (iii) continue to perform all of its obligations under this Agreement or any applicable SOWs, the performance of which is not affected by the Force Majeure Event.
+
+13.3 Termination due to Force Majeure/Disaster Delays: This Agreement and/or relevant SOW may be terminated (in whole or in part), by CYIENT upon giving prior notice in writing to the Service Provider if the Agreement has been temporarily suspended for a period of fifteen (15) calendar days or more due to a Force Majeure Event which continues to materially affect performance pursuant to this Agreement.
+
+14. Miscellaneous Provisions
+
+14.1. Record Retention: Service Provider shall ensure retention of records of CYIENT or documents created for CYIENT as per the applicable government regulations and laws applicable for such records and for such periods as may be applicable in that jurisdiction.
+
+14.2. Return of Materials: Upon termination of the Agreement, Service Provider shall return to CYIENT
+
+or at CYIENT
+
+CYIENT or relating to
+
+CYIENT
+
+14.3. Notices: Any notice required or permitted to be given hereunder shall be in writing and sent by prepaid registered mail or by a courier service, in the manner as elected by the Party giving such notice to the following addresses
+
+To CYIENT: [REDACTED] Service Provider: [REDACTED] All notices shall be deemed to have been validly given on the date of receipt of the courier or seven (7) days after posting if dispatched by registered mail and/or speed post acknowledgment due. Either Party may, from time to time, change its address or representative for receipt of notices provided for in this Agreement by giving notice to the other Party.
+
+14.4. Assignment: The Service Provider may not assign this Agreement or the rights or obligations hereunder without the express prior written consent of CYIENT, However CYIENT shall assign or transfer its rights or obligations of this Agreement to its affiliates.
+
+14.5.
+
+Rights of Audit: CYIENT shall reserve the right to audit at its cost (not more than two times a contract year during the term and two years post expiry or termination of this Agreement), by providing prior seven (7) days written notice to validate the compliance of obligation by the Service Provider including (i) Charges (ii) provision of Services (iii) confidentiality provisions, (iv) IPR, (v) compliance of laws. If any non-compliance is revealed in the audit, CYIENT reserves to terminate the Agreement and recover its loss pursuant to the breach of the Service Provider.
+
+14.6. No Third-Party Beneficiaries: The provisions hereof are for the benefit of the Parties and not for any other person or entity.
+
+14.7.
+
+Relationship: Nothing contained in this Agreement is intended to create, nor shall it be construed to create, a relationship between the Parties other than that of two independent parties contracting with each other solely for the purpose of effectuating the provision of this Agreement. The Service Provider shall be responsible for its employees, agents, contractors and sub-contractors and CYIENT shall not be responsible nor has any relationship subject to the provisions of this
+
+Agreement. Each Party therefore shall be responsible for compliance with any statutory and regulatory requirements with respect to their respective personnel and/or employees and shall indemnify the other Party against any claims arising due to failure to comply with such statutory and regulatory requirements.
+
+14.8. Survival: Any provision of this Agreement that contemplates performance or observance subsequent to any termination or expiration of this Agreement shall survive any termination or expiration of this Agreement and continue in full force and effect.
+
+14.9.
+
+Waivers and Amendments: Waiver by either Party of any default by the other Party shall not be deemed a waiver of any other default. No provision hereof shall be deemed waived, amended or modified by either Party, unless such waiver, amendment or modification is in writing and signed by the authorized representative of the Party against whom it is sought to enforce such waiver, amendment or modification.
+
+14.10. Headings: The Article, Section and paragraph headings contained herein are for reference purposes only and shall not affect in any way the meaning or interpretation hereof.
+
+14.11. Severability: The provisions hereof are severable. If any part, term or provision hereof shall be held illegal, unenforceable or in conflict with any law of a federal, state or local government having jurisdiction over this Agreement, the validity of the remaining portion or portions shall not be affected thereby. Any invalid or unenforceable provision hereof shall be replaced with a provision, which is valid and enforceable, and most nearly reflecting the original intent of the unenforceable provision.
+
+14.12. Entire Agreement: This Agreement constitutes the entire agreement between the Parties in respect of the subject matter hereof. This Agreement supersedes any and all prior agreements either oral or in writing among the Parties in respect of the subject matter thereof.
+
+For and on behalf of CYIENT Limited
+
+For and on behalf of Cyient DLM Ltd.
+
+Authorized Signatory
+
+Authorized Signatory
+
+ANNEXURE I
+
+[TEMPLATE]
+
+STATEMENT OF WORK No.
+
+(Name of the Project)
+
+_____________ CYIENT ______________ CYIENT and is governed by the terms and conditions of the Master Services Agreement executed between Service Provider and CYIENT .
+
+This SOW is divided into the following Sections:
+
+A. Scope of Services Description of the services, estimated timeframes B. Deliverables Identifiable work product resulting from the Services C. Charges Fee schedule for CYIENT resources D. Assumptions and Dependencies Client obligations and other understood facts E. Additional Terms and Conditions
+
+A. Scope of Services
+
+The project will begin on ${contract.effective_date} later than ______________, 20___. Notwithstanding anything contained in CYIENT to the Service Provider.
+
+until no the Agreement,
+
+B. Deliverables
+
+(To be agreed upon and listed)
+
+C. Charges
+
+In consideration of the provision of the Services and all other activities and services to be provided by Service Provider under this SOW, CYIENT shall pay to Service Provider the fees set out below; (To be agreed upon and listed)
+
+D. Assumptions and Dependencies
+
+(To be agreed upon and listed)
+
+E. Additional Terms and Conditions: In addition to the above, the following terms and conditions would be applicable for the Services provided hereunder:
+
+(To be agreed upon and listed)
+
+IN WITNESS WHEREOF, this SOW has been duly executed by and on behalf of the Parties hereto as of the Effective Date.
+
+CYIENT LIMITED
+
+By: Name: Title:
+
+CYIENT DLM LTD.
+
+By: Name: Title:
+
+ANNEXURE II [TEMPLATE]
+
+CHANGE REQUEST FORM This Change Request is executed by and between CYIENT ____________
+
+CYIENT and -DDD-YYYY]
+
+CHANGE REQUEST NUMBER: ORIGINATOR OF CHANGE REQUEST: [name of person] [CYIENT/Service Provider] DATE OF CHANGE REQUEST: [MM-DDD-YYYY] DESCRIPTION OF CHANGE To be filled in by the person requesting the change CHANGE REQUEST TO [MSA/ SOW / Document name] DETAILS OF CHANGE [Please provide complete description of change.] [Please mention Change type: Temporary or Permanent] REASON FOR THE PROPOSED CHANGE
+
+IMPACT OF CHANGE Scope: [State the impact on scope of the project] Quality: [State the impact on quality of deliverables of the project] Cost: [State the impact on cost of the project] Time: [State the impact on timelines of the project] ESTIMATE OF COST TRANSFER (IF APPLICABLE)
+
+TIMETABLE FOR IMPLEMENTING THE CHANGE, AND PROJECT PLAN FOR ACHIEVING COMPLETION
+
+LIST OF DELIVERABLES REQUIRED FOR IMPLEMENTING THE CHANGE
+
+RELEVANT ACCEPTANCE CRITERIA (If Applicable)
+
+PROPOSED AMENDMENTS TO THE SOW AS REQUIRED (LIST SPECIFIC SECTIONS)
+
+AMENDMENTS TO OTHER ANNEXURES OR ATTACHMENTS TO THE SOW
+
+DETAILS OF PREVIOUSLY REJECTED CHANGES OR OUTSTANDING CHANGES THAT ARE ASSOCIATED WITH OR AFFECTED BY THIS CHANGE
+
+Agreed date of change Authorised by [CYIENT Entity] Authorised by Service Provider entity
+
+Date Date

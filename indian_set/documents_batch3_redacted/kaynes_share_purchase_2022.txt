@@ -1,0 +1,1073 @@
+SHARE PURCHASE AGREEMENT
+
+AMONGST ASHOKA INDIA EQUITY INVESTMENT TRUST PLC
+
+(as the Purchaser) AND MR. RAMESH KUNHIKANNAN (as the Seller)
+
+OCTOBER 19, 2022
+
+SHARE PURCHASE AGREEMENT
+
+This Share Purchase Agreement (“Agreement”) is made on the 19th day of October 2022 (“Effective Date”)
+
+BY AND AMONGST:
+
+A. Ashoka India Equity Investment Trust Plc., a company registered under the laws of United Kingdom with permanent account number [REDACTED] and having its registered office at 6th Floor, 125 London Wall, London, EC2Y 5AS (hereinafter referred to as the “Purchaser”, which expression shall, unless it be repugnant to the context or meaning thereof, mean and include its successors and permitted assigns) of the FIRST PART; and
+
+B. Mr. Ramesh Kunhikannan, an Indian resident, currently residing at 128/11, Rukmani, Emerald Enclave, Belvadi Post, Angahalli, Mandya, Karnataka, India – 571606 and having PAN number [REDACTED] (hereinafter referred to as the “Seller”, which expression shall unless it be repugnant to the context or meaning thereof, be deemed to mean and include its successors and permitted assigns) of the SECOND PART.
+
+The Seller and the Purchaser shall hereinafter be referred to collectively as the “Parties” and individually as a “Party”.
+
+WHEREAS:
+
+A. The Company (as defined hereinafter) is inter alia involved in the business of electronic system and design manufacturing services as well as undertakes conceptual design, manufacture and testing of high reliability of printed circuited boards, box build, products and systems integration services, military wire / cable harness. The Company also offers services such as systems design and engineering, equipment installation and commissioning including support for on board systems, overhauling and maintenance of electronic and electrical equipment’s, component level electronic card repair and re-engineering/ obsolescence management, plc programming and system commissioning and systems integration activities. The Company is proposing to launch an initial public offer of its securities. The Company has filed a draft red herring prospectus dated April 13, 2022 with the Securities Exchange Board of India (“SEBI”) on April 14, 2022.
+
+B. As of the Effective Date, the authorized share capital of the Company is Rs. 720,000,000/- divided into 70,000,000 Equity Shares (as defined hereinafter) of face value of Rs. 10/- each and 2,000,000 compulsorily convertible cumulative participating preference shares of Rs. 10/- each and the paidup share capital of the Company is Rs. 491,135,360/- divided into 49,113,536 Equity Shares of face value of Rs. 10/- each. The shareholding pattern of the Company on a Fully Diluted Basis (as defined hereinafter) as on the Effective Date is more fully set out in Part A of Annexure I. The shareholding pattern of the Company on a Fully Diluted Basis as on the Completion Date is more fully set out in Part B of Annexure I.
+
+C. As on the Effective Date, the Seller is the promoter and managing director and oversees the management functions of the Company. The Seller is the sole, legal and beneficial owner of 40,779,920 Equity Shares of the Company representing approximately 81.50% of the Share Capital (as defined hereinafter) of the Company on a Fully Diluted Basis and has the right to sell the Sale Shares (as defined hereinafter), free from all Encumbrances (as defined hereinafter), without any restrictions together with all rights, title and interest therein.
+
+D. The Seller has agreed to sell, and the Purchaser has agreed to purchase and acquire from the Seller, the relevant Sale Shares, together with all rights, title and interest therein, free from all Encumbrances, on the terms and conditions set out herein, and based on the representations, warranties, indemnities, undertakings and covenants provided by the Seller under this Agreement.
+
+E. The Seller hereby agrees and acknowledges that the Sale Consideration payable under this Agreement is good and adequate consideration in order to transfer clear, good and marketable title of the Sale Shares to the Purchaser and all claims with respect to the sufficiency or adequacy of the Sale Consideration are hereby waived by such Seller.
+
+F. In connection with the foregoing, the Parties are now desirous of entering into this Agreement to set forth the terms and conditions agreed between them for the sale and purchase of the Sale Shares.
+
+NOW, THEREFORE, IN CONSIDERATION OF THE REPRESENTATIONS, PROMISES AND MUTUAL COVENANTS AND AGREEMENTS SET FORTH HEREIN, THE PARTIES HERETO AGREE AS FOLLOWS:
+
+1. DEFINITIONS AND INTERPRETATION
+
+1.1. Unless otherwise mentioned in the Agreement, the following terms shall carry the meaning assigned to them in this Clause 1.1: “281 Memorandum” as the meaning ascribed to it under Clause 3.3.1 of this Agreement; “Act” shall mean the Companies Act, 1956, and/or Companies Act, 2013, as applicable and as amended, modified or re-enacted from time to time and any rules, regulations, notifications and clarifications made thereunder and to the extent notified; “Affiliate”, with respect to a Person, shall mean any Person who, Controls, is Controlled by or is under common Control with such Person, including, without limitation any general partner, managing member, officer, director, or trustee of such Person and any venture capital or other investment fund or registered investment company now or hereafter existing which is Controlled by or under common Control with one or more general partners, managing members, or investment advisors of or shares the same management company or investment advisor with such Person. Without limiting the generality of the foregoing, Affiliate in relation to the Parties includes: (a) any fund, collective investment scheme, trust, partnership (including, any co-investment partnership), special purpose or other vehicle, in which the Party is a general or limited partner, significant shareholder, investment manager or advisor, settlor, member of a management or investment committee or trustee; (b) any general partner of the Parties; and (c) any fund, collective investment scheme, trust, partnership (including, any co-investment partnership), special purpose or other vehicle in which any general partner of the Parties is a general partner, significant shareholder, investment manager or advisor, settlor, member of a management or investment committee or trustee; “Anti-Corruption Laws” shall mean laws, regulations or orders relating to anti-bribery or anticorruption (governmental or commercial), including, without limitation and to the extent applicable, the US Foreign Corrupt Practices Act, 1977, as amended from time to time, the (Indian) Prevention of Corruption Act,1988, as amended from time to time, or the UK Bribery Act, 2010, as amended from time to time, or any other similar national laws and international anti-bribery conventions;
+
+“Applicable Laws” shall mean in relation to a Person, all statutes, enactments, acts of legislature, laws, ordinances, rules, permits, consents, approvals, authorizations, orders, decree or judgment of any court or any Governmental Authority, regulations, notifications, guidelines, policies, codes, directions, directives and orders, of any Governmental Authority or any judicial or administrative interpretation thereof or recognized stock exchange international treaties, conventions or protocols, having the force of law in India, applicable to such Person; “Approved Form” shall have the meaning ascribed to it in Clause 5.2 of this Agreement; “Business Day” shall mean a day on which scheduled banks are open for normal banking transactions, other than a Saturday or Sunday, in London, Bengaluru and Mysore; “Company” shall mean Kaynes Technology India Limited, a company incorporated under the laws of India under the provisions of the Act, having company identification number (CIN) U29128KA2008PLC045825 and having its registered office at 23-25, Belagola, Food Industrial Estate, Metagalli P.O., Mysore – 570016, Karnataka, India; “Completion” shall have the meaning ascribed to it in Clause 4.1 of this Agreement; “Completion Certificate” shall have the meaning ascribed to in Clause 3.1 of this Agreement; “Completion Date” shall have the meaning ascribed to it in Clause 4.1 of this Agreement; “Conditions Precedent” shall have the meaning ascribed to it in Clause 3.1 of this Agreement; “Control” (including with correlative meaning, the terms, “Controlling”, “Controlled by” and “under Common Control with”) shall mean with respect to any Person: (i) legal or beneficial ownership of 50% (fifty percent) or more of the equity shares, equity securities or other voting securities of such Person; (ii) the power to direct the management or policies of such Person; or (iii) the power to appoint or remove a majority of the directors on the board of directors or (iv) other similar governing body, if applicable of such Person by virtue of ownership of voting securities or management or contract or in any other manner, whether directly or indirectly, including through one or more other Person; “Dispute” shall have the meaning ascribed to it in Clause 14.1 of this Agreement; “Dispute Notice” shall have the meaning ascribed to it in Clause 14.2 of this Agreement; “Effective Date” shall have the meaning ascribed to it in the Recitals of this Agreement; “Encumbrance” means: includes: (i) any mortgage, charge (whether fixed or floating) (statutory or contractual), pledge, hypothecation, assignment, deed of trust, escrow, charge, lien or other security interest or encumbrance of any kind, securing or conferring any priority of payment in respect of any obligation of any Person, including any right granted by a transaction which, in legal terms, is not to the granting of security but which has an economic or financial effect similar to the granting of security under Applicable Law; or (ii) any restriction or limitation of any nature whatsoever (including any restriction or limitation imposed by way of court orders, arbitration awards, injunctions or any similar order or ruling issued by a Governmental Authority or other judicial/ quasi-judicial authority), or (iii) any voting agreement, interest, option, right of first offer, refusal or transfer restrictions in favour of any Person; or (iv) any adverse claim as to title, possession or use; or (v) any other agreement or arrangement having a similar effect on the
+
+transferability of the Sale Shares and the term “Encumber” shall be construed accordingly; “Equity Shares” shall mean the equity shares of the Company currently having a par value INR 10 (Indian Rupee Ten only); “FEMA Regulations” shall mean the Foreign Exchange Management Act, 1999, and the rules, regulations, notifications, press notes, circulars and directions issued under or pursuant to the Foreign Exchange Management Act, 1999 and includes the extant foreign direct investment policy of the Government of India issued by the Department of Industrial Policy and Promotion, Ministry of Commerce and Industry, Government of India; “Fully Diluted Basis” shall mean that the calculation is to be made assuming that all equity securities are converted (or exchanged or exercised) into Equity Shares of the Company (whether or not by their terms then currently convertible, exercisable or exchangeable), including without limitation stock options (including employee stock options), warrants and any outstanding commitments to issue Equity Shares at a future date, whether or not due to the occurrence of an event or otherwise, have been so converted, exercised or exchanged into Equity Shares of the Company in accordance with the terms of their issuance; and it is clarified that any employee stock options, would be included for the aforesaid calculation irrespective of whether or not they have been issued; “Governmental Authority” shall mean any governmental, quasi-governmental or statutory authority, ministry, government department, agency, commission, board, tribunal or court or other entity exercising executive, legislative, judicial, regulatory or administrative functions of or purporting to have jurisdiction or any state or other subdivision thereof or any municipality, district or other subdivision thereof having jurisdiction pursuant to the Applicable Laws, including but not limited to any authority which has, or would have, any jurisdiction in relation to any activities of the Company or any subsidiary/ies (as existing from time to time) and includes an arbitral tribunal of competent jurisdiction and applicable securities exchanges; “Government Official” means any (a) employee or official or any Person acting for or no behalf of: (i) a Governmental Authority; (ii) an instrumentality of a Governmental Authority, including any state-owned or state-controlled enterprise, government agency or government advisor; or (iii) a public international organization; (b) political party or party official; or (c) candidate for political office; “INR” or “Rupees” shall mean Indian Rupees, being the lawful currency of the Republic of India; “Income Tax Act” shall mean the Indian Income-tax Act, 1961, as amended, re-enacted or replaced from time to time together with all applicable bye-laws, rules, regulations, orders, ordinances, policies, directions and the like issued thereunder; “Information” shall have the meaning ascribed to it in Clause 11.1 of this Agreement; “Long Stop Date” shall have the meaning ascribed to it in Clause 3.1 of this Agreement; “Losses” shall mean any and all losses (whether on account of cash flow or otherwise), claims, damages (whether or not resulting from third party claims) including interests and penalties, costs (including without limitation amounts paid in settlement, court costs, accountants’ fee, disbursements and legal costs), liabilities and expenses including all Taxes, in each case of any nature whatsoever excluding punitive, indirect or consequential losses;
+
+“Person” shall mean any natural person, entity, firm, company, corporation, Governmental Authority, joint venture, association, partnership (whether limited or unlimited), limited liability partnership, proprietorship, joint venture, association of persons, society or other entity (whether or not having separate legal personality), Hindu undivided family;
+
+“Price” shall have the meaning ascribed to it in Clause 2.1 of this Agreement;
+
+“Purchaser Demat Account” shall mean the demat account of the Purchaser, details of which is set out as follows:
+
+Custody Account Number Client ID Name of Depository Participant DPID
+
+[REDACTED] [REDACTED] Kotak Mahindra Bank Limited [REDACTED]
+
+“Purchaser Indemnified Persons” shall have the meaning ascribed to it in Clause 8.1 of this Agreement;
+
+“Sale Consideration” shall mean an aggregate amount of INR 500,003,028.76/- (Indian Rupees fifty crore three thousand and twenty-eight point seven six only) which shall be payable by the Purchaser to the Seller as full and final consideration for the Sale Shares;
+
+“Seller’s Bank Account” shall mean the bank account of the Seller, details of which is set out below:
+
+Account holder name as per bank account Bank Name Bank Branch Address Account Number Type of Account (Saving, Current, etc.) NEFT / IFSC
+
+Ramesh Kunhikannan Axis Bank Mysore (KT) Branch, Mysuru 570002 [REDACTED] Savings UTIB0000151
+
+“Seller’s Demat Account” shall mean, the demat account of the Seller, details of which is set out as follows:
+
+Depository Participant Depository Participant ID Account Holder NSDL Account
+
+Integrated Enterprises (India) Private Limited [REDACTED] [REDACTED]
+
+“Sale Shares” shall mean a total of 807,668 Equity Shares of the Company to be sold by the Seller to the Purchaser for the Sale Consideration;
+
+“SEBI” shall mean the Securities Exchange Board of India;
+
+“Share Capital” shall mean the issued and fully paid-up equity and preference share capital of the Company;
+
+“Tax” or “Taxes” shall mean: (a) any tax recoverable or levied Act, in respect of the purchase and
+
+sale of the Sale Shares, as contemplated under this Agreement, upon such Purchaser in its capacity as a representative assessee of the Seller; (b) any tax, imposed on the Purchaser as a result of the Purchaser not withholding tax from its respective portion of the Sale Consideration paid to the Seller for the transfer of the relevant Sale Shares, by the Seller to the Purchaser; and (c) any fines, fees, charges, surcharge, cess, interest or penalty by whatever name called, imposed with respect to (a) and/or (b) above and includes without limitations all forms of taxes including income tax, withholding tax, capital gains tax, tax deducted at source, wealth tax, goods and services tax, value added taxes, and similar charges of any jurisdiction and shall include any interest, fines and penalties related thereto and, with respect to such taxes, any estimated tax, interest and penalties or additions to tax and interest on such penalties and additions to tax chargeable against or attributable to the Seller (whether payable on its own account or in a representative capacity) or/ and the Company; “Tax Authority” means any relevant authority under the Income Tax Act; “Tax Proceeding” includes suits, recovery proceedings, demands, claims, assessment proceedings, re-assessment proceedings (including in a representative capacity), block assessments, tax deduction at source related proceedings, interest or penalty related proceedings, rectification, stay of demand related proceedings, appeals (at any level) or similar actions in respect of (i) returns, which are filed but in respect whereof no notice has been received; and / or (ii) appeals pending to be filed; and “Transaction” shall mean the share purchase transaction contemplated under this Agreement and more fully described in Clause 2.1 of this Agreement.
+
+1.2. Interpretation: Except where the context requires otherwise, this Agreement will be interpreted as follows:
+
+1.2.1. In addition to the above terms, certain terms may be defined in the recitals or elsewhere in this Agreement, and wherever such terms are used in this Agreement, they shall have the meaning so assigned to them.
+
+1.2.2. The terms referred to in this Agreement shall, unless defined otherwise or inconsistent with the context or meaning thereof, bear the meaning ascribed to them under the relevant statute / legislation.
+
+1.2.3. All references in this Agreement to Applicable Laws shall be construed as meaning and including references to:
+
+(a) any statutory modification, consolidation or re-enactment made after the Effective Date and for the time being in force;
+
+(b) all statutory instruments or orders made pursuant to a statutory provision; and
+
+(c) any statutory provisions of which these statutory provisions are a consolidation, reenactment or modification.
+
+1.2.4. Headings and bold typeface are inserted only for ease of reference and shall be ignored for the purpose of interpretation or construction of this Agreement.
+
+1.2.5. Words denoting the singular shall include the plural and vice versa, words importing the
+
+masculine shall include the feminine and neuter and vice versa and words importing persons shall include body corporate, unincorporated associations and partnerships.
+
+1.2.6. The expressions “hereof”, “herein” and similar expressions shall be construed as references to this Agreement as a whole and not limited to the particular Clause or provision in which the relevant expression appears.
+
+1.2.7. The words of any gender include each other gender.
+
+1.2.8. The words “including” and “includes” herein shall always mean “including, without limitation” and “includes, without limitation”, respectively.
+
+1.2.9. A reference to a Party being liable to another party, or to liability, includes, but is not limited to, any liability in equity, contract or tort (including negligence).
+
+1.2.10. References to Recitals, Clauses, Annexures or Exhibits are, unless the context otherwise requires, references to recitals, clauses, annexures and exhibits to this Agreement.
+
+1.2.11. Reference to days, months and years are to calendar days, calendar months and calendar years, respectively, unless defined otherwise or inconsistent with the context or meaning thereof.
+
+1.2.12. Unless otherwise specified, time periods within or following which any payment is to be made or act is to be done shall be calculated by excluding the day on which the period commences and including the day on which the period ends and by extending the period to the next Business Day if the last day of such period is not a Business Day; and whenever any payment is to be made or action to be taken under this Agreement is required to be made or taken on a day other than a Business Day, such payment shall be made or action taken on the next Business Day.
+
+1.2.13. Any reference to “writing” shall include printing, typing, lithography and other means of reproducing words in visible form (including emails).
+
+1.2.14. The words “directly or indirectly” mean directly or indirectly through one or more intermediary persons or through contractual or other legal arrangements, and “direct or indirect” shall have the correlative meanings.
+
+1.2.15. References to “Applicable Law” includes any legislation, any common or customary law, constitution, decree, judgment, order, ordinance, treaty or other legislative measure in any jurisdiction and any present or future directive, request, requirement or guideline, having the force of law in India (in each case, whether or not having the force of law but, if not having the force of law, compliance with which is in accordance with the general practice of persons to whom the directive, request, requirement or guideline is addressed).
+
+1.2.16. The terms referred to in this Agreement shall, unless defined otherwise or inconsistent with the context or meaning thereof, bear the meaning ascribed to them under the relevant statute/legislation.
+
+1.2.17. time is of the essence in the performance of the Parties’ respective obligations. If any time period specified herein is extended, such extended time shall also be of the essence; and
+
+1.2.18. References to the knowledge, information, belief or awareness of any Person shall be deemed to include the knowledge, information, belief or awareness of such Person after examining all information and making reasonable inquiries and investigations which would be expected or required from a Person of ordinary prudence.
+
+2. SALE AND PURCHASE OF THE SALE SHARES
+
+2.1. Subject to the terms and conditions contained herein, at Completion, the Seller agrees to sell and transfer the Sale Shares to the Purchaser along with all legal and beneficial interest, rights and title therein, free and clear of all Encumbrances with effect from the Completion Date; and the Purchaser, subject to the terms and conditions of this Agreement and relying upon the representations, warranties, covenants and indemnities of the Seller, as provided in this Agreement agrees to purchase and acquire the relevant Sale Shares, on the Completion Date. The price per Equity Share for the sale of the Sale Shares shall be INR 619.07 (Indian Rupees six hundred nineteen point zero seven only) (“Price”). The aggregate consideration for the sale of the Sale Shares payable to the Seller by the Purchaser in the manner set out in this Agreement (“Transaction”) shall be INR 500,003,028.76 (Indian Rupees fifty crore three thousand and twenty-eight point seven six only) (“Sale Consideration”).
+
+2.2. Upon the consummation of the Transaction as contemplated herein, the Purchaser shall receive full legal and beneficial ownership of the relevant Sale Shares, free and clear of all Encumbrances, along with any and all rights, title and benefits relating thereto and arising therefrom.
+
+2.3. Notwithstanding anything to the contrary contained in this Agreement, the Purchaser shall not, by virtue of execution of this Agreement or the consummation of the Transaction contemplated herein, be or become liable for any past, present or future obligations or liabilities of the Seller with respect to or arising out of his ownership of the Sale Shares.
+
+3. CONDITIONS PRECEDENT
+
+3.1. The Purchaser shall not be obliged to purchase any or all of the Sale Shares, unless and until all the conditions set forth in Clause 3.3 below (“Conditions Precedent”) have been fulfilled to the satisfaction of the Purchaser or waived (to the extent permissible under Applicable Law) in writing, by the Purchaser at his sole discretion, in accordance with this Agreement. The Seller shall procure that each of the Conditions Precedent shall be fulfilled promptly by October 25, 2022 or such other date and time as the Parties may mutually agree in writing (“Long Stop Date”). Upon completion (or waiver by the Purchaser as the case maybe) of the Conditions Precedent, the Seller shall promptly give written confirmation (“Completion Certificate”) to the Purchaser of such completion in the format provided in Annexure II, together with all relevant documents evidencing the satisfaction of each of the Conditions Precedent (unless waived, to the extent permissible under Applicable Law, by the Purchaser at his sole discretion).
+
+3.2. If, at any time, the Seller becomes aware of any fact or circumstance that is reasonably likely to prevent any of the Conditions Precedent from being satisfied prior to the Long Stop Date, he shall promptly inform the Purchaser of such fact or circumstance. The Purchaser shall have the right (but not the obligation) to waive the satisfaction of any of the Conditions Precedent by notice in writing to the Seller.
+
+3.3. The Conditions Precedent to the sale and purchase of the Sale Shares shall be the following:
+
+3.3.1.
+
+the Seller shall obtain a memorandum issued by an independent chartered accountant, in the form and substance acceptable to the Purchaser, on reliance basis, and at the cost of the Seller, specifying that there are no demands outstanding and no pending claims, audits, suits, proceedings, disputes, demands, investigations or notices or appeals or litigations against or with respect to the Seller under Section 281 of the IT Act, including relevant screen shots of the income tax department’s website and the TRACES website taken not earlier than 3 Business Day prior to the Completion in respect of the Seller as set out in the portal of the Tax Authority (“281 Memorandum”);
+
+3.3.2. the Seller shall provide self-certified copy of the Permanent Account Number (PAN), which is validly subsisting as of the Effective Date and the Completion Date;
+
+3.3.3. certificate from a chartered accountant confirming the residential status of Seller as per the provisions of the Income Tax Act;
+
+3.3.4.
+
+the Seller shall procure from the Company and provide to the Purchaser on a reliance basis, a fair market valuation certificate indicating the fair value of the Sale Shares under the FEMA Regulations from a chartered accountant or a SEBI registered Category I merchant banker, to the satisfaction of the Purchaser, no later than 3 Business Days prior to the Completion.
+
+3.3.5.
+
+each of the representations and warranties of the Seller set out in the Agreement, being true, correct, accurate in all respects and not misleading as of the Effective Date and as of the Completion Date, and at all times between the Effective Date and Completion Date, as though made on each such date;
+
+3.3.6.
+
+there shall not have been any proceeding, restraining order, preliminary or permanent injunction, attachment or any other order issued by any court of competent jurisdiction or any other legal or regulatory prohibition or restriction or any other action issued, pending or threatened in writing, which, would:
+
+(a) involve a challenge to, or seeks to, or which prohibits, prevents, restrains, restricts, delays, makes illegal or otherwise interferes with the consummation of the Transaction contemplated under this Agreement; or
+
+(b) affect the ability of the Seller, to sell / transfer the Sale Shares.
+
+3.3.7.
+
+the Seller shall provide the Purchaser with a copy of the duly signed, irrevocable and unconditional delivery instruction slip to be issued to its depository participant instructing them to transfer the relevant Sale Shares to the Purchaser’ Demat Account (details as set out in Clause 1.1); and
+
+3.3.8.
+
+the Seller shall provide a copy of or screenshots of the draft of the Form FC-TRS prepared and authorize by the Seller, to the extent applicable, in respect of the transfer of Sale Shares to be filed under the single master form with the Reserve Bank of India through its authorized dealer bank along with other supporting documents that are required to be filed under applicable FEMA Regulations, for recording the transfer of the Sale Shares from the Seller to the Purchaser.
+
+3.4. Upon completion and satisfaction of, or waiver by the Purchaser (where applicable) of, all of the Conditions Precedent, the Seller shall deliver to the Purchaser a certificate, in the form as agreed
+
+by the Purchaser and as provided in Annexure II of this Agreement, confirming such completion (or waiver, as the case may be) of the Conditions Precedent along with supporting documents evidencing, where applicable.
+
+3.5. The Purchaser shall have the right to terminate this Agreement in the event that the Conditions Precedent are not fulfilled or have become incapable of being fulfilled to the Purchaser’ satisfaction prior to the Long Stop Date.
+
+4. COMPLETION
+
+4.1. Completion shall take place within 3 (three) Business Days from the date on which the Conditions Precedent are completed to the satisfaction of the Purchaser, or such other date as may be mutually agreed between the Parties in writing (“Completion Date”) but not later than the Long Stop Date. On the Completion Date, the events set out in Clause 4.2 shall take place in the sequence set out below, each one conditional upon the other and not to be treated as mutually exclusive, for the completion of the transfer of the relevant Sale Shares by the Seller to the Purchaser (“Completion”) Purchaser. It is clarified that Completion shall not be considered to be consummated, unless all the transactions set out under Clause 4.2 are consummated in accordance with the terms set out therein.
+
+4.2. On the Completion Date:
+
+4.2.1.
+
+The Seller shall deliver to the Purchasers, a copy of the signed irrevocable and unconditional delivery instruction slips instructing the depository participant to debit the Sale Shares held by the Seller from its Seller’s Demat Account and to credit the relevant Sale Shares to the Purchasers’ Demat Account.
+
+4.2.2.
+
+Upon receipt of the delivery instruction slip referred to in Clause 4.2.1, the Purchaser shall issue instructions to its respective banker to remit by wire transfer, relevant amounts equal to the Sale Consideration to be apportioned to the Seller’s Bank Account, and cause its banker to issue the UTR evidencing remittance of such amount to Seller’s Bank Account, and shall provide a copy of such instruction and UTR to the Seller.
+
+4.2.3.
+
+Immediately upon receipt of the UTR referred to in Clause 4.2.2, the Seller shall deliver to its depository participant duly signed, irrevocable and unconditional delivery instruction slips instructing them to debit the Sale Shares held by it from Seller’s Demat Account and to credit the Sale Shares to the Purchaser’s Demat Account and shall provide the Purchaser with a copy of the irrevocable delivery instructions slip along with a copy of the acknowledgement provided by the depository participant in connection with receipt of such signed delivery instruction slip.
+
+4.3. In the event that the Completion does not occur, or the Seller is unable to undertake the actions set out in Clause 4.2 in the manner and within the time envisaged in this Agreement or the Seller becomes aware of a fact or circumstance that is reasonably likely to prevent any of the actions set out in Clause 4.2.1 from being satisfied on the Completion Date, then, without prejudice to the rights of the Purchaser under this Agreement or under Applicable Law, the Seller shall promptly inform the Purchaser of the matter and, the Seller shall, at the Purchaser’s sole option either (a) perform his obligations under Clause 4.2.1 and transfer the relevant Sale Shares to the Purchaser, or (b) immediately refund to the Purchaser, the entire Sale Consideration paid by the Purchaser to the Seller.
+
+4.4. The Seller undertakes to file their income-tax return in accordance with Income Tax Act, which shall include complete disclosure of this Transaction and shall remain a resident of India for the purposes of the Income Tax Act and the FEMA Regulations till the end of the financial year in which the Completion occurs.
+
+4.5. The Purchaser shall extend full assistance to the Seller as required to ensure the valid transfer of the Sale Shares to the Purchaser, including, but not limited, providing all necessary documents required for the purposes of an effective transfer of the Sale Shares.
+
+5. POST COMPLETION ACTIONS
+
+5.1. Within 7 (Seven) calendar days of the Completion Date, the Seller shall cause the Company to provide to the Purchaser a copy of the beneficiary position released by the Company's registrar and share transfer agent reflecting the Purchaser as the owners of the relevant Sale Shares.
+
+5.2. The Seller shall complete the filing of Form FC-TRS in accordance with Applicable Laws and within 30 (Thirty) days from the Completion Date. The Seller shall provide, when generated, a copy of the duly acknowledged and approved Form FC-TRS (“Approved Form”) to the Purchaser, provided that the Seller shall make best efforts to procure a copy of the Approved Form within 5 (Five) days from the date of filing but in no case later than 15 (Fifteen) days from the date of filing of the Form FC-TRS.
+
+5.3. The Seller shall procure from the Company and provide to the Purchaser, on reliance basis, a fair market valuation certificate indicating the fair value of the Sale Shares under Section 50CA / 56(2)(x) of the Income Tax Act in the manner as prescribed under Rule 11UA/ Rule 11UAA of the Income Tax Rules, 1962, no later than 15 Business Days from the Completion Date, from a chartered accountant in accordance with the Income Tax Act and who is a person of repute.
+
+6. REPRESENTATIONS AND WARRANTIES
+
+6.1. The Seller hereby acknowledges that the Purchaser has entered into this Agreement in reliance of the representations and warranties of the Seller.
+
+6.2. The Seller hereby represents and warrants to the Purchaser, on the Effective Date and the Completion Date, and at all times between the Effective Date and the Completion Date, that:
+
+6.2.1. The Seller is competent to contract as per the Contract Act, 1872 and is of a sound mind.
+
+6.2.2. The Seller has full legal right, power and authority to enter into, execute and deliver this Agreement, and perform his obligations hereunder.
+
+6.2.3. This Agreement has been duly and validly executed by the Seller and constitutes valid and binding obligations enforceable against him.
+
+6.2.4.
+
+The execution, delivery and performance by the Seller of this Agreement in accordance with its terms will not: (a) result in a breach of, or constitute default under, any agreement to which the Seller is a party or by which he is bound or give any third party a right to terminate or modify, or result in the creation of any lien or other Encumbrance under, any agreement, licence or other instrument to which the Seller is bound; and/or (b) result in a violation or breach of or default under any Applicable Laws order, direction, judgment or decree of or undertaking to any Governmental Authority to which he is a party.
+
+6.2.5.
+
+There is no proceeding pending against, or to the Seller’s knowledge, threatened against or affecting the Seller by or before any Governmental Authority nor is the Seller involved or engaged in or is subject to any show cause or similar notice, suit, claim, action, litigation, investigation, enquiry, arbitration, mediation, or administrative, judicial, government or criminal proceeding, whether as plaintiff, defendant, or otherwise and there has been no order of any Governmental Authority, or of any court restraining, prohibiting or otherwise challenging the Transaction contemplated hereunder and that no actions have been instituted, initiated and / or threatened to be instituted, restraining, prohibiting, enjoining, altering or otherwise challenging the Transaction contemplated hereunder.
+
+6.2.6.
+
+The Seller has obtained all necessary Governmental authorizations, corporate, creditors', shareholders' and other consents required under Applicable Law or under any contract or otherwise required to be obtained by the Seller for the execution and performance of this Agreement, and the Seller is not required to obtain any other consents either under Applicable Law or under any contract or otherwise, for the execution and performance of this Agreement. Further, no consent is required to be obtained for or in connection with the execution, delivery and performance of this Agreement and / or any of the other documents or instruments to be executed under or pursuant to this Agreement.
+
+6.2.7.
+
+The Seller is not bankrupt, has not stopped payment of all or substantially all of his debts, or become unable to pay his debts, and no order has been made, no resolution has been passed, no petition has been presented, no statutory demand has been served and no meeting has been convened which may lead to the Seller’s bankruptcy. There are no proceedings in relation to any compromise or arrangement with creditors or any bankruptcy proceedings concerning the Seller, and no petition has been filed by or against the Seller to initiate such proceedings.
+
+6.2.8.
+
+The Sale Shares are duly and validly issued, duly stamped, and are fully paid-up and in dematerialized form. The Seller has full right, power and authority to sell, transfer, convey and deliver to the Purchaser good and valid title to relevant Sale Shares, in accordance with this Agreement.
+
+6.2.9.
+
+The Seller is the absolute legal and beneficial owner of the Sale Shares and all the rights attached to the Sale Shares exclusively vest in and are exercised by the Seller. The Seller has good and valid title to the Sale Shares, free and clear of all Encumbrances and at the Completion, shall deliver to the Purchaser good and valid title to the relevant Sale Shares held by him, with absolute legal and beneficial ownership, free and clear of all Encumbrances. The Sale Shares shall rank pari passu with the other Equity Shares of the Company in respect of the dividends and other entitlements of such Equity Shares.
+
+6.2.10. The Seller has acquired the Sale Shares while being resident in India for the purposes of the FEMA Regulations, the Income Tax Act and the regulations and notifications issued thereunder.
+
+6.2.11. The Seller has been holding the Sale Shares on a continuous basis as “investment” (capital asset) since the date of its acquisition, and not as “stock-in-trade”
+
+6.2.12. The Seller has a valid Permanent Account Number (‘PAN’) in India and all tax returns required to be filed, has been filed by the Seller in accordance and within prescribed timeline as per the provisions of the Income Tax Act.
+
+6.2.13. The 281 Memorandum in its entirety, including the notes and annexures is true, complete and accurate in all respects.
+
+6.2.14. There are no Tax liabilities or past or outstanding proceedings related to any Taxes pending against the Seller that (i) affects the validity and marketability of the title of the Sale Shares under section 281 of the Income Tax Act, or section 81 of the Central Goods and Services Tax Act, 2017, (ii) affects the ability of the Seller to sell the Sale Shares to the Purchaser in accordance with the terms of this Agreement or (iii) could render void the purchase and sale of the Sale Shares by the Seller and all details, documents and information provided to the independent chartered accountant for the issuance of 281 Memorandum are true and correct in all respects and not misleading in any manner.
+
+6.2.15. There are no legal, quasi-legal, administrative, arbitration, mediation, conciliation or other proceedings, claims, actions or investigations of any nature whatsoever by any governmental authority, pending against the Seller which relate to or are connected with any inquiries or violations under the anti-money laundering laws or Anti-Corruption Laws, and no such notice has been served upon or delivered to the Seller with respect to any such proceeding, claim, action or investigation by any Governmental Authority against the Seller which relate in any manner to this Agreement or which could adversely impact its ability to perform this Agreement.
+
+6.2.16. The Seller is a citizen of India and resident in India and his residential status continues to be same as it was at the time of acquisition of the Sale Shares.
+
+6.2.17. No taxes are required to be deducted at source or withheld by the Purchaser under Applicable Laws from payments to be made to the resident Seller for the Sale Shares.
+
+6.2.18. The shareholding pattern of the Company as on the Effective Date and the Completion Date (on a Fully Diluted Basis) is as set out in Part A and Part B of Annexure I respectively and provides true, correct and complete representations of the shareholding of the Company, constituting 100% (one hundred per cent) of the issued, subscribed, allotted and paid-up share capital of the Company, on a fully diluted basis
+
+6.3. The Seller represents and warrants to the Purchaser that the aforesaid statements contained in Clause 6.2 are true and correct in all respects as of the Effective Date, and shall be true and correct in all respects as of the Completion Date and at all times between the Effective Date and the Completion Date and thereafter.
+
+6.4. The Purchaser hereby represents and warrants to the Seller that:
+
+6.4.1. The Purchaser is validly incorporated, in existence and duly registered under the laws of its jurisdiction of incorporation and has the full legal right, capacity and authority to execute, deliver and perform this Agreement.
+
+6.4.2. Entry into and performance by the Purchaser of this Agreement will not: (a) constitute a breach or violation of its charter documents; (b) result in a breach of, or constitute a default under, any contract to which it is a party.
+
+6.4.3. No bankruptcy order has been made or petition presented against the Purchaser and, to the knowledge of the Purchaser, no Person has threatened to present such an order or petition.
+
+6.5. For the avoidance of doubt, each of the above representations and warranties shall be separate and independent and save as expressly provided, shall not be limited by reference to any other Clause or anything contained in this Agreement.
+
+7. COVENANTS OF THE SELLER
+
+7.1. The Seller shall not, other than as mandated under the Applicable Laws, offer or provide a Government Official or Governmental Authority, with any interest, whether direct or indirect, legal or beneficial, in the Company or any legal or beneficial interest in payments made to the Seller as part of the Sale Consideration.
+
+8. INDEMNITIES
+
+8.1. The Seller agrees to, indemnify, defend and hold harmless the Purchaser and its Affiliates and/or its directors, officers, representatives, employees and agents (together “Purchaser Indemnified Persons”) from and against all Losses, asserted against or, suffered by any of the Purchaser Indemnified Persons arising out of: (a) any misrepresentation or inaccuracy in or breach by the Seller of any of his representation, warranty or other undertakings contained in this Agreement, or (b) the failure of the Seller to perform any actions or covenants as provided in this Agreement, or (c) any fraud, wilful misconduct or wilful misrepresentation of the Seller.
+
+8.2. In the event that the Purchaser Indemnified Persons are required to make any payment, as required under any Applicable Law or otherwise, in relation to any claim of Losses as set out in Clause 8.1 above then the same shall be paid by the Seller to the Purchaser Indemnified Persons or to the relevant Governmental Authority or the concerned authority or Person, as applicable, on or prior to the due date of payment required to be made in relation to such claim, unless a stay of the demand or payment is obtained in respect of such payment, as the case maybe.
+
+9. NOTICES
+
+9.1 Any notices, approvals, instructions, demand and, or other communications to be given or made under this Agreement shall be in English and in writing and signed by or on behalf of the person giving it. Any such notice or other communication shall be addressed as provided in Clause 9.2 below and, if so addressed, shall be deemed to have been duly given or made as follows:
+
+9.1.1 If sent by personal delivery, upon delivery at the address of the relevant Party.
+
+9.1.2 If sent by mail (with acknowledgment of receipt), 2 (Two) Business Days (or if posted from one country to another, 4 (Four) Business Days) after the date of posting.
+
+9.1.3 If sent by electronic mail, upon the electronic mail entering a computer resource beyond the control of the sender.
+
+9.2 The relevant addressee, address and e-mail address of each Party for the purpose of this Agreement is:
+
+Name of the Party Ashoka India Equity Investment Trust Plc
+
+Address 6th Floor, 125 London Wall, London, EC2Y 5AS
+
+Contact Person and Email Address Brian Smith [REDACTED]
+
+Ramesh
+
+23-25, Belagola, Food Industrial Ramesh Kunhikannan
+
+Kunhikannan Estate, Metagalli P.O., Mysore – [REDACTED]
+
+570016, Karnataka, India
+
+10. TERM AND TERMINATION
+
+10.1 Term: This Agreement shall come into effect on the Effective Date and shall remain valid and binding on the Parties until such time that it is terminated in accordance with Clause 10.2.
+
+10.2 Termination: This Agreement shall stand terminated prior to Completion occurring:
+
+10.2.1. if the Purchaser and Seller mutually agree to such termination in writing; or
+
+10.2.2. if terminated by the Purchaser in accordance with Clause 3.5; or
+
+10.2.3. if terminated by Purchaser, upon a breach of any of the covenants or obligations of the Seller as set out herein or breach of any of the representations and warranties set out under Clauses 6 and 7.
+
+10.3 Effect of Termination:
+
+10.3.1 The termination of this Agreement shall not relieve any Party of any obligation or liability accrued prior to the date of termination.
+
+10.3.2 The provisions of Clause 1 (Definitions and Interpretation), Clause 6 (Representation and Warranties), Clause 8 (Indemnities), Clause 9 (Notices), Clause 10.3 (Effect of Termination), Clause 11 (Confidentiality and Non-disclosure), Clause 12 (Miscellaneous), Clause 13 (Governing Law) and Clause 14 (Dispute Resolution), shall survive termination of this Agreement for any reason whatsoever.
+
+11. CONFIDENTIALITY AND NON-DISCLOSURE
+
+11.1 Each Party (including their Affiliates, directors, officers, managers, members, partners, contributors, nominees, representatives, agents, employees as the case maybe) shall keep all information relating to the other Party, information relating to the Transaction contemplated herein (collectively, referred to as the “Information”) confidential at all times. Further, the Seller shall not issue any public release or public announcement or otherwise make any disclosure whatsoever, concerning this Agreement and/or the Transaction contemplated herein, without the prior written approval of the Purchaser.
+
+11.2 Nothing in this Agreement shall restrict any Party from disclosing Information:
+
+11.2.3 to the extent that such Information is in the public domain other than by breach of this
+
+Agreement;
+
+11.2.4
+
+to the extent that such Information is required to be disclosed under any Applicable Laws or any applicable regulatory requirements or by any regulatory body to whose jurisdiction the relevant Party is subject or with whose instructions it is customary to comply provided that the other Parties shall be given a reasonable opportunity to review and comment on any such required disclosure (if legally permissible);
+
+11.2.5
+
+in so far as it is disclosed to the employees, directors or professional advisers (legal, financial or otherwise) of any Party provided that such Party shall procure that such persons treat such Information as confidential, or to the extent required to be disclosed to any upstream stakeholders, limited partners, members, or investors who have an interest in any of the Purchaser;
+
+11.2.6 to the extent that any of such Information is/are later acquired by a Party from a source not obligated to any other Party hereto, to keep such Information confidential;
+
+11.2.7 to the extent that any of such Information was previously known or already in the lawful possession of a Party, prior to disclosure by any other Party hereto; and/or
+
+11.2.8 to the extent that any information, materially similar to the Information, shall have been independently developed by a Party without reference to any Information furnished by any other Party hereto.
+
+11.3 Notwithstanding anything contained in this Agreement, the Purchaser shall be free to issue any public release or make any public announcement or any other disclosure, concerning the transactions hereunder at its discretion and without any restriction whatsoever.
+
+11.4 Nothing contained in this Clause 11 shall restrict the Purchaser from disclosing any confidential information only on a ‘need to know basis’ to any of its Affiliates, potential investors, consultants, or a similar body with whatever name called, lenders, general partners and investment council members (as applicable).
+
+11.5 Each Party shall, upon termination of this Agreement, immediately cease use of, and shall promptly, at the option of such Party, deliver to each other Party or destroy, all confidential Information provided by the respective other Party. Each Party hereby expressly waives and agrees not to assert any right of retention whatsoever with respect to such confidential Information, provided, however, that the Purchaser shall be entitled to retain a copy of the confidential Information in accordance with policies and procedures implemented by the Purchaser in order to comply with Applicable Law, regulation, professional standards or reasonable business practice.
+
+12. MISCELLANEOUS
+
+12.1 Time of the Essence: The Parties acknowledge that time is of the essence for the purposes of this Agreement.
+
+12.2. Counterparts: This Agreement may be executed in any number of counterparts each of which shall be an original but all of which together shall constitute one and the same instrument.
+
+12.3. Costs & Expenses: The Seller and the Purchaser shall bear their own costs in connection with this Agreement. The Purchaser shall bear the stamp duty on this Agreement and the Seller shall bear
+
+the stamp duty on transfer of the Sale Shares.
+
+12.4.
+
+Successors & Assigns: The Seller shall have no right to assign any rights, liabilities or obligations under this Agreement without the prior written consent of the Purchaser. The Purchaser may, without obtaining the prior consent of any Party, assign (in whole or in part) any of its rights and/or obligations under this Agreement along with the transfer of any Sale Shares by the Purchaser.
+
+12.5. Amendment: Any amendment / variation of this Agreement shall not be binding on a Party unless such amendment/variation is in writing and signed by all Parties.
+
+12.6.
+
+Severability: Any provision of this Agreement, which is invalid or unenforceable, shall be ineffective to the extent of such invalidity or unenforceability, without affecting in any way the remaining provisions hereof. If for any reason whatsoever, any provision of this Agreement is or becomes invalid, illegal or unenforceable, then the Parties will negotiate in good faith to agree on such provision to be amended or substituted such that the Parties are left in the same or nearly similar position to that which prevailed.
+
+12.7.
+
+Specific Performance: The Parties agree that the non-defaulting Party will suffer immediate, material, immeasurable, continuing and irreparable damage and harm in the event of any material breach of this Agreement and the remedies under Applicable Law in respect of such breach will be inadequate (each Party hereby waives the claim or defence that an adequate remedy under Applicable Law is available) and that such non-defaulting Party shall be entitled to seek specific performance against the defaulting Party for performance of its obligations under this Agreement in addition to any and all other legal or equitable remedies available to it.
+
+12.8.
+
+Entire Agreement: This Agreement, including the recitals and annexures, supersedes all prior discussions, term sheets and agreements between the Parties with respect to the subject matter of this Agreement, and this Agreement contains the sole and entire agreement between the Parties hereto with respect to the subject matter hereof.
+
+12.9. Compliance by the Seller: The Seller shall exercise all such rights and powers as are available to him to ensure compliance with and to fully and effectually implement the provisions of this Agreement, as promptly and as reasonably possible.
+
+12.10. Agency: No Party shall act as an agent of the other Parties or have any authority to act for or to bind the other Parties.
+
+12.11. No Waiver: No waiver of any provision of this Agreement shall be effective unless set forth in a written instrument signed by the Party waiving such provision. No failure or delay by the Party in exercising any right, power or remedy under this Agreement shall operate as a waiver thereof, nor shall any single or partial exercise of the right, power or remedy preclude any further exercise thereof or the exercise of any other right, power or remedy. Without limiting the foregoing, no waiver by a Party of any breach by any other Party of any provision hereof shall be deemed to be a waiver of any prior, concurrent or subsequent breach of that or any other provision hereof, and waiver by a Party in exercising any rights available to it under this Agreement shall not preclude such Party from exercising such rights at a later stage (unless expressly or impliedly prohibited by this Agreement). The rights and remedies provided in this Agreement are cumulative and not exclusive of any rights or remedies provided by Applicable Laws. Any waiver, and any consent by any of the Parties under any provision of this Agreement, must be in writing and may be given subject to any conditions thought fit by the person giving that waiver or consent. Any waiver or consent shall be effective only in the instance and for the purpose for which it is given.
+
+12.12. Further Actions: Each Party agrees to perform (or procure the performance of) all further acts and things (including the execution and delivery of, or procuring the execution and delivery of, all deeds and documents that may be required by Applicable Law or as may be necessary, required or advisable, procuring the convening of all meetings, the giving of all necessary waivers and consents and the passing of all resolutions and otherwise exercising all powers and rights available to them) as the other Party may reasonably require to effectively carry on the full intent and meaning of this Agreement and to complete the Transaction contemplated hereunder.
+
+12.13. Valid Execution: The exchange of a fully executed version of this Agreement (in counterparts or otherwise) by electronic transmission in PDF or any other format shall be sufficient to bind the Parties to the terms and conditions of this Agreement and no exchange of originals is necessary.
+
+13. GOVERNING LAW
+
+13.1. This Agreement shall be governed and construed in accordance with the laws of India without reference to its conflict of laws principles.
+
+13.2. Subject to the provisions of Clause 14 of this Agreement, the courts in Bengaluru shall have exclusive jurisdiction in relation to all disputes arising out of or in connection with this Agreement.
+
+14. DISPUTE RESOLUTION
+
+14.1.
+
+The Parties agree to use all reasonable efforts to resolve any dispute, controversy, claim or disagreement of any kind whatsoever between or among the Parties in connection with or arising out of this Agreement, including any question regarding its existence, validity or termination (“Dispute”), expediently and amicably to achieve timely and full performance of the terms of this Agreement.
+
+14.2.
+
+Any Party which claims that a Dispute has arisen must give notice thereof to the other Party as soon as practicable after the occurrence of the event, matter or thing which is the subject of such Dispute and in such notice such Party shall provide particulars of the circumstances and nature of such Dispute and of its claim(s) in relation thereto (“Dispute Notice”)
+
+14.3. If within 15 (Fifteen) days from the date of the Dispute Notice, the Parties have failed to reach an amicable settlement on any Dispute, then such Dispute shall be referred to and finally resolved by arbitration in accordance with this Clause 14 of this Agreement.
+
+14.4. In case of a Dispute, the Seller and Purchaser shall appoint 1 (One) arbitrator each and the 2 (Two) arbitrators so appointed shall appoint a 3rd (Third) arbitrator, which 3rd (Third) arbitrator shall be the presiding arbitrator.
+
+14.5. The arbitration proceedings shall be conducted in accordance with the rules of the Singapore International Arbitration Centre (SIAC) or any enactment, modification or re-enactment in force at the relevant time.
+
+14.6. The seat of arbitration shall be Bengaluru. The venue of arbitration shall be Bengaluru.
+
+14.7. The arbitration proceedings shall be conducted in English language.
+
+14.8. The award of the arbitral tribunal shall be final and binding on the Parties hereto.
+
+14.9.
+
+The costs and expenses of the arbitration, including the fees of the arbitration and the arbitrator / tribunal, shall (subject to any orders which may be applied for, and passed by the arbitrator / tribunal, in this regard) be borne equally by each Party to the dispute or claim and each Party shall pay its own fees, disbursements and other charges of its counsel.
+
+14.10. When any Dispute occurs and is under arbitration, except for the matters under Dispute, the Parties shall continue to exercise their remaining respective rights, and fulfill their remaining respective duties and obligations, under this Agreement.
+
+14.11. The arbitration proceedings and all matters pertaining to the arbitration and all documents and submissions made therein pursuant to Clause 13 (Governing Law) shall be strictly confidential and subject to the provisions of Clause 11 (Confidentiality).
+
+[Annexures and Signature Pages follow]
+
+ANNEXURE I PART A
+
+THE SHAREHOLDING PATTERN OF THE COMPANY AS AT THE EFFECTIVE DATE
+
+Sl. No.
+
+Shareholders
+
+1 Ramesh Kunhikannan
+
+2 Savitha Ramesh
+
+3 Freny Firoze Irani
+
+4 C B Ganesh
+
+5 Bharadwaj Turlapati
+
+6 East FiftyFour Pte Limited
+
+7 North TwentyThree Pte Limited
+
+8
+
+Sunitha Shamsundar Bathija, representing Bathija Brothers
+
+9 Jayesh Kothari
+
+10 Bajaj Mukesh Kishorelal
+
+11 Lalit Kanunga HUF
+
+12 Ramesh Valecha HUF
+
+13 Geeth
+
+14
+
+Priyesh Kumar representing Priyesh Enterprises
+
+15 Suresh Harilal representing Navkar Enterprises
+
+16 Rahul Kothari representing Kothari Finco
+
+17 Reena Kothari representing Soul Investments
+
+18 Chethan representing AJ Fincorp
+
+19
+
+Dilip Kumar Sachdev, Shree Om Sai Associates
+
+20 Bathija Sanjay HUF
+
+21 P Manoharlal representing Manoharlal P CO
+
+22 A Chawla representing Amar Corporation
+
+23 Subash Lalchand Chhabria
+
+24 Girish Kumar representing Concard Partners
+
+25 Hitesh Kumar representing LM Credits
+
+26
+
+Sangita Gopal Jadwani representing Shree Vinayaka Traders
+
+27 Renu M Makhija
+
+28 Sumen Valecha
+
+No. of Shares held 40,779,920 19,800 5,298,924 136,614 70,608 234,342 234,336 6
+
+6 6 6 6 6 6 6 6 6 6 6
+
+6 6 6 6 6 6 6
+
+6 6
+
+% Shareholding 81.50% 0.04% 10.59% 0.27% 0.14% 0.47% 0.47% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00%
+
+Sl. No.
+
+Shareholders
+
+No. of Shares held
+
+% Shareholding
+
+29 Ekkta Bathija
+
+6
+
+0.00%
+
+30 RK Family Trust
+
+100
+
+0.00%
+
+31 ESOP*
+
+923,160
+
+1.84%
+
+32 Acacia Banyan Partners
+
+1,439,237
+
+2.88%
+
+33 VOLRADO VENTURE PARTNERS FUND II
+
+899,523
+
+1.80%
+
+Total
+
+50,036,696
+
+100.00%
+
+*Note: As of the Effective Date, the Company has granted 923,160 options under the Kaynes ESOP 2022 Scheme (grant date July 4, 2022) and none of these have vested.
+
+PART B THE SHAREHOLDING PATTERN OF THE COMPANY
+
+AS AT THE COMPLETION DATE
+
+Sl. No.
+
+Shareholders
+
+1
+
+Ramesh Kunhikannan
+
+2 Savitha Ramesh
+
+3 Freny Firoze Irani
+
+4 C B Ganesh
+
+5 Bharadwaj Turlapati
+
+6
+
+East FiftyFour Pte Limited
+
+7
+
+North TwentyThree Pte Limited
+
+Sunitha Shamsundar 8 Bathija, representing Bathija Brothers
+
+9 Jayesh Kothari
+
+10
+
+Bajaj Mukesh Kishorelal
+
+11 Lalit Kanunga HUF
+
+12
+
+Ramesh Valecha HUF
+
+13 Geeth
+
+Priyesh Kumar 14 representing Priyesh Enterprises
+
+Suresh Harilal
+
+15 representing Navkar Enterprises
+
+Rahul Kothari 16 representing Kothari Finco
+
+Reena Kothari 17 representing Soul Investments
+
+18
+
+Chethan representing AJ Fincorp
+
+Dilip Kumar 19 Sachdev, Shree Om Sai Associates
+
+20 Bathija Sanjay HUF
+
+Transfers
+
+Shares
+
+Shareholding Transfer
+
+%
+
+Shares
+
+Post transfer shares
+
+Shareholding %
+
+40,779,920 19,800 5,298,924 136,614 70,608 234,342
+
+81.50% (1,615,336) 39,164,584
+
+0.04% 10.59% 0.27% 0.14%
+
+0
+
+19,800
+
+0 5,298,924
+
+0 136,614
+
+0
+
+70,608
+
+0.47%
+
+0 234,342
+
+78.27% 0.04% 10.59% 0.27% 0.14% 0.47%
+
+234,336
+
+0.47%
+
+0 234,336
+
+0.47%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+Transfers
+
+Sl. No.
+
+Shareholders
+
+Shares
+
+Shareholding Transfer
+
+%
+
+Shares
+
+Post transfer shares
+
+Shareholding %
+
+P Manoharlal
+
+21 representing
+
+Manoharlal P CO
+
+A Chawla
+
+22 representing Amar
+
+Corporation
+
+23
+
+Subash Lalchand Chhabria
+
+Girish Kumar
+
+24 representing Concard
+
+Partners
+
+Hitesh Kumar
+
+25 representing LM
+
+Credits
+
+Sangita Gopal
+
+26
+
+Jadwani representing Shree Vinayaka
+
+Traders
+
+27 Renu M Makhija
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+28 Sumen Valecha
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+29 Ekkta Bathija
+
+6
+
+0.00%
+
+0
+
+6
+
+0.00%
+
+30 RK Family Trust
+
+100
+
+0.00%
+
+0
+
+100
+
+0.00%
+
+31 ESOP*
+
+923,160
+
+1.84%
+
+0 923,160
+
+1.84%
+
+32
+
+Acacia Banyan Partners
+
+1,439,237
+
+2.88%
+
+0 1,439,237
+
+2.88%
+
+VOLRADO
+
+33
+
+VENTURE PARTNERS FUND
+
+899,523
+
+1.80%
+
+0 899,523
+
+1.80%
+
+II
+
+IIFL Special
+
+34 Opportunities Fund –
+
+0
+
+0.00% 323,067 323,067
+
+0.65%
+
+Series 9
+
+IIFL Special
+
+35 Opportunities Fund –
+
+0
+
+0.00% 161,534 161,534
+
+0.32%
+
+Series 10
+
+36
+
+IIFL High Conviction Fund – Series 1
+
+0
+
+0.00% 323,067 323,067
+
+0.65%
+
+37
+
+Ashoka India Equity Investment Trust Plc
+
+0
+
+0.00% 807,668 807,668
+
+1.61%
+
+Total
+
+50,036,696
+
+100.00%
+
+0.00% 50,036,696
+
+100.00%
+
+*Note: As of the Effective Date, the Company has granted 923,160 options under the Kaynes ESOP 2022 Scheme (grant date
+
+July 4, 2022) and none of these have vested.
+
+ANNEXURE II COMPLETION CERTIFICATE Date: October [-], 2022 To, Brian Smith, Ashoka India Equity Investment Trust Plc 6th Floor, 125 London Wall, London, EC2Y 5AS Re: Share Purchase Agreement dated October 19, 2022 executed between Mr. Ramesh Kunhikannan (“Seller”) and Ashoka India Equity Investment Trust Plc., (“Purchaser”) (“Share Purchase Agreement”) Dear Sir, We refer to the Share Purchase Agreement. In this certificate, all capitalized terms used but not defined shall have the respective meanings given to them under the Share Purchase Agreement. Pursuant to Clause 3.1 of the Share Purchase Agreement, I hereby certify and confirm that: (i) The Representations and Warranties set forth in Clause 6 of the Share Purchase Agreement are true and correct in all respects as of the date of the Share Purchase Agreement and as of the date hereof and on all times between the Effective Date and Completion Date, as though made on and as of each such date; and (ii) All the Conditions Precedent mentioned in Clause 3.3 of the Share Purchase Agreement have been complied with and completed as of the date hereof. The documents evidencing fulfilment of the Conditions Precedent are enclosed herewith. The provisions of Clause 11 (Confidentiality and Non-disclosure), Clause 12 (Miscellaneous), Clause 13 (Governing Law) and Clause 14 (Dispute Resolution) of the Share Purchase Agreement shall apply mutatis mutandis to this certificate. The confirmation contained in this notice shall be binding on us and our respective representatives and successors. Yours sincerely, Signed and delivered by Mr. Ramesh Kunhikannan __________________________________ Accepted by: For and on behalf of Ashoka India Equity Investment Trust Plc
+
+Name: Brian Smith Designation: Company Secretary
+
+IN WITNESS WHEREOF this Agreement has been duly executed by the Parties and is intended to be and is hereby delivered on the date first above written Signed and delivered for and on behalf of ASHOKA INDIA EQUITY INVESTMENT TRUST PLC, duly represented through its authorized representative:
+
+By : Name : Title :
+
+____________________________ Brian Smith Company Secretary
+
+[This signature page forms an integral part of the share purchase agreement entered into by and amongst Ashoka India Equity Investment Trust Plc. and Mr.Ramesh Kunhikannan; the remainder of this page has been intentionally left blank]

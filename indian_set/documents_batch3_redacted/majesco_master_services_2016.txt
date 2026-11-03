@@ -1,0 +1,159 @@
+11/3/26, 12:47 PM
+
+EX-10.1 2 t1601941_ex10-1.htm EXHIBIT 10.1
+
+Exhibit 10.1
+
+MASTER SERVICES AGREEMENT
+
+THIS AGREEMENT is entered into as of the August 02, 2016 by and between Majesco Software and Solutions India Private Limited (“MSSIPL”), an Indian corporation having its registered office at 805 President House, Near Ambawadi Circle, Ahmedabad 380 015, Gujarat India and Majesco Limited (“Majesco”), an Indian corporation having its registered office at MNDC, MBP-P-136, Mahape, Navi Mumbai 400710, Maharashtra, India (“Majesco” together with “MSSIPL”, referred to as the “Parties’), made effective from April 01, 2016.
+
+ARTICLE 1 - RECITALS
+
+1.1 Whereas, pursuant to a scheme of arrangement, approved by the Bombay High Court and Gujarat High Court, the Board of Directors of Mastek Limited had approved the demerger of the Insurance Products and Services business of Mastek Limited, consisting of India Insurance Business and Offshore Insurance Operations, into Majesco Limited with effect from 01 April 2014.
+
+1.2 Subsequently, Majesco, retaining the India Insurance business, approved transfer of the offshore insurance operations (catering to International business) to MSSIPL.
+
+1.3 Whereas Majesco, is engaged in the business of providing customized enterprise wide software products and services to customers in Insurance industry in India. Majesco also offers post implementation maintenance services which assures its clients continued access to its overall expertise in maintenance and support of products installations.
+
+1.4 Whereas MSSIPL is engaged in providing offshore software development and related Information Technology services (herein with referred to as “Services”).
+
+1.5 Whereas MSSIPL and Majesco, to have economies of scale and optimum utilization of resources, have decided to avail services of employees of the other party, as and when available (herein after referred to as “Service provider” and “Service recipient”).
+
+1.6 The Service provider has the ability and the willingness to provide the Services to Service recipient. Accordingly, under this Master Services Agreement, in consideration of the premises and of the terms herein after set forth, the parties hereto agree as follows:
+
+ARTICLE 2 - APPOINTMENT
+
+2.1 Subject to the provisions of this agreement, effective April 01, 2016, the Service recipient hereby appoints the Service provider to perform the Services and the Service provider hereby accepts such appointment for provision of the Services.
+
+ARTICLE 3 – SERVICES
+
+3.1 Under the terms of this agreement, the Service provider shall provide the Services to the Service recipient, for consideration as recorded in this agreement.
+
+1
+
+11/3/26, 12:47 PM
+
+3.2 For the purposes of providing the Services, the Service provider shall
+
+a) ensure that the Services are performed as per the engagement details and as per the directions given by the Service recipient; and
+
+b) provide the Services with utmost reasonable care, skill and expertise.
+
+3.3 For the Services provided, the Service recipient shall
+
+a) Ensure availability of tangible / intangible assets to assist in provision of services; and
+
+b) Supervise the services provided by the Service provider.
+
+ARTICLE 4 – PRICE AND INVOICING
+
+4.1 Subject to the terms and conditions herein, the Service recipient shall, for the services procured, pay the Service provider, Service Fees as defined in clause 4.2 hereof.
+
+4.2 “Service Fees” means the factory cost incurred by the Service provider in relation to the performance of services under this agreement, plus a mark-up of 10%, as agreed by the Parties. However, the said mark-up shall be computed for each financial period (April to March) and shall be reviewed annually by the Parties.
+
+4.3 The Costs incurred by the Service provider shall be determined based on the books of accounts maintained by him in accordance with Indian GAAP. Further, the Service provider shall maintain books of accounts that will report in sufficient level of detail including the cost incurred in relation to the services provided to the Service recipient.
+
+4.4 At the end of each month, The Service provider shall determine the total fee due from the Service recipient for the services performed during that month and shall issue an invoice in Indian rupees (INR) for such amount on the Service recipient.
+
+4.5 The said amount shall be due and payable to the Service provider within sixty (60) days of receipt of invoice.
+
+4.6 If either of the party determines that there has been an error or an omission in the calculation of the fee, it shall discuss the matter with the other party and resultantly, raise an invoice or credit memo, as appropriate.
+
+ARTICLE 5 - SERVICE LIABILITY
+
+5.1 The Service provider shall not be liable to the Service recipient or third party client for any loss, damage or expense that may result from the provision of or failure to provide the Services. The Service provider shall not be liable to the Service recipient for the consequences of any failure or delay in performing any of the Service provider’s obligations under this Agreement, other than for damages arising from the Service provider’s gross negligence or willful misconduct.
+
+2
+
+11/3/26, 12:47 PM
+
+5.2 To the extent not prohibited by applicable law, in no event shall the Service provider be liable for any loss of use, interruption of business, loss of profit, or lost of data, or indirect, special, incidental, consequential or punitive damages of any kind regardless of the form of action, whether in contract, tort (including negligence), strict liability or otherwise, even if it has been advised by the other party of the possibility of such damages. To the extent not prohibited by applicable law, the Service recipient expressly waives and renounces any claim to any other compensation or indemnity which may exist under the laws of the jurisdiction of its formation or any other jurisdiction.
+
+ARTICLE 6 - TERM AND TERMINATION
+
+6.1 Term This agreement shall continue in force for a fixed term of one (1) year from the Effective Date unless terminated earlier under the provision of this Article 7. At the end of the fixed term, this agreement shall renew automatically for additional one (1) year terms, without notice, unless prior to that time either Party provides written notice of non-renewal.
+
+6.2 Termination
+
+a) This agreement may be terminated by either party for any reason or no reason, whether or not extended beyond the first year, by giving the other party written notice of termination sixty (60) days in advance.
+
+b) This agreement shall terminate immediately without notice: (i) upon insolvency, receivership or bankruptcy proceedings by or against either Party; (ii) upon either Party’s making an assignment for the benefit of creditors; or (iii) upon either Party’s dissolution or liquidation.
+
+6.3 Notwithstanding the above clauses, both parties shall continue to comply with their roles and responsibilities as applicable upto the date of termination or expiry of any work orders pursuant to any agreements between the Service recipient and its Customers. The Service provider shall thereafter return all the relevant materials to the Service recipient, which were provided earlier by the Service recipient.
+
+6.4 From and after the effective date of termination of this agreement. The Service provider will not be entitled to compensation for further IT related services hereunder, but will be paid all undisputed compensation accruing up to the date of termination in accordance with article 5 of this agreement. In addition, the Service provider shall be entitled to a reimbursement of mutually agreed all costs that are actually incurred by it as a direct consequence of such termination. Such costs shall be identified by the Parties mutually.
+
+ARTICLE 7 - MISCELLANEOUS
+
+7.1 Independent Contractors The relationship of the Parties established by this agreement is that of an independent contractor, and nothing contained in this agreement shall be construed to:
+
+a) Give either Party the power to direct and control the day-to-day activities of the other;
+
+3
+
+11/3/26, 12:47 PM
+
+b) Allow either Party to create or assume any obligation on behalf of the other Party for any purpose whatsoever.
+
+7.2 Force Majeure Neither party shall be in default of this agreement or liable to the other party for any delay or default in performance where occasioned by any cause of any kind or extent beyond its control, including but not limited to, armed conflict; embargoes; shortages of manpower, raw materials, production facilities or transportation; manpower difficulties; civil disorders of any kind; action of any civil or military authorities (including priorities and allocations); fires; floods; and accidents. The dates on which the obligations of a party are to be fulfilled shall be extended for a period equal to the time lost by reason of any delay arising directly or indirectly from:
+
+a) Any of the foregoing causes, or
+
+b) Inability of that party, as a result of causes beyond its reasonable control, to obtain instruction or information from the other party in time to perform its obligations by such dates.
+
+7.3 Entire Agreement This agreement constitutes the entire understanding between the Parties with respect to the subject matter hereof and all prior agreements or understandings shall be deemed merged herein. No representations, warranties and certifications, express or implied, shall exist as between the parties except as stated herein.
+
+7.4 Amendments No amendments, waivers or modifications hereof shall be made or deemed to have been made unless in writing executed by the Party to be bound thereby.
+
+7.5 Severability If any provision in this agreement or the application of such provision to any person or circumstance shall be invalid, illegal or unenforceable, the remainder of this agreement or the application of such provision to persons or circumstances other than those to which it is held invalid, illegal or unenforceable shall not be affected thereby.
+
+7.6 Confidentiality The Service provider acknowledges that all information designated by the Service recipient as confidential together with all other information which relates to the business, affairs, developments, trade secrets, know-how, personnel, customers and suppliers of the Service recipient’s customers or information which may reasonably be regarded as the confidential information of the Service recipient’s customers is valuable and undertakes to keep such confidential information secret and to protect and preserve the confidential nature and secrecy of that confidential information.
+
+The Service provider may disclose any confidential information relating to the Service recipient’s Customers:
+
+4
+
+11/3/26, 12:47 PM
+
+a) to the extent required by law or lawful requirement of any government or governmental body, authority or agency having authority over the disclosing party; or
+
+b) if required in connection with legal proceedings relating to this agreement, The obligations of the Service provider pursuant to this Clause 7.6 do not apply to any confidential information that:
+
+a) is or becomes public knowledge other than by breach of this Clause 7.6;
+
+b) is in the possession of the receiving party without restriction in relation to disclosure before the date of receipt from the disclosing party; or
+
+c) is received from a third party who lawfully acquired it and who is under no obligation restricting its disclosure; or
+
+d) is independently developed without access to the confidential information.
+
+7.7 Intellectual Property The Service provider acknowledges that the Service recipient shall have exclusive right, title and interest in and to any Intangible Property created out of provision of services pursuant to this agreement. The Service provider shall not at any time do or cause to be done, or fail to do or cause the failure of any act or thing resulting in directly or indirectly, contesting or in any way impairing the Service recipient’s right, title, or interest in such Intellectual Property.
+
+7.8 Counterparts This agreement may be executed in any number of counterparts, each of which when so executed shall be deemed to be an original and all of which when taken together shall constitute this agreement.
+
+7.9 Successors and Assigns This agreement shall not be assignable, in whole or in part, directly or indirectly, by any party hereto without the consent of the other party hereto. This agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and permitted assigns.
+
+7.10 No Third-Party Beneficiaries This agreement is solely for the benefit of the Parties and should not be deemed to confer upon third parties any remedy, claim, liability, reimbursement claim of action or other right in excess of those existing without reference to this agreement.
+
+7.11 Applicable Law and Jurisdiction This agreement will be governed by and construed in accordance with the laws of India. Each Party hereby consents to the exclusive jurisdiction of the courts sitting in the India in any action arising out of this agreement.
+
+5
+
+11/3/26, 12:47 PM
+
+IN WITNESS WHEREOF, the undersigned have caused this agreement to be duly executed and operable as of the Effective Date.
+
+/s/ Radhakrishnan Sundar Radhakrishnan Sundar
+
+/s/ Farid Kazani Farid Kazani
+
+Executive Director
+
+Director
+
+Majesco Limited
+
+Majesco Software and Solutions India Private Limited
+
+6

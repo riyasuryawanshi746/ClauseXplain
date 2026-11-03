@@ -1,0 +1,477 @@
+Intosys Springboard MEMORANDUM OF UNDERSTANDING
+
+Between
+
+KAPURTHALA
+
+L.K. GUJRAL PUNJAB TECHNICAL UNIVERSITY JALANDHAR
+
+and
+
+INFOSYS LIMITED
+
+This Memorandum of Understanding (hereinafter called "MOU") is made on 11 August, 2023 MOU by and between Infosys Limited (including its subsidiaries and Affiliates), a corporation organized and existing under the laws of India and having its primary place of business at Plot No. 44 &97A, Electronics City, Hosur Road, Bangalore - 560100, India (hereinafter "Infosys") and I.K. GUJRAL PUNJABTECHNICAL UNIVERSITY (including its subsidiaries and Afiliates as listed under (Annexure A) organized and existing under the laws of the state of Punjab and having its primary place of business at Jalandhar-Kapurthala Highway, Ibban, Distt. Kapurthala-144603, Punjab (hereinafter "Partner"). Partner and Infosys being referred to individually as a "Party" or collectively as the "Parties"
+
+Recitals
+
+WHEREAS the Partner is al.K. Gujral Punjab Technical University (|KGPTU)was established as Punjab TechnicalUniversity and renamed as I.K. GujralPunjab Technical University by State Government in the honor to Late Sh. Inder Kumar Gujral, Former Prime Minister of India in 2015. The University has undertaken the task of training students to help in the development of skilled manpower in this sector in the country in general and in the state in particular. With this goal in mind, the university is promoting a number of courses in different streams in regular as well as distance education programs. IKGPTUs always concerned about the training and Placement of its students and
+
+WHEREAS Infosys is a global leader in consulting, technology, and outsourcing solutions and has agreed to provide their proprietary Springboard Platform for the Services (hereinafter referred to as "Services").
+
+NOW THEREFORE,for and in consideration of the mutual agreements and covenants hereafter set forth, the Parties hereto agree as follows:
+
+1. BROAD SCOPE OF ACTIVITIES
+
+The objective of this MOU is to establish a written document forming a basis under which the Parties mayenter into agreements to perform Services only in India as defined in Schedule
+
+A&B.
+
+1.1 Both Parties understand that this is aCorporate Social Responsibility ("CSR")initiative hence scope of work can be augmented further as and when required.
+
+1.2 Aso, necessary augmentation, in consultation with both the Parties, can be made regarding the time period of the MOU.
+
+1.3 The relationship between the Parties is non-exclusive and nothing herein will prohibit either Party from pursuing similar agreements with any company or person.
+
+2. CONFIDENTIAL AND PROPRIETARY INFORMATION
+
+Each Party acknowledges and agrees that any and all information emanating from the other Party's business, in any form, including but not limited to information relating to the disclosing party's past, present, or future research, development or business activities is "Confidential and Proprietary Information". Each Party agrees that it will not, during or after the term of this MOU, permit the duplication or disclosure of any such Confidential and Proprietary Information to any person (other than an employee, agent or representative of the other party Page I of14
+
+who needs such information for the performance of the obligations hereunder), unless such duplication, use or disclosure is specifically authorized by the disclosing Party in writing. "Confidential and Proprietary Information" is not meant to include any information which (a) is publicly available prior to this MOU or is made publicly available byy the disclosing party without restriction; (b) is rightfully received by the receiving party from third parties without accompanying secrecy obligations; (c) is already in the receiving party's possession and was lawfully received from sources other than the disclosing party; or (d) is independently developed by the receiving party. Partner may disclose Infosys' Confidential and Proprietary Information if Partner is required to do so under applicable law, rule or order or communicated in response to a valid order by a court or required by any governmental body or regulatory / legal authority, provided that, Partner, where reasonably practicable and to the extent legally permissible, provides Infosys with prior written notice of the required disclosure so that lnfosys may seek protective order or other appropriate remedy, and provided further that Partner discloses no more Confidential and Proprietary Information than is reasonably necessary in order to respond to the required disclosure. The secrecy of the Confidential and Proprietary Information disclosed pursuant to this MOUshall be maintained for a period of five (5) years following disclosure thereof.
+
+3. DATA PRIVACY
+
+3.1. The Parties hereby agree that each of it shall be acting in the capacity of an independent Data Controller and no Pll (as defined under this MOU) of the other Party shall be used for any purposes other than for the fulfillment of the purpose of this MOUand provisionof the Services as contemplated herein. Infosys while processing Personal Data for the purpose of Services contemplated herein; shall adhere to the stipulations agreed under
+
+Schedule C.
+
+3.2.With respect to Personal Data provided by or on behalf of Partner or permitted by Partnerto be provided to Infosys:(a) Each party will comply with all Laws, including all Laws relating to privacyordatasecurity (b) Infosys and Partner will not be required to monitor or advise the other, in determining compliance with laws; (c) in the event of any change to (includingchanges in interpretation of a Law which requires a change to allor part of the Service, the Parties may make appropriate adjustments to the terms of the MOU and the Service, as determined by Infosys; and(d) Partner willencryptall Partner Personal Data, priortothe provisiontolnfosys of suchPartner's Personal Data byoron behalf of Partner or permitted by Partner to be provided to Infosys, or using such in connection with the Services. Partner is responsible for back up of all Partner Data.
+
+3.3. Infosys has established and maintains a data security program. The existence of the data security program does not relieve either party of their obligations otherwise described in the MOU.
+
+4. OWNERSHIP AND RESTRICTIONS
+
+As used in this Section 4,the following terms have the respective meanings set forth below: "Content means any material hosted or to be hosted on Infosys Springboard including but is not limited to text, data, images, videos, graphics, code or other items. "Free Software Foundation" means an entity defined at https://www.fsf.org/about!. "Partner Content' means all the Content that Partner uploads on or make available through Infosys Springboard. "Infosys Content" means all the Content owned by Infosys or licensed to Infosys by any third party. "Intellectual Property Rights" means all patents, copyrights and related rights, database rights, utility models, design rights, trademarks, service marks, rights in undisclosed or Confidential Information (such as knowhow, trade secrets and inventions) (whether
+
+patentable or not) and other ights of a like nature (whether registered or unregistered) and all applications for such rights as may exist anywhere inthe world. "Open Source Software" means any software that is licensed under any license listed or described at htp:/www.opensource.org/docs/definition.phpor any license currently listed at http://www.opensource.org/licenses. Free Code as defined by the Free Software Foundation.
+
+4.1. Except as provided herein, this MOU will not be construed to grant any license under any trade secret, patent, patent application, industrial design, trademark, copyright, mask work, confidential process, formula, plan, computer program, data or other valuable confidential information or know-how to either Party.Each Party will own and retain all of its right, title, and interest in and relating to its intellectual property rights in its Products and Services and Confidential Information, both currently used and that which may be developed and used in the future. For avoidance of doubt, allintellectual property rights in Infosys Springboard and Infosys Content will be retained by Infosys.
+
+Except otherwise provded in this MOU, Partner is not permitted to use the Infosys Springboard and Infosys Content.
+
+4.2. Each party will have the non-transferable, non-exclusive, revocable license to use the other Party's logo(s), trade names(s) and trademarks and the names of its Products ("Marks") identiied in Schedule D, all in unmodified form, solely for identification purposes in relation to the branding and marketing for the Services described in this MOU. All Marks must be reproduced on all copies of the Products and may not be altered or removed. The Party owning a Mark may modify, add or delete any such Marks upon sixty (60) days prior notice to the other Party. Each Party further agrees to ensure that all such use willcomply with good trademark usage practices and the standards of display and trademark usage guidelines provided by the other Party and to take no action that would in any way infringe or interfere with the other Party's rights in its Marks.Each Party agrees to cooperate fully with the other Party in facilitating the other Party's monitoring and control of the nature and quality of the use of the other Party's Marks.Neither Party willhave any right, title or interest in the Marks of the other Party, which will remain its sole and exclusive property, and each Party will retain all goodwill inured through the use of their respective Marks and, thus, agrees to assign to the other Party any rights that such Party may acquire in the applicable Marks by operation of law or otherwise.At no time during or after the term of this MOU will either Party challenge or assist others to challenge the other Party's Marks or the registration thereof or attempt to register, use or permit the use of any trademarks, marks or trade names confusingly similar to those of the other Party.
+
+4.3. Infosys grants Partner a non-exclusive, limited, revocable, non-transferable, non sublicensablelicense during the term to access and use Infosys Springboard and Infosys Content within the territory of India for educational and non-commercial purposes. Partner agrees notto distribute, transmitor publicly display any Infosys Content or any derivative work of Infosys Content to any third party unless otherwise agreed in this MOU. Partner agrees to retain all copyright or other notices fixed on any Infosys Content.
+
+4.4. All Intellectual Property Rights in Partner Content will be retained by Partner. Partner represents and warrants that it has the necessary rights, licenses or consents to upload the Partner Content and to authorize end users of Infosys Springboard to access the Partner Content.
+
+4.5. If Partner chooses to make the Partner Content available only to its authorized users, Partner grants Infosys a non-exclusive, worldwide, royalty free license during the term of the MOU to host and display the Partner Content to authorized users of Partner through Infosys Springboard. In the event Partner chooses to make the Partner Content available at allthe users of Infosys Springboard, Partner grants Infosys a non-exclusive, worldwide, royalty free, sub-license, perpetual license to host, copy, store, transmit or publicly display the Partner Content.
+
+4.6. Partner agrees that Infosys has the right to remove the Partner Content from Infosys
+
+Springboard in the event Infosys receives any written notice or grievance from any third party alleging infringement of its lntellectual Property Rights or violation of any privacy
+
+rights of that third party resulting from the Partner's Content.
+
+4.7. Partner agrees to indemnify, defend and hold harmless Infosys, its Affiliates, directors,
+
+officers, employees, representatives, and agents for any losses, damages, or expenses
+
+incurred by Infosys (including reasonable attorney fees) against: () any third party claim
+
+waraisrirnagntiferosmcotnhteainPeAdRiTn NthEisR'Ms OCUonbteyntP;ar(tin)ebr:re(aiic)hbroefacahnyofwcaornrafindteinetsiailnitcyl,uddiantga
+
+implied privacy
+
+and/or security obligations under this MOU, by Partner.
+
+Inoffofiscyesrs,agermepeslotyoeeisn,dreemprneifsye,ndtaetfievneds,,
+
+and and
+
+hold harmless agent for any
+
+Partner, losses,
+
+its Afiliates, damages or
+
+directors, expenses
+
+incurred by Partner (including reasonable attorney
+
+(C) oanrfiisdienngtiaflriotym, unthdeer
+
+Infosys breach of intellectual this MOU. If any infringement
+
+fees) against any property rights; claim is made or
+
+third-party claims: and (ii) breach of the same appears
+
+as a is no
+
+just claim concerning Infosys' longer infringing; or replace it
+
+Content, Infosys shall modify with a non-infringing Infosys'
+
+Infosys' Content.
+
+Content
+
+so
+
+that
+
+TINHDEEMINNDIEFIMCNAITFIIOCNASTITOHNAST
+
+STATED HEREIN ARE WITHOUT PREJUDICE TO THE PARTNER HAS PROVIDED ELSEWHERE IN THIS MOU.
+
+4.8. Partner agrees not to do, and not to allow or authorize any of its instructors or third party to do, any of the following: a Use Infosys Springboard in any manner that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying the services provided by Infosys Springboard, or that could damage, disable, overburden or impair the functioning of
+
+the Infosys Springboard; b. Harvest or collect information about other users, including their email addresses or any other personal details, without their consent: C Use any robot, spider, crawler, scraper or other automated means or interface not provided by us to access Infosys Springboard or to extract data from Infosys Springboard,
+
+d. Reverse engineer any aspect of Infosys Springboard or do anything that might discover source code or bypass or circumvent measures employed to prevent or limit access to any area, content or code of Infosys Springboard (except as otherwise expressly permitted by law);
+
+e. Use or attempt to use any account for which the Party does not have authorization; f Impersonate or post on behalf of any person or entity or otherwise misrepresent the Party's affiliation with a person or entity: g. Attempt to circumvent any content filtering techniques Infosys employs, or attempt to access any service or area of Infosys Springboard not authorized to access by the Partner;
+
+h. Engage in any harassing, intimidating, predatory or stalking conduct; Develop any third-party applications that interact with Infosys Springboard without our prior written consent;
+
+0. Use Infosys Springboard for any illegal or unauthorized purpose or engage in, encourage or promote any activity that violates these Terms; and
+
+k. Upload any Content which is defamatory, obscene, pornographic, pedophilic, invasive of another's privacy, including bodily privacy, insultingor harassing on the
+
+basis of gender, libelous, racially or ethnically objectionable, relating or encouraging money laundering or gambling, or otherwise inconsistent with or contrary to the laws in force.
+
+5 TERM
+
+This MOU shall become effective on the last date of signing of this MOU ("Efective Date") and shallcontinue for a period of5 (Five) years.
+
+TfnrohotemicePteaorrfmtiesinusacthsinhtgaelrltmhbiiesnaetnMiotiOntlUetdoimtthomeetdeoirtamhteeirnlyaPteiafrtttyhh.eisrNeMootOhciUcnugrasitnaatnhmyisattMiemrOieaUlbybsrhegaaivlclihnpgreovf3e0tnhtedathtyeesrmPwsarriatttineends Conditions mentioned herein.
+
+oUbploignaticoonms polfetPioanrt,nteerrmoinnactoiomnpolertieoxnp, irteartimoninaotfiotnhisor
+
+MOU, Partner expiration:
+
+will,
+
+in
+
+addition
+
+to
+
+any
+
+other
+
+() Cease all performance of the completed or terminated Services and furnish and return
+
+to Infosys allaccess of Infosys Springboard;
+
+(ü)
+
+Return related Partner
+
+ttooshtIahnlelfaolcssyoosmcpaellrletitfceyodptooierIsntfeoorfsmyasinntyahtaeCtdoitnShfeiardsveincctoeimaslpaolnireddPcwreoiatphsrieseutacarhlyl
+
+lnformation use of these obligations.
+
+of Infosys materials;
+
+6 EXPENSES
+
+Each Party will bear the costs and expenses of its performance under this MOU, unless agreed otherwise by the Parties in writing.
+
+7. REPRESENTATION AND WARRANTIES Partner represents and warrants that: 2
+
+in the execution of this MOU, Partner shall comply with all applicable laws, regulations and ordinances;
+
+(i) Partner shall not subcontract any part of the Services without prior written approval of Infosys. (ü) that the Partner Content willnot contain any viruses or worms, bugs, disabling devices or any devices that will disrupt, disable, harm, impede or otherwise interfere with the Services of Infosys or allow unauthorized access into Infosys systems or hardware.
+
+Infosys represents and warrants that:
+
+() the Services willbe performed consistent with generally accepted industry standards in a professional and workmanlike manner, (ü) in the execution of this MOU, Infosys shallcomply with all applicable laws, regulations, and ordinances, related to Prevention of Corruption Act, 1988; UK Bribery Act, 2010 and US Foreign Corrupt Practices Act, 1977.
+
+Except as otherwise expressly set forth in this MOU, neither Party makes any warranties, guarantees or representations of any kind, express or implied, including without limitation any implied warranty of merchantability or fitness for a particular purpose.
+
+8 LIMITATION OF LIABILITY
+
+Except for claims/loss/damages arising due to breach of Section 2 (Confidential and Proprietary Information) and 9 (g) (Non-Hire), and use/ breach of any intellectual property rights; for claims arising from any wilful misconduct, fraud, misrepresentation, and or violation by Partner of any laws, rules, ordinances, or regulations; and any other liability
+
+which cannot be excluded under law, Partner shall not be liable to the other Party for
+
+dFaumrthaegre, sI,nwfohsyesthsehrailnl
+
+ncootnbtreaclti,atbolret
+
+too r
+
+otherwise, arising out of or in the other Party for damages,
+
+connection with this whether in contract,
+
+MOU. tort or
+
+lioatbhleerwfoirse,aanryisiningdioreuctt,ofspoerciianl,coinncniedcetniotanl,
+
+with this MOU. consequential,
+
+In no event punitive, tort
+
+shall either Party be or other damages,
+
+however caused, including, without limitation, any damages resulting from loss of use, loss of
+
+data, loSs of profits or loss of business arising out of or in connection with this MOU, or of any
+
+other obligations relating to this MOU, whether or not the Party has been advised of the
+
+possibility of such damages.
+
+9 NOTICES
+
+Allnotices to be given in connection with this made in writing and shall be sufficiently given other express mail service, postage prepaid,
+
+MOUshall be effective if personally delivered addressed to the party
+
+upon receipt, shall or if sent by courier entitled or required
+
+be or to
+
+receive such notice at the address for such party as follows:
+
+To Partner:
+
+Attention
+
+Dr. S.K. Misra
+
+Title Address
+
+Registrar Jalandhar-Kapurthala Highway, Distt. Kapurthala - 144603 (Punjab)
+
+To Infosys:
+
+Infosys Limited
+
+Attention Title Address
+
+Mr. Thirumala Arohi Senior Vice President and Head, Education Training and ASsessment Plot No. 44 &97A, ElectronicsCity, Hosur Road, Bangalore 560100, India
+
+With acopy to:
+
+Attention
+
+Department: Legal Department Address Plot No. 44 &97A, Electronics City, Hosur Road, Bangalore - 560100, India
+
+Phone
+
++91 80 28520261
+
+Either Party may change such address by notice to the other Party.
+
+10. GENERAL PROVISIONS
+
+a. Independent Contractors. It is expressly understood that Infosys and Partner are contractors independent of one another, and that neither has the authority to bind the other to any third person or otherwise to act in any way as the representative of the other, unless otherwise expressly agreed to in writing signed by both parties hereto.
+
+b. Force Majeure: Each Party shallbe excused from any failure to perform or any delay in performing its obligations under this MOUby reasons which arises from causes beyond a Party's reasonable control and not occasioned by its fault or negligence including but not limited to natural disasters, terrorist activities, government sanctions, economic sanctions, trade sanctions, embargo, actions or decrees of governmental bodies, communication line failures not the fault of the affected Party (hereafter referred to as a "Force Majeure Event"). A Party affected by the Force Majeure Event shall notify as soon as practicable the other Party of the occurrence of such event.
+
+C. Compllance with LawS: Each Party will comply with all applicable laws, rules and regulations in its performance of this MOU.
+
+d.
+
+Assignment: Neither Party obligations under this MoU
+
+will have without
+
+the right to assign or otherwise transfer its rights or receiving the express prior written consent of the
+
+other Party, such content not be unreasonably withheld. Notwithstanding the above or any contrary provision contained in this MoU, the Parties shal have the right to assign this MOU, in whole or in part, to any of their affliates, parents or subsidiaries, or to any SuccesSor by way of merger, consolidation or acquisition of a substantial amount of the assets of said corporation or its parent company. e Dispute Resolution and Arbitration: In the event of any dispute arising out of or in Connection with this MOU, the Parties will attempt in good faith to resolve such dispute through negotiations between them. Where the parties are unable to resolve a dispute by means of negotiation, the dispute shall be finally settled by arbitration conducted in accordance with the rules of theArbitration& Conciliation Act, 1996 as in effect on the Effective Date of this Agreement. Such disputes will be resolved by a single arbitrator appointed by the parties after mutual agreement. The seat of arbitration will be Bangalore India. The language of the arbitration will be English.Each party will bear its own expenses in the arbitration and will share equally the costs of the arbitration; provided, however, that the arbitrators may. in their discretion, award costs and fees to the prevailing party. Judgment upon the award may be entered in any court having jurisdiction over the award or over the applicable party or its assets.
+
+f. Governing Law: This MOU, and any dispute arising from the relationship between the parties to this MOU, shall be governed by laws of India, excluding any laws thatdirect the application of another jurisdiction's laws.
+
+Non-Hire: Except as otherwise expressly agreed to by the other Party in writing, Partner agrees not to directly or indirectly or through third parties solicit or hire for employment any of other Party's employees involved in the provision of Services under this MOU duringthe term of this MOU and for a period of one (1) year following its completion or termination.
+
+IN WITNESS WHEREOF, the parties have executed this MOUby their authorized representatives as of the date first written above
+
+For Infosys Limited:
+
+For Partner
+
+Date Place Name Title
+
+:11 Aug, 2023 : Bangalore : Mr. Thirumala Arohi :Senior Vice President and Head Education Training and Assessment
+
+Date Place Name Title
+
+11 Aug, 2023 : IKGPTU, Kapurthala : Dr. S.K. Misra Registrar, IKG PTU
+
+Signature (with seal)
+
+Regastrar LK.Gujra E FEa University lalandhar
+
+SCHEDULE A
+
+Infosys Springboard Scope and Details of the Services Infosys has launched Springboard initiative to accelerate progress on its ESG goal to expand digitalre-skilling initiatives to 10million plus people by 2025.AspartoflnfosysCSR, Infosys Springboard provides a curriculum-rich virtual platform that delivers corporate-grade learning experiences, on any device, with closer educator-learner collaboration for students from Class 6 to lifelong learners.This, alongside formal education, helps accelerate digital re-skilling for participating learners, ranging from school and college students to professionals and adults.
+
+Infosys Springboard' sholisticset of courses, powered by Infosys Wingspanand develop din collaboration with world-leading digital content providers, takes advantage of Infosys'4 decade so frich experience in employee and broad-based student competency development. It is als ofully aligned with India's National Education Policy 2020.The learning program is particularly well-suited to grow vocational skills in addition to soft skills. Master-classes, programming challenges, practice areas and playgrounds for experimentation make the training immersive for all. The assessment formats that followW are new-ageready with certification for learnerS who pass the virtual proctored examination.As of March 2023, nearly 53 lakhs learnersand2000+ education institutions, NGOs and support groups are already onboard Infosys Springboard.
+
+Infosys Springboard empowers:
+
+Students to 'learn by doing' and develop holistically in preparation for emerging jobs and career opportunities Women with a focused learning micro site, specialized resources and expert mentors for holistic development as planned and scheduled events Working professionals with advanceddigitalskillstopreparethemfornewageand emerging roles of future.
+
+Teachers to better collaborate with learners on their skilling journey using the platform's engagement features NGOs to extend learning benefits more broadly, especially to the underserved sections of society Infosys Springboard will further amplifyongoingprogramslikelnfosysCampusConnectto deepen industry-academia relationships, Infosys Catch Them Young annual training program in Information Technology for high school students and Aspire and Achieve workshops for aspiring professionals.
+
+Infosys Springboard App is now available on both Play Store and App Store.
+
+Following are some of the new learning initiatives and capabilities launched recently.
+
+Infosys CodersZen, for learning programming languages Java, Python, C#, JavaScript and more.
+
+Virtual/ digital classroomcapabilititeswhichcanbeleveragedbytheinstitutionsto conducttheir regular online classes.
+
+Video Proctored Exam /Assessments environments which can be used by institutions to Conduct online test.
+
+All of the above features including Telemetry, customized microsite, Virtual Digital Classrooms and Video proctored Exam environments are available for institutions to leverage.
+
+College students have access to quality content in professional programming, Playgrounds for all emerging technologies, domain skills and project management skills from leading content providers in the world. They also have access to certification programs which will improve their employability. The Parties willwork to gether to develop a plan for performing the Services contemplated under this MOU. The plan may include, amongother things, conducting joint branding and marketing calls, joint presentations, developing branding and development proposals, determining user interface strategy and user needs.
+
+SCHEDULE B
+
+Faculty Enablement Program Human capital has been amplified through focus on Work, Workplace, and Workforce. Through Infosys Springboard, we attempt to share with you the Infosys way of building a Culture of Lifelong Leaming over the years, our trials and experiments, our learning and progress. It covers Learning Experience, an introduction to Learming Platforms, and the way features work their magic along with advanced telemetry. Infosys has clarity of vision and strategy for future of learning and adoptions of technology in leaning.
+
+The next generation of leaming will require entire ecosystems to come together - from gOvernments and institutions to enterprises and technology partners to managers and employees. At Infosys, we are focused on bringing these moving parts together to truly impact the way we up-skill and learn.
+
+We are making the world future-ready, and the Infosys Springboard is a step in that direction.
+
+At Infosys, we believe in lifelong learning for our employees, and competency development Continues to be akey area of strategic focus for us. The formal Education and Training Division was set up more than three decades ago and has been at the forefront of drivingemployee learningand development programs using a combination of innovative technology, content, and deep expertise of our people.
+
+Today wth emerging technologies, new delivery models, changing talent demographics, geopolitical challenges, and now the COVID-19 situation and its aftermath are some of the forces disrupting and changing the talent needs of every industry. In this context, following are the core principles that have guided us inour talent transformation journey. We believe same thing is applicable for educational institutes at large
+
+1 Motivating to learn: To be successful in driving this transformation, we had to ensure all barriers to learning are removed. This would ensure learners are able to access resources anytime,anywhere, and on any device - thereby taking complete control of how they want to manage their learning journey.
+
+2 Leveragíng the Teacher-Student relationship: For learning efforts to be effective, we saw a need for creating an active role for teachers in supporting and guiding their students in their learning journeys.
+
+3 Justin-ime Learning: Trends indicated that people prefer to learn on the go, at their convenience, and just-in-time of the need. For this to happen, content had to be organized in micro-learníngmodules and thus meet the needs of different personas within the institution.
+
+4. Learning experience: Most learners are used to digital experiences on platforms like Netflix, Amazon Prime shopping, YouTube, etc. Digital learning solutions that we set out to develop also had to be designed to provide such experiences.
+
+5. Ready for the future while delivering excelence today: The Agile ways of workingmarked by shorter and continuous release cycles meant that there is a need to balance today's challenges with tomorrow'sopportunities. Learning programs and courses had to be designed to meet these needs.
+
+Teachers and educators play a pivotal role in enabling and preparing the students for their career aspirations. Infosys Springboard will make this process efficient and intuitive.
+
+Professors and faculty members of Partner can make use of Infosys's expertise andSpringboard platform as follows to amplify the impact: The faculty development program willconsist of series of sessions on the following aspects "Facilitate to Engage "course towards effective teaching techniques.
+
+Instructional design and content creation.
+
+Introduction and awareness to emerging and digital technologies How to leverage online platform for effective learner engagement Authoring courses and assessments on online platforms.
+
+The program willbe delivered online virtually by Infosys experts. In addition, faculty can up-skill themselves and learn new skills through the cOurses available on Springboard platform. Faculty can conduct Vitual classes on the platform and conduct online assessments for their students.
+
+Faculty can use the courses available on Springboard for including in the curriculum and as elective subjects. Faculty can create Microsites for their respective institutions and curate prescriptive content for their students.
+
+Faculty can create their own profile and learning reference materials and discussion forum through knowledge board feature.
+
+SCHEDULE C
+
+PRIVACY & DATA PROTECTION AGREEMENT
+
+On the Processing of Personal Information/Data by Contract ("Data Processing Agreement"y "DPA") By and Between Infosys Limited (and their subsidiaries, parent, and affiliates) with its registered office atPlot No.
+
+44&97A, Electronics City, Hosur Road, Bangalore-560100, India (hereinafter "Infosys")
+
+AND
+
+I.K. GUJRAL PUNJAB TECHNICAL UNIVERSITY (and their subsidiaries, parent, and affiliates) with its registered office at Jalandhar-Kapurthala Highway, Ibban, Dist. Kapurthala-144603 Punjab (hereinafter "Partner").
+
+1. Definitions: i 'Personal Datalinformation' (hereinafter "P/ PIl") shallmean any information/data relating to an identified or identifiable natural person ('data subject). For the purpose of this definition, Pl may also include Sensitive Personal Information, as per Applicable Privacy Laws, including without limited to (i) a first name, last name, gender or initials; (ii) a home or other physical address, including street name and name of city or town; (ii) an email address or other online contact information; (iv) a telephone number etc. Additionally,to the extent any other information is associated or combined with PI, then such information also will be considered PIl. Plmay as well include information relating to legal entities, if so, required by the applicable law. 'Applicable Privacy Laws' refers to all laws, rules, regulations and standards that are designed toprotect the privacy rights or privacy expectations of the Parties(the term includes all subsidiaries and affliates of the Parties), their employees, clients and client - customers and any other third-party vendors.
+
+Data Controller 'or Controller means the entity that determines the purposes and means of Processing of Personal Data, either alone or jointly with another entity. iv. Data Subjectmeans any individual whose Personal Information is collected, used and/orprocessedunderthisDPA(Data Processing Agreement) forthepurpose(s)as mentioned in MoU oftheParties. Explanation: list includes employees, clients, client customers, agents, contractors. vi. Technical and Organizational Security Measures' means those measures aimed at protecting personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorized disclosure or access, in particular where the processing involves the transmission of dataover network, and against all other unlawful forms of processing. vi. PersonalData Breach'meansabreachofsecurityleadingtotheaccidentalor unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, Personal Data transmitted, stored or otherwise processed. vi.Processing' or any other derivative thereof, means any operation or set of operations performed upon PI, whether or not by automatic means, such as collection ,recording, organization, structuring, storage, adaptation or alteration, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, blocking, erasure or destruction.
+
+2.
+
+Processing of Personal Data TA"trftohaeAphigegrtegthiroahrerrceeedterieopmersmatssaoerrpiemtennineusetgcte.pss",tnee)iTp,dvcrhPaaetoietngatvheordreePtcebnteapliuDeiorrgrstPoniaeteAchtasieonaoosratfdnssnhsdeidnaiaiInuslgnctcnhfhleoodecoasfeosoycArunptshhrnegteehrerscsriechoso'oestamifnmAolalPpPneglleenyerrireatnswsewcofaomoihnistnthrhaemanlnalAaecttI.thIctnipnoeefpBfonasloorsiscrmmtfahmoaraabrayatPilitnetohiationonerPd,tnsairep,eeirdvipseurndvaleracaripnttceyhgiodenseressgLeenecascattowoghctudorsaoteranhnsdetngeeatimeereegmceosccoonfotptllttonylicl(eaatahcrtAtareeoetrpirplydolepipienninllbrni,igcycgaauwaofbtobstoiheetlulhdeee,rt
+
+wfIPnIfonorirPtfithvoiawacsrcyehPtynssieceatrhLhrsnaroddpownieurssaerg.ulschcotlIhnynthafnoceloiorrimtlnilacefafoectfirstiomslinaaaPntteduieosrnncsadooneinnsdrascloethonbIilnttslasefiocAnmrtmegaudrnas.etyteioIsmncunfofeoffnnisrctsoy,iemsennPatttlalhyrsreeotiqnndueafaoirgrtreramadeg,esdrusteaobettjaosse,hcsmatutsorbaeakjepnetchrdotepsvrpiioonrdfvofeoivtshriiamdeolelnapstsruieoIronlnpenfovowtassihynethesst
+
+II.
+
+wSSCaISnngupeeioftacccrhonihuietsnnarysagisiPsstnnbtylaeyoaarduaygcMnrrcridednfeieoadeeasrstersshoonuttinhishtanraaeiesslSbrsetpellAooescsuhspgtorisrarepobeelcnotloeqat.srmiubeonIdeefenseornaftesftontatqsrymrkiuuyteeicsanssnstuddiihwtcoeeeaaihnrlgllicblnaeooyngPinfnon,lstsPsssoueuetaprnrprrreuvttpdonnilfcatcieraheemoeruadsmsttastho,tgwaooepeoaraeipircrtnztrrohebsroa,edyunpuftrrtrshPaoeeieeaiadrrnt.rc;eP(tuonfbnerTme)olrraermspewcoltghhinfaapunaarnlrtildcociipaeDtcnlresgaowhsatcsaantiitehl;dhnls:eagsOtni,(phnadraregg)onoa(cdmconne)flisyezacsaacoaiPtstnmicluogaitnprnnaeloadyasslf
+
+iv.
+
+manner that puts Partnerin breach under the Applicable Privacy Laws. Nothing in this Agreement shall be deemed to prevent the Parties
+
+from
+
+taking
+
+steps
+
+it
+
+rFrueolaressothnaeanbdpluyrredpgeoueslmaetsisoonnfsetchweiissthsDawrPyhAit,coh"cAoepmapcplhilcyaPbwaliretthyPtrhisievalAecgypapllLlyiacwaobbsl"leigmPedreivatanocsycoaLlmlapwlalysw. sd,ucriondgetsh, esttaetrumteso,f
+
+vi.
+
+this Agreement. Patner by signing outside India or to
+
+this any
+
+DPAagreement agrees /provide third party for the purpose of the
+
+their consent for any transfer Services contemplated under
+
+of PII this
+
+The
+
+MOU. undersigned
+
+represent
+
+that
+
+they
+
+are
+
+duly
+
+authorized
+
+representatives
+
+of
+
+the
+
+parties
+
+and
+
+have
+
+full
+
+authority to bind the parties.
+
+For Infosys Limited
+
+For Partner
+
+Date Place Name Title
+
+:11Aug, 2023 Bangalore :Mr. Thirumala Arohi :SeniorVice President and Head Education Training and Assessment
+
+Date 11Aug, 2023 Place IKGPTU, Kapurthala Name Dr. S.K. Misra Title :Registrar, IKGPTU
+
+Signature (with seal)
+
+RIKeg.1GstLraSbighaarsawiesbaijcal University Jalandhar
+
+SCHEDULE D Logos.
+
+Infoss ISringhoard
+
+NT.
+
+KAPURTHALA

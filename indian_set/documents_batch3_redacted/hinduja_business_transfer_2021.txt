@@ -1,0 +1,2349 @@
+This stamp paper forms an integral part of the business transfer agreement dated August 9, 2021 entered into between Hinduja Global Solutions Limited and Betaine B.V.
+
+Dated AUGUST 9, 2021
+
+BUSINESS TRANSFER AGREEMENT
+
+BY AND AMONGST:
+
+HINDUJA GLOBAL SOLUTIONS LIMITED
+
+as HGSL
+
+AND
+
+BETAINE B.V
+
+as Investor
+
+TABLE OF CONTENTS
+
+1. DEFINITIONS AND INTERPRETATION ... 1 2. BUSINESS TRANSFER ... 13 3. PURCHASE CONSIDERATION ... 14 4. CONDITIONS PRECEDENT ... 18 5. PRE CLOSING COVENANTS ... 18 6. ACTIONS ON CLOSING DATE ... 23 7. POST CLOSING ACTIONS & COVENANTS ... 24 8. REPRESENTATIONS AND WARRANTIES OF THE PARTIES ... 27 9. TERMINATION ... 27 10. MISCELLANEOUS ... 27 ANNEXURE A LIST OF FORWARD CONTRACTS ... 3 ANNEXURE B INDIA CONTRACTS ... 6 ANNEXURE C INDIA EMPLOYEES ... 7 ANNEXURE D LIST OF EMPLOYEE BENEFITS ... 8 ANNEXURE E INDIA INTELLECTUAL PROPERTY ... 20 ANNEXURE F ... 22 PART A – INDIA MOVABLE ASSETS ... 22 PART B– INDIA LEASED ASSETS ... 23 ANNEXURE G INDIA LIABILITIES ... 26 ANNEXURE H CONDITIONS PRECEDENT ... 27 PART A ... 27 PART B INVESTOR CONDITIONS PRECEDENT ... 29 PART C JOINT CONDITIONS PRECEDENTS ... 30 ANNEXURE I TERMS OF LEASES ... 31 (i)
+
+BUSINESS TRANSFER AGREEMENT
+
+This business transfer agreement is executed on this 9th day of August, 2021 (the “Execution Date”) by and amongst:
+
+1. HINDUJA GLOBAL SOLUTIONS LIMITED, a company incorporated under the Companies Act, 1956 and having its registered office at Hinduja House, 171, Dr. Annie Besant Road, Worli, Mumbai - 400018 and having a corporate office at 1st floor Gold Hill Square Park, #690, Bommanahalli, Hosur Road, Bangalore, PIN 560068, Karnataka, India (hereinafter referred to as “HGSL”, which expression shall, unless repugnant to the context or meaning thereof, include its successors and permitted assigns) of the FIRST PART; and
+
+2. BETAINE B.V., a private company with limited liability (besloten vennootschap met beperkte aansprakelijkheid) incorporated under the laws of the Netherlands and having its registered office at Herikerbergweg 88, 1101CM Amsterdam, the Netherlands, and registered with the Dutch trade register under number 78240557 (hereinafter referred to as “Investor”, which expression shall, unless repugnant to the context or meaning thereof, include its successors and permitted assigns) of the SECOND PART.
+
+Each of HGSL and Investor and, on and from the date of execution of the Deed of Adherence, India NewCo, are referred to individually as a “Party” and collectively as the “Parties”.
+
+WHEREAS
+
+A. The Investor has agreed to incorporate a wholly owned subsidiary in India (‘India NewCo”) and cause India NewCo to purchase from HGSL, on the terms set out herein and on the Closing Date (defined below), the India HS Undertaking for the India Purchase Consideration. HGSL has agreed to sell, transfer, convey, assign and deliver to India NewCo the India HS Undertaking.
+
+B. Accordingly, the Parties are now desirous of entering into this Agreement to record their understanding with respect to the transfer of the India HS Undertaking.
+
+NOW THEREFORE, in consideration of the foregoing and other good and valuable consideration, the receipt and adequacy of which are hereby expressly acknowledged, the Parties, intending to be legally bound, hereby agree as follows:
+
+1. DEFINITIONS AND INTERPRETATION
+
+1.1 Definitions “Accounting Effective Time” shall mean 11:59 p.m. in the local time zone on the Closing Date; “Accounting Principles” shall mean, with respect to the India HS Undertaking, the Indian Accounting Standards as applied by HGSL with respect to the audited consolidated accounts previously prepared in relation to HGSL as a whole on a consistent basis as at and for the financial year ended March 31, 2021; “Affiliate” in relation to a Person means any Person who Controls, is Controlled by, or is under common Control with, the first referred Person; “Agreement” means this agreement, together with the annexure and appendixes hereto, as may be amended, modified or supplemented from time to time, in accordance with its terms;
+
+“Assets” shall mean, with respect to any Person, any assets or properties of every kind, nature, character, and description (whether immovable, movable, tangible, intangible, absolute, accrued, fixed or otherwise) as now operated, hired, owned by, or rented, leased or licensed to such Person, including receivables, securities, accounts and notes receivable, plant and machinery, equipment, raw materials, inventory, finished goods, furniture, fixtures, computers and related equipment, security / lease deposits of the India HS Undertaking, deposits towards electricity, telephones and other such utilities, prepaid expenses, balances with Governmental Authorities (except for GST refunds/input tax credits and Tax balances for the Pre-Closing Tax Period), advances to vendors and employees, capital advances and insurance; “Big Four Accounting Firms” means any of KPMG, Pricewaterhouse Coopers, Ernst and Young and Deloitte Haskins & Sells; “Business” shall mean the business of providing Healthcare Services (and for avoidance of doubt shall not include any Non Healthcare Services) to the Healthcare Clients; “Business Days” mean any day (other than Saturday or Sunday) on which banks are generally open for operation in (i) Bangalore, India; (ii) Mumbai, India; (iii) Amsterdam, Netherlands; and (iv) Delaware, United States of America; and (v) New York, New York, United States of America; “CCI Approval” shall mean the approval of the Competition Commission of India or deemed approval in accordance with the Competition Act, 2002, read with the Competition (Procedure with regard to transaction of business relating to combination) Regulations, 2011; “Closing Date” means a date mutually agreed between HGSL and the Investor; “Conditions Precedent” means collectively the HGSL Conditions Precedent, the Investor Conditions Precedent and Joint Conditions Precedent; “Contract” shall mean, with respect to a Person, any contract, agreement, commitment, obligation, undertaking or understanding, instrument, warranty, including, without limitation, any note, bond, loan agreement, mortgage, indenture, license or lease, whether in writing or otherwise; “Control” (including, with its correlative meanings, the terms “Controlled by” or “under common Control with”), as used with respect to any Person means the direct or indirect beneficial ownership of or the right to vote in respect of, directly or indirectly, more than 50% (fifty percent) of the voting shares or securities of a Person and/or the power to control the majority of the composition of the board of directors of a person and/or the power to direct the management or policies of a Person, whether obtained directly or indirectly, and whether obtained by ownership of share capital, through contract or otherwise or any or all of the above; “Current Assets” means accounts receivables, unbilled revenue, prepaid expenses, any similar item (including any balance with a Governmental Authority), trade in nature, and such assets that are customarily called current assets under the Accounting Principles as per the line items listed in Schedule 1, but does not include India Excluded Assets; “Current Liabilities” means trade payables, advances received, employee liabilities, other payables in the Ordinary Course and any such liabilities that are customarily called current liabilities under the Accounting Principles as per the line items listed in Schedule 1, but excluding items listed in (a) to (r) of the definition of Debt and India Excluded Liabilities;
+
+“Debt” shall mean, except otherwise stated, in each case with respect to the India HS Undertaking:
+
+(a) all obligations for borrowed money or issued in substitution or exchange for borrowed money (including overdraft facilities);
+
+(b) all obligations evidenced by bonds, debentures, notes, or other similar instruments or securities (including, for the avoidance of doubt, all convertible notes);
+
+(c) all obligations for the deferred or unpaid purchase price of any property, assets, securities or services (assuming maximum amounts earned), including any stretched payables (i.e. for more than 180 days)/ accruals, customer advances, any transaction related expenses, any related party payables which are non-operational, outside sales commission, capital creditors, contingent liabilities which have been crystallized after the balance sheet as of March 31, 2021;
+
+(d) all obligations secured by any Encumbrance;
+
+(e) all obligations, contingent or otherwise (including the amount of any earnouts, any post-closing true-up obligations or similar purchase price adjustments) created or arising under any conditional sale or other title retention agreement with respect to property, assets or securities acquired (assuming maximum amounts earned);
+
+(f) all obligations under any lease which is required to be treated as a capital or finance lease in accordance with the Accounting Principles;
+
+(g) all obligations in respect of bankers’ acceptances, performance bonds, surety bonds or letters of credit (to the extent such obligation is drawn);
+
+(h) all obligations under interest rate, currency or other swap, hedging or derivative arrangements (including any breakage costs relating thereto) other than forward covers;
+
+(i) all unpaid obligations of India HS Undertaking related to severance or other termination-related payments or benefits accrued, payable, or otherwise owed to any current or former director, officer, manager, employee or independent contractor of India HS Undertaking whose employment or other service relationship with India HS Undertaking was terminated prior to or as of the Closing, together with all Taxes that are payable by India HS Undertaking in connection with such obligations;
+
+(j) all obligations of India HS Undertaking related to earned, accrued or otherwise payable bonuses, commissions, or other incentive compensation (including deferred performance incentive) owed to any current or former director, officer, manager, employee or independent contractor of the India HS Undertaking with respect to any period prior to or as of the Closing, together with all Taxes that are payable by India HS Undertaking in connection with such obligations;
+
+(k) any amounts owed to HGSL or any Affiliate thereof by India HS Undertaking;
+
+(l) any refinancing of any of the foregoing obligations;
+
+(m) all unpaid Tax liabilities (whether or not then due) (i) for any Pre-Closing Tax Period (including, for the avoidance of doubt, a pre-closing portion of any Straddle Period), calculated as of the Closing Date (and determined pursuant to Section
+
+3.6(xiii)), after giving effect to the transactions contemplated by this Agreement, determined on a jurisdiction by jurisdiction basis and type of Tax by type of Tax basis within each such jurisdiction, after taking into account any prepayment of such Taxes available to offset under applicable Law such Tax liability when the relevant Tax Return is filed, as determined on a “more likely than not” basis, provided that the amount due with respect to any jurisdiction or type of Tax in such jurisdiction shall not be less than zero but excluding any Taxes in respect of the branch office of HGSL in Philippines; and (ii) attributable to any deferred revenue to the extent collected in cash (after excluding deferred training revenue for training which has already been delivered which is non-refundable and collected in cash), in each case, that was received prior to the Closing, and calculated without taking into account any Tax attributes available following the Closing Date to offset such Taxes;
+
+(n) any unfunded or underfunded liabilities, deferred compensation or obligations with respect to any India Employee Benefit, including if applicable pensions and other similar post-retirement obligations which, in each case, are unfunded or to the extent underfunded on the Closing Date, any unpaid employee variable pay (other than those specifically provided in the Transaction Documents as being payable directly by HGSL), unpaid deferred payments incentive (other than those specifically provided in the Transaction Documents as being payable directly by HGSL); unpaid increments and commission relating to the period prior to April 1, 2021, any unpaid liabilities created for any employee disputes being transferred to the Investor or its Affiliates pursuant to the Transaction Documents;
+
+(o) any Transaction Expenses, allocated to India HS Undertaking in proportion to the cost incurred by India HS Undertaking;
+
+(p) one-time expenditures (including capex) incurred for the purposes of performing HGSL’s obligations under the Transaction Documents, to the extent such one-time expenditures are not fully discharged as of the Closing Date or are not otherwise attributed to HGSL under the Transaction Documents;
+
+(q) interest, principal, prepayment penalty, Taxes, fees, or expenses, to the extent due or owing in respect of those items listed in clauses (a) through (p) above, whether resulting from their payment or discharge or otherwise;
+
+(r) security / lease deposits payable by the India NewCo to HGSL in relation to 5th Floor, Jayant Tech Park, Padmini Garden, Mount Poonamallee Road, Nandabakkam, Chennai (“Jayant Tech Park”) and Module No. T-141, 4th Floor in International Infotech Park, Sector-30A, Vashi, Navi Mumbai (“Vashi Property”), and security/ lease deposits paid or payable by HGSL in relation to the leased properties identified as pertaining to India HS Undertaking but which are not assigned / novated in favour of India NewCo as contemplated under this Agreement;
+
+(s) an amount of USD 3,380,000 (United States Dollars Three Million Three Hundred and Eighty Thousand);
+
+(t) all Liabilities of India HS Undertaking that would be required to be reflected on a balance sheet on the Closing Date under the Accounting Principles, but not including Current Liabilities;
+
+Provided that where any amount falls within more than one category listed in (a) through (t) above, such amount shall only be regarded as “Debt” once without double counting.
+
+“Encumbrance” means:
+
+(a) any claim, option, mortgage, charge (whether fixed or floating), pledge, lien, power of sale, hypothecation, security interest;
+
+(b) security interest or other encumbrance of any kind securing, or conferring any priority of payment in respect of, any obligation of any Person;
+
+(c) any voting agreement, option, right of pre-emption, any transfer restriction, right of first offer, refusal, title retention or any other third party right;
+
+(d) a transaction which, in legal terms, is not the granting of security or an Encumbrance as listed above but which has an economic or financial effect similar to the granting of any security or right similar to any of the matters listed above under applicable Laws; or
+
+(e) other security interest of any kind or any agreement or arrangement having a similar effect or any agreement or obligation to create any of the foregoing in favour of any Person, as may be applicable, and the terms “Encumber” or “Encumbered” shall be construed accordingly; “Final India Purchase Consideration” means the India Purchase Consideration as finally determined pursuant to Clause 3.6; “Forward Contracts” means the contracts entered into by HGSL in relation to US-INR forward covers, except for forward covers to the extent pertaining to the branch office of HGSL in Philippines. A list of such forward covers as on August 1, 2021 is set out in Annexure A and a list of such forward covers updated as on the Closing Date, in accordance with and in compliance with Clause 5.4 shall be provided on the Closing Date; “Governmental Authority” means any nation or government or any province, state or any other political subdivision thereof, any entity, authority or body exercising executive, legislative, judicial, regulatory, taxing or administrative functions of or pertaining to government, including any government authority, taxing authority, agency, department, board, commission or instrumentality, of any applicable jurisdiction of a party to this Agreement, any court, mediator, tribunal or arbitrator/ arbitration tribunal and any securities exchange or body or authority regulating such securities exchange, or any company, business, enterprise or other entity owned or controlled by any of the foregoing; “GST” means levy of Goods and Services Tax under the Central Goods and Services Tax Act, 2017, the Integrated Goods and Services Tax Act, 2017, the Union Territory Goods and Services Tax Act, 2017 for respective Union Territories, the State Goods and Services Tax Act, 2017 for respective states, the Goods and Services Tax (Compensation to States) Act, 2017, Notification No. 12 / 2017 – Central Tax (Rate) dated 28th June, 2017 and respective rules prescribed under the aforesaid legislations (including any amendments, replacements, notifications, circulars, orders, etc. thereto); along with any interest, fine, penalty, surcharge, cess or any other levy thereon; “Healthcare Clients” shall mean any payers, pharmacy benefits managers, healthcare benefits administrators, workers’ compensation insurer and solution providers, health systems, healthcare providers, health insurers, providers of ancillary diagnostic, therapeutic or custodial products and services, medical equipment product or service providers or suppliers, or any other Person engaged in similar activities in the healthcare sector, provided that, if a health insurer, workers compensation insurer and solution provider, provider of ancillary diagnostic, therapeutic or custodial products and services, medical
+
+equipment product or service provider or supplier engages in other businesses, only the division of such Person conducting the businesses described above shall constitute a “Healthcare Client”; “Healthcare Services” shall mean voice and non-voice -based services comprising: (i) member lifecycle management services which consists of member acquisition, enrolment, plan building, billing, wellness, member retention, and engagement, benefits set-up, member calls, grievance & appeals, and customer engagement; (ii) provider lifecycle management services which consists of contracting, credentialing, database management, data collection & verification, provider calls, nurse advice line and provider support; (iii) claims benefits management services which consists of adjudication, research & financial recovery, claims processing and denial management; (iv) medical cost management services which consists of nurse triage/care coordination, health information line, utilization management, care management, medical necessity review, wellness services, health education and population health; and (v) revenue cycle management services which consists of financial clearance, billing services, order processing, insurance verification, care management, order management, prior-authorization, coding services, A/R management and patient-pay in each case, provided to Healthcare Clients; “India Contracts” means: (i) Contracts entered into by HGSL relating solely to the Business conducted by HGSL; and (ii) in respect of the Contracts entered into by HGSL that primarily relate to the Business (but also relate to the Remaining Business) conducted by HGSL, such portion of the Contracts as are agreed to be assigned or transferred or novated to India NewCo as mutually agreed between the Investor and HGSL. A list, as of July 25, 2021, of the Contracts entered into by HGSL (i) relating solely to the Business conducted by HGSL is set out in Part A of Annexure B; and (ii) that relate to both the Business conducted by HGSL and the Remaining Business conducted by HGSL, in each case of a value of more than INR 10,00,000, is set out in Part B of Annexure B, and a list of the India Contracts updated as of the Closing Date, in accordance and compliance with Clause 5.4, shall be provided on the Closing Date; “India Debt” shall mean the Debt of the India HS Undertaking as of the Accounting Effective Time; “India Employees” means individuals employed by HGSL solely or primarily in relation to the Business conducted by HGSL. A list of the India Employees as on July 15, 2021 is set out in Annexure C and a list of the India Employees updated as of the Closing Date, in accordance and compliance with Clause 5.4, shall be provided on the Closing Date; “India Employee Benefits” means all the statutory and other benefits applicable to the India Employees and which form part of the compensation of the Transferring Employees, a list whereof as on the Execution Date is set out in Annexure D; “India Employee Transfer Letter” means a letter issued jointly by HGSL and India NewCo for the transfer of the India Employees’ employment from HGSL to India NewCo with effect from the Closing Date and as more particularly set out in Clause 5.1(i)(a); “India Excluded Assets” means (i) the office premises of HGSL situated at 5th Floor, Jayant Tech Park, Padmini Garden, Mount Poonamallee Road, Nandabakkam, Chennai and Module No. T-141, 4th Floor in International Infotech Park, Sector-30A, Vashi, Navi Mumbai, along with the underlying Contracts; (ii) any cash/ cash equivalents and input tax credits and Tax refunds, in each case for a period prior to the Closing Date; (iii) any Intellectual Property not being the India Intellectual Property. For the avoidance of doubt, intellectual property containing “HGS” or any derivatives thereof, along with all rights,
+
+privileges and entitlements to use the same, shall constitute India Excluded Assets; and (iv) incentives relating to Software Export Incentive Scheme (SEIS) until the Closing Date; “India Excluded Liability” means (i) Liabilities in relation to the Remaining Business; (ii) all Liabilities in relation to failure, if any, by HGSL to file returns or forms or comply with the Securities and Exchange Board of India Act, 1992, Companies Act, 2013, Foreign Exchange Management Act, 1999 and the rules and regulations issued under each of the aforesaid from time to time, as are related to the period on or prior to the Closing Date; and (iii) all Liabilities (including all Tax Liabilities) in relation to the Business conducted by HGSL as are related to the period on or prior to the Closing Date, in each case other than India Liabilities; “India HS Undertaking” means the undertaking of HGSL conducting the Business as on the Closing Date, which comprises the following:
+
+(a) India Movable Assets;
+
+(b) India Contracts;
+
+(c) India Employees;
+
+(d) India Records;
+
+(e) India Leased Assets;
+
+(f) Other Assets, including Transferring Forward Covers;
+
+(g) India Insurance Policies;
+
+(h) India Intellectual Property;
+
+(i) India Liabilities; and
+
+(j) India Permits and Licenses. but for the avoidance of doubt shall not include the India Excluded Assets and India Excluded Liabilities; “India Insurance Policies” means the benefit of the insurance policies procured by HGSL solely or primarily relating to the Business conducted by HGSL, as are agreed to be assigned or transferred or novated or endorsed in whole or in part to India NewCo as mutually agreed in writing between the Investor and HGSL pursuant to Clause 5.1 (vi); “India Intellectual Property” means (i) such software as has been developed by, or on behalf of HGSL exclusively for the operation of the Business as set out in Annexure E; and (ii) proprietary know-how, confidential information and trade secrets including, in each case, any rights arising under Law or Contract relating to any of the foregoing, which, in each case, relate solely or primarily to the Business as conducted by HGSL prior to the Closing Date; “India Leased Assets” means the Real Estate in which HGSL has leasehold interests under lease agreements to which it is a party and used solely or primarily for the Business conducted by HGSL. A list of the India Leased Assets as of the Execution Date, is set out in Part B of ANNEXURE F (India Leased Assets);
+
+“India Liabilities” means all Liabilities (other than Tax Liabilities) relating solely or primarily to the Business conducted by HGSL. A list of such Liabilities pertaining to the Business as set out in the management accounts of the Business of March 31, 2021 and a list of such contingent liabilities as of March 31, 2021 is set out in ANNEXURE G (India Liabilities), and a list of such Liabilities as are required to be disclosed in a balance sheet as per the Accounting Principles, as on the Closing Date in accordance with and in compliance with Clause 5.4 shall be provided on the Closing Date; “India Movable Assets” means all movable assets, movable properties, facilities, accessories, utilities, services, equipment, vehicles, apparatus, computers, main frames, instruments, spares, tools, vessels, furniture, office equipment, communication facilities, work-in-progress, unfinished goods and other property, articles and effects and all other tangible movable assets owned by HGSL which are solely or primarily used for the Business conducted by HGSL, title to which is capable of passing by physical or constructive delivery of possession. A list of India Movable Assets as of June 30, 2021, is set out in Part A of ANNEXURE F (India Movable Assets) and a list of the India Movable Assets updated as of the Closing Date, in accordance and compliance with Clause 5.4, shall be provided on the Closing Date; “India Permits and Licenses” means all the licenses, permissions, approvals, clearances, quotas, consents, registrations and all other rights, benefits, privileges, facilities and entitlements of every kind, nature and description whatsoever obtained by HGSL from any Governmental Authority necessary for owning and operating the Business of HGSL and pertaining solely to the Business, and excludes any licenses, permissions, approvals, clearances, quotas, consents, registrations and all other rights, benefits, privileges, facilities and entitlements which are not transferable by HGSL under Law; “India Purchase Consideration” shall mean (i) INR equivalent of USD 449,000,000 (United States Dollar Four Hundred and Forty Nine Million) based on the RBI reference rate on the date immediately preceding the Closing Date, minus (ii) India Debt, plus (iii) India Working Capital Adjustment; “India Records” means all applicable original books, accounts and records, documents, returns, customer data, vendor data, sales data, employee database relating to Transferring Employees, advertising related documents, papers, in each case relating solely or primarily to the Business conducted by HGSL, reasonably necessary to own, operate and carry on the Business conducted by HGSL in any media or format that is available with HGSL or any of its Affiliates, including but not limited to machine readable or electronic media/ format and where such books, accounts and records, documents, returns, customer data, vendor data, sales data, employee database relating to Transferring Employees, advertising related documents or papers relate to the Business conducted by HGSL and the Remaining Business, extracts or copies of such books, accounts and records, documents, returns, customer data, vendor data, sales data, employee database, advertising related documents or papers to the extent they pertain to the Business conducted by HGSL; “Intellectual Property” means all rights, title, and interests in and to all intellectual property rights of every kind and nature however denominated, throughout the world, including (i) patents and patent applications, (ii) trademarks and service marks, trademark and service mark applications, trade names, logos, trade dress, and brands and the goodwill associated therewith, (iii) social media accounts and handles, and Internet domain names, (iv) copyrights, software, database rights and any other rights in software or other technology (v) proprietary know-how, confidential information and trade secrets, (vi) rights of privacy and publicity and moral rights, and (vii) any registrations, applications or rights arising under Law or Contract relating to any of the foregoing;
+
+“India Net Working Capital” shall mean, (a) Current Assets, minus (b) Current Liabilities; “India Sale Adjustment Amount” shall mean (i) Final India Purchase Consideration minus (ii) Estimated India Purchase Consideration, the result of which could be a positive or negative number; “India Working Capital Adjustment” shall mean (a) the amount by which the India Net Working Capital exceeds the India Working Capital Target, in which case the India Working Capital Adjustment Amount shall be a positive number, or (b) the amount by which the India Net Working Capital is less than the India Working Capital Target, in which case the India Working Capital Adjustment Amount shall be a negative number; “India Working Capital Target” means the gross revenue of the India HS Undertaking for the three months period ending on the Closing Date multiplied by (54.25 / 365 * 4); “IT Act” means the (Indian) Income Tax Act, 1961 and any modifications or amendments made thereto; “Law” shall mean any statute, law, regulation, ordinance, code, rule, judgment, notification, rule of common law, Order, decree, bye-law, permits and licenses, directive, guideline, requirement or other governmental restriction, or any similar form of decision of, or determination by, or any interpretation, policy or administration, having the force of law of any of the foregoing, by any Governmental Authority having jurisdiction over the matter in question, in effect as of the Execution Date; “Liability” means liabilities (including trade payables, provisions, employee related liabilities, statutory liabilities, advances received, Taxes payable), debts, indebtedness, claims, suits or proceedings or other obligations of any kind or nature, whether known or unknown, absolute, accrued, contingent, liquidated, unliquidated or otherwise, due or to become due or otherwise, and whether or not required to be reflected on a balance sheet prepared in accordance with the applicable Accounting Principles; “Long Stop Date” means 150 days from the Execution Date, or such other date as may be mutually agreed in writing between the Parties; “Non Healthcare Services” shall mean information technology related services and any services other than the Healthcare Services and for avoidance of doubt shall include, but is not limited to, digital services, payroll services, staffing services, payroll compliance services, cloud based services, robotic process automation services, vaccination drives support services outside of United States of America and analytics services; “Order” means any order, injunction, judgment, decree, ruling, writ, assessment or award of a court, arbitration body or panel or other Governmental Authority; “Ordinary Course” shall mean an action taken or omission by or on behalf of a Person that:
+
+(a) has been undertaken in the ordinary course of that Person’s normal day-to-day operations and complies with applicable Law; or
+
+(b) is consistent with past practices undertaken by that Person (including any past practices implemented by such Person pursuant to the policies of the corporate group of that Person) and complies with applicable Law;
+
+“Other Assets” means all Assets of HGSL other than the India Moveable Assets and India Leased Assets and relating solely or primarily to the Business conducted by HGSL including:
+
+(a) all account receivables (whether or not invoiced and whether or not already due and/ or payable at the time);
+
+(b) claims, debts, and other receivables credits, causes of actions, defenses and rights of set-off of any kind;
+
+(c) claims or benefits in, to or under any express or implied warranties from suppliers of goods or services relating to the Business conducted by HGSL;
+
+(d) any grants or subsidies as may be permitted to be transferred under applicable Laws; and
+
+(e) all rights relating to deposits (including security deposits lying with the lessors of India Leasehold Assets), advances and prepaid expenses of the Business conducted by HGSL; but for the avoidance of doubt, shall not include any India Excluded Assets; “Person” means any natural person, limited or unlimited liability company, corporation, partnership (whether limited or unlimited), proprietorship, Hindu undivided family, trust, union, association or any other entity that may be treated as a person under applicable Law; “Pre-Closing Tax Period” means any period ending on the Closing Date and the portion through the end of the Closing Date for any Straddle Period; “Proceedings” shall mean any suit, order, claim, action, litigation, arbitration, mediation, proceeding (including any civil, criminal, administrative, investigative or appellate proceeding), examination, audit or investigation commenced, brought, conducted or heard by or before, or otherwise involving, any court or other Governmental Authority or any arbitrator or arbitration tribunal; “Real Estate” means all piece and parcel or parcels of land, buildings, structures, wharfs, interior or exterior improvements or fixtures thereon, construction work in progress and all easements, appurtenances, rights, privileges, and benefits appertaining thereto; “Remaining Business” means all businesses undertaken by HGSL and its Affiliates other than the Business; “Slump Sale” means the transfer of one or more undertakings by any means for a lump sum consideration without values being assigned to the individual assets and liabilities in such case, as defined in section 2(42C) of the IT Act, amended from time to time; “Straddle Period” means any taxable period that includes (but does not end on) the Closing Date; “Tax” and “Taxes” shall include all forms of taxation as per Law or related judicial interpretations, duties, levies, cess, whether direct or indirect, tax levied under the applicable tax Laws, withholding tax, minimum alternate tax or tax deductions, tax collected at source, ad valorem tax, excise tax, environmental tax, profession tax, value added tax, service tax, customs duty, central excise duty, central sales tax, goods and services tax, compensation cess, sales tax, gift tax, local body tax, other municipal taxes
+
+and duties, research and development cess, turnover tax, capital gains tax, petroleum cess, stamp duty, property tax, land revenue, registration fees, government fees relating to taxes, any similar charges, any taxes payable in the capacity of a representative assessee or successors, duties, imposts, levies, together with any cess, charges, costs, interest, penalty, surcharges, fines, fees, addition to tax or additional amount imposed by any Governmental Authority responsible for:
+
+(a) the imposition, administration, implementation, assessment, collection, or payment of any such tax; or
+
+(b) the administration, implementation, enforcement of, or compliance with any applicable Law relating to any such tax; “Transaction Documents” shall mean such agreements and documents as may be mutually agreed and identified by the Parties in writing; “Transferring Employees” means each India Employee who accepts the India Employee Transfer Letter; “Transaction Expenses” shall mean, in each case, with respect to the India HS Undertaking, and excluding expenses that are paid or payable directly by HGSL (and for the avoidance of doubt not paid or payable by India HS Undertaking) and expenses that are paid or payable by HGSL on or prior to the Closing Date, as follows:
+
+(a) the fees and expenses incurred by HGSL on behalf of India HS Undertaking in connection with the negotiation, documentation and consummation of the transactions contemplated under the Transaction Documents, including all fees, expenses, disbursements and other similar amounts owed by HGSL on behalf of India HS Undertaking to attorneys, financial advisors, accountants and other advisors in connection with the consummation of the transactions contemplated under the Transaction Documents, any brokers’ or finders’ fee or any other commission or similar fee and any indemnification or contribution obligations under any Contract with any broker or finder payable by HGSL on behalf of India HS Undertaking in connection with the consummation of the transactions contemplated herein;
+
+(b) all payments required to be made by HGSL on behalf of India HS Undertaking to obtain third party consents in connection with the consummation of the transactions contemplated under the Transaction Documents;
+
+(c) all sale, change of control, retention, transaction, severance, bonus or other compensatory payments that are payable, become due or are owed to any Person and which, in each case, is payable by HGSL on behalf of the India HS Undertaking, in connection with or as a result of the consummation of the transactions contemplated under the Transaction Documents, together with all Taxes that are payable by HGSL for India HS Undertaking in connection with such obligations; and
+
+(d) USD 4,017,200, being the insurance premium and underwriting costs payable in relation to the warranty and indemnity insurance policy dated August 9, 2021; provided that the term “Transaction Expenses” shall exclude the lower of (i) US$ 350,000 and (ii) 50% of any payments required to be made to City and Industrial Development Corporation (“CIDCO”) in relation to the premises situated at Module No. T-141, 4th Floor in International Infotech Park, Sector-30A, Vashi, Navi Mumbai. All references to
+
+“Transaction Documents” in the term “Transaction Expenses” shall exclude such agreements as may be mutually agreed in writing between HGSL and the Investor; and “Transferring Forward Cover” shall have the meaning ascribed to such term in Clause 5.1(vii)(a).
+
+1.2 Interpretation
+
+(i) Unless the context of this Agreement otherwise requires:
+
+(a) Words using the singular or plural number also include the plural or singular number, respectively;
+
+(b) Words of any gender are deemed to include the other genders; and
+
+(c) Reference to the word “include” and “including” shall be construed without limitation.
+
+(ii) The terms “hereof”, “herein”, “hereby”, “hereto” and derivative or similar words refer to this entire Agreement or specified Clauses of this Agreement, as the case may be;
+
+(iii) The term “Clause”, “Schedule” and “Annexure” refers to the specified Clause, Schedule or Annexure, respectively, of this Agreement;
+
+(iv) References to any legislation or Law or to any provision thereof shall include references to any such Law or provisions as it may, after the Execution Date, from time to time, be amended, supplemented, or re-enacted, and any reference to a statutory provision shall include any subordinate legislation made from time to time under that provision;
+
+(v) Any reference to maintenance of records shall be deemed to include any documents sent or consents given, or decisions taken by way of electronic means, including email correspondence;
+
+(vi) Time is of the essence in the performance of the respective obligations of the Parties. Without prejudice to the foregoing, if any time specified herein is extended, such extended time shall also be of the essence.
+
+(vii) Any reference in this Agreement, to consent or approval or similar connotation, unless expressly stated otherwise, shall be in writing, and shall include electronic mail communications followed by facsimile communications;
+
+(viii) Any reference to “writing” or “written” means any method of reproducing words in a legible and non-transitory form (excluding, unless otherwise stated herein, email);
+
+(ix) The words “directly or indirectly” mean directly, or indirectly through one or more intermediary Persons, or through contractual or other legal arrangements, and “direct or indirect” shall have the correlative meanings;
+
+(x) The Recitals, the Schedules and Annexure hereto shall constitute an integral part of this Agreement; and
+
+(xi) The index hereto and headings and titles herein are used for convenience of reference only and shall not affect the construction of this Agreement;
+
+(xii) Capitalised terms and expressions not defined in Clause 1, shall have the meaning ascribed to them elsewhere in the Agreement and if not defined elsewhere in this Agreement, such terms and expressions shall have the meaning ascribed to them in the other Transaction Documents, as relevant;
+
+(xiii)
+
+Any reference to a document in “Agreed Form”, is to a document in a form agreed between HGSL and the Investor in writing and in each case, with such amendments as maybe agreed in writing in accordance with the terms thereof, by or on their behalf; and
+
+(xiv) Where any amount is specified in this Agreement in United States Dollars but is required to be paid in Indian Rupees, unless otherwise agreed in writing, such amount shall be converted into Indian Rupees based on the RBI reference rate on the date immediately preceding the date on which such amount is payable under this Agreement.
+
+2. BUSINESS TRANSFER
+
+2.1 Immediately upon incorporation of India NewCo and in any event prior to the Closing Date, the Investor shall cause India NewCo to execute a deed of adherence to this Agreement in an Agreed Form, to assume the rights and obligations of India NewCo under this Agreement (“Deed of Adherence”). From the date of such Deed of Adherence, India NewCo shall be a party to this Agreement and any reference to Party(ies) in this Agreement shall include India NewCo.
+
+2.2 Subject to the terms of this Agreement (including the satisfaction or waiver of the Conditions Precedent in accordance with Clause 4), on the Closing Date, HGSL shall sell, transfer, convey, assign and deliver to India NewCo and India NewCo shall and the Investor shall ensure that India NewCo shall purchase from HGSL, as a going concern, on a Slump Sale basis, free from all Encumbrances, all right, title and interest of HGSL in and to the India HS Undertaking for the India Purchase Consideration, without values being assigned to the individual assets and liabilities such that on the completion of such Slump Sale:
+
+(i) India HS Undertaking shall be deemed to have been transferred to and vested in India NewCo, free of all Encumbrances;
+
+(ii) India NewCo shall be entitled to all rights, title, interest, obligations, risks and rewards in and to the India HS Undertaking as set out herein;
+
+(iii) India NewCo, shall completely and absolutely assume, and thereafter pay or perform when due, the India Liabilities; and
+
+(iv) India NewCo, shall have the full ability, rights, power and authority necessary to conduct and carry on the business of the India HS Undertaking as a going concern in the same manner, in which HGSL has conducted and carried on the business of the India HS Undertaking prior to the Closing Date.
+
+2.3 Notwithstanding anything contained in this Agreement, all the right, title, interest, and obligations of HGSL in relation to the Remaining Business, India Excluded Assets and India Excluded Liabilities shall continue to belong to and remain vested in HGSL, and the Investor and India NewCo shall have no right, claim, interest, Liability or obligation in and relation to the Remaining Business, India Excluded Assets and India Excluded Liabilities.
+
+For the avoidance of doubt, the Parties acknowledge that the India Excluded Assets, India Excluded Liabilities and the Remaining Business are not considered integral to the operation and do not form part of the India HS Undertaking and are accordingly not being sold, assigned, transferred, conveyed or delivered to India NewCo and India NewCo is not purchasing, acquiring or accepting from HGSL the India Excluded Assets, India Excluded Liabilities and the Remaining Business.
+
+2.4 The Parties acknowledge that the transfer of the India HS Undertaking is a transfer of a going concern, as set out in paragraph 2 of Notification No. 12 / 2017 – Central Tax (Rate) dated 28th June, 2017.
+
+2.5 The Parties hereby confirm, agree and acknowledge that on and from the Closing Date, the India HS Undertaking shall, subject to the terms and conditions under this Agreement, become the absolute and exclusive property of India NewCo and HGSL shall thereafter have no rights, title, or interest, or any claim whatsoever (other than in the India Contracts as set out in Part B of ANNEXURE B or such other items as are mutually agreed in writing between HGSL on the one hand and the Investor and/or its Affiliates on the other) in or in relation to the India HS Undertaking on and from the Closing Date.
+
+3. PURCHASE CONSIDERATION
+
+3.1 HGSL shall on the Execution Date, deliver a valuation report prepared by KPMG Valuation Services LLP dated July 31, 2021 and the Parties acknowledge that the India Purchase Consideration has been arrived at based on such valuation report.
+
+3.2 In consideration of the transfer of the India HS Undertaking by HGSL to India NewCo as a going concern on a Slump Sale basis, India NewCo shall and the Investor shall ensure that India NewCo shall pay to HGSL in accordance with the terms of this Agreement the India Purchase Consideration. The India Purchase Consideration shall be discharged by payment, on the Closing Date, of the Estimated India Purchase Consideration and after the Closing Date, any adjustments in accordance with Clause 3.6.
+
+3.3 The India Purchase Consideration shall be the full and final consideration for transfer of the India HS Undertaking and shall be a good and valid discharge of India NewCo’s obligations under this Agreement with respect to the payment of the India Purchase Consideration.
+
+3.4 The Parties agree and acknowledge that the India Purchase Consideration is a lump sum consideration for the transfer of India HS Undertaking, and no specific part of the India Purchase Consideration is (nor can it be) allocated to any specific asset or right of HGSL comprised in the India HS Undertaking. Determination of the value of any asset forming a part of the India HS Undertaking for the purpose of payment of stamp duty, registration fees or other similar taxes or fees or any allocation made in India NewCo’s books of accounts post-Closing Date, shall not be regarded as assignment of values to such individual assets or liabilities forming part of the India HS Undertaking.
+
+3.5 HGSL will be liable and responsible for the payment of any Tax on Slump Sale of India HS Undertaking.
+
+3.6 Consideration Adjustment
+
+(i) HGSL will prepare or cause to be prepared and deliver to Investor at least seven (7) Business Days prior to the Closing Date:
+
+(a) an estimated balance sheet of the India HS Undertaking (the “Estimated Closing Balance Sheet”), as of the Accounting Effective Time;
+
+(b) a written statement (the “Estimated Closing Statement”) setting forth HGSL’s computation of: (1) the India Debt, (2) India Net Working Capital, (3) India Working Capital Adjustment; and (4) based on the foregoing estimates, the estimated India Purchase Consideration (the “Estimated India Purchase Consideration”).
+
+(ii) HGSL shall provide reasonable supporting documents for the calculation of all such amounts. The Estimated Closing Balance Sheet, the Estimated Closing Statement and the calculations and determinations set forth therein will be prepared based on the definitions in this Agreement and in accordance with the Accounting Principles. HGSL will provide the Investor with reasonable access, upon reasonable written notice and during normal business hours, to the relevant books and records and other documents of the India HS Undertaking to verify the information set forth in the Estimated Closing Statement prior to the Closing Date and HGSL shall consult with Investor in good faith regarding the implementation of any reasonable revisions to such estimates proposed by Investor and may implement such reasonable revisions to such estimates proposed by the Investor at its sole and absolute discretion.
+
+(iii) The Investor will in good faith prepare or cause to be prepared, and will provide to HGSL within 90 days of the Closing Date:
+
+(a) the balance sheet of the India HS Undertaking (the “Closing Balance Sheet”), as of the Accounting Effective Time, and
+
+(b) a written statement (the “Closing Statement”) setting forth computation of: (1) the India Debt, (2) India Net Working Capital, (3) India Working Capital Adjustment; and (9) based on the foregoing estimates, the India Purchase Consideration (the “Closing India Purchase Consideration”).
+
+(iv) The Closing Balance Sheet, the Closing Statement and all calculations and determinations set forth therein will be prepared based on the definitions in this Agreement and in accordance with the Accounting Principles. Investor will provide HGSL with reasonable access, upon written notice and during normal business hours, to the relevant books and records and other documents of the India HS Undertaking to verify the information set forth in the Closing Balance Sheets, the Closing Statement and all calculations and determinations.
+
+(v) For the purpose of computing the Closing Balance Sheet and the Closing Statement, within 7 (seven) days of the Closing Date, Investor and HGSL shall jointly appoint a mutually agreed reputed actuarial firm to undertake an actuarial valuation determining any unfunded or underfunded liabilities with respect to gratuity obligations and leave encashment as on the Closing Date, (“Actuarial Report”). The findings of the Actuarial Report shall be taken into account by the Investor in preparing the Closing Balance Sheets and the Closing Statement and the cost of obtaining such Actuarial Report shall be borne equally by HGSL and the Investor.
+
+(vi) After receipt of the Closing Balance Sheet and the Closing Statement, HGSL shall review the Closing Statement and, no later than 30 (thirty) days after receipt of the Closing Statement (the “Dispute Period”), HGSL shall either:
+
+(x) notify the Investor in writing that HGSL agrees with the Closing Statement and Closing India Purchase Consideration (an “Approval Notice”); or
+
+(y) notify the Investor in writing that HGSL disagrees with such calculations (such notice, the “Dispute Notice”), which Dispute Notice shall:
+
+(A) describe with reasonable specificity the items with which HGSL disagrees;
+
+(B) set forth HGSL’s calculation of the component parts of the Closing Statement, the India Purchase Consideration and the India Sale Adjustment Amount.
+
+(vii) In the event of receipt by the Investor of a Dispute Notice, the Investor and HGSL will use good-faith efforts during the 14 (fourteen) day period following the date of the Investor’s receipt of such Dispute Notice (the “Resolution Period”) to resolve any differences they may have as to the amounts set forth in the Closing Statement or the calculations set forth therein. If the Investor and HGSL cannot reach written agreement prior to the expiration of the Resolution Period, then within five (5) days thereafter, their disagreements, limited to only those issues still in dispute (the “Remaining Disputes”), shall be promptly submitted to a global internationally recognized accounting firm to be mutually appointed by HGSL and the Investor (the “Independent Accountant”), which firm shall conduct such additional review as is necessary to resolve the specific Remaining Disputes referred to it.
+
+(viii)
+
+Promptly after engagement of the Independent Accountant, HGSL and the Investor shall jointly provide the Independent Accountant with: (a) a copy of this Agreement; (b) the Closing Statement, the Closing Balance Sheet and the Dispute Notice; (c) a list of each Remaining Dispute; and (d) a written submission of their respective final position with respect to each such Remaining Dispute (collectively, “Final Positions”), as applicable (which amounts or values may not be different than the amounts or values of each such item set forth in or contemplated by the Closing Statement, on the one hand, and the Dispute Notice, on the other hand). Within 7 (seven) days of the engagement of such Independent Accountant, each of HGSL and the Investor shall deliver to the Independent Accountant and to the other party simultaneously its arguments in support of each of its Final Positions (the “Initial Submission”). Each of HGSL and the Investor shall thereafter be entitled to submit a rebuttal to the other’s Initial Submission, which rebuttals shall be delivered to the Independent Accountant and to the other party simultaneously within 30 (thirty) days of the delivery of HGSL’s and the Investor’s respective Initial Submissions to the Independent Accountant and to each other. Absent a request by the Independent Accountant, in which case HGSL or the Investor, as the case may be, shall submit to the Independent Accountant and to the other party simultaneously, the information required by the Independent Accountant, neither HGSL nor the Investor may make any additional submission to the Independent Accountant or otherwise communicate with the Independent Accountant. The Independent Accountant shall resolve the Remaining Disputes based solely on the Initial Submission from HGSL and the Investor pursuant to this Agreement and the terms of this Agreement (and not by independent review). The Independent Accountant shall have 7 (seven) days following submission of HGSL’s and the Investor’s respective rebuttals to review the documents provided to it and to deliver its written determination with respect to each of the Remaining Disputes. The Independent Accountant’s authority shall be limited to resolving the Remaining Disputes in accordance with the terms of this Agreement and to resolving disputes
+
+with respect to whether the Final Positions are in accordance with the terms of this Agreement, including the definitions contained herein and this Clause. In resolving each Remaining Dispute, the Independent Accountant shall not assign an amount or value for any item greater than the greatest amount or value for such item or lesser than the lowest amount or value for such item, in each case, as proposed in the Final Positions.
+
+(ix) If HGSL has delivered an Approval Notice (or failed to deliver a Dispute Notice within the Dispute Period), the Closing India Purchase Consideration, as the case may be, shall be deemed to be the Final India Purchase Consideration, as the case may be. If HGSL has delivered a Dispute Notice, the Closing India Purchase Consideration as adjusted pursuant to: (a) the agreed positions on differences which the Investor and HGSL have been able to resolve mutually; or (b) the determination of the Remaining Disputes by the Independent Accountant, as applicable shall be deemed to be the Final India Purchase Consideration.
+
+(x) The Independent Accountant shall deliver its written determination with respect to each Remaining Dispute, as well as its determination of the Final India Purchase Consideration, as the case may be and the India Sale Adjustment Amount or both, as the case may be simultaneously to HGSL and the Investor (the “Independent Accountant Determination”). The role of the Independent Accountant shall be that of an expert and not an arbitrator. The Independent Accountant's determination shall be final and binding on the Parties except where there is fraud or manifest error.
+
+(xi) The fees and expenses of the Independent Accountant shall be borne by the Investor, on the one hand, and HGSL, on the other hand, in inverse proportion as they may prevail on the matters resolved by the Independent Accountant, which proportionate allocation shall be calculated on an aggregate basis based on the relative dollar values of the amounts in dispute and shall be determined by the Independent Accountant at the time the determination is rendered on the merits of the matters submitted to the Independent Accountant.
+
+(xii) On the 5th (fifth) day after the earliest of: (A) the receipt by the Investor of an Approval Notice (B) the expiration of the Dispute Period if the Investor has not received an Approval Notice or a Dispute Notice within such period; (C) the resolution by HGSL and the Investor of all differences regarding the Closing Statement, or (iv) the receipt of the Independent Accountant Determination:
+
+(A) if the India Sale Adjustment Amount is a negative number, HGSL shall pay to the Investor an amount equal to such difference by wire transfer of immediately available funds;
+
+(B) if the India Sale Adjustment Amount is a positive number, the Investor shall pay to HGSL by wire transfer of immediately available funds an amount equal to the India Sale Adjustment Amount;
+
+All payments required pursuant to this Clause will, to the extent permitted by applicable law, be deemed to be adjustments for Tax purposes to the Final India Purchase Consideration.
+
+4. CONDITIONS PRECEDENT
+
+4.1 HGSL Conditions Precedent The obligation of India NewCo to purchase the India HS Undertaking from HGSL in accordance with the terms of this Agreement is subject to the fulfilment to the reasonable satisfaction of the India NewCo (unless waived (where such waiver is permissible under applicable Law), or converted to Conditions Subsequent by India NewCo in writing) of the conditions precedent by HGSL as set out in Part A of Annexure H (“HGSL Conditions Precedent”).
+
+4.2 Investor Conditions Precedent The obligation of HGSL to transfer the India HS Undertaking to India NewCo in accordance with the terms of this Agreement is subject to the fulfilment to the reasonable satisfaction of HGSL (unless waived (where such waiver is permissible under applicable Law), or converted to Conditions Subsequent by India NewCo in writing) of the conditions precedent by HGSL as set out in Part B of Annexure H (“Investor Conditions Precedent”).
+
+4.3 Joint Conditions Precedent The obligations of the Parties to perform their respective obligations in accordance with the terms of this Agreement is subject to the fulfilment (unless waived (where such waiver is permissible under applicable Law), or conversion to Conditions Subsequent in writing by the Parties) of the conditions precedent by HGSL, Investor and India NewCo as set out under Part C of Annexure H (“Joint Conditions Precedent”).
+
+5. PRE CLOSING COVENANTS
+
+5.1 Pre Closing actions for transfer:
+
+(i) India Employees
+
+(a) Prior to the Closing Date, each of the India Employees shall be issued a transfer letter in an Agreed Form, jointly by HGSL and India NewCo, confirming the impending transfer of his/her employment to the India NewCo with effect from the Closing Date inter alia on the terms set out in Clause 5.1(i)(c) and requesting them to confirm that no amounts due and payable to the Transferring Employee by HGSL are outstanding (other than with respect to (A) the salary of the month in which Closing occurs; (B) amounts which are being transferred to India NewCo pursuant to the Agreement; (C) deferred performance incentives, if applicable; and (D) retention bonus, if applicable, (“India Employee Transfer Letter”) and requesting that such India Employee accepts the India Employee Transfer Letter addressed to HGSL and the India NewCo thereon by signing on triplicate copies thereof (or by way of electronic acceptance) to signify his/her acceptance to the transfer of his/her employment and return the same to HGSL prior to the Closing Date. HGSL shall not directly or indirectly, incentivize or coerce any India Employee not to transfer his /her employment to India NewCo.
+
+(b) HGSL shall use commercially reasonable efforts to cause all India Employees to accept employment with India NewCo. Subject to applicable Law, India NewCo shall have reasonable access to the personnel records,
+
+including employee name, date of birth, hire date, compensation; base, bonus, incentives and allowances, employment and compensation history, participation status in benefit plans, dependents covered, beneficiaries, performance appraisals, disciplinary actions, grievances and medical records occupational health and safety records and any other employee specific information as would be needed to administer payroll, employee benefits, polices and other programs) of the Transferring Employees of HGSL, to the extent available with HGSL. Such access to the personnel records of the Transferring Employees shall be provided by HGSL as may be reasonably requested by India NewCo, subject to applicable Laws and provided that: (a) such access does not unreasonably interfere with the conduct of HGSL business; and (b) no access shall be provided to records relating to businesses other than the Business conducted by HGSL. HGSL shall take all such steps as may be required by applicable Law to provide or share such documents with the India NewCo.
+
+(c) Each India Employee who accepts the India Employee Transfer Letter in accordance with Clause 5.1(i)(a) (“Transferring Employees”) will become an employee of India NewCo on and from the Closing Date, and HGSL shall ensure that each Transferring Employee is duly released and discharged from his/ her employment with HGSL, without any continuing obligations owed to HGSL, with effect from the Closing Date. India NewCo shall ensure that the transfer of each of the Transferring Employee shall be on such terms that:
+
+(A) the service of such Transferring Employee shall not be or deemed to be interrupted by the transfer of his/ her employment from HGSL to India NewCo;
+
+(B) the terms and conditions of employment applicable to the Transferring Employee immediately after the transfer of his employment from HGSL to India NewCo (effective from the Closing Date), shall be on no less favourable terms than those applicable to such Transferring Employee immediately before the transfer of his employment from HGSL to India NewCo (effective from the Closing Date); and
+
+(C) subject to applicable Laws, Clause 5.1(i)(c)(B) and the terms and conditions under his/her employment agreement, in the event of termination of employment of any Transferring Employee (including by way of resignation) after the transfer of his/ her employment to India NewCo, India NewCo shall pay terminal benefits and compensation on the basis that such Transferring Employee’s employment has been continuous and has not been interrupted by the transfer of his/ her employment from HGSL to India NewCo (effective from the Closing Date).
+
+(d) All wages, salaries and India Employee Benefits of the Transferring Employees and all Tax deductions and other contributions relating thereto which are due and payable, until the Closing Date, excluding (aa) deferred performance incentives, which shall be payable by HGSL after the Closing Date in accordance with the Transaction Documents; (bb) retention bonus as agreed to be discharged by HGSL after Closing Date under the Transaction Documents; and (cc) payments forming a part of the Current Liabilities or India Liabilities, shall be discharged by HGSL in full, in
+
+respect of the period up to the Closing Date and shall not accrue to the account of India NewCo. Notwithstanding the foregoing, it is hereby clarified that the obligations of HGSL in relation to transfer of the (xx) gratuity payments accrued by the Transferring Employees will be governed by Clause 7.1 of this Agreement; and (yy) accumulated leave balances of the Transferring Employees will be governed by Clause 6.1(i) of this Agreement. From the Closing Date, India NewCo shall be liable for all obligations, liabilities and commitments (including gratuity payments that relate to a period after the Closing Date) and that accrue or arise after the Closing Date with respect to employment (including cessation thereof), employee benefits and related matters with respect to all Transferring Employees, including but not limited to satisfaction of all costs related to the Transferring Employees, such as salary, remuneration, wages, statutory benefits and India Employee Benefits that are transferrable per ANNEXURE D.
+
+(e) HGSL shall provide India NewCo with: (i) such support as may be reasonably required by India NewCo to facilitate the transfer of the Transferring Employees to the rolls of India NewCo with effect from the Closing Date, including, to the extent reasonably necessary, consulting with, or providing information to, the Transferring Employees in relation to the transfer process, in the presence of the representatives of India NewCo; and (ii) information (including any work papers and the methodology used to ascertain the outstanding employee Liability) in respect of HGSL’s existing terms and conditions of employment (as applicable to the Transferring Employees).
+
+(ii) India Contracts
+
+(a) With respect to such India Contracts as set out in Part B of ANNEXURE B which relate to both the Business and the Remaining Business, HGSL and India NewCo shall after the receipt of the CCI Approval, mutually agree upon the treatment of such Contracts and, subject to the terms of such Contract and consent of the counterparty if required, enter into appropriate arrangements with respect to such Contracts with effect from the Closing Date.
+
+(b) To the extent HGSL and India NewCo mutually agree that any of such India Contracts as set out in Part B of ANNEXURE B which relate to both the Business and the Remaining Business cannot be assigned to the India NewCo, HGSL shall, after the receipt of the CCI Approval, provide reasonable assistance the India NewCo in entering into similar such arrangements with respect to such Contracts with effect from Closing Date, it being understood that HGSL shall not be required to bear any costs or expenses in this regard.
+
+(iii) India Permits and Licenses During the period between date of the CCI Approval and the Closing Date:
+
+(a) HGSL will initiate the process (where permissible under applicable Laws) for the transfer of the registration granted by the SEZ and STPI as set out in paragraph (l) of Part A of Annexure H in favour of India NewCo, and India NewCo shall, provide information and documents and obtain such Licenses and Permits as are reasonably required including to finalize forms
+
+and applications required to be made by HGSL for transfer of such India Permits and Licenses in accordance with applicable Law;
+
+(b) subject to receipt of necessary information and documentation requested by India NewCo from HGSL, India NewCo shall prepare drafts of all applications to be made to the relevant Governmental Authority to consider the issue of the relevant India Permits and Licenses in the name of India NewCo;
+
+(c) India NewCo shall undertake all reasonable efforts to obtain expeditiously following the Execution Date, at its own cost, such licenses and permits (other than the India Permits and Licenses) as are required for it to conduct the Business on and from the Closing Date.
+
+(d) HGSL shall provide reasonable assistance to India NewCo to facilitate the procurement of such licenses and permits.
+
+(iv) Intercompany Arrangements
+
+(a) With effect from the Closing Date, HGSL shall, and shall cause its controlled Affiliates to, terminate all agreements or arrangements between HGSL and its Affiliates to the extent such agreements/arrangements form part of the Business conducted by HGSL, other than such agreements or arrangements in relation to the Business conducted by HGSL which form part of the India HS Undertaking.
+
+(b) All intercompany balances in the form of payables or receivables between HGSL and any of its Affiliates with respect to the India HS Undertaking, shall be settled in full by HGSL or such Affiliate, on or prior to the Closing Date such that after the Closing Date, India NewCo, in relation to the India HS Undertaking, will neither have the right to receive nor have the obligation to make payment of any such inter-company balances to HGSL or its Affiliates other than with respect to Liabilities of the Business to HGSL and its Affiliates in relation to shared services, support services and work force management services for the period prior to the Closing Date, to the extent already adjusted in the India Purchase Consideration.
+
+(v) Contact with suppliers:
+
+Until the Closing and after the CCI Approval, India NewCo and HGSL shall cooperate including by, issuing joint communications with suppliers, licensors or partners of the Business conducted by HGSL about the transactions contemplated hereby, including the Investor’s and India NewCo’s intentions concerning the operation of the Business following the Closing (without HGSL being required to give any commitment or representation in relation thereto).
+
+(vi) India Insurance Policies Within a period of 30 (thirty) days from the Execution Date, HGSL shall intimate India NewCo if the benefits under any of the insurance policies procured by HGSL solely or primarily relating to the Business will be transferable to India NewCo and the manner in which the transfer can be effected. With respect to India Insurance Policies, India NewCo and HGSL shall take necessary steps to transfer the same to India NewCo with effect from the Closing Date. With respect to such policies the benefit of which HGSL determines are not transferable to India NewCo, India
+
+NewCo shall procure new insurance policies effective as on the Closing Date at its own cost, and HGSL shall provide reasonable assistance as may be required by India NewCo in this regard.
+
+(vii) Forward Covers
+
+(a) HGSL shall apply for the consent of each of the counterparty to the Forward Contracts to transfer the forward cover provided to HGSL thereunder to India NewCo. If the counterparty to a Forward Contract provides its written consent to such transfer prior to the Closing Date (“Transferring Forward Cover”), India NewCo shall, after receipt of CCI Approval, provide necessary information and documents and enter into such agreements with the counterparty thereto as may be required to transfer the Transferring Forward Cover to India NewCo with effect from the Closing Date. HGSL shall undertake all reasonable efforts to obtain expeditiously following the Execution Date, at its own cost, approval/consent of the counterparty to the Forward Contracts to transfer the forward cover provided to HGSL thereunder to India NewCo.
+
+(b) HGSL shall, after the receipt of the CCI Approval, provide reasonable assistance the India NewCo for transfer of the Transferring Forward Cover to India NewCo with effect from Closing Date.
+
+5.2 FURTHER ASSURANCE
+
+India NewCo shall provide all information, permits, licenses certification, approvals and other documentation and take all actions that may be reasonably required by HGSL to enable HGSL to fulfill HGSL Conditions Precedent. India NewCo shall provide all information, documents and access to all records including India Records as may be reasonably required by HGSL to defend, appeal, undertake any Proceedings upon a written request from HGSL.
+
+5.3 Conditions to Closing Closing shall be subject to and conditional upon India NewCo obtaining registration under Sections 22 to 30 of the Central Goods and Services Tax Act, 2017 required in order for it to conduct the Business from the Closing Date. India NewCo shall obtain such registration expeditiously following the Execution Date, at its own cost.
+
+5.4 Update of Annexures
+
+(i) Subject to Clause 5.4, HGSL shall have the right to update the information in Part A of ANNEXURE B, ANNEXURE C, ANNEXURE F and ANNEXURE G prior to the Closing Date and shall deliver updated drafts of ANNEXURE B, ANNEXURE C, ANNEXURE F and ANNEXURE G at least 5 (five) Business Days prior to the Closing Date, and the final annexures on the Closing Date. Parties agree that changes to such Annexures shall be limited to factual matters arising from the conduct of the Business of HGSL prior to the Closing Date in the Ordinary Course in accordance with and in compliance with the Transaction Documents.
+
+(ii) HGSL may update the data in ANNEXURE C prior to the Closing Date: (a) for factual matters arising from the conduct of the Business of HGSL prior to the Closing Date in the Ordinary Course in accordance with and in compliance with the Transaction Documents; (b) to add additional India Employees who provide services to both the Business of HGSL and the Remaining Business, such
+
+additional employees not exceeding 12% of the number of India Employees as of July 15, 2021; and (c) to remove India Employees who provide services to both the Business of HGSL and the Remaining Business, such removed employees not exceeding 12% of the number of India Employees as of July 15, 2021.
+
+(iii) HGSL may update the data in PART B of ANNEXURE B prior to the Closing Date, in relation to the Contracts entered into by HGSL that primarily relate to the Business (but also relate to the Remaining Business), to add Contracts relating to the period prior to the Execution Date having an individual value of less than INR 10,00,000 or an aggregate value of less than INR 5,00,00,000.
+
+(iv) HGSL shall not be entitled to update (a) ANNEXURE B for the period between July 25, 2021 and Execution Date with respect to any customer Contracts; and (b) Annexure G for the period between March 31, 2021 and Execution Date to include any additional category of liability which are not identified categories in the list of India Liabilities provided as of March 31, 2021; and (c) ANNEXURE G, for the period between Execution Date and Closing Date, for Liabilities other than factual matters arising from the conduct of the Business by HGSL in the Ordinary Course in accordance with and in compliance with the Transaction Documents.
+
+(v) HGSL may update the data in ANNEXURE A prior to the Closing Date for factual matters arising from the conduct of the Business of HGSL prior to the Closing Date in the Ordinary Course in accordance with and in compliance with the Transaction Documents.
+
+6. ACTIONS ON CLOSING DATE
+
+6.1 Upon the fulfillment or waiver of the Conditions Precedent in accordance with this Agreement and on the Closing Date:
+
+(i) HGSL shall:
+
+(a) transfer the India Movable Assets and Other Assets, wherever located on Closing Date and capable of being transferred by physical delivery, by physical delivery of possession thereof to India NewCo (as per the modalities as mutually agreed between India NewCo and HGSL) and execute such documents as may be mutually agreed between HGSL and India NewCo, for recording such transfer;
+
+(b) deliver to India NewCo or to such other person as authorised by India NewCo, the India Records, in whatever format they are available, whether in physical form or electronic format;
+
+(c) deliver originals of the such India Permits and Licenses as are mutually agreed;
+
+(d) deliver duly executed India Employee Transfer Letters, executed by HGSL, and the Transferring Employees, who are not based in the Philippines, who are being transferred to India NewCo pursuant to which the employment of the Transferring Employees shall stand transferred to India New Co. with effect from the Closing Date;
+
+(e) deliver to India NewCo, the duly executed and stamped original deeds of novation / assignment deeds in favour of India NewCo, in relation to the
+
+India Leased Assets and the registered and stamped original lease agreements to which such assignment / novation deeds pertain.
+
+(f) deliver to India Newco one duly executed and stamped original of the executed leased deed in relation to Jayant Tech Park.
+
+(g) deliver to India Newco one duly executed and stamped original of the executed sub lease agreement in relation to the Vashi Property.
+
+(h) deliver to India NewCo, the original executed and stamped deeds of novation / assignment deeds in favour of India NewCo, in relation to the India Contracts.
+
+(i) as on the Closing Date, HGSL shall transfer to India NewCo for the benefit of the Transferring Employees, the accumulated leave balance of each Transferring Employee;
+
+(j) deliver any other deeds, assignments and other instruments and contracts as required to transfer or assign all privileges, right, title and interest of HGSL in, to and under the India HS Undertaking, as may be reasonably requested by India NewCo to effect the completion of the transactions contemplated in this Agreement; and
+
+(k) revoke all powers of attorney and authorizations issued by HGSL to any Person in relation to the India HS Undertaking.
+
+(ii) India NewCo shall and the Investor shall ensure that India NewCo shall remit the Estimated India Purchase Consideration to HGSL.
+
+(iii) India NewCo will file the bond-cum-legal undertaking with the Special Economic Zone / Software Technology Parks of India authorities, as applicable.
+
+6.2 All actions contemplated under this Agreement to be consummated at Closing shall be deemed to occur simultaneously and no such action shall be deemed to be consummated unless all such actions are consummated.
+
+7. POST CLOSING ACTIONS & COVENANTS
+
+7.1 HGSL shall facilitate the transfer of the funded accrued gratuity accumulations representing the equitable interest of the Transferring Employees upto the Closing Date from LIC to the insurance company administering India NewCo’s gratuity trust within 7 (seven) days of the later of: (a) receipt of approval from the Commissioner of Income Tax for variation of the Trust Deed of HGSL to provide for the transfer of such amounts to the trust established by India NewCo; and (b) India NewCo having operationalized a gratuity trust approved by the Commissioner of Income Tax as per applicable Law, and appointed a qualified insurance company to administer the same. HGSL shall undertake all reasonable efforts to obtain expeditiously following the Execution Date, at its own cost, approval of Commissioner of Income Tax and LIC as are required for the transfer of the funded accrued gratuity accumulations representing the equitable interest of the Transferring Employees upto the Closing Date. India NewCo shall provide all information, documents and assistance reasonably requested by HGSL to facilitate such transfer, and India NewCo shall undertake all reasonable efforts to expeditiously following the Execution Date, at its own cost, set up and operationalize a gratuity trust approved by the Commissioner of Income Tax as per applicable Law, and appoint a qualified insurance company to administer the same.
+
+If any Transferring Employee resigns or is terminated from the employment of India NewCo by India NewCo after the Closing Date but prior to the date of transfer of funds pursuant to this Clause 7.1, and such Transferring Employee is eligible and entitled to receive gratuity payments from India NewCo in accordance with the provisions of the Payment of Gratuity Act, 1972, HGSL shall apply to the Life Insurance Corporation of India to release the gratuity entitlements payable to such Transferring Employee for the period prior to the Closing Date.
+
+7.2 Within 7 (seven) Business Days of the completion of the last of the matters set out in Clause 7 and any other matter as mutually determined by the Parties to be completed after the Closing Date and designated as conditions subsequent (“Conditions Subsequent”), each Party shall intimate the other Party of such completion and provide a certified true copy of each of the relevant documents and acknowledgement receipts to the other Party evidencing such completion. Each Party shall provide reasonable co-operation to the other Party to complete the Conditions Subsequent promptly and in any event, within the timeframes prescribed therein.
+
+7.3 India Employee Benefit
+
+(i) India NewCo shall, by no later than 60 (sixty) days after Closing Date or earlier (if so stipulated under applicable Law), make all necessary applications to the concerned authorities for the transfer of the India Employee Benefits as are capable of being transferred (other than those already transferred as part of the Closing Date actions or in relation to which transfer applications have already been made) in respect of the Transferring Employees (“Remaining Employee Benefit”).
+
+(ii) Till such time that India NewCo has received the necessary registration with Governmental Authorities to hold any Remaining Employee Benefit, the same shall be held by HGSL in trust, for the India NewCo and the Transferring Employees, post the Closing Date.
+
+(iii) With respect to the provisions set out in Clause 7.3(ii), India NewCo shall make reasonable efforts to obtain the necessary licenses and complete all formalities as may be required for the Remaining Employee Benefit to be transferred to the India NewCo within 180 (one hundred and eighty) days from the Closing Date. Provided that, in case the necessary licenses are not received by India NewCo within 180 (one hundred and eighty) days from the Closing Date due to delay in processing of the same by Governmental Authorities, then the Parties, acting reasonably and in good faith, shall discuss and mutually agree on a reasonable extension of the time for obtainment of the licenses to accommodate for such delay. Upon completion of all the necessary formalities for transfer of the Remaining Employee Benefit to India NewCo, India NewCo shall give written intimation to HGSL of the same, and upon receipt of the written intimation, HGSL shall transfer the Remaining Employee Benefit to India NewCo including the provident fund balance of the Transferring Employees lying with HGSL which shall be transferred by HGSL to the respective employee benefit fund/scheme maintained by India NewCo subject to applicable Law.
+
+(iv) It is clarified that HGSL shall act only as a trustee for the Remaining Employee Benefit on and from the Closing Date until such date of the Remaining Employee Benefit transferring to India NewCo. HGSL shall not be responsible for the payment and/ or contribution towards or accrual of any India Employee Benefit in relation to obligations arising after the Closing Date and the sole responsibility shall be that of India NewCo.
+
+7.4 Tax Returns
+
+(i) HGSL shall furnish to India NewCo, as promptly as practicable, such information in the possession of HGSL relating to the India HS Undertaking for the period prior to Closing Date, as is reasonably necessary for the India NewCo to file its Tax returns, to prepare for any assessment, appeal, or any other proceedings by or against any tax authority and/ or to prosecute or defend any claim, suit, or proceedings before any tax authority.
+
+(ii) After the Closing Date, HGSL shall duly pay all Taxes which become due and payable and file Tax returns, as per the applicable timelines under the applicable Law in relation to the transfer of the India HS Undertaking.
+
+(iii) HGSL shall furnish to the India NewCo, within 30 (Thirty) Business Days from the Closing Date, a certificate from its existing tax auditors, in the form acceptable to the Investor and India NewCo on a reliance basis, certifying the tax written down value of the assets forming part of the India HS Undertaking as on 31 March of the financial year immediately preceding the Closing Date, determined in accordance with the provisions of the IT Act and rules made thereunder, in order to enable India NewCo to compute its depreciation allowance for the Financial Year in which Closing takes place.
+
+(iv) HGSL undertakes to carry out all the necessary compliances under the applicable Laws to ensure appropriate and timely transfer of inter-alia all the benefits, incentives, input tax credit, refund and rebates pertaining to the India HS Undertaking, to India NewCo or reimburse any such benefit, incentives, input tax credit, refund, rebates pertaining to the India HS Undertaking to India NewCo, if received by HGSL post the Closing Date.
+
+(v) The Tax depreciation as per the IT Act to be claimed by HGSL and the India NewCo in their respective income tax returns for the Financial Year in which Closing takes place, shall not exceed the amount computed in accordance with the 6th (sixth) proviso to Section 32 of the IT Act.
+
+7.5 Reports and Returns HGSL shall, after the Closing Date and within the applicable statutory time periods, prepare and file all Tax related filings, reports and returns required under applicable Laws relating to the India HS Undertaking for the period on or prior to the Closing Date. All filings and notifications required to be made in relation to the India HS Undertaking on or prior to the Closing Date shall be the obligation of HGSL and after the Closing Date shall be the obligation of India NewCo.
+
+7.6 India Lease Deeds The India NewCo and HGSL shall within 7 (seven) days of the Closing Date, or such other period as may be mutually agreed in writing, register, at the cost of HGSL, (a) the assignment agreements executed by the Parties for assignment of India Lease Deeds set out in PART B of ANNEXURE F; and (b) fresh lease/ sub-lease agreements executed by the India New Co for Vashi Property and Jayant Tech Park, with the relevant Governmental Authority.
+
+8. REPRESENTATIONS AND WARRANTIES OF THE PARTIES
+
+8.1 Each Party hereby represents and warrants to each other Party that as of the Execution Date and as of the Closing Date, each of the following warranties is true and correct:
+
+(i) it is duly incorporated under the Laws of its jurisdictions and is duly organized and validly existing under the Laws of its jurisdictions.
+
+(ii) it has the power and authority to execute, deliver and perform this Agreement to which it is a party to and to consummate the transactions contemplated under this Agreement.
+
+(iii) this Agreement has been duly and validly executed by such Party, and constitutes legal, valid and binding obligations of such Party, enforceable against it in accordance with its terms, except as such enforceability may be limited by applicable bankruptcy, insolvency, reorganization, moratorium or similar laws affecting creditors’ rights generally.
+
+(iv) The execution, delivery and performance of this Agreement by it will not:
+
+(a) violate any provision of its constitutional documents;
+
+(b) violate any court order, judgment, injunction, award, decree or writ of any court of other Governmental Authority against, or binding upon, it; or
+
+(c) violate any applicable Law by which it is bound.
+
+9. TERMINATION
+
+9.1 This Agreement may be terminated at any time prior to the Closing Date by the Parties by mutual agreement.
+
+9.2 Upon termination of this Agreement, the Parties shall be relieved and discharged from all obligations, liabilities or claims under this Agreement except for rights and liabilities accrued under this Agreement prior to the termination thereof or which expressly survive termination of this Agreement.
+
+9.3 The provisions of Clauses 1 (Definitions and Interpretation), Clause 9.2, Clause 9.3, Clause 10.1 (Governing Law and Jurisdiction), Clause 10.9 (Dispute Resolution) Clause 10.4 (Notices) and Clause 10.8 (Severability), are applicable or relevant thereto, shall survive the termination of the Agreement.
+
+10. MISCELLANEOUS
+
+10.1 Governing Law and Jurisdiction This Agreement shall be governed by and construed in accordance with the Laws of India. Subject to Clause 10.9, courts of Bengaluru, Karnataka shall have exclusive jurisdiction in respect of any disputes arising in connection with the matters set forth herein. The provisions of this Clause 10.1 shall survive the termination of this Agreement for any reason whatsoever.
+
+10.2 English Language All notices or formal communications under or in connection with this Agreement shall be in the English language.
+
+10.3 Successors and Assigns Except as otherwise expressly provided herein, the provisions hereof shall inure to the benefit of, and be binding upon, the successors, permitted assigns, heirs, executors and administrators of the Parties. This Agreement and the rights and obligations herein shall not be assigned by any Party without the prior written consent of the other Parties.
+
+10.4 Notices
+
+(i) Notices, demands or other communication required or permitted to be given or made under this Agreement shall be in writing and delivered personally or sent by prepaid post with recorded delivery, or by email addressed to the intended recipient at its address set forth below, or to such other address or email as a Party may from time to time duly notify to the others:
+
+Name of the
+
+Address
+
+Email
+
+Party
+
+In case of General Counsel – Executive Vice [REDACTED]
+
+HINDUJA
+
+President – Global Legal &
+
+GLOBAL
+
+Compliance
+
+SOLUTIONS Hinduja Global Solutions Ltd.,
+
+LIMITED, the Corporate
+
+Office,
+
+notice shall be Gold Hill Square Park, #690,
+
+issued to both the Bommanahalli, Hosur Road,
+
+offices set out in Bangalore. PIN – 560068
+
+the next column
+
+Company Secretary Senior Vice President, Corporate Secretarial [REDACTED]
+
+Hinduja Global Solutions
+
+Limited
+
+Hinduja House, 171, Dr. Annie
+
+Besant Marg, Worli, Mumbai
+
+400018
+
+BETAINE B.V. Gerard Jan van Spall
+
+Baring.nl-
+
+[REDACTED]
+
+Jupiter Building, Herikerbergweg
+
+88,
+
+1101 CM Amsterdam
+
+The Netherlands
+
+With a copy to Ezekiel Arlin
+
+[REDACTED]
+
+that shall not
+
+constitute
+
+Suite 3801 Two International
+
+notice:
+
+Finance Centre
+
+Baring Private Central, Hong Kong Equity Asia
+
+Unless otherwise provided herein, all notices, requests, waivers and other communications (“Notice”) shall be deemed to be delivered as provided herein: (a)
+
+if delivered to the addressee (“Receiving Party”) by hand, upon the Notice being acknowledged by written receipt by the Receiving Party; (b) if dispatched by ordinary prepaid postage or courier upon the earlier of the 5th (fifth) day of such dispatch or upon receipt (evidenced by proof of delivery); and (c) if sent by email, at the time of receipt of the read receipt by the Party sending the email and in the event such read receipt is not received by such Party, then such Party shall follow up the email with any of the above stated methods and the Notices shall be treated to have been served as set out above. If delivery or receipt occurs on a day other than a Business Day, or is later than 5 p.m. (local time), it will be taken to have been duly given at the commencement of the next Business Day. If a Party refuses delivery or acceptance of a Notice, Notice is deemed to be provided upon proof of the refused delivery, such delivery having been undertaken in the manner specified in this Agreement. Each Party shall promptly inform the other Parties of any change to its contact details.
+
+10.5 Amendments and Waivers Any provision of this Agreement may be amended or waived, if and only if such amendment or waiver is in writing and signed, in the case of an amendment by each of the Parties, or in the case of a waiver, by the Party against whom the waiver is to be effective. No waiver by any Party of any term or condition of this Agreement, in any one or more instances, shall be deemed to be or construed as a waiver of the same or any other term or condition of this Agreement on any future occasion.
+
+10.6 Delays or Omissions Except as otherwise set out in this Agreement, no delay or omission to exercise any right, power or remedy accruing to any Party, upon any breach or default of any Party hereto under this Agreement, shall impair any such right, power or remedy of any Party nor shall it be construed to be a waiver of any such breach or default, or an acquiescence therein, or of any similar breach or default thereafter occurring; nor shall any waiver of any other breach or default theretofore or thereafter occurring. Any waiver, permit, consent or approval of any kind or character on the part of any Party of any breach of default under this Agreement or any waiver on the part of any Party of any provisions or conditions of this Agreement, must be in writing and shall be effective only to the extent specifically set forth in such writing.
+
+10.7 Counterparts This Agreement may be executed and delivered in any number of originals or counterparts, each of which shall be an original, but all of which together shall constitute one and the same instrument. Any Party may execute this Agreement by signing any one or more of such originals or counterparts. Facsimile transmission or electronic mail in portable format (.pdf) of an executed signature page of this Agreement by a Party shall constitute, and be sufficient evidence of, due execution of this Agreement by such Party.
+
+10.8 Severability The Parties agree that if any provision of this Agreement or part thereof is or becomes invalid, illegal or unenforceable, the validity, legality or enforceability of the remaining provisions or remaining part of the provision, as the case may be, shall not in any way be affected or impaired. Notwithstanding the foregoing, the Parties shall thereupon negotiate in good faith in order to agree the terms of a mutually satisfactory provision, achieving as nearly as possible the same commercial effect, to be substituted for the provision so found
+
+to be void or unenforceable. This Clause 10.8 shall have no effect if the severance alters the basic nature of this Agreement or is contrary to public policy.
+
+10.9 Dispute Resolution
+
+(i) The Parties agree to negotiate in good faith to resolve any dispute between them regarding this Agreement.
+
+(ii) If the negotiations do not resolve the dispute to the reasonable satisfaction of the Parties within a period of 30 (thirty) days following delivery of a written notice requesting for such resolution, then, the dispute shall be submitted to final and binding arbitration at the request of any of the disputing Parties upon written notice to that effect to the other Parties and in the manner set out herein.
+
+(iii) In the event of such arbitration:
+
+(a) The arbitration shall be in accordance with the rules of the Singapore International Arbitration Centre, in force at the relevant time (which is deemed to be incorporated into this Agreement by reference);
+
+(b) All proceedings of such arbitration shall be in the English language. The venue and seat of the arbitration shall be Singapore;
+
+(c) The arbitration shall be conducted by a panel of three arbitrators; the claimant party(ies) shall nominate 1 (one) arbitrator, the respondent party (ies) shall nominate 1 (one) arbitrator, with the third arbitrator, who shall be the presiding arbitrator, being appointed by the two arbitrators so appointed;
+
+(d) Arbitration awards shall be reasoned awards and shall be final and binding on the disputing Parties; and
+
+(e) The existence or subsistence of a dispute between the Parties, or the commencement or continuation of arbitration proceedings, shall not, in any manner, prevent or postpone the performance of those obligations of Parties under this Agreement which are not in dispute, and the arbitrators shall give due consideration to such performance, if any, in making a final award.
+
+(iv) Nothing shall preclude a Party from seeking interim equitable or injunctive relief (including, pursuant to Section 9 of the Arbitration and Conciliation Act, 1996), or both, from a court having jurisdiction to grant the same.
+
+(v) The provisions of Clause 10.9 shall survive the termination of this Agreement for any reason whatsoever.
+
+10.10 Joint and Several Liability The Investor shall procure the performance of, and shall be jointly and severally responsible and liable with India NewCo for performance of all obligations of India NewCo under this Agreement.
+
+REMAINDER OF THIS PAGE HAS BEEN INTENTIONALLY LEFT BLANK
+
+<Signature page follows>
+
+SIGNED AND DELIVERED by on behalf of BETAINE B.V. by _______________________________________ Name: Ronald Posthumus Title: Director (This signature page forms part of the Business Transfer Agreement)
+
+ANNEXURE A
+
+LIST OF FORWARD CONTRACTS
+
+CCY Month Year
+
+HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL
+
+Aug-21 Aug-21 Aug-21 Aug-21 Aug-21 Sep-21 Sep-21 Sep-21 Sep-21 Oct-21 Oct-21 Oct-21 Oct-21 Oct-21 Nov-21 Nov-21 Nov-21 Nov-21 Dec-21 Dec-21 Dec-21 Dec-21 Jan-22 Jan-22 Jan-22 Jan-22 Jan-22 Feb-22 Feb-22
+
+Amount $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 5,00,000 $ 10,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 15,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 5,00,000 $ 10,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 15,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 15,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 10,00,000 $ 5,00,000 $ 25,00,000 $ 25,00,000
+
+Fwd rate
+
+75.31 76.13 76.12 76.19 74.70 75.80 73.45 76.65 76.34 76.05 78.73 77.62 76.01 76.62 78.01 80.54 77.90 76.32 78.52 80.04 76.13 75.89 79.10 80.50 75.98 75.88 76.19 79.37 78.37
+
+INR Equivalent 18,82,75,000.00 19,03,12,500.00 19,02,87,500.00 3,80,96,250.00 7,47,00,000.00 18,95,00,000.00 18,36,25,000.00 19,16,25,000.00 11,45,06,250.00 19,01,31,250.00 19,68,18,750.00 19,40,50,000.00 3,80,07,250.00 7,66,22,500.00 19,50,31,250.00 20,13,37,500.00 19,47,37,500.00 11,44,80,750.00 19,62,87,500.00 20,01,00,000.00 19,03,31,250.00 11,38,38,750.00 19,77,50,000.00 20,12,50,000.00 18,99,50,000.00 7,58,82,500.00 3,80,93,750.00 19,84,25,000.00 19,59,18,750.00
+
+Bank Name Trade Date Spot rate Forward Maturity Maturity Annualized Flag
+
+Premium From
+
+To
+
+Premium
+
+ICICI Bank 09-Jul-19 68.81
+
+6.50 30-Aug-21 31-Aug-21 4.4%
+
+1
+
+ICICI BANK 20-Feb-20 71.73
+
+4.40 30-Aug-21 31-Aug-21 4.0%
+
+1
+
+ICICI BANK 02-Sep-20 73.12
+
+3.00 30-Aug-21 31-Aug-21 4.1%
+
+1
+
+AXIS BANK 03-Sep-20 73.24
+
+2.95 30-Aug-21 31-Aug-21 4.1%
+
+1
+
+SC BANK 30-Mar-21 73.2
+
+1.50 30-Aug-21 31-Aug-21 4.9%
+
+1
+
+SC BANK 24-Jul-19 69.05
+
+6.75 29-Sep-21 29-Sep-21 4.5%
+
+1
+
+04-Mar-20 73.45
+
+29-Sep-21 29-Sep-21 0.0%
+
+1
+
+SC BANK 22-Sep-20 73.59
+
+3.06 24-Sep-21 24-Sep-21 4.1%
+
+1
+
+AXIS BANK 12-Apr-21 73.59
+
+2.75 24-Sep-21 24-Sep-21 8.3%
+
+1
+
+ICICI Bank 24-Jul-19 69.05
+
+7.00 28-Oct-21 29-Oct-21 4.5%
+
+1
+
+ICICI BANK 04-Mar-20 73.56
+
+5.17 28-Oct-21 29-Oct-21 4.3%
+
+1
+
+ICICI BANK 04-Nov-20 74.34
+
+3.28 28-Oct-21 29-Oct-21 4.5%
+
+1
+
+HDFC BANK 09-Apr-21 74.09
+
+1.92 28-Oct-21 29-Oct-21 4.7%
+
+1
+
+AXIS BANK 09-Apr-21 74.83
+
+1.80 28-Oct-21 29-Oct-21 4.3%
+
+1
+
+ICICI Bank 05-Aug-19 70.49
+
+7.52 29-Nov-21 30-Nov-21 4.6%
+
+1
+
+29-Nov-21 30-Nov-21 #DIV/0! 1
+
+HDFC BANK 04-Nov-20 74.77
+
+3.13 29-Nov-21 30-Nov-21 3.9%
+
+1
+
+HDFC BANK 09-Apr-21 74.09
+
+2.23 29-Nov-21 30-Nov-21 4.7%
+
+1
+
+SC BANK 06-Aug-19 70.70
+
+7.82 29-Dec-21 30-Dec-21 4.6%
+
+1
+
+SC BANK 11-Jun-20 75.74
+
+4.30 30-Dec-21 30-Dec-21 3.7%
+
+1
+
+AXIS BANK 08-Mar-21 73.21
+
+2.92 30-Dec-21 30-Dec-21 4.9%
+
+1
+
+HDFC BANK 30-Mar-21 73.15
+
+2.74 30-Dec-21 30-Dec-21 5.0%
+
+1
+
+YES BANK 13-Aug-19 71.10
+
+8.00 28-Jan-22 31-Jan-22 4.6%
+
+1
+
+AXIS BANK 09-Jun-20 75.60
+
+4.90 28-Jan-22 31-Jan-22 4.0%
+
+1
+
+HDFC BANK 24-Mar-21 72.62
+
+3.36 28-Jan-22 31-Jan-22 5.4%
+
+1
+
+AXIS BANK 25-Mar-21 72.62
+
+3.26 28-Jan-22 31-Jan-22 5.3%
+
+1
+
+HDFC BANK 30-Mar-21 73.15
+
+3.04 28-Jan-22 31-Jan-22 5.0%
+
+1
+
+ICICI Bank 13-Aug-19 71.15
+
+8.22 25-Feb-22 28-Feb-22 4.5%
+
+1
+
+HDFC BANK 28-Feb-20 71.96
+
+6.41 28-Feb-22 28-Feb-22 4.4%
+
+CCY Month Year
+
+HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL
+
+Feb-22 Feb-22 Mar-22 Mar-22 Mar-22 Mar-22 Apr-22 Apr-22 May-22 May-22 Jun-22 Jun-22 Jun-22 Jun-22 Jun-22 Jul-22 Jul-22 Jul-22 Jul-22 Jul-22 Aug-22 Aug-22 Aug-22 Aug-22 Aug-22 Aug-22 Sep-22 Sep-22 Oct-22 Nov-22 Nov-22 Nov-22 Dec-22 Dec-22
+
+Amount $ 15,00,000 $ 25,00,000 $ 30,00,000 $ 20,00,000 $ 30,00,000 $ 10,00,000 $ 30,00,000 $ 20,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 20,00,000 $ 10,00,000 $ 10,00,000 $ 25,00,000 $ 25,00,000 $ 10,00,000 $ 20,00,000 $ 10,00,000 $ 25,00,000 $ 5,00,000 $ 20,00,000 $ 20,00,000 $ 10,00,000 $ 10,00,000 $ 25,00,000 $ 5,00,000 $ 30,00,000 $ 25,00,000 $ 5,00,000 $ 10,00,000 $ 25,00,000 $ 5,00,000
+
+Fwd rate
+
+76.27 76.12 79.43 80.86 76.73 76.75 80.72 78.91 81.22 80.51 80.60 79.33 77.52 77.53 77.52 79.85 81.32 77.92 77.99 78.24 80.22 80.47 80.17 78.53 78.52 78.52 81.08 80.83 81.20 81.23 81.60 79.22 81.87 82.00
+
+INR Equivalent 11,44,08,750.00 19,02,93,750.00 23,82,90,000.00 16,17,20,000.00 23,01,82,500.00 7,67,47,500.00 24,21,52,500.00 15,78,10,000.00 20,30,56,250.00 20,12,68,750.00 20,15,00,000.00 19,83,25,000.00 15,50,35,000.00 7,75,25,000.00 7,75,17,500.00 19,96,25,000.00 20,33,00,000.00 7,79,20,000.00 15,59,75,000.00 7,82,37,500.00 20,05,56,250.00 4,02,32,500.00 16,03,40,000.00 15,70,60,000.00 7,85,20,000.00 7,85,17,500.00 20,26,93,750.00 4,04,12,500.00 24,36,00,000.00 20,30,75,000.00 4,07,97,500.00 7,92,20,000.00 20,46,75,000.00 4,09,97,500.00
+
+Bank Name Trade Date Spot rate Forward Maturity Maturity Annualized Flag
+
+Premium From
+
+To
+
+Premium
+
+ICICI Bank 24-Mar-21 72.64
+
+3.63 28-Feb-22 28-Feb-22 5.4%
+
+1
+
+AXIS BANK 25-Mar-21 72.64
+
+3.48 28-Feb-22 28-Feb-22 5.1%
+
+1
+
+SC BANK 14-Aug-19 70.93
+
+8.50 30-Mar-22 31-Mar-22 4.6%
+
+1
+
+SC BANK 04-Jun-20 75.56
+
+5.30 30-Mar-22 31-Mar-22 3.9%
+
+1
+
+AXIS BANK 30-Mar-21 73.10
+
+3.63 30-Mar-22 31-Mar-22 5.0%
+
+1
+
+AXIS BANK 30-Mar-21 72.83
+
+3.92 30-Mar-22 31-Mar-22 5.4%
+
+1
+
+ICICI Bank 03-Sep-19 72.05
+
+8.67 28-Apr-22 29-Apr-22 4.5%
+
+1
+
+ICICI Bank 09-Sep-20 73.67
+
+5.24 29-Apr-22 29-Apr-22 4.3%
+
+1
+
+SC BANK 03-Sep-19 72.20
+
+9.02 31-May-22 31-May-22 4.6%
+
+1
+
+AXIS BANK 20-Aug-20 75.00
+
+5.51 27-May-22 31-May-22 4.2%
+
+1
+
+YES BANK 16-Sep-19 71.50
+
+9.10 29-Jun-22 30-Jun-22 4.6%
+
+1
+
+AXIS BANK 22-Sep-20 73.51
+
+5.82 29-Jun-22 30-Jun-22 4.5%
+
+1
+
+AXIS BANK 23-Jun-21 74.27
+
+3.25 29-Jun-22 30-Jun-22 4.3%
+
+1
+
+ICICI BANK 23-Jun-21 74.27
+
+3.26 29-Jun-22 30-Jun-22 4.3%
+
+1
+
+HDFC BANK 23-Jun-21 74.27
+
+3.25 29-Jun-22 30-Jun-22 4.3%
+
+1
+
+HDFC BANK 24-Sep-20 73.80
+
+6.05 28-Jul-22 30-Jul-22 4.5%
+
+1
+
+SC BANK 17-Sep-19 71.90
+
+9.42 28-Jul-22 30-Jul-22 4.6%
+
+1
+
+ICICI BANK 30-Jun-21 74.44
+
+3.48 28-Jul-22 29-Jul-22 4.3%
+
+1
+
+AXIS BANK 01-Jul-21 74.49
+
+3.50 28-Jul-22 29-Jul-22 4.4%
+
+1
+
+AXIS BANK 02-Jul-21 74.74
+
+3.50 28-Jul-22 29-Jul-22 4.4%
+
+1
+
+YES BANK 20-Sep-19 70.78
+
+9.44 29-Aug-22 30-Aug-22 4.5%
+
+2
+
+29-Aug-22 30-Aug-22 #DIV/0! 2
+
+SC BANK 12-Nov-20 74.65
+
+5.52 30-Aug-22 31-Aug-22 4.1%
+
+2
+
+ICICI BANK 02-Jul-21 74.79
+
+3.74 30-Aug-22 31-Aug-22 4.3%
+
+2
+
+ICICI BANK 07-Jul-21 74.79
+
+3.73 30-Aug-22 31-Aug-22 4.3%
+
+2
+
+HDFC BANK 07-Jul-21 74.75
+
+3.77 30-Aug-22 31-Aug-22 4.4%
+
+2
+
+AXIS BANK 15-Oct-19 71.31
+
+9.77 29-Sep-22 30-Sep-22 4.6%
+
+2
+
+29-Sep-22 30-Sep-22 #DIV/0! 2
+
+SC BANK 13-Nov-19 71.75
+
+9.45 31-Oct-22 31-Oct-22 4.4%
+
+2
+
+AXIS BANK 03-Dec-19 71.75
+
+9.48 29-Nov-22 30-Nov-22 4.4%
+
+2
+
+29-Nov-22 30-Nov-22 #DIV/0! 2
+
+ICICI BANK 01-Jul-21 74.59
+
+4.63 29-Nov-22 30-Nov-22 4.4%
+
+2
+
+SC BANK 03-Jan-20 71.61 10.26 29-Dec-22 30-Dec-22 4.8%
+
+2
+
+29-Dec-22 30-Dec-22 #DIV/0! 2
+
+CCY Month Year Amount Fwd rate INR Equivalent
+
+HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL HGSL
+
+Dec-22 Jan-23 Jan-23 Jan-23 Feb-23 Feb-23 Mar-23 Apr-23 May-23 Jun-23 Jun-23 Jun-23 Jul-23 Aug-23 Sep-23 Oct-23 Nov-23 Dec-23 Jan-24 Feb-24 Mar-24 Total
+
+$ 20,00,000 $ 30,00,000 $ 20,00,000 $ 20,00,000 $ 30,00,000 $ 20,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 15,00,000 $ 10,00,000 $ 25,00,000 $ 10,00,000 $ 10,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 25,00,000 $ 20,00,000 $ 15,00,000 $ 16,65,00,000
+
+79.68 15,93,65,000.00 82.25 24,67,50,000.00 80.27 16,05,40,000.00 79.95 15,98,95,000.00 82.65 24,79,42,500.00 81.60 16,31,95,000.00 84.80 21,20,00,000.00 85.55 21,38,75,000.00 84.47 21,11,75,000.00 84.50 21,12,50,000.00 81.21 12,18,15,000.00 81.21 8,12,10,000.00 82.92 20,73,00,000.00 84.27 8,42,70,000.00 83.76 8,37,62,500.00 83.33 20,83,18,750.00 84.01 21,00,18,750.00 84.53 21,13,18,750.00 84.18 21,04,43,750.00 84.39 16,87,75,000.00 84.06 12,60,86,250.00 Avg USD/INR 79.70 ₹ 13,27,08,65,500
+
+Bank Name Trade Date Spot rate Forward Maturity Maturity Annualized Flag
+
+Premium From
+
+To
+
+Premium
+
+HDFC BANK 02-Jul-21 74.77
+
+4.92 29-Dec-22 30-Dec-22 4.4%
+
+2
+
+SC BANK 30-Jan-20 71.55 10.70 30-Jan-23 30-Jan-23 5.0%
+
+2
+
+ICICI Bank 09-Apr-21 73.83
+
+6.44 30-Jan-23 30-Jan-23 4.8%
+
+2
+
+HDFC BANK 19-Jul-21 74.84
+
+5.11 30-Jan-23 30-Jan-23 4.4%
+
+2
+
+AXIS BANK 28-Feb-20 72.15 10.50 28-Feb-23 28-Feb-23 4.8%
+
+2
+
+HDFC BANK 09-Apr-21 75.10
+
+6.50 28-Feb-23 28-Feb-23 4.6%
+
+2
+
+SC BANK 16-Mar-20 74.30 10.50 20-Mar-23 20-Mar-23 4.7%
+
+2
+
+SC BANK 14-May-20 75.49 10.06 27-Apr-23 27-Apr-23 4.5%
+
+3
+
+SC BANK 20-Aug-20 75.00
+
+9.47 30-May-23 30-May-23 4.5%
+
+3
+
+HDFC BANK 12-Aug-20 74.88
+
+9.62 29-Jun-23 30-Jun-23 4.5%
+
+3
+
+ICICI BANK 23-Jun-21 74.26
+
+6.95 29-Jun-23 30-Jun-23 4.6%
+
+3
+
+AXIS BANK 30-Jun-21 74.36
+
+6.85 29-Jun-23 30-Jun-23 4.6%
+
+3
+
+SC BANK 23-Oct-20 73.58
+
+9.34 28-Jul-23 28-Jul-23 4.6%
+
+3
+
+AXIS BANK 15-Sep-20 73.85 10.42 31-Aug-23 31-Aug-23 4.8%
+
+3
+
+ICICI BANK 27-Oct-20 73.80
+
+9.96 29-Sep-23 29-Sep-23 4.6%
+
+3
+
+HDFC BANK 08-Mar-21 73.18 10.15 29-Oct-23 29-Oct-23 5.2%
+
+3
+
+AXIS BANK 01-Mar-21 73.53 10.48 29-Nov-23 29-Nov-23 5.2%
+
+3
+
+HDFC BANK 09-Mar-21 74.77
+
+9.76 30-Dec-23 30-Dec-23 4.6%
+
+3
+
+AXIS BANK 09-Apr-21 73.70 10.48 29-Jan-24 29-Jan-24 5.1%
+
+3
+
+HDFC BANK 09-Apr-21 73.80 10.59 28-Feb-24 28-Feb-24 5.0%
+
+3
+
+AXIS BANK 30-Mar-21 72.83 11.23 29-Mar-24 29-Mar-24 5.1%
+
+ANNEXURE B INDIA CONTRACTS Annexed Separately
+
+ANNEXURE C INDIA EMPLOYEES Annexed Separately
+
+ANNEXURE D LIST OF EMPLOYEE BENEFITS HGSL provides for the following employee benefits in respect to its employees: Sl.No Description Transferable (i) Gratuity under the Payment of Gratuity Act, 1972: Gratuity obligations are provisioned through a trust with an underlying LIC policy. (ii) Provident fund under the Employees’ Provident Funds and Miscellaneous Provisions Act, 1952: Provident fund contributions are made directly to the Employee Provident Fund Organisation. (iii) Leave accumulated above 60 days is encashed at the end of every quarter through the payroll process. Provisions are made in the books for the accumulated leave balance carried forward. Non-transferable (iv) ESI benefits are provided as required under applicable Law (v) Bonus under Payment of Bonus Act (vi) Working hours, leave, overtime, maternity benefit, creche facility, in each case provided under applicable Laws
+
+Other Employee Benefits (Non-Transferable):
+
+Policy
+
+Policy Description
+
+Details
+
+Employee Leave Policy
+
+This policy is Types of leave
+
+applicable
+
+to
+
+employees of HGS
+
+India and its
+
+subsidiaries in India. It
+
+covers the different
+
+leave
+
+types,
+
+entitlements
+
+and
+
+process to avail them
+
+Privilege Leave - 2.5days/month subject to attendance National & Festival Holidays - 10 holidays/year Compensatory Off - for working on weekly off or holiday Special leave - Long services, socio-political, environmental, Natural calamities and disasters Maternity and allied leave - As per the Act Paternity Leave - 5 days
+
+Adoption Leave - 6 to 12 weeks
+
+Bereavement Leave - 3 days for loss of family members
+
+Furlough Leave - as declared by the management
+
+Sabbatical Leave - 91 to 365 days
+
+Mobile
+
+This policy is designed Data
+
+services Eligible to reimbursement up to INR 1000/month plus Taxes
+
+Phone and to enable employees (Broadband/Data
+
+claim reimbursement of card)
+
+Employees working from home can claim onetime set-up cost of Rs.3000/-
+
+Policy Data Services
+
+Policy Description Mobile phone and Data Mobile phone Services bill charges used for official purposes
+
+Details
+
+HGS
+
+This policy is intended Fund assistance
+
+Employee to provide financial
+
+Emergency assistance to an
+
+Fund (HGS employee during an
+
+EmF Fund) emergency while in the
+
+course of employ
+
+a) Assist in the event of death of an employee, due to any reason.
+
+b) The scheme also covers disruptions due to accidents (ONLY) to an Employee
+
+Employees below M2/Equivalent grade working remotely can claim up to INR 1000/- Death of employee:
+
+a) Grant of Onetime non-refundable INR 1 lakh to the deceased employee’s nominee/family members
+
+b) Onetime non-refundable Funeral expenses of INR 10 K to the deceased employee’s Nominee/Family members Accident of employee resulting in a permanent/total/partial disablement/critical medical emergencies of the employee:
+
+a) Grant of onetime amount of up to INR 15 K based on the Manager’s recommendation and decision of the committee
+
+b) Additional grant of INR 5 K/week up to 2 weeks of absence from work
+
+Policy
+
+Policy Description
+
+c) The scheme will cover all the employees of HGS India and its subsidiary entities in India
+
+d) The HGS EmF
+
+committee
+
+is
+
+authorised
+
+to
+
+sanction grants
+
+from the HR budget
+
+Higher Education Assistance
+
+To foster a culture of Eligibility
+
+learning
+
+and
+
+development
+
+by
+
+enabling employees’ to
+
+upgrade
+
+their
+
+knowledge and skills
+
+through
+
+higher
+
+education
+
+and
+
+certification courses.
+
+Details
+
+Policy
+
+Policy Description
+
+This policy covers all Retention Clause employees of HGS India and its subsidiary entities in India.
+
+Employees in the following grades are covered:
+
+a) Assistant Manager to Manager
+
+b) Senior Manager to Deputy General Manager
+
+c) General Manager & above
+
+d) All Employees who
+
+have completed
+
+5+yrs of continuous
+
+service with the
+
+company
+
+are
+
+eligible as per LSA
+
+Policy.
+
+12
+
+Details
+
+Policy
+
+Policy Description
+
+Higher Education Assistance
+
+To foster a culture of Eligibility
+
+learning
+
+and
+
+development
+
+by
+
+enabling employees’
+
+to upgrade their
+
+knowledge and skills
+
+through
+
+higher
+
+education
+
+and
+
+certification courses.
+
+This policy covers all Retention Clause employees of HGS India and its subsidiary entities in India.
+
+Employees in the following grades are covered:
+
+a) Assistant
+
+Manager
+
+to
+
+Manager
+
+b) Senior Manager to Deputy General Manager
+
+13
+
+Details
+
+Policy
+
+Policy Description
+
+c) General Manager & above
+
+d) All Employees
+
+who
+
+have
+
+completed 5+yrs
+
+of continuous
+
+service with the
+
+company
+
+are
+
+eligible as per LSA
+
+Policy.
+
+Employee Insurance
+
+Group
+
+Personal Covers Disablement /
+
+Accident Insurance Death due to Accident
+
+of an employee &
+
+Group Term Life
+
+Insurance
+
+on
+
+Employee Death due
+
+to any reason
+
+Details
+
+Policy
+
+Policy Description
+
+Group Term Life Death due to any
+
+Insurance
+
+reason
+
+Details
+
+Group Medical Insurance Policy
+
+Group Insurance in Death due to any a) Employees Deposit Linked Insurance (EDLI) Scheme is part of PF Act.
+
+Lieu of EDLI
+
+reason
+
+b) The Insurance benefit under this policy are paid to the nominee or family member of the
+
+deceased employee.
+
+c) An employee is covered for sum insured of INR 6,02,000/-
+
+Applicable to all Grade wise Breakup
+
+employees not covered of Medical Insurance
+
+under the Employee Coverage
+
+State
+
+Insurance
+
+Corporation Act.
+
+a) An employee and
+
+5
+
+dependent
+
+family members
+
+(Spouse/Partner +
+
+Children
+
++
+
+Parents or Parent-
+
+in-laws)
+
+Policy
+
+Policy Description
+
+b) The Sum Insured per family is on Floater basis
+
+c) Voluntary Insurance Top-Up scheme to boost the sum insured available
+
+Hard Furnishing Assistance
+
+The purpose of the Eligibility policy is to extend home furnishing loan to employees which is a retention clause
+
+a) The loan is
+
+extended
+
+on
+
+38months or 46
+
+months recovery
+
+as chosen by
+
+employee
+
+b) 50% is recovered in 36 or 48 instalments and the items is reversed @ 10% of the residual value after the loan term
+
+Details
+
+Policy
+
+Policy Description
+
+Details
+
+House Rent The purpose of this House Rent Deposit -
+
+Deposit policy is to assist Loan
+
+Assistance eligible employees
+
+through company
+
+-
+
+leased
+
+accommodation or
+
+provide financial
+
+-
+
+support
+
+towards
+
+House Rent Advance.
+
+A confirmed employee in the grade of up to M1/PS5 or equivalent with minimum one year of service in the company.
+
+Interest free advance of up to 5 times of Basic Salary or actual house rent advance paid, whichever is lesser Recovered in 24 equal instalments through payroll
+
+Company Leased - Company assists employee in entering into lease agreement with the landlord of the house
+
+Accommodation
+
+identified by the employee
+
+- Monthly rent is recovered from employee’s monthly salary and paid to the landlord.
+
+- All employees in the grade M2/PS6 (and equivalent) and above can avail CLA
+
+Employee Wedding Gift
+
+A gesture to the Entitlement
+
+employee
+
+getting
+
+married while in
+
+service
+
+An employee who gets married, while in service with HGS is entitled for a wedding gift of INR 2500/-
+
+Employee Domestic Travel
+
+Applicable
+
+to Class of Travel
+
+employees,
+
+consultants, interview
+
+candidates, auditors,
+
+Interns and business
+
+partners of HGS India
+
+and its subsidiary
+
+entities in India,
+
+All employees are entitled to travel by Air if the distance is more than 400kms M2 and above can travel by Air / Road / Rail, if the distance is less than 400kms. M1 and below can travel by Road / Rail
+
+Policy
+
+Policy Description travelling on shortterm business Accommodation, Perdiem
+
+Details
+
+Employee Relocation Assistance
+
+Applicable to all Entitlements employees of HGS India and its subsidiary entities in India, who relocate due to transfer and new hires joining the company.
+
+An eligible employee can avail relocation assistance for up to 4 dependent family members (spouse/partner/child
+
+a) Travel, Accommodation and Daily allowance Assistance - graded entitlements b) Shipment of household goods - best of 3 quotes c) Shipment of car d) Assistance up to 1 month basic salary towards child school admission or car registration/transfer
+
+Policy Long Service Awards Policy
+
+Policy Description ren/dependent parents.) Service Awards and special benefits for employees who are with the Company for more than 5, 10, 15, 20 and 25 years.
+
+Covid Assistance to employees working from home
+
+To support employees Entitlement set-up their homeoffice
+
+Details
+
+Felicitation of 5yrs, 10yrs, 15yrs, 20yrs, 25yrs and every increment of 5 yrs. tenure with HGS Employees are given different color Lanyards, ID cards with tenure logo, memento and certificates LSA employees in 10+ yrs. are felicitated in a grand ceremony with gift vouchers (10k, 15k, 20k, 25K) Higher Education Assistance for self Child Education Assistance - Interest free loan to fund child's education who is above 12yrs Additional Benevolence for the deceased employee. 5yrs - 2 lacs, 10+ yrs. - 5 lacs An employee who has completed 3 months and working from home can avail a loan of 10K to buy items like Table, Chair, UPS and Headset.
+
+75% of this assistance will be recovered in 12 instalments and rest 25% will be absorbed by the company
+
+ANNEXURE E
+
+INDIA INTELLECTUAL PROPERTY
+
+Asset/Accelerator
+
+Description
+
+Technology
+
+Claims Management CMS is an application designed to Java, Oracle, Python, R,
+
+System (CMS)
+
+support the workflow associated with Qlik/Power BI
+
+Revenue Cycle Management (RCM)
+
+within the healthcare provider
+
+industry
+
+Provider
+
+Data Variant of CMS. Application Java, Oracle, Python, R,
+
+Management System designed specifically for Cigna – Qlik/Power BI
+
+(PDMS)
+
+used to manage provider data on
+
+behalf of this client
+
+RxMS
+
+Rx management system for Apria Java, Oracle, Python, R,
+
+Healthcare
+
+Qlik/Power BI
+
+RFI
+
+Apria HITS Request for Information Java, Oracle, Python, R,
+
+system
+
+Qlik/Power BI
+
+Prior Auth module
+
+Workflow for prior authorizations for Java, Oracle, Python, R,
+
+Labcorp
+
+Qlik/Power BI
+
+Performance
+
+Application designed for workforce .Net; SQL Server backend
+
+Automation
+
+Tool management and inventory control
+
+(PAT) (Humana)
+
+for all payer back-office and contact
+
+center functions at HGS
+
+HGS
+
+Intelligent A platform to extract insights from Python, MS Power BI, Kaldi,
+
+Interaction Analytics various
+
+customer MongoDB, BI connector,
+
+Platform (IIAP)
+
+(member/payer/provider)
+
+Docker, Virtual Box
+
+interactions. It includes homegrown
+
+engine of Speech Analytics as well as
+
+Natural Language Processing (NLP)
+
+capabilities.
+
+Intelligent Content An AI driven solution which Python, Tesseract, Poppler
+
+Processing (ICP)
+
+processes unstructured content and
+
+understands context within document
+
+to help in decision making. Solution
+
+encompasses modules on Image
+
+Analytics, Natural Language
+
+Processing (NLP) and Machine
+
+Learning (ML).
+
+Payer Propensity to Pay Predictive model to support provider Python, R
+
+Model
+
+collections process team in
+
+addressing uncertainty of collection
+
+from a fresh claim. Model helps the
+
+team gain insights about propensity to
+
+pay of every claim and therefore
+
+arrive at a better operations
+
+management.
+
+Asset/Accelerator
+
+Description
+
+Technology
+
+Bots for claim prework, Bots developed by HGS automates AutomationAnywhere, UIPath
+
+overpayment recovery, process steps and reduces the effort of
+
+provider
+
+data the agent while processing.
+
+management, letter
+
+generation,
+
+claim
+
+adjudication
+
+Front Office assist solutions
+
+agent Small software tools developed to .net improve agent productivity and accuracy like decision tree, call back scheduler, work assignment tool
+
+ANNEXURE F PART A – INDIA MOVABLE ASSETS
+
+Annexed Separately
+
+PART B– INDIA LEASED ASSETS
+
+Sr. Description No. of Premises
+
+Location
+
+Lessor
+
+Date of Lease Deed
+
+Effective Date
+
+Tenure of Lease Deed
+
+1. Ground plus Land bearing old Bangalore March 29, 2021 September 6 years
+
+3 upper floors No.42, New Survey Cables Private
+
+25, 2020
+
+of super built No.115 situated at
+
+Limited
+
+up
+
+area Garvebhavi Palya,
+
+admeasuring Hongasandra
+
+80,537 sq Village, Begur
+
+feet,
+
+Hobli,
+
+Chamundi Hongasandra
+
+Towers I.
+
+Group Panchayat,
+
+Bangalore South
+
+Taluk.
+
+2. Ground plus Land bearing old Bangalore June 28, 2017 February 1, 10 years
+
+3 upper floors No.42, New Survey Cables Private
+
+2012
+
+of super built No.115 situated at
+
+Limited
+
+up
+
+area Garvebhavi Palya,
+
+admeasuring Hongasandra
+
+78,200 sq Village, Begur
+
+feet, terrace Hobli,
+
+area
+
+Hongasandra
+
+measuring Group Panchayat,
+
+20,500 sq feet Bangalore South
+
+and parking Taluk.
+
+in
+
+the
+
+basement
+
+admeasuring
+
+16,800 sq,
+
+Chamundi
+
+Towers II.
+
+3. 3rd & 4th Land
+
+bearing
+
+Tanglin
+
+March 19, 2020 September Valid
+
+floor, Tower survey numbers 29 Developments
+
+1, 2018 for upto
+
+A, Wing B, and 30 at
+
+Limited
+
+3rd floor August
+
+totally
+
+Mylasandra
+
+-
+
+and
+
+31,
+
+admeasuring Pattangere, off
+
+December 2023
+
+40,000 sq BangaloreMysore
+
+1, 2018 for
+
+feet, Global Expressway,
+
+4th floor
+
+Tech Village RVCE
+
+Post,
+
+IT Sector Bangalore.
+
+SEZ
+
+4. Ground & 2nd Land
+
+bearing Pritech Projects
+
+Undated
+
+February 5 years
+
+floor totally Survey No. 66/1, & Primal
+
+11, 2021
+
+admeasuring Bellandur Village, Projects Private (Unregistered)
+
+68,270 sq Varthur Hobli,
+
+Limited
+
+feet, Block Bangalore East
+
+14, Pritech Taluk, Bangalore
+
+Park
+
+Urban District.
+
+5. 1st floor of Land
+
+bearing Primal Projects January 7, 2020 February 1, 5 years
+
+Wing
+
+B Survey
+
+No. Private Limited
+
+2017
+
+admeasuring 51/61/4, Bellandur
+
+& RGA
+
+26,972 sq feet Village, Varthur Software
+
+Sr. Description No. of Premises
+
+Location
+
+Lessor
+
+Date of Lease Deed
+
+Effective Date
+
+Tenure of Lease Deed
+
+and cafeteria space admeasuring 9,250 sq feet, Block 11 (described as Block 5 in the sanction plan), Pritech Park SEZ.
+
+Hobli, Bangalore
+
+East
+
+Taluk,
+
+Bangalore Urban
+
+District.
+
+Systems Private Limited
+
+6. 2nd
+
+floor Land
+
+bearing M. Ramesh
+
+admeasuring Survey Numbers
+
+(HUF)
+
+38,412 sq feet 664, 23 and
+
+of super built 24Hogansandra
+
+up area, AMR Village, Bangalore.
+
+Techpark
+
+Block 11.
+
+October 10, 2018
+
+October 5 years 28, 2016
+
+7. 12th floor, Land bearing No. Kosmos One April 22, 2019 March 1, 6 years
+
+Tower B 14, 3rd main road, Business Park (read with 1st
+
+2016
+
+and 5
+
+admeasuring Ambattur
+
+Limited
+
+amendment
+
+months
+
+29,271 sq feet Industrial Estate,
+
+agreement
+
+of super built Ambattur,
+
+dated July 17,
+
+up
+
+area, Chennai.
+
+2020)
+
+Kosmos One.
+
+8. Level 3, Survey No. 8, Puravankara April 13, 2018 January 4, 5 years
+
+Wing
+
+B Kondapur Village,
+
+Limited
+
+2018
+
+admeasuring Serilingampally
+
+42,677.53 sq Mandal, Ranga
+
+feet of super Reddy District,
+
+built up area, Hyderabad.
+
+Purva
+
+Summit.
+
+9. Level 3, Survey No. 8,
+
+GM
+
+Wing
+
+A Kondapur Village, Enterprizes
+
+admeasuring Serilingampally
+
+42,818.32 sq Mandal, Ranga
+
+feet of super Reddy District,
+
+built up area, Hyderabad.
+
+Purva
+
+Summit.
+
+June 14, 2018 September 5 years 1, 2018
+
+10. Level 4, Survey No. 8,
+
+Wing
+
+A Kondapur Village,
+
+admeasuring Serilingampally
+
+42,846.88 sq Mandal, Ranga
+
+feet of super
+
+GM Enterprizes
+
+February 12, September 5 years
+
+2019
+
+1, 2018
+
+1 If the Closing Date does not occur prior to the expiry of the lease deed for this property, the Parties agree that details of the lease provided in row 6 shall be updated to include details of the fresh lease deed executed by HGSL for this property.
+
+Sr. Description No. of Premises
+
+Location
+
+Lessor
+
+built up area, Reddy District,
+
+Purva
+
+Hyderabad.
+
+Summit.
+
+Date of Lease Deed
+
+Effective Date
+
+Tenure of Lease Deed
+
+ANNEXURE G INDIA LIABILITIES Annexed Separately
+
+ANNEXURE H
+
+CONDITIONS PRECEDENT
+
+PART A
+
+HGSL Conditions Precedent
+
+(a) HGSL shall have obtained the approval of its shareholders under Section 180 of the Act for the transfer of its Business pursuant to this Agreement.
+
+(b) Assignment / Novation of lease deeds pertaining to certain India Leased Assets HGSL shall have signed and procured the signature of the counterparties to the deeds of assignment in favour of India NewCo with effect from the Closing Date in relation to the India Leased Assets. HGSL shall have provided all the registered stamped original lease agreements to the Investor to which such assignment / novation deeds pertain.
+
+(c) HGSL and India Newco shall execute a duly stamped lease deed for lease of Jayant Tech Park by HGSL to India NewCo on the terms set out in ANNEXURE I hereto, to be effective as on the Closing Date.
+
+(d) HGSL and India NewCo shall have executed a sub-lease agreement for sub lease of property situated at Module No. T-141, 4th Floor in International Infotech Park, Sector30A, Vashi, Navi Mumbai by HGSL to India NewCo on the terms set out in ANNEXURE I hereto, to be effective from the Closing Date.
+
+(e) Intimation / consent of the Lessors of the India Leased Assets HGSL shall have obtained the written consent of all the lessors of the India Leased Assets in relation to the assignment of the India Leased Assets.
+
+(f) India Leased Assets HGSL shall have provided for such original documents as are in its possession and/ or are necessary under applicable Law for the purposes of registration of the deeds of assignment referred to in paragraph (b) of ANNEXURE H or new lease agreements referred to in paragraph (c) and (d) of ANNEXURE H, as the case may be, with the relevant Governmental Authorities.
+
+(g) Renewal of the lease deeds HGSL shall have renewed the lease deed in relation to the India Leased Assets identified at Sr. No. 6 of Part B of ANNEXURE F on commercially reasonable terms.
+
+(h) Consent from CIDCO HGSL shall have obtained the written consent from CIDCO in relation to sub-leasing to India NewCo of Vashi Property.
+
+(i) Lender Consents
+
+(i) HGSL shall have obtained consents from the following lenders for release of the security over the India Movable Assets, Other Assets and the India Leased Assets and the lenders shall issue a certificate confirming the full release of Encumbrance created on the assets of the India HS Undertaking:
+
+Standard Chartered Bank;
+
+Axis Bank;
+
+ICICI Bank;
+
+Yes Bank; and HDFC Bank.
+
+(ii) HGSL shall have obtained written consents from the following lenders for the transfer of its Business pursuant to this Agreement:
+
+Standard Chartered Bank;
+
+Axis Bank;
+
+ICICI Bank;
+
+Yes Bank; and HDFC Bank.
+
+(j) Gratuity Obligations HGSL shall have applied for approval from the Commissioner of Income Tax and Life Insurance Corporation (unless approval from the Commissioner of Income Tax is a prerequisite to applying to Life Insurance Corporation, in which case the application to Life Insurance Corporation shall not be required as a condition precedent) for variation of the Gratuity Trust Deed dated April 1, 1997 (“Trust Deed”) to enable the transfer of gratuity accumulations upto Closing Date relating to the Transferring Employees to the approved trust specified by India NewCo as per applicable Law.
+
+(k) Transfer letter HGSL shall have procured the India Employee Transfer Letter from the Transferring Employees.
+
+(l) Requisite approval for the transfer of the units situated in Special Economic Zones and Software Technology Parks of India Requisite approvals from the authorities in the Special Economic Zone (“SEZ”) and Software Technology Park of India (“STPI”) for transfer of the registration granted by the SEZ and STPI in relation to premises situated at Pritech Park, Global Village, Chamundi Towers 1 &2, AMR Tech Park in Bangalore, Jayanth Tech Park and One India Bulls in Chennai, 4th Floor Tower 1, Vashi, Purva, Hyderabad, to the India NewCo, as per the applicable Laws, shall have been obtained by HGSL
+
+(m) Tax certificate HGSL shall have obtained and provided a certificate from any of the Big Four Accounting Firm for the purposes of Section 281 of the Income Tax Act, 1961 and Section 81 of the Central Goods and Services Tax Act, 2017, each on a reliance basis, for the sale of the India HS Undertaking, as contemplated in this Agreement valid on the Closing Date.
+
+PART B INVESTOR CONDITIONS PRECEDENT Investor shall be the legal and beneficial owner of 100% of India NewCo, and Investor shall have caused India NewCo to execute, and provide HGSL with a signed and duly stamped original of, the Deed of Adherence in Agreed Form.
+
+PART C JOINT CONDITIONS PRECEDENTS (a) No Action There shall not have been into effect after the Execution Date, any Order, that in any case would: (a) prevent, make illegal or restrain the consummation of, any of the transactions contemplated in the Transaction Documents; or (b) cause any of the transactions contemplated in the Transaction Documents to be rescinded following consummation of the same.
+
+ANNEXURE I
+
+TERMS OF LEASES
+
+Terms
+
+Vashi Property
+
+Jayant Tech Park
+
+Tenure
+
+5 years, with a 2 year lock in 5 years, with a 2 year lock in
+
+Annual Lease Rental which INR 1,20,00,000 shall be proportionately payable monthly in advance
+
+INR 3,90,00,000
+
+Security Deposit
+
+INR 60,00,000
+
+INR 1,95,00,000
+
+Rent escalation
+
+5% per annum
+
+5% per annum
+
+SCHEDULE 1 Line items relevant for the definition of “Current Assets” and “Current Liabilities” Adjusted net working capital
+
+USD'000 Carved out revenue, reported
+
+As at [Date] XXX
+
+Carved out NWC, reported
+
+Trade receivables
+
+- Trade receivables
+
+XX
+
+- Unbilled revenue
+
+XX
+
+Less: Trade payables
+
+- Trade Payables
+
+XX
+
+- Provision for expenses
+
+XX
+
+Other assets (excluding security deposit for lease premises1)
+
+- Prepaid expenses
+
+XX
+
+- Derivative assets
+
+XX
+
+- Balance with govt authorities (excluding GST input credit)
+
+XX
+
+- Advance to suppliers
+
+XX
+
+- Security deposits (including telephone deposits, electricity deposits, etc but XX excluding deposit for lease premises1
+
+- Other assets5
+
+XX
+
+Less: Other liabilities
+
+- Employee benefits payable
+
+XX
+
+- Statutory payables
+
+XX
+
+- Deferred revenue & Advance from customers
+
+XX
+
+- Unfunded employee benefits
+
+- Derivative liabilities
+
+XX
+
+- Other liabilities (including capital creditors (net of capital advances) and XX provision for tax (net of advance tax))
+
+Carved out NWC, reported
+
+XXX
+
+Adjustments to NWC
+
+Debt / cash like adjustments
+
+Add: Provision of tax (net of advance tax)
+
+XX
+
+Add: Unpaid employee variable pay, increments, commission (for period XX upto FY21)
+
+Add: Unpaid bonus in lieu of increments
+
+XX
+
+Add: Unfunded employee benefits
+
+XX
+
+Add: Overdue statutory dues
+
+XX
+
+Add: Deferred revenue collected in cash 2
+
+XX
+
+Add: Stretched payables/ expenses provisions (>180 days)
+
+XX
+
+Add: Customer advances
+
+XX
+
+Less: Capital advance
+
+XX
+
+Add: Capital creditors
+
+XX
+
+Other adjustments
+
+Add: Receivables from Generali (if not considered in Trade receivables) XX
+
+Less: Under accrual of employee cost 3
+
+XX
+
+Less: Receivables doubtful of recovery 3
+
+XX
+
+Less: Penalties not accrued 3
+
+XX
+
+Less: Derivative (assets) / Add: Derivative liabilities 3
+
+XX
+
+XXX
+
+Carved out NWC, adjusted 4
+
+Note 1: The security deposits for lease for premises will be transferred / assigned to the NewCo prior to the closing date and hence not considered as a part of working capital. Note 2: Deferred Training Revenue collected in cash on non refundable basis shall not be treated as a debt like item (to the extent the entire expenditure on training in relation to this cash collection is already incurred before the closing date). Note 3: These adjustments to working capital should not be adjusted from net debt. Note 4: Deferred Performance Incentive and Excluded Broker & Commission Liabilities are part of excluded liabilities and hence not considered in working capital. Note 5: Includes employee advances and other assets

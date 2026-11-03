@@ -23,8 +23,25 @@ leave_license, dec2022 held out together, `TEMPLATE_GROUPS` in `finetune_indian.
 On the same 334 test clauses, the extra batch 3 training data raises TF-IDF accuracy by 0.054 and macro-F1 by 0.118.
 This is one deterministic run, without a significance test yet.
 
-## LegalBERT (Kaggle)
+## LegalBERT (Kaggle, 2026-11-03, seed 13, `kaggle/`)
 
-Not yet run: `notebooks/make_indian_v5.py` -> `notebooks/indian_v5_kaggle.ipynb` (gitignored, embeds batch 3 text;
-keep the Kaggle notebook private). Two runs (CUAD->Indian, + LEDGAR, seed 13), about 1.5 h each. The summary scores
-the v4 clauses alone so the result can be compared with `indian_ledgar/kaggle` (0.565 / 0.524 over 3 seeds).
+Same settings as `indian_ledgar/kaggle`. Scored on the same 334 v4 test clauses (`compare_v5.py`; predictions here have
+no clause text). v4 = the earlier runs without batch 3 (3 seeds).
+
+| Run | acc (334) | macro-F1 (334) | seen mF1 | unseen mF1 | batch 3 acc (454) |
+|---|---|---|---|---|---|
+| v4 CUAD->Indian (mean of 3 seeds) | 0.565 | 0.524 | 0.593 | 0.511 | -- |
+| **v5 CUAD->Indian** | 0.611 | 0.609 | 0.614 | 0.732 | 0.615 |
+| v4 + LEDGAR (mean of 3 seeds) | 0.600 | 0.512 | 0.521 | 0.636 | -- |
+| **v5 + LEDGAR** | 0.644 | 0.636 | 0.658 | 0.727 | 0.663 |
+
+Paired bootstrap (2000 resamples, 95% interval), v5 seed 13 against each v4 seed:
+
+- CUAD->Indian: macro-F1 +0.08 to +0.09, all three intervals exclude 0; accuracy +0.04 to +0.05, one of three excludes 0.
+- + LEDGAR: macro-F1 +0.10 to +0.14, all three exclude 0; accuracy +0.02 to +0.05, two of three exclude 0.
+- v5 + LEDGAR vs v5: accuracy +0.033 [0.000, 0.063], macro-F1 +0.027 [-0.007, 0.065].
+
+The gain is mostly in categories CUAD lacks (seed 13: Modification 0.00 -> 0.33, Privacy 0.00 -> 0.50,
+Confidentiality 0.75 -> 0.87); seen-category accuracy is unchanged (0.538 -> 0.536). Only one seed for v5.
+Rerun the comparison: `python experiments/indian_v5/compare_v5.py <repo> <folder with the unzipped v5 results>`
+(needs the full predictions with clause text, which stay local).

@@ -78,7 +78,8 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
    guideline fixes), cleaning noisy test units. Paper lists them as future work.
 8. DONE 2026-11-03: batch 3 (15 private-sector docs) double-annotated, re-checked under guide v2, adjudicated ->
    v5 = 788 clauses (`built_v5`, local only, 23 groups). TF-IDF on the same 334 v4 clauses: 0.482/0.351 -> 0.536/0.469
-   with batch 3 in training (`experiments/indian_v5/`). NEXT: run `notebooks/indian_v5_kaggle.ipynb` (private), add to paper.
+   with batch 3 in training (`experiments/indian_v5/`). LegalBERT v5 (seed 13) on the same 334: 0.611/0.609, + LEDGAR 0.644/0.636. In the paper (data section, Table III,
+   finding vii). Paper is now 7 pages (refs spill onto p.7). Optional: seeds 14/15 for v5.
 ON HOLD until she says so: lawyer review of rules; 12-vs-18 category decision.
 
 ## Environment notes

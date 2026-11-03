@@ -27,13 +27,16 @@ Trained on Indian clauses too (document-held-out, all 334 clauses, mean ± sd ov
 | LegalBERT, CUAD -> Indian | 0.565 ± 0.007 | 0.524 ± 0.006 (seen 0.593) |
 | + LEDGAR provisions | 0.600 ± 0.017 | 0.512 ± 0.017 |
 | InLegalBERT, CUAD -> Indian | 0.537 ± 0.009 | 0.450 ± 0.007 |
+| LegalBERT, CUAD -> Indian + batch 3 (1 seed) | 0.611 | 0.609 |
+| + batch 3 + LEDGAR (1 seed) | 0.644 | 0.636 |
 
 - On CUAD the models score well; on Indian clauses all three fall to the same level, TF-IDF included. Six of the 18
   categories have no CUAD training data at all.
 - LEDGAR improves 13 of 17 categories; macro-F1 is flat only because the single Non-Solicitation clause flips.
   Indian-law pretraining (InLegalBERT) did not help.
 - A few hundred Indian clauses do far more than a better encoder or extra US data.
-- v5 (788 clauses, adding 15 private-sector documents) is in progress: see `experiments/indian_v5/`.
+- Batch 3 rows: 454 private-sector clauses added to training only, scored on the same 334 test clauses
+  (`experiments/indian_v5/`). More Indian data gives the largest gain, mostly in the categories CUAD lacks.
 
 Full numbers, intervals and caveats: `experiments/README.md` and the paper (`paper/main.tex`).
 

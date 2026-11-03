@@ -91,6 +91,11 @@ def clause_units(doc: str, lo: int = 100, hi: int = 900, target: int = 700):
     return units
 
 
+def shingles(t: str, n: int = 8) -> set:
+    w = re.findall(r"[a-z]+", t.lower())
+    return {" ".join(w[i:i + n]) for i in range(max(0, len(w) - n + 1))}
+
+
 def read_excluded(paths):
     ex = []
     for p in paths or []:
@@ -120,12 +125,32 @@ def build(a):
         for i, u in enumerate(clause_units(docs[name])):
             if not overlaps(u):
                 rows.append([f"{Path(name).stem}:{i}", "exhaustive", name, u, "", "", "", ""])
+    chosen = []                                   # 8-gram sets of units already on the sheet (near-duplicate filter)
+    is_dup = lambda u: a.dedupe and any(len(shingles(u) & c) >= 0.6 * max(1, len(shingles(u))) for c in chosen)
+    if a.random_per_group:
+        groups = defaultdict(list)                # group -> doc names; --group g=stem1,stem2; others are their own group
+        spec = {s: g for g, stems in (x.split("=", 1) for x in a.group) for s in stems.split(",")}
+        for name in docs:
+            if name not in a.exhaustive:
+                groups[spec.get(Path(name).stem, Path(name).stem)].append(name)
+        for g in sorted(groups):
+            pool = [(name, i, u) for name in groups[g] for i, u in enumerate(clause_units(docs[name]))]
+            rng.shuffle(pool)
+            k = 0
+            for name, i, u in pool:
+                if k >= a.random_per_group:
+                    break
+                if overlaps(u) or is_dup(u):
+                    continue
+                rows.append([f"{Path(name).stem}:{i}", "random", name, u, "", "", "", ""])
+                chosen.append(shingles(u)); k += 1
+    taken = {r[0] for r in rows}
     per_doc = defaultdict(list)
     for name, text in docs.items():
-        if name in a.exhaustive:
+        if name in a.exhaustive or (a.random_per_group and not a.topup_categories):
             continue
         for i, u in enumerate(clause_units(text)):
-            if overlaps(u):
+            if overlaps(u) or f"{Path(name).stem}:{i}" in taken:
                 continue
             hits = [c for c, rx in HEAD.items() if re.search(rx, u[:220], re.I)]
             if hits:
@@ -141,8 +166,14 @@ def build(a):
         rng.shuffle(pool)
         seen_docs = Counter()
         pool.sort(key=lambda x: seen_docs.update([x[0]]) or seen_docs[x[0]])   # prefer unused docs
-        for name, i, u in pool[: a.topup_per_category]:
+        k = 0
+        for name, i, u in pool:
+            if k >= a.topup_per_category:
+                break
+            if is_dup(u):
+                continue
             rows.append([f"{Path(name).stem}:{i}", "topup", name, u, c, "", "", ""])
+            chosen.append(shingles(u)); k += 1
     seen_ids, out = set(), []
     for r in rows:
         if r[0] not in seen_ids:
@@ -180,7 +211,7 @@ def convert(a):
             continue
         if lab not in allowed:
             problems.append(f"{uid}: '{lab}' is not one of the 18 categories"); continue
-        out.append([r["document_file"], lab, r["clause_text"], f"label_sheet:{r['pool']}"])
+        out.append([r["document_file"], lab, r["clause_text"], f"label_sheet:{r.get('pool', '')}"])
     with open(a.out, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f); w.writerow(["document_file", "category", "clause_text", "source_note"]); w.writerows(out)
     cnt = Counter(o[1] for o in out)
@@ -214,7 +245,11 @@ def main(argv=None):
     b = sub.add_parser("build")
     b.add_argument("--docs_dir", required=True)
     b.add_argument("--exclude", nargs="*", default=[])
-    b.add_argument("--exhaustive", nargs="+", default=[])
+    b.add_argument("--exhaustive", nargs="*", default=[])
+    b.add_argument("--random_per_group", type=int, default=0,
+                   help="random pool: at most N units per document group (natural category mix, no keyword bias)")
+    b.add_argument("--group", nargs="*", default=[], help="template groups, e.g. azure=stem1,stem2 (others: own group)")
+    b.add_argument("--dedupe", action="store_true", help="skip units that mostly repeat text already on the sheet")
     b.add_argument("--topup_per_category", type=int, default=6)
     b.add_argument("--topup_categories", nargs="*", default=None)
     b.add_argument("--seed", type=int, default=13)

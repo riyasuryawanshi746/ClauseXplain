@@ -40,7 +40,8 @@ BULLETS = "\uf0b7\uf0a7\uf0d8\uf076\u2022\u25cf\u25aa\u2023"
 
 def extract_pages(pdf: str) -> list[str]:
     try:
-        out = subprocess.run(["pdftotext", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True, check=True).stdout
+        out = subprocess.run(["pdftotext", "-enc", "UTF-8", pdf, "-"], capture_output=True, check=True,
+                             encoding="utf-8", errors="replace").stdout   # explicit: Windows default codepage fails
         return out.split("\f")
     except (FileNotFoundError, subprocess.CalledProcessError):
         from pypdf import PdfReader

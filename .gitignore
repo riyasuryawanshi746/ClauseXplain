@@ -11,3 +11,5 @@ partial/
 .env
 .DS_Store
 demo_model/
+indian_set/documents_batch3/
+indian_set/labelling/batch3/

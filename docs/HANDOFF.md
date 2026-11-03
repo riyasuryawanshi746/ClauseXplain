@@ -70,6 +70,12 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
    Best: LegalBERT CUAD->Indian 0.566 acc / 0.528 macro-F1 over 334 (seen mF1 0.597 vs 0.342 zero-shot). Class weights/
    smoothing/LLRD did not help; legalbert_indian_tricks failed to train. In the paper (Section "Training on Indian Clauses").
    Next: LEDGAR data for weak categories (step 5 of the plan), then InLegalBERT / domain-adaptive pretraining (step 6).
+7. DONE 2026-11-03: step 5 (`experiments/indian_ledgar/`): LegalBERT CUAD->Indian 3 seeds 0.565/0.524; + LEDGAR 0.600/0.512
+   (accuracy up, macro-F1 flat; helps unseen categories, hurts seen). Step 6 (`experiments/indian_inlegalbert/`):
+   InLegalBERT 0.537/0.450, worse than LegalBERT. Both in the paper. Demo: `phase3_model/app.py` + `--cls_model`
+   (model from `notebooks/demo_model_kaggle.ipynb`, not in repo).
+   LATER (decided 2026-11-03): steps 2-4 = more (private-sector) data, label consistency (more double annotation,
+   guideline fixes), cleaning noisy test units. Paper lists them as future work.
 ON HOLD until she says so: lawyer review of rules; 12-vs-18 category decision.
 
 ## Environment notes

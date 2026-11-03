@@ -24,7 +24,19 @@ toward them and hurts the seen categories, so the 11-category version is the mai
 (A first attempt at the 5-category run passed `--extra_categories` twice, so it used Dispute Resolution only; it was
 discarded and rerun.)
 
-## Neural (Kaggle, pending)
+## Neural (Kaggle T4, `kaggle/`, run 2026-11-03 with `notebooks/indian_ledgar_kaggle.ipynb`)
 
-`notebooks/indian_ledgar_kaggle.ipynb`: LegalBERT CUAD -> Indian with and without LEDGAR, three seeds each
-(13, 14, 15), the 5-category variant, and LegalBERT Indian + LEDGAR without CUAD init.
+LegalBERT trained on CUAD fold 0 (retrained in this notebook: CUAD fold-0 macro-F1 0.864), then on Indian clauses,
+with and without LEDGAR (cap 100 per category). Three seeds each; mean +- s.d. over seeds.
+
+| Run | acc | macro-F1 | seen acc / mF1 | unseen acc / mF1 | original / batch 2 acc | judgments acc |
+|---|---|---|---|---|---|---|
+| LegalBERT CUAD -> Indian (s13-15) | 0.565 +- 0.007 | 0.524 +- 0.006 | 0.538 / 0.593 | 0.601 / 0.511 | 0.613 / 0.462 | 0.667 |
+| + LEDGAR (s13-15) | **0.600 +- 0.017** | 0.512 +- 0.017 | 0.516 / 0.521 | 0.714 / **0.636** | 0.656 / 0.478 | 0.636 |
+
+Per-seed values in `kaggle/summary.md`. Paired bootstrap (1000 resamples over clauses, same seed) for the accuracy
+gain from LEDGAR: s13 (-0.018, 0.063), s14 (0.009, 0.096), s15 (-0.006, 0.075); only s14 excludes zero.
+
+Reading: the baseline replicates the first run (0.566 / 0.528) closely. LEDGAR raises accuracy by about 0.035 by
+improving the categories CUAD lacks (unseen macro-F1 +0.125) while the seen categories lose about 0.07 macro-F1, so
+overall macro-F1 does not move. Suggestive, not conclusive. InLegalBERT results: `../indian_inlegalbert/`.

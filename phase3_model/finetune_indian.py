@@ -67,7 +67,9 @@ def load_set(d):
 
 # batch 3 (built_v5) documents that share a template or a transaction; held out together
 TEMPLATE_GROUPS = {"azure": ("indian_azure_",), "leave_license": ("indian_leave_license_",),
-                   "dec2022": ("indian_dec2022_",)}
+                   "dec2022": ("indian_dec2022_",),
+                   # batch 4 (built_v6): same company / two parts of one agreement
+                   "dhoot": ("indian_dhoot_",), "ssa_jan2025": ("indian_ssa_spa_jan2025_",)}
 
 
 def group_of(doc):

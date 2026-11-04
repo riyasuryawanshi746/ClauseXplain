@@ -21,6 +21,7 @@ PATTERNS = [
     re.compile(r"(\+91[ -]?)?\b[6-9][0-9]{9}\b"),                   # mobile number
     re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),  # e-mail
     re.compile(r"(?<=\bPAN )(?:No\.?:? |number:? )?[A-Z0-9]{8,11}\b"),  # malformed PAN after the word PAN
+    re.compile(r"(?<=PAN)(?:\s*No\.?)?(?:\s*\(i[ft] [Aa]pplicable\))?\s*[|:=—-]+\s*[A-Za-z0-9]{8,16}\b"),  # OCR'd PAN fields
     re.compile(r"\b[0-9]{9,}\b"),                                    # bank account and other long numbers
     re.compile(r"\b[0-9]{8}\b(?=.{0,80}\bIN30)|(?<=IN30[0-9]{4} )(?:[^\n]{0,60} )?[0-9]{8}\b"),  # demat client ID
     re.compile(r"\bIN30[0-9]{4}\b"),                                 # depository participant ID (after client ID)

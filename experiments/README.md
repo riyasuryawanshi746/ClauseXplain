@@ -11,6 +11,7 @@
 | `indian_finetune/` | 2026-11-03, T4 | Document-held-out training on `built_v4` (leave-one-group-out, 12 folds): TF-IDF, LegalBERT, Longformer, with/without CUAD init and class weights/smoothing/LLRD | **Canonical** adapted results (best: LegalBERT CUAD->Indian 0.566 acc / 0.528 macro-F1). |
 | `indian_ledgar/` | 2026-11-03 | Step 5: same protocol + up to 100 LEDGAR provisions per category (`ledgar_extra.py`) | **Canonical.** TF-IDF in `local_cpu/`, LegalBERT 3 seeds in `kaggle/` (CUAD->Indian 0.565 acc / 0.524 mF1; + LEDGAR 0.600 / 0.512). |
 | `indian_inlegalbert/` | 2026-11-03, T4 | Step 6: InLegalBERT encoder, same protocol, 3 seeds + 1 LEDGAR run | **Canonical.** 0.537 acc / 0.450 mF1, below LegalBERT. |
+| `indian_v6/` | 2026-11-05 | v5 + batch 4 = 905 clauses, 29 groups | LegalBERT s13 on the same 334: 0.629 / 0.569 (0.604 without the single Non-Solicitation clause); + LEDGAR pending. |
 | `indian_v5/` | 2026-11-03 | v4 + batch 3 = 788 clauses, 23 groups | **Canonical.** LegalBERT seed 13 on the same 334 test clauses: 0.611 / 0.609 (+ LEDGAR 0.644 / 0.636) vs 0.565 / 0.524 without batch 3. |
 | `archive/2026-11-02_indian_eval_v3/`, `archive/2026-11-02_legalbert_baseline_v3/` | 2026-11-02 | same, pre-adjudication labels | Superseded by the v4 folders. |
 | `archive/2026-10-28_indian_eval_v2/` | 2026-10-28 | Longformer on the 228-clause v2 set | Superseded. |

@@ -35,3 +35,12 @@ Majeure). Rows are shuffled; `batch4_sheet_key_DO_NOT_SHARE.csv` (not in git) sa
 Rebuild the sheet (same seed, same sheet):
 `python make_label_sheet.py build --docs_dir ../indian_set/documents_batch4 --random_per_group 20 --dedupe --group dhoot=dhoot_business_transfer_2020,dhoot_employment_2025 ssa_jan2025=ssa_spa_jan2025_part1,ssa_spa_jan2025_part2 --topup_per_category 4 --topup_categories Penalties Non-Solicitation Non-Compete "Intellectual Property" Liability "Governing Law / Jurisdiction" "Privacy / Data Protection" "Force Majeure" --out ../indian_set/labelling/batch4/label_sheet_batch4_full.csv`
 (the annotator sheets add context columns and shuffle rows with seed 4).
+
+## Status (2026-11-04)
+
+Round 1 done (guide v2, both annotators, all 148 units): raw agreement 0.46, kappa 0.40, 80 disagreements. Main
+pairs: not-a-clause vs Other (18; party introductions such as "This Agreement is made ... by and between:", which
+guide v2 lists as party blocks), seller/company representations (guide section 4: Warranty) vs their topic, Other vs
+Payment. Same path as batch 3: each annotator re-checks only the 80 disagreements under guide v2, seeing only their
+own round-1 label (`recheck_annotator1.csv` to annotator 1, `recheck_annotator2.csv` to annotator 2), then
+`recheck.py merge` and blind adjudication. Filled sheets stay out of git until the re-check is merged.

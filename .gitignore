@@ -18,3 +18,12 @@ indian_set/built_v5/
 notebooks/indian_v5_kaggle.ipynb
 indian_set/labelling/batch4/*DO_NOT_SHARE*
 indian_set/labelling/batch4/label_sheet_batch4_full.csv
+notebooks/indian_v6_*_kaggle.ipynb
+indian_set/clauses_v6.csv
+indian_set/built_v6/
+# batch 4: keep labels out of git until the re-check is merged (each annotator must not see the other's labels)
+indian_set/labelling/batch4/*filled*
+indian_set/labelling/batch4/recheck_*
+indian_set/labelling/batch4/disagreements.csv
+indian_set/labelling/batch4/clauses_batch4_*
+indian_set/labelling/batch4/sheet_report.md

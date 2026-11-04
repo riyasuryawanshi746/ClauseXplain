@@ -44,3 +44,10 @@ guide v2 lists as party blocks), seller/company representations (guide section 4
 Payment. Same path as batch 3: each annotator re-checks only the 80 disagreements under guide v2, seeing only their
 own round-1 label (`recheck_annotator1.csv` to annotator 1, `recheck_annotator2.csv` to annotator 2), then
 `recheck.py merge` and blind adjudication. Filled sheets stay out of git until the re-check is merged.
+
+**Round 2 (re-check, 2026-11-04):** raw agreement 0.81, kappa 0.79 over all 148 units (the 68 round-1 agreements were
+not re-checked, so this is somewhat optimistic). Annotator 1 changed 30 of 80 labels, annotator 2 changed 38.
+28 disagreements remained -> blind adjudication (`round2/adjudication_sheet_batch4_filled.csv`): final label =
+annotator 1 in 2, annotator 2 in 24, neither in 2. Result: 117 clauses, 31 not-a-clause
+(`round2/label_sheet_batch4_adjudicated.csv`). v6 = v5 + batch 4: `clauses_v6.csv` -> `built_v6` (905 clauses,
+local only because of batch 3) and `clauses_v6_public.csv` -> `built_v6_public` (886 clauses, in git).

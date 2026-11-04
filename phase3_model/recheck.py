@@ -94,8 +94,8 @@ def merge(a):
     to_other1 = sum(label(r1[u]) == label(s2[u]) for u in r1)      # moved to the other's round-1 label
     to_other2 = sum(label(r2[u]) == label(s1[u]) for u in r2)
     pairs = Counter(tuple(sorted((label(r1[u]), label(r2[u])))) for u in r1 if label(r1[u]) != label(r2[u]))
-    rep = ["# Batch 3 re-check (guide v2)", "",
-           f"Round 1 (guide v1): {len(common)} units, raw agreement {a1:.2f}, kappa {k1:.2f}.",
+    rep = [f"# {a.title} re-check (guide v2)", "",
+           f"Round 1 (guide {a.round1_guide}): {len(common)} units, raw agreement {a1:.2f}, kappa {k1:.2f}.",
            f"Re-checked {len(r1)} round-1 disagreements under v2, each annotator blind to the other's labels.",
            f"Round 2: raw agreement {a2:.2f}, kappa {k2:.2f}. {re_agree} of {len(r1)} re-checked units now agree; "
            f"{len(r1) - re_agree} remain for blind adjudication.",
@@ -117,6 +117,8 @@ def main(argv=None):
     g.add_argument("--sheet1", required=True); g.add_argument("--sheet2", required=True)
     g.add_argument("--recheck1", required=True); g.add_argument("--recheck2", required=True)
     g.add_argument("--out_dir", required=True)
+    g.add_argument("--title", default="Batch 3")
+    g.add_argument("--round1_guide", default="v1")
     a = ap.parse_args(argv)
     make(a) if a.cmd == "make" else merge(a)
 

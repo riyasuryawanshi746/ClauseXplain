@@ -27,3 +27,6 @@ indian_set/labelling/batch4/recheck_*
 indian_set/labelling/batch4/disagreements.csv
 indian_set/labelling/batch4/clauses_batch4_*
 indian_set/labelling/batch4/sheet_report.md
+indian_set/labelling/batch4/round2_annotator*.csv
+indian_set/labelling/batch4/recheck_report.md
+indian_set/labelling/batch4/round2/

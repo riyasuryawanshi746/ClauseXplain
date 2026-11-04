@@ -352,7 +352,7 @@ def final(a):
 def summarise(a):
     runs = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(Path(a.out_dir).glob("*/metrics.json"))]
     f3 = lambda x: "n/a" if x is None or (isinstance(x, float) and math.isnan(x)) else f"{x:.3f}"
-    L = ["# Indian set: document-held-out training (leave-one-document-group-out, 12 folds)", "",
+    L = ["# Indian set: document-held-out training (leave-one-document-group-out; folds = groups, see the run log)", "",
          "Every clause is predicted by a model that never saw its document. Zero-shot CUAD models (no Indian training)",
          "scored 0.347 acc / 0.338 macro-F1 (Longformer) on the 192 seen-category clauses only.", "",
          "| Run | all acc (95% CI) | all macro-F1 (95% CI) | seen acc / mF1 | unseen acc / mF1 | original / batch 2 acc | judgments acc |",

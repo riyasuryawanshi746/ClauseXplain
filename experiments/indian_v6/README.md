@@ -26,7 +26,9 @@ Same settings as v5; one run per notebook (`notebooks/make_indian_v6.py`). Score
 | v4 CUAD->Indian (3 seeds) | 0.565 | 0.524 | 0.494 | 0.593 | 0.511 | -- |
 | v5 CUAD->Indian (s13) | 0.611 | 0.609 | 0.584 | 0.614 | 0.732 | -- |
 | **v6 CUAD->Indian (s13)** | 0.629 | 0.569 | 0.604 | 0.544 | 0.745 | 0.632 |
-| v6 + LEDGAR | pending | | | | | |
+| v4 + LEDGAR (3 seeds) | 0.600 | 0.512 | 0.544 | 0.521 | 0.636 | -- |
+| v5 + LEDGAR (s13) | 0.644 | 0.636 | 0.613 | 0.658 | 0.727 | -- |
+| **v6 + LEDGAR (s13)** | 0.638 | 0.574 | 0.609 | 0.559 | 0.726 | 0.657 |
 
 - v5 -> v6: accuracy +0.018 [-0.006, +0.042]; macro-F1 -0.040, all of it from the single Non-Solicitation test clause
   (predicted correctly by every v4/v5 run, as Confidentiality by v6: F1 1.00 -> 0.00, which moves 17-category
@@ -36,5 +38,25 @@ Same settings as v5; one run per notebook (`notebooks/make_indian_v6.py`). Score
 - Per category (v5 -> v6, seed 13): Payment 0.57 -> 0.63, Termination 0.62 -> 0.67, Commercial Terms 0.42 -> 0.48,
   Assignment 0.47 -> 0.53, Liability 0.24 -> 0.33; others within 0.03.
 - Seen-category macro-F1 drops (0.614 -> 0.544), again mostly Non-Solicitation, which is a seen category.
+
+**With LEDGAR** (`kaggle/ledgar_summary.md`):
+- v5 + LEDGAR -> v6 + LEDGAR: accuracy -0.006 [-0.039, +0.027], macro-F1 -0.062 [-0.093, +0.024]. Same
+  Non-Solicitation clause (v5 + LEDGAR got it, v6 + LEDGAR says Confidentiality, as all three v4 + LEDGAR seeds did);
+  without it -0.004 [-0.039, +0.033]. No change.
+- v6 -> v6 + LEDGAR: accuracy +0.009 [-0.021, +0.042], macro-F1 +0.005 [-0.031, +0.044]. With 905 Indian clauses,
+  LEDGAR no longer adds anything measurable (on v4 it added +0.035 accuracy; on v5 +0.033).
+- v4 + LEDGAR (each seed) -> v6 + LEDGAR: accuracy +0.048 / +0.018 / +0.048 (two of three exclude 0); macro-F1
+  +0.069 / +0.042 / +0.073 (two of three exclude 0).
+- Per category (v6 -> v6 + LEDGAR), LEDGAR helps Commercial Terms (0.48 -> 0.59) and Governing Law (0.56 -> 0.62)
+  and costs Intellectual Property (0.67 -> 0.57); small numbers either way (n = 9-24).
+- All clauses (905 incl. added, document-held-out): 0.650 acc / 0.643 macro-F1 for v6 + LEDGAR; added-clause
+  accuracy 0.657 (n = 571), vs 0.632 for plain v6.
+
+**Reading.** Best on the fixed 334 is still v5 + LEDGAR (0.644 / 0.636); v6 runs are level with it on accuracy and
+lower on macro-F1 only because of one clause. Batch 4 did not move the fixed test set beyond noise; with one seed per
+run, differences under about 0.03 accuracy should not be read as real.
+
+Note: the "12 folds" in the header of `kaggle/*_summary.md` is stale text from the generator; the run used 29 groups
+(see the fold lines in `notebooks/ran/indian_v6_*_kaggle_ran.ipynb`).
 
 Rerun: `python experiments/indian_v6/compare_v6.py . experiments/indian_v6/kaggle`.

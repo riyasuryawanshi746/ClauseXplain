@@ -51,7 +51,7 @@ Full numbers, intervals and caveats: `experiments/README.md` and the paper (`pap
 | `indian_set/` | Indian clause set. `documents/`, `documents_batch2/`: public contract texts; `documents_batch3_redacted/`: 13 private-sector agreements with personal numbers masked. `clauses_v5_public.csv` -> `built_v5_public/`: public v5 training set (769 clauses; v4 + batch 3 without the two leave-and-license deeds). `clauses_v4.csv` -> `built_v4/`: the frozen 334-clause test set. `labelling/`: labelling guide (v2), instructions, agreement and adjudication files. `archive/`: earlier versions. |
 | `indian_law/` | Human feature-audit sheets and rule-coverage reports (the rule table is `phase3_model/indian_legal_rules.csv`). |
 | `experiments/` | Result files, one folder per experiment. `experiments/README.md` lists which ones are canonical; `archive/` is superseded. |
-| `notebooks/` | Kaggle notebooks and the `make_*.py` scripts that generate them. Upload the `.ipynb`, not the `make_*.py`. Old ones are in `archive/`. |
+| `notebooks/` | Kaggle notebooks and the `make_*.py` scripts that generate them. Upload the `.ipynb`, not the `make_*.py`. Old ones are in `archive/`; executed copies (outputs kept, embedded data removed) are in `ran/`. |
 | `demo_reports/` | Three sample HTML reports from the demo. |
 | `paper/` | IEEE workshop paper (`main.tex`). |
 | `docs/` | `HANDOFF.md`: current status, decisions and next steps. |

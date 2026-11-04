@@ -84,7 +84,7 @@ rules not lawyer-reviewed; folds 3-4 and extra seeds not run; no RoBERTa/LegalBE
    (`built_v6` local, `built_v6_public` 886 in git). LegalBERT v6 s13 on the same 334: 0.629 / 0.569
    (`experiments/indian_v6/`); + LEDGAR 0.638 / 0.574 (v5 + LEDGAR 0.644 / 0.636 is still best on the 334; differences
    are within noise apart from the single Non-Solicitation clause). Ran notebooks (data blob stripped) in `notebooks/ran/`.
-   Paper NOT updated yet: Riya wants one final write-up at the end.
+   Paper final write-up done 2026-11-05 (v6 rows in Table III, Fig 3 bar, finding (viii), abstract, limitations, conclusion).
 ON HOLD until she says so: lawyer review of rules; 12-vs-18 category decision.
 
 ## Environment notes
